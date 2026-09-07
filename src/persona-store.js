@@ -10,6 +10,7 @@ export function normalizePersona(persona){
   if(copy?.life && !copy.life.mobility && copy.life.transport) copy.life.mobility={primary:copy.life.transport.id||copy.life.transport,secondary:null,access:"unknown"};
   if(copy?.interests?.hobbies) copy.interests.hobbies=copy.interests.hobbies.map((hobby)=>({commitment:"casual",participation_style:"solo",social_context:"independent",...hobby}));
   if(copy?.personality && !copy.personality.depth) copy.personality.depth={traits:[copy.personality.core?.id||copy.personality.core].filter(Boolean),flaw:copy.personality.flaw?.id||copy.personality.flaw||null,habit:copy.personality.habit?.id||copy.personality.habit||null,quirk:copy.personality.quirk?.id||copy.personality.quirk||null,value_families:[]};
+  if(copy?.origin && !copy.origin.structured_origin) copy.origin.structured_origin={residence:copy.foundation?.country?.id||null,birthplace:copy.origin.birthplace?.id||copy.origin.birthplace||null,upbringing:null,name_origin:{given:null,surname:null},languages:[]};
   copy.state ||= {}; copy.state.locks ||= {}; copy.state.stale_fields ||= []; copy.state.warnings ||= [];
   return copy;
 }

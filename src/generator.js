@@ -10,6 +10,7 @@ import { resolveContextProfile } from "./context-profile.js";
 import { chooseEducation, buildLifePath, experienceProfile } from "./life-pathway.js";
 import { housingProfile, mobilityProfile, scheduleProfile } from "./daily-life.js";
 import { personalityProfile } from "./personality-depth.js";
+import { originProfile } from "./origin-context.js";
 
 const pick = (library, key, persona, rng, mode, soft = {}) => {
   const context = resolveContextProfile(library, persona);
@@ -78,8 +79,10 @@ export function generatePersona(library, options = {}) {
   const family = chooseRanked(familyCandidates.length ? familyCandidates : library.familyNames, contextFromPersona(persona), rng, mode);
   persona.origin.name = `${given.name} ${family.name}`;
   persona.origin.structured_name = structuredName(given.name, family.name, { locale: persona.foundation.country?.metadata?.locale });
-  persona.origin.birthplace = persona.foundation.country.name;
+  persona.origin.birthplace = rng.next() < 0.8 ? persona.foundation.country : rng.choice(library.countries);
   persona.origin.current_location = persona.foundation.country.name;
+  persona.origin.upbringing = persona.origin.birthplace.id === persona.foundation.country.id ? "same_region" : "international_upbringing";
+  persona.origin.structured_origin = originProfile(persona, given, family);
   persona.origin.family_makeup = rng.choice(["close-knit", "small and independent", "large extended family"]);
   persona.origin.economic_upbringing = rng.choice(["low", "lower-middle", "moderate", "upper-middle"]);
 

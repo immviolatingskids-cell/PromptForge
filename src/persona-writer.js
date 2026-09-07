@@ -13,7 +13,7 @@ ${p.origin.name} is a ${p.foundation.age}-year-old ${name(p.foundation.life_stag
 
 ## Background
 
-Their heritage is ${name(p.origin.heritage)}. They were raised in a ${p.origin.family_makeup} family with a ${p.origin.economic_upbringing} upbringing, and currently call ${p.origin.current_location} home.
+Their heritage is ${name(p.origin.heritage)}. They were raised in a ${p.origin.family_makeup} family with a ${p.origin.economic_upbringing} upbringing, and currently call ${p.origin.current_location} home.${p.origin.structured_origin?.birthplace&&p.origin.structured_origin.birthplace!==p.origin.structured_origin.residence?` They were born in ${name(p.origin.birthplace)}.`:""}
 
 ## Personality
 

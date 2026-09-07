@@ -4,7 +4,7 @@ export const DEPENDENCIES = {
   "foundation.species": ["foundation.species_type", "foundation.life_stage", "foundation.age", "appearance.surface", "appearance.visual"],
   "foundation.species_type": ["foundation.species", "foundation.life_stage", "foundation.age", "appearance.surface", "appearance.visual"],
   "foundation.life_stage": ["foundation.age", "life.education", "life.pathway", "life.experience", "life.experience_years", "life.job", "interests.hobbies", "appearance.surface"],
-  "foundation.country": ["foundation.region", "foundation.locale", "origin.heritage", "origin.name", "origin.birthplace", "life.job", "life.housing", "life.transport", "life.employment_type", "life.work_arrangement", "appearance.clothing_style"],
+  "foundation.country": ["foundation.region", "foundation.locale", "origin.structured_origin", "origin.heritage", "origin.name", "origin.birthplace", "life.job", "life.housing", "life.transport", "life.employment_type", "life.work_arrangement", "appearance.clothing_style"],
   "foundation.region": ["foundation.locale", "origin.heritage", "origin.name", "appearance.clothing_style"],
   "foundation.locale": ["origin.heritage", "origin.name", "appearance.clothing_style"],
   "origin.heritage": ["origin.name", "appearance.surface", "appearance.visual"],
