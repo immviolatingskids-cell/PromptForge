@@ -28,6 +28,15 @@ const anchor = (anchors, key, entries, rng) => {
   if (!entries.length) throw new Error(`No compatible ${key} candidates remain`);
   return rng.choice(entries);
 };
+function occupationalLevel(job, age, experience, rng) {
+  const levels = job?.metadata?.career_levels || ["professional"];
+  const plausible = levels.filter((level) => {
+    if (["trainee", "apprentice", "junior"].includes(level)) return experience <= 4;
+    if (["lead", "management", "manager", "executive", "owner", "independent"].includes(level)) return age >= 28 && experience >= 5;
+    return true;
+  });
+  return rng.choice(plausible.length ? plausible : levels);
+}
 
 function ageFor(species, stage, rng) {
   const ranges = species.metadata?.life_stage_ranges;
@@ -90,10 +99,15 @@ export function generatePersona(library, options = {}) {
   persona.life.job = isMinor ? null : pick(library, "occupations", persona, rng, mode);
   persona.life.structured_occupation = structuredOccupation(persona.life.job);
   persona.life.experience_years = isMinor ? 0 : rng.integer(0, Math.max(1, persona.foundation.age));
+  persona.life.career_level = isMinor ? null : occupationalLevel(persona.life.job, persona.foundation.age, persona.life.experience_years, rng);
+  persona.life.employment_type = isMinor ? null : rng.choice(persona.life.job?.metadata?.employment_types || ["employee"]);
+  persona.life.work_arrangement = isMinor ? null : rng.choice(persona.life.job?.metadata?.work_arrangements || ["on_site"]);
+  persona.life.work_environment = isMinor ? null : rng.choice(persona.life.job?.metadata?.environments || ["workplace"]);
+  persona.life.occupation_entry_route = isMinor ? null : rng.choice(persona.life.job?.metadata?.entry_routes || ["employer_training"]);
   persona.life.income_band = persona.life.job?.metadata?.income_band || "low";
   persona.life.housing = pick(library, "housing", persona, rng, mode, { income_bands: [persona.life.income_band] });
   persona.life.transport = pick(library, "transport", persona, rng, mode, { income_bands: [persona.life.income_band] });
-  persona.life.schedule = rng.choice(["regular daytime", "flexible", "shift-based"]);
+  persona.life.schedule = isMinor ? "school schedule" : rng.choice(persona.life.job?.metadata?.schedule_patterns || ["regular_daytime"]);
 
   persona.interests.hobbies = [{ ...pick(library, "hobbies", persona, rng, mode), commitment: rng.choice(["casual", "regular", "passionate", "expert"]) }];
   persona.interests.structured_hobby = structuredHobby(persona.interests.hobbies[0]);

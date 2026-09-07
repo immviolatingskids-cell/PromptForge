@@ -1,26 +1,2324 @@
 [
-  {"id":"accountant","name":"Accountant","compatibility":{"settings":["modern"],"eras":["modern"],"species":["human"],"life_stages":["young_adult","adult","mature","older"],"countries":[]},"metadata":{"education":["degree","professional_training"],"income_band":"moderate","role":"employed","category":"finance","specialisation":"audit"}},
-  {"id":"librarian","name":"Librarian","compatibility":{"settings":["modern","fantasy"],"eras":["modern","medieval_inspired"],"species":[],"life_stages":["young_adult","adult","mature","older"],"countries":[]},"metadata":{"education":["degree"],"income_band":"lower_middle","role":"employed","category":"knowledge","specialisation":"archives"}},
-  {"id":"software_developer","name":"Software Developer","compatibility":{"settings":["modern","science_fiction"],"eras":["modern","future"],"species":["human"],"life_stages":["young_adult","adult","mature","older"],"countries":[]},"metadata":{"education":["degree","self_taught"],"income_band":"upper_middle","role":"employed","technology_start":1960,"category":"technology","specialisation":"software"}},
-  {"id":"healer","name":"Healer","compatibility":{"settings":["fantasy"],"eras":["medieval_inspired","timeless"],"species":[],"life_stages":["young_adult","adult","mature","older"],"countries":[]},"metadata":{"income_band":"moderate","role":"employed"}},
-  {"id":"teacher","name":"Teacher","compatibility":{"settings":["modern","fantasy","science_fiction"],"eras":[],"species":[],"life_stages":["young_adult","adult","mature","older"],"countries":[]},"metadata":{"education":["degree","professional_training"],"income_band":"moderate","role":"employed"}},
-  {"id":"paramedic","name":"Paramedic","compatibility":{"settings":["modern","science_fiction"],"eras":["modern","future"],"species":["human"],"life_stages":["young_adult","adult","mature"],"countries":[]},"metadata":{"education":["professional_training"],"income_band":"moderate","role":"employed","technology_start":1960}},
-  {"id":"baker","name":"Baker","compatibility":{"settings":["modern","fantasy"],"eras":["modern","medieval_inspired","timeless"],"species":[],"life_stages":["young_adult","adult","mature","older"],"countries":[]},"metadata":{"education":["apprenticeship","self_taught"],"income_band":"lower_middle","role":"employed"}},
-  {"id":"carpenter","name":"Carpenter","compatibility":{"settings":["modern","fantasy"],"eras":["modern","medieval_inspired","timeless"],"species":[],"life_stages":["young_adult","adult","mature","older"],"countries":[]},"metadata":{"education":["apprenticeship"],"income_band":"moderate","role":"employed"}},
-  {"id":"journalist","name":"Journalist","compatibility":{"settings":["modern","science_fiction"],"eras":["modern","future"],"species":["human"],"life_stages":["young_adult","adult","mature","older"],"countries":[]},"metadata":{"education":["degree","self_taught"],"income_band":"moderate","role":"employed","technology_start":1700}},
-  {"id":"museum_curator","name":"Museum Curator","compatibility":{"settings":["modern"],"eras":["modern"],"species":["human"],"life_stages":["young_adult","adult","mature","older"],"countries":[]},"metadata":{"education":["degree"],"income_band":"moderate","role":"employed"}},
-  {"id":"ranger","name":"Wilderness Ranger","compatibility":{"settings":["modern","fantasy"],"eras":[],"species":[],"life_stages":["young_adult","adult","mature","older"],"countries":[]},"metadata":{"education":["professional_training","self_taught"],"income_band":"lower_middle","role":"employed"}},
-  {"id":"starship_engineer","name":"Starship Engineer","compatibility":{"settings":["science_fiction"],"eras":["future"],"species":["human"],"life_stages":["young_adult","adult","mature","older"],"countries":[]},"metadata":{"education":["degree","apprenticeship"],"income_band":"upper_middle","role":"employed","technology_start":2050}},
-  {"id":"habitat_ecologist","name":"Habitat Ecologist","compatibility":{"settings":["science_fiction"],"eras":["future"],"species":["human"],"life_stages":["young_adult","adult","mature","older"],"countries":[]},"metadata":{"education":["degree"],"income_band":"upper_middle","role":"employed","technology_start":2050}},
-  {"id":"cartographer","name":"Cartographer","compatibility":{"settings":["fantasy","science_fiction"],"eras":["medieval_inspired","timeless","future"],"species":[],"life_stages":["young_adult","adult","mature","older"],"countries":[]},"metadata":{"education":["apprenticeship","degree"],"income_band":"moderate","role":"employed"}},
-  {"id":"merchant","name":"Independent Merchant","compatibility":{"settings":["modern","fantasy","science_fiction"],"eras":[],"species":[],"life_stages":["young_adult","adult","mature","older"],"countries":[]},"metadata":{"education":["self_taught","apprenticeship"],"income_band":"moderate","role":"self_employed","category":"commerce","specialisation":"trade"}},
-  {"id":"community_mediator","name":"Community Mediator","compatibility":{"settings":["modern","fantasy","science_fiction"],"eras":[],"species":[],"life_stages":["young_adult","adult","mature","older"],"countries":[]},"metadata":{"income_band":"moderate","role":"employed","category":"public_service","specialisation":"conflict_resolution"}},
-  {"id":"materials_researcher","name":"Materials Researcher","compatibility":{"settings":["modern","science_fiction"],"eras":["modern","future"],"species":[],"life_stages":["young_adult","adult","mature","older"],"countries":[]},"metadata":{"education":["degree"],"income_band":"upper_middle","role":"employed","category":"science","specialisation":"materials"}},
-  {"id":"shipwright","name":"Shipwright","compatibility":{"settings":["fantasy","science_fiction"],"eras":["medieval_inspired","timeless","future"],"species":[],"life_stages":["young_adult","adult","mature","older"],"countries":[]},"metadata":{"education":["apprenticeship"],"income_band":"moderate","role":"employed","category":"craft","specialisation":"maritime_construction"}},
-  {"id":"care_worker","name":"Care Worker","compatibility":{"settings":["modern","science_fiction"],"eras":["modern","future"],"species":[],"life_stages":["young_adult","adult","mature","older"],"countries":[]},"metadata":{"education":["professional_training"],"income_band":"lower_middle","role":"employed","category":"care","specialisation":"community_support"}},
-  {"id":"water_systems_technician","name":"Water Systems Technician","compatibility":{"settings":["modern","science_fiction"],"eras":["modern","future"],"species":[],"life_stages":["young_adult","adult","mature","older"],"countries":[]},"metadata":{"education":["apprenticeship","professional_training"],"income_band":"moderate","role":"employed","category":"infrastructure","specialisation":"water"}},
-  {"id":"scribe","name":"Scribe","compatibility":{"settings":["fantasy"],"eras":["medieval_inspired","timeless"],"species":[],"life_stages":["young_adult","adult","mature","older"],"countries":[]},"metadata":{"education":["apprenticeship"],"income_band":"lower_middle","role":"employed","category":"knowledge","specialisation":"records"}},
-  {"id":"courier","name":"Courier","compatibility":{"settings":["modern","fantasy","science_fiction"],"eras":[],"species":[],"life_stages":["young_adult","adult","mature","older"],"countries":[]},"metadata":{"education":["self_taught"],"income_band":"lower_middle","role":"self_employed","category":"logistics","specialisation":"delivery"}},
-  {"id":"habitat_cook","name":"Habitat Cook","compatibility":{"settings":["science_fiction"],"eras":["future"],"species":[],"life_stages":["young_adult","adult","mature","older"],"countries":[]},"metadata":{"education":["apprenticeship","self_taught"],"income_band":"moderate","role":"employed","category":"hospitality","specialisation":"closed_loop_cuisine"}},
-  {"id":"market_gardener","name":"Market Gardener","compatibility":{"settings":["modern","fantasy","science_fiction"],"eras":[],"species":[],"life_stages":["young_adult","adult","mature","older"],"countries":[]},"metadata":{"education":["self_taught","apprenticeship"],"income_band":"lower_middle","role":"self_employed","category":"agriculture","specialisation":"small_scale_growing"}}
+  {
+    "id": "accountant",
+    "name": "Accountant",
+    "compatibility": {
+      "settings": [
+        "modern"
+      ],
+      "eras": [
+        "modern"
+      ],
+      "species": [
+        "human"
+      ],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "education": [
+        "degree",
+        "professional_training"
+      ],
+      "income_band": "moderate",
+      "role": "employed",
+      "category": "finance",
+      "specialisation": "audit",
+      "family": "finance",
+      "cluster": "accounting",
+      "career_levels": [
+        "trainee",
+        "professional",
+        "senior",
+        "manager"
+      ],
+      "employment_types": [
+        "employee",
+        "contractor"
+      ],
+      "work_arrangements": [
+        "on_site",
+        "hybrid",
+        "remote"
+      ],
+      "environments": [
+        "corporate_office",
+        "government_office"
+      ],
+      "schedule_patterns": [
+        "regular_daytime"
+      ],
+      "entry_routes": [
+        "degree",
+        "professional_training"
+      ],
+      "related_skills": [
+        "finance"
+      ]
+    }
+  },
+  {
+    "id": "librarian",
+    "name": "Librarian",
+    "compatibility": {
+      "settings": [
+        "modern",
+        "fantasy"
+      ],
+      "eras": [
+        "modern",
+        "medieval_inspired"
+      ],
+      "species": [],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "education": [
+        "degree"
+      ],
+      "income_band": "lower_middle",
+      "role": "employed",
+      "category": "knowledge",
+      "specialisation": "archives",
+      "family": "knowledge",
+      "cluster": "archives",
+      "career_levels": [
+        "trainee",
+        "professional",
+        "senior",
+        "manager"
+      ],
+      "employment_types": [
+        "employee",
+        "part_time"
+      ],
+      "work_arrangements": [
+        "on_site"
+      ],
+      "environments": [
+        "library",
+        "university"
+      ],
+      "schedule_patterns": [
+        "regular_daytime"
+      ],
+      "entry_routes": [
+        "degree"
+      ],
+      "related_skills": [
+        "knowledge"
+      ]
+    }
+  },
+  {
+    "id": "software_developer",
+    "name": "Software Developer",
+    "compatibility": {
+      "settings": [
+        "modern",
+        "science_fiction"
+      ],
+      "eras": [
+        "modern",
+        "future"
+      ],
+      "species": [
+        "human"
+      ],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "education": [
+        "degree",
+        "self_taught"
+      ],
+      "income_band": "upper_middle",
+      "role": "employed",
+      "technology_start": 1960,
+      "category": "technology",
+      "specialisation": "software",
+      "family": "technology",
+      "cluster": "software_development",
+      "career_levels": [
+        "junior",
+        "professional",
+        "senior",
+        "lead",
+        "independent"
+      ],
+      "employment_types": [
+        "employee",
+        "contractor",
+        "freelancer"
+      ],
+      "work_arrangements": [
+        "on_site",
+        "hybrid",
+        "remote"
+      ],
+      "environments": [
+        "corporate_office",
+        "startup",
+        "home_workspace"
+      ],
+      "schedule_patterns": [
+        "regular_daytime",
+        "flexible"
+      ],
+      "entry_routes": [
+        "degree",
+        "self_taught"
+      ],
+      "related_skills": [
+        "technology"
+      ]
+    }
+  },
+  {
+    "id": "healer",
+    "name": "Healer",
+    "compatibility": {
+      "settings": [
+        "fantasy"
+      ],
+      "eras": [
+        "medieval_inspired",
+        "timeless"
+      ],
+      "species": [],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "income_band": "moderate",
+      "role": "employed",
+      "family": "healthcare",
+      "cluster": "healing",
+      "career_levels": [
+        "trainee",
+        "professional",
+        "senior"
+      ],
+      "employment_types": [
+        "employee",
+        "self_employed"
+      ],
+      "work_arrangements": [
+        "on_site",
+        "mobile"
+      ],
+      "environments": [
+        "clinic",
+        "field_site"
+      ],
+      "schedule_patterns": [
+        "shift_based",
+        "variable"
+      ],
+      "entry_routes": [
+        "employer_training"
+      ],
+      "related_skills": [
+        "healthcare"
+      ]
+    }
+  },
+  {
+    "id": "teacher",
+    "name": "Teacher",
+    "compatibility": {
+      "settings": [
+        "modern",
+        "fantasy",
+        "science_fiction"
+      ],
+      "eras": [],
+      "species": [],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "education": [
+        "degree",
+        "professional_training"
+      ],
+      "income_band": "moderate",
+      "role": "employed",
+      "family": "education",
+      "cluster": "teaching",
+      "career_levels": [
+        "trainee",
+        "professional",
+        "senior",
+        "lead"
+      ],
+      "employment_types": [
+        "employee",
+        "part_time"
+      ],
+      "work_arrangements": [
+        "on_site",
+        "hybrid"
+      ],
+      "environments": [
+        "school",
+        "university"
+      ],
+      "schedule_patterns": [
+        "regular_daytime"
+      ],
+      "entry_routes": [
+        "degree",
+        "professional_training"
+      ],
+      "related_skills": [
+        "education"
+      ]
+    }
+  },
+  {
+    "id": "paramedic",
+    "name": "Paramedic",
+    "compatibility": {
+      "settings": [
+        "modern",
+        "science_fiction"
+      ],
+      "eras": [
+        "modern",
+        "future"
+      ],
+      "species": [
+        "human"
+      ],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "education": [
+        "professional_training"
+      ],
+      "income_band": "moderate",
+      "role": "employed",
+      "technology_start": 1960,
+      "family": "healthcare",
+      "cluster": "emergency_response",
+      "career_levels": [
+        "trainee",
+        "professional",
+        "senior"
+      ],
+      "employment_types": [
+        "employee"
+      ],
+      "work_arrangements": [
+        "mobile",
+        "travelling"
+      ],
+      "environments": [
+        "hospital",
+        "field_site"
+      ],
+      "schedule_patterns": [
+        "shift_based"
+      ],
+      "entry_routes": [
+        "professional_training"
+      ],
+      "related_skills": [
+        "healthcare"
+      ]
+    }
+  },
+  {
+    "id": "baker",
+    "name": "Baker",
+    "compatibility": {
+      "settings": [
+        "modern",
+        "fantasy"
+      ],
+      "eras": [
+        "modern",
+        "medieval_inspired",
+        "timeless"
+      ],
+      "species": [],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "education": [
+        "apprenticeship",
+        "self_taught"
+      ],
+      "income_band": "lower_middle",
+      "role": "employed",
+      "family": "hospitality",
+      "cluster": "baking",
+      "career_levels": [
+        "apprentice",
+        "professional",
+        "owner"
+      ],
+      "employment_types": [
+        "employee",
+        "self_employed",
+        "business_owner"
+      ],
+      "work_arrangements": [
+        "on_site"
+      ],
+      "environments": [
+        "small_business",
+        "workshop"
+      ],
+      "schedule_patterns": [
+        "early_morning",
+        "regular_daytime"
+      ],
+      "entry_routes": [
+        "apprenticeship",
+        "self_taught"
+      ],
+      "related_skills": [
+        "hospitality"
+      ]
+    }
+  },
+  {
+    "id": "carpenter",
+    "name": "Carpenter",
+    "compatibility": {
+      "settings": [
+        "modern",
+        "fantasy"
+      ],
+      "eras": [
+        "modern",
+        "medieval_inspired",
+        "timeless"
+      ],
+      "species": [],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "education": [
+        "apprenticeship"
+      ],
+      "income_band": "moderate",
+      "role": "employed",
+      "family": "trades",
+      "cluster": "woodworking",
+      "career_levels": [
+        "apprentice",
+        "professional",
+        "senior",
+        "owner"
+      ],
+      "employment_types": [
+        "employee",
+        "contractor",
+        "self_employed"
+      ],
+      "work_arrangements": [
+        "mobile",
+        "field_based"
+      ],
+      "environments": [
+        "workshop",
+        "construction_site"
+      ],
+      "schedule_patterns": [
+        "regular_daytime",
+        "variable"
+      ],
+      "entry_routes": [
+        "apprenticeship"
+      ],
+      "related_skills": [
+        "trades"
+      ]
+    }
+  },
+  {
+    "id": "journalist",
+    "name": "Journalist",
+    "compatibility": {
+      "settings": [
+        "modern",
+        "science_fiction"
+      ],
+      "eras": [
+        "modern",
+        "future"
+      ],
+      "species": [
+        "human"
+      ],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "education": [
+        "degree",
+        "self_taught"
+      ],
+      "income_band": "moderate",
+      "role": "employed",
+      "technology_start": 1700,
+      "family": "media",
+      "cluster": "journalism",
+      "career_levels": [
+        "trainee",
+        "professional",
+        "senior",
+        "lead",
+        "independent"
+      ],
+      "employment_types": [
+        "employee",
+        "freelancer",
+        "contractor"
+      ],
+      "work_arrangements": [
+        "on_site",
+        "hybrid",
+        "remote",
+        "travelling"
+      ],
+      "environments": [
+        "media_office",
+        "field_site",
+        "home_workspace"
+      ],
+      "schedule_patterns": [
+        "flexible",
+        "variable"
+      ],
+      "entry_routes": [
+        "degree",
+        "self_taught"
+      ],
+      "related_skills": [
+        "media"
+      ]
+    }
+  },
+  {
+    "id": "museum_curator",
+    "name": "Museum Curator",
+    "compatibility": {
+      "settings": [
+        "modern"
+      ],
+      "eras": [
+        "modern"
+      ],
+      "species": [
+        "human"
+      ],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "education": [
+        "degree"
+      ],
+      "income_band": "moderate",
+      "role": "employed",
+      "family": "culture",
+      "cluster": "collections",
+      "career_levels": [
+        "trainee",
+        "professional",
+        "senior",
+        "manager"
+      ],
+      "employment_types": [
+        "employee"
+      ],
+      "work_arrangements": [
+        "on_site"
+      ],
+      "environments": [
+        "museum",
+        "university"
+      ],
+      "schedule_patterns": [
+        "regular_daytime"
+      ],
+      "entry_routes": [
+        "degree"
+      ],
+      "related_skills": [
+        "culture"
+      ]
+    }
+  },
+  {
+    "id": "ranger",
+    "name": "Wilderness Ranger",
+    "compatibility": {
+      "settings": [
+        "modern",
+        "fantasy"
+      ],
+      "eras": [],
+      "species": [],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "education": [
+        "professional_training",
+        "self_taught"
+      ],
+      "income_band": "lower_middle",
+      "role": "employed",
+      "family": "public_service",
+      "cluster": "conservation",
+      "career_levels": [
+        "trainee",
+        "professional",
+        "senior"
+      ],
+      "employment_types": [
+        "employee",
+        "seasonal"
+      ],
+      "work_arrangements": [
+        "mobile",
+        "field_based"
+      ],
+      "environments": [
+        "outdoors",
+        "field_site"
+      ],
+      "schedule_patterns": [
+        "variable",
+        "shift_based"
+      ],
+      "entry_routes": [
+        "professional_training",
+        "self_taught"
+      ],
+      "related_skills": [
+        "public_service"
+      ]
+    }
+  },
+  {
+    "id": "starship_engineer",
+    "name": "Starship Engineer",
+    "compatibility": {
+      "settings": [
+        "science_fiction"
+      ],
+      "eras": [
+        "future"
+      ],
+      "species": [
+        "human"
+      ],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "education": [
+        "degree",
+        "apprenticeship"
+      ],
+      "income_band": "upper_middle",
+      "role": "employed",
+      "technology_start": 2050,
+      "family": "engineering",
+      "cluster": "space_systems",
+      "career_levels": [
+        "junior",
+        "professional",
+        "senior",
+        "lead"
+      ],
+      "employment_types": [
+        "employee",
+        "contractor"
+      ],
+      "work_arrangements": [
+        "on_site",
+        "travelling"
+      ],
+      "environments": [
+        "laboratory",
+        "field_site"
+      ],
+      "schedule_patterns": [
+        "shift_based"
+      ],
+      "entry_routes": [
+        "degree",
+        "apprenticeship"
+      ],
+      "related_skills": [
+        "engineering"
+      ]
+    }
+  },
+  {
+    "id": "habitat_ecologist",
+    "name": "Habitat Ecologist",
+    "compatibility": {
+      "settings": [
+        "science_fiction"
+      ],
+      "eras": [
+        "future"
+      ],
+      "species": [
+        "human"
+      ],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "education": [
+        "degree"
+      ],
+      "income_band": "upper_middle",
+      "role": "employed",
+      "technology_start": 2050,
+      "family": "science",
+      "cluster": "ecology",
+      "career_levels": [
+        "trainee",
+        "professional",
+        "senior",
+        "lead"
+      ],
+      "employment_types": [
+        "employee",
+        "contractor"
+      ],
+      "work_arrangements": [
+        "on_site",
+        "field_based"
+      ],
+      "environments": [
+        "laboratory",
+        "field_site"
+      ],
+      "schedule_patterns": [
+        "regular_daytime",
+        "variable"
+      ],
+      "entry_routes": [
+        "degree"
+      ],
+      "related_skills": [
+        "science"
+      ]
+    }
+  },
+  {
+    "id": "cartographer",
+    "name": "Cartographer",
+    "compatibility": {
+      "settings": [
+        "fantasy",
+        "science_fiction"
+      ],
+      "eras": [
+        "medieval_inspired",
+        "timeless",
+        "future"
+      ],
+      "species": [],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "education": [
+        "apprenticeship",
+        "degree"
+      ],
+      "income_band": "moderate",
+      "role": "employed",
+      "family": "science",
+      "cluster": "mapping",
+      "career_levels": [
+        "trainee",
+        "professional",
+        "senior",
+        "independent"
+      ],
+      "employment_types": [
+        "employee",
+        "freelancer",
+        "self_employed"
+      ],
+      "work_arrangements": [
+        "hybrid",
+        "remote",
+        "field_based"
+      ],
+      "environments": [
+        "government_office",
+        "field_site",
+        "home_workspace"
+      ],
+      "schedule_patterns": [
+        "flexible",
+        "variable"
+      ],
+      "entry_routes": [
+        "apprenticeship",
+        "degree"
+      ],
+      "related_skills": [
+        "science"
+      ]
+    }
+  },
+  {
+    "id": "merchant",
+    "name": "Independent Merchant",
+    "compatibility": {
+      "settings": [
+        "modern",
+        "fantasy",
+        "science_fiction"
+      ],
+      "eras": [],
+      "species": [],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "education": [
+        "self_taught",
+        "apprenticeship"
+      ],
+      "income_band": "moderate",
+      "role": "self_employed",
+      "category": "commerce",
+      "specialisation": "trade",
+      "family": "commerce",
+      "cluster": "trade",
+      "career_levels": [
+        "trainee",
+        "professional",
+        "owner"
+      ],
+      "employment_types": [
+        "self_employed",
+        "business_owner",
+        "seasonal"
+      ],
+      "work_arrangements": [
+        "on_site",
+        "travelling"
+      ],
+      "environments": [
+        "small_business",
+        "retail_floor",
+        "market"
+      ],
+      "schedule_patterns": [
+        "variable"
+      ],
+      "entry_routes": [
+        "self_taught",
+        "apprenticeship"
+      ],
+      "related_skills": [
+        "commerce"
+      ]
+    }
+  },
+  {
+    "id": "community_mediator",
+    "name": "Community Mediator",
+    "compatibility": {
+      "settings": [
+        "modern",
+        "fantasy",
+        "science_fiction"
+      ],
+      "eras": [],
+      "species": [],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "income_band": "moderate",
+      "role": "employed",
+      "category": "public_service",
+      "specialisation": "conflict_resolution",
+      "family": "public_service",
+      "cluster": "mediation",
+      "career_levels": [
+        "trainee",
+        "professional",
+        "senior"
+      ],
+      "employment_types": [
+        "employee",
+        "contractor"
+      ],
+      "work_arrangements": [
+        "on_site",
+        "mobile"
+      ],
+      "environments": [
+        "government_office",
+        "small_business"
+      ],
+      "schedule_patterns": [
+        "regular_daytime",
+        "flexible"
+      ],
+      "entry_routes": [
+        "employer_training"
+      ],
+      "related_skills": [
+        "public_service"
+      ]
+    }
+  },
+  {
+    "id": "materials_researcher",
+    "name": "Materials Researcher",
+    "compatibility": {
+      "settings": [
+        "modern",
+        "science_fiction"
+      ],
+      "eras": [
+        "modern",
+        "future"
+      ],
+      "species": [],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "education": [
+        "degree"
+      ],
+      "income_band": "upper_middle",
+      "role": "employed",
+      "category": "science",
+      "specialisation": "materials",
+      "family": "science",
+      "cluster": "materials",
+      "career_levels": [
+        "trainee",
+        "professional",
+        "senior",
+        "lead"
+      ],
+      "employment_types": [
+        "employee",
+        "contractor"
+      ],
+      "work_arrangements": [
+        "on_site",
+        "hybrid"
+      ],
+      "environments": [
+        "laboratory",
+        "university"
+      ],
+      "schedule_patterns": [
+        "regular_daytime"
+      ],
+      "entry_routes": [
+        "degree"
+      ],
+      "related_skills": [
+        "science"
+      ]
+    }
+  },
+  {
+    "id": "shipwright",
+    "name": "Shipwright",
+    "compatibility": {
+      "settings": [
+        "fantasy",
+        "science_fiction"
+      ],
+      "eras": [
+        "medieval_inspired",
+        "timeless",
+        "future"
+      ],
+      "species": [],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "education": [
+        "apprenticeship"
+      ],
+      "income_band": "moderate",
+      "role": "employed",
+      "category": "craft",
+      "specialisation": "maritime_construction",
+      "family": "trades",
+      "cluster": "shipbuilding",
+      "career_levels": [
+        "apprentice",
+        "professional",
+        "senior",
+        "owner"
+      ],
+      "employment_types": [
+        "employee",
+        "contractor",
+        "self_employed"
+      ],
+      "work_arrangements": [
+        "on_site",
+        "field_based"
+      ],
+      "environments": [
+        "workshop",
+        "construction_site"
+      ],
+      "schedule_patterns": [
+        "regular_daytime"
+      ],
+      "entry_routes": [
+        "apprenticeship"
+      ],
+      "related_skills": [
+        "trades"
+      ]
+    }
+  },
+  {
+    "id": "care_worker",
+    "name": "Care Worker",
+    "compatibility": {
+      "settings": [
+        "modern",
+        "science_fiction"
+      ],
+      "eras": [
+        "modern",
+        "future"
+      ],
+      "species": [],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "education": [
+        "professional_training"
+      ],
+      "income_band": "lower_middle",
+      "role": "employed",
+      "category": "care",
+      "specialisation": "community_support",
+      "family": "healthcare",
+      "cluster": "community_care",
+      "career_levels": [
+        "trainee",
+        "professional",
+        "senior"
+      ],
+      "employment_types": [
+        "employee",
+        "part_time"
+      ],
+      "work_arrangements": [
+        "mobile",
+        "on_site"
+      ],
+      "environments": [
+        "clinic",
+        "field_site"
+      ],
+      "schedule_patterns": [
+        "shift_based",
+        "variable"
+      ],
+      "entry_routes": [
+        "professional_training"
+      ],
+      "related_skills": [
+        "healthcare"
+      ]
+    }
+  },
+  {
+    "id": "water_systems_technician",
+    "name": "Water Systems Technician",
+    "compatibility": {
+      "settings": [
+        "modern",
+        "science_fiction"
+      ],
+      "eras": [
+        "modern",
+        "future"
+      ],
+      "species": [],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "education": [
+        "apprenticeship",
+        "professional_training"
+      ],
+      "income_band": "moderate",
+      "role": "employed",
+      "category": "infrastructure",
+      "specialisation": "water",
+      "family": "engineering",
+      "cluster": "infrastructure",
+      "career_levels": [
+        "apprentice",
+        "professional",
+        "senior",
+        "owner"
+      ],
+      "employment_types": [
+        "employee",
+        "contractor",
+        "self_employed"
+      ],
+      "work_arrangements": [
+        "mobile",
+        "field_based"
+      ],
+      "environments": [
+        "workshop",
+        "field_site"
+      ],
+      "schedule_patterns": [
+        "regular_daytime",
+        "shift_based"
+      ],
+      "entry_routes": [
+        "apprenticeship",
+        "professional_training"
+      ],
+      "related_skills": [
+        "engineering"
+      ]
+    }
+  },
+  {
+    "id": "scribe",
+    "name": "Scribe",
+    "compatibility": {
+      "settings": [
+        "fantasy"
+      ],
+      "eras": [
+        "medieval_inspired",
+        "timeless"
+      ],
+      "species": [],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "education": [
+        "apprenticeship"
+      ],
+      "income_band": "lower_middle",
+      "role": "employed",
+      "category": "knowledge",
+      "specialisation": "records",
+      "family": "knowledge",
+      "cluster": "records",
+      "career_levels": [
+        "apprentice",
+        "professional",
+        "senior",
+        "independent"
+      ],
+      "employment_types": [
+        "employee",
+        "freelancer",
+        "self_employed"
+      ],
+      "work_arrangements": [
+        "on_site",
+        "remote"
+      ],
+      "environments": [
+        "government_office",
+        "home_workspace"
+      ],
+      "schedule_patterns": [
+        "regular_daytime",
+        "flexible"
+      ],
+      "entry_routes": [
+        "apprenticeship"
+      ],
+      "related_skills": [
+        "knowledge"
+      ]
+    }
+  },
+  {
+    "id": "courier",
+    "name": "Courier",
+    "compatibility": {
+      "settings": [
+        "modern",
+        "fantasy",
+        "science_fiction"
+      ],
+      "eras": [],
+      "species": [],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "education": [
+        "self_taught"
+      ],
+      "income_band": "lower_middle",
+      "role": "self_employed",
+      "category": "logistics",
+      "specialisation": "delivery",
+      "family": "transport",
+      "cluster": "delivery",
+      "career_levels": [
+        "trainee",
+        "professional",
+        "independent"
+      ],
+      "employment_types": [
+        "self_employed",
+        "gig",
+        "employee"
+      ],
+      "work_arrangements": [
+        "mobile",
+        "travelling"
+      ],
+      "environments": [
+        "field_site",
+        "retail_floor"
+      ],
+      "schedule_patterns": [
+        "variable"
+      ],
+      "entry_routes": [
+        "self_taught"
+      ],
+      "related_skills": [
+        "transport"
+      ]
+    }
+  },
+  {
+    "id": "habitat_cook",
+    "name": "Habitat Cook",
+    "compatibility": {
+      "settings": [
+        "science_fiction"
+      ],
+      "eras": [
+        "future"
+      ],
+      "species": [],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "education": [
+        "apprenticeship",
+        "self_taught"
+      ],
+      "income_band": "moderate",
+      "role": "employed",
+      "category": "hospitality",
+      "specialisation": "closed_loop_cuisine",
+      "family": "hospitality",
+      "cluster": "closed_loop_food",
+      "career_levels": [
+        "apprentice",
+        "professional",
+        "senior",
+        "manager"
+      ],
+      "employment_types": [
+        "employee",
+        "contractor"
+      ],
+      "work_arrangements": [
+        "on_site"
+      ],
+      "environments": [
+        "restaurant",
+        "small_business"
+      ],
+      "schedule_patterns": [
+        "shift_based"
+      ],
+      "entry_routes": [
+        "apprenticeship",
+        "self_taught"
+      ],
+      "related_skills": [
+        "hospitality"
+      ]
+    }
+  },
+  {
+    "id": "market_gardener",
+    "name": "Market Gardener",
+    "compatibility": {
+      "settings": [
+        "modern",
+        "fantasy",
+        "science_fiction"
+      ],
+      "eras": [],
+      "species": [],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "education": [
+        "self_taught",
+        "apprenticeship"
+      ],
+      "income_band": "lower_middle",
+      "role": "self_employed",
+      "category": "agriculture",
+      "specialisation": "small_scale_growing",
+      "family": "agriculture",
+      "cluster": "market_growing",
+      "career_levels": [
+        "apprentice",
+        "professional",
+        "owner"
+      ],
+      "employment_types": [
+        "self_employed",
+        "seasonal",
+        "business_owner"
+      ],
+      "work_arrangements": [
+        "field_based",
+        "mobile"
+      ],
+      "environments": [
+        "outdoors",
+        "small_business"
+      ],
+      "schedule_patterns": [
+        "early_morning",
+        "seasonal"
+      ],
+      "entry_routes": [
+        "self_taught",
+        "apprenticeship"
+      ],
+      "related_skills": [
+        "agriculture"
+      ]
+    }
+  },
+  {
+    "id": "registered_nurse",
+    "name": "Registered Nurse",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "education": [
+        "degree",
+        "professional_training"
+      ],
+      "income_band": "moderate",
+      "role": "employed",
+      "family": "healthcare",
+      "cluster": "nursing",
+      "category": "healthcare",
+      "career_levels": [
+        "trainee",
+        "professional",
+        "senior"
+      ],
+      "employment_types": [
+        "employee",
+        "contractor"
+      ],
+      "work_arrangements": [
+        "on_site",
+        "mobile"
+      ],
+      "environments": [
+        "hospital",
+        "clinic"
+      ],
+      "schedule_patterns": [
+        "shift_based"
+      ],
+      "entry_routes": [
+        "degree",
+        "professional_training"
+      ],
+      "related_skills": [
+        "nursing"
+      ]
+    }
+  },
+  {
+    "id": "physician",
+    "name": "Physician",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "education": [
+        "degree",
+        "professional_training"
+      ],
+      "income_band": "upper_middle",
+      "role": "employed",
+      "family": "healthcare",
+      "cluster": "medicine",
+      "category": "healthcare",
+      "career_levels": [
+        "trainee",
+        "professional",
+        "senior"
+      ],
+      "employment_types": [
+        "employee",
+        "contractor"
+      ],
+      "work_arrangements": [
+        "on_site",
+        "mobile"
+      ],
+      "environments": [
+        "hospital",
+        "clinic"
+      ],
+      "schedule_patterns": [
+        "regular_daytime",
+        "shift_based"
+      ],
+      "entry_routes": [
+        "degree",
+        "professional_training"
+      ],
+      "related_skills": [
+        "medicine"
+      ]
+    }
+  },
+  {
+    "id": "electrician",
+    "name": "Electrician",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "education": [
+        "apprenticeship",
+        "certification"
+      ],
+      "income_band": "moderate",
+      "role": "employed",
+      "family": "trades",
+      "cluster": "electrical",
+      "category": "trades",
+      "career_levels": [
+        "trainee",
+        "professional",
+        "senior"
+      ],
+      "employment_types": [
+        "employee",
+        "contractor"
+      ],
+      "work_arrangements": [
+        "on_site",
+        "mobile"
+      ],
+      "environments": [
+        "workshop",
+        "construction_site"
+      ],
+      "schedule_patterns": [
+        "regular_daytime"
+      ],
+      "entry_routes": [
+        "apprenticeship",
+        "certification"
+      ],
+      "related_skills": [
+        "electrical"
+      ]
+    }
+  },
+  {
+    "id": "mechanic",
+    "name": "Mechanic",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "education": [
+        "apprenticeship",
+        "self_taught"
+      ],
+      "income_band": "moderate",
+      "role": "employed",
+      "family": "trades",
+      "cluster": "vehicle_repair",
+      "category": "trades",
+      "career_levels": [
+        "trainee",
+        "professional",
+        "senior"
+      ],
+      "employment_types": [
+        "employee",
+        "contractor"
+      ],
+      "work_arrangements": [
+        "on_site",
+        "mobile"
+      ],
+      "environments": [
+        "workshop",
+        "field_site"
+      ],
+      "schedule_patterns": [
+        "regular_daytime"
+      ],
+      "entry_routes": [
+        "apprenticeship",
+        "self_taught"
+      ],
+      "related_skills": [
+        "vehicle_repair"
+      ]
+    }
+  },
+  {
+    "id": "architect",
+    "name": "Architect",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "education": [
+        "degree",
+        "portfolio"
+      ],
+      "income_band": "upper_middle",
+      "role": "employed",
+      "family": "engineering",
+      "cluster": "built_environment",
+      "category": "engineering",
+      "career_levels": [
+        "trainee",
+        "professional",
+        "senior"
+      ],
+      "employment_types": [
+        "employee",
+        "contractor"
+      ],
+      "work_arrangements": [
+        "on_site",
+        "mobile"
+      ],
+      "environments": [
+        "corporate_office",
+        "field_site"
+      ],
+      "schedule_patterns": [
+        "regular_daytime"
+      ],
+      "entry_routes": [
+        "degree",
+        "portfolio"
+      ],
+      "related_skills": [
+        "built_environment"
+      ]
+    }
+  },
+  {
+    "id": "lawyer",
+    "name": "Lawyer",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "education": [
+        "degree",
+        "professional_training"
+      ],
+      "income_band": "upper_middle",
+      "role": "employed",
+      "family": "law",
+      "cluster": "legal_practice",
+      "category": "law",
+      "career_levels": [
+        "trainee",
+        "professional",
+        "senior"
+      ],
+      "employment_types": [
+        "employee",
+        "contractor"
+      ],
+      "work_arrangements": [
+        "on_site",
+        "mobile"
+      ],
+      "environments": [
+        "corporate_office",
+        "government_office"
+      ],
+      "schedule_patterns": [
+        "regular_daytime"
+      ],
+      "entry_routes": [
+        "degree",
+        "professional_training"
+      ],
+      "related_skills": [
+        "legal_practice"
+      ]
+    }
+  },
+  {
+    "id": "photographer",
+    "name": "Photographer",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "education": [
+        "portfolio",
+        "self_taught"
+      ],
+      "income_band": "moderate",
+      "role": "employed",
+      "family": "creative",
+      "cluster": "photography",
+      "category": "creative",
+      "career_levels": [
+        "trainee",
+        "professional",
+        "senior"
+      ],
+      "employment_types": [
+        "employee",
+        "contractor"
+      ],
+      "work_arrangements": [
+        "on_site",
+        "mobile"
+      ],
+      "environments": [
+        "studio",
+        "field_site"
+      ],
+      "schedule_patterns": [
+        "flexible",
+        "variable"
+      ],
+      "entry_routes": [
+        "portfolio",
+        "self_taught"
+      ],
+      "related_skills": [
+        "photography"
+      ]
+    }
+  },
+  {
+    "id": "chef",
+    "name": "Chef",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "education": [
+        "apprenticeship",
+        "self_taught"
+      ],
+      "income_band": "moderate",
+      "role": "employed",
+      "family": "hospitality",
+      "cluster": "culinary",
+      "category": "hospitality",
+      "career_levels": [
+        "trainee",
+        "professional",
+        "senior"
+      ],
+      "employment_types": [
+        "employee",
+        "contractor"
+      ],
+      "work_arrangements": [
+        "on_site",
+        "mobile"
+      ],
+      "environments": [
+        "restaurant",
+        "small_business"
+      ],
+      "schedule_patterns": [
+        "shift_based"
+      ],
+      "entry_routes": [
+        "apprenticeship",
+        "self_taught"
+      ],
+      "related_skills": [
+        "culinary"
+      ]
+    }
+  },
+  {
+    "id": "shopkeeper",
+    "name": "Shopkeeper",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "education": [
+        "self_taught",
+        "inherited_trade"
+      ],
+      "income_band": "lower_middle",
+      "role": "employed",
+      "family": "retail",
+      "cluster": "local_commerce",
+      "category": "retail",
+      "career_levels": [
+        "trainee",
+        "professional",
+        "senior"
+      ],
+      "employment_types": [
+        "employee",
+        "contractor"
+      ],
+      "work_arrangements": [
+        "on_site",
+        "mobile"
+      ],
+      "environments": [
+        "retail_floor",
+        "small_business"
+      ],
+      "schedule_patterns": [
+        "regular_daytime",
+        "variable"
+      ],
+      "entry_routes": [
+        "self_taught",
+        "inherited_trade"
+      ],
+      "related_skills": [
+        "local_commerce"
+      ]
+    }
+  },
+  {
+    "id": "fisher",
+    "name": "Fisher",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "education": [
+        "self_taught",
+        "inherited_trade"
+      ],
+      "income_band": "moderate",
+      "role": "employed",
+      "family": "agriculture",
+      "cluster": "fishing",
+      "category": "agriculture",
+      "career_levels": [
+        "trainee",
+        "professional",
+        "senior"
+      ],
+      "employment_types": [
+        "employee",
+        "contractor"
+      ],
+      "work_arrangements": [
+        "on_site",
+        "mobile"
+      ],
+      "environments": [
+        "outdoors",
+        "field_site"
+      ],
+      "schedule_patterns": [
+        "early_morning",
+        "seasonal"
+      ],
+      "entry_routes": [
+        "self_taught",
+        "inherited_trade"
+      ],
+      "related_skills": [
+        "fishing"
+      ]
+    }
+  },
+  {
+    "id": "farmer",
+    "name": "Farmer",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "education": [
+        "self_taught",
+        "inherited_trade"
+      ],
+      "income_band": "moderate",
+      "role": "employed",
+      "family": "agriculture",
+      "cluster": "farming",
+      "category": "agriculture",
+      "career_levels": [
+        "trainee",
+        "professional",
+        "senior"
+      ],
+      "employment_types": [
+        "employee",
+        "contractor"
+      ],
+      "work_arrangements": [
+        "on_site",
+        "mobile"
+      ],
+      "environments": [
+        "outdoors",
+        "small_business"
+      ],
+      "schedule_patterns": [
+        "early_morning",
+        "seasonal"
+      ],
+      "entry_routes": [
+        "self_taught",
+        "inherited_trade"
+      ],
+      "related_skills": [
+        "farming"
+      ]
+    }
+  },
+  {
+    "id": "soldier",
+    "name": "Soldier",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "education": [
+        "military_training"
+      ],
+      "income_band": "moderate",
+      "role": "employed",
+      "family": "military_security",
+      "cluster": "service",
+      "category": "military_security",
+      "career_levels": [
+        "trainee",
+        "professional",
+        "senior"
+      ],
+      "employment_types": [
+        "employee",
+        "contractor"
+      ],
+      "work_arrangements": [
+        "on_site",
+        "mobile"
+      ],
+      "environments": [
+        "field_site",
+        "government_office"
+      ],
+      "schedule_patterns": [
+        "shift_based",
+        "travelling"
+      ],
+      "entry_routes": [
+        "military_training"
+      ],
+      "related_skills": [
+        "service"
+      ]
+    }
+  },
+  {
+    "id": "security_guard",
+    "name": "Security Guard",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "education": [
+        "professional_training",
+        "employer_training"
+      ],
+      "income_band": "lower_middle",
+      "role": "employed",
+      "family": "military_security",
+      "cluster": "security",
+      "category": "military_security",
+      "career_levels": [
+        "trainee",
+        "professional",
+        "senior"
+      ],
+      "employment_types": [
+        "employee",
+        "contractor"
+      ],
+      "work_arrangements": [
+        "on_site",
+        "mobile"
+      ],
+      "environments": [
+        "government_office",
+        "field_site"
+      ],
+      "schedule_patterns": [
+        "shift_based"
+      ],
+      "entry_routes": [
+        "professional_training",
+        "employer_training"
+      ],
+      "related_skills": [
+        "security"
+      ]
+    }
+  },
+  {
+    "id": "translator",
+    "name": "Translator",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "education": [
+        "degree",
+        "self_taught"
+      ],
+      "income_band": "moderate",
+      "role": "employed",
+      "family": "media",
+      "cluster": "language_services",
+      "category": "media",
+      "career_levels": [
+        "trainee",
+        "professional",
+        "senior"
+      ],
+      "employment_types": [
+        "employee",
+        "contractor"
+      ],
+      "work_arrangements": [
+        "on_site",
+        "mobile"
+      ],
+      "environments": [
+        "home_workspace",
+        "government_office"
+      ],
+      "schedule_patterns": [
+        "flexible",
+        "remote"
+      ],
+      "entry_routes": [
+        "degree",
+        "self_taught"
+      ],
+      "related_skills": [
+        "language_services"
+      ]
+    }
+  },
+  {
+    "id": "blacksmith",
+    "name": "Blacksmith",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "education": [
+        "apprenticeship",
+        "inherited_trade"
+      ],
+      "income_band": "moderate",
+      "role": "employed",
+      "family": "trades",
+      "cluster": "metalworking",
+      "category": "trades",
+      "career_levels": [
+        "trainee",
+        "professional",
+        "senior"
+      ],
+      "employment_types": [
+        "employee",
+        "contractor"
+      ],
+      "work_arrangements": [
+        "on_site",
+        "mobile"
+      ],
+      "environments": [
+        "workshop"
+      ],
+      "schedule_patterns": [
+        "regular_daytime"
+      ],
+      "entry_routes": [
+        "apprenticeship",
+        "inherited_trade"
+      ],
+      "related_skills": [
+        "metalworking"
+      ]
+    }
+  },
+  {
+    "id": "botanist",
+    "name": "Botanist",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "education": [
+        "degree",
+        "self_taught"
+      ],
+      "income_band": "upper_middle",
+      "role": "employed",
+      "family": "science",
+      "cluster": "botany",
+      "category": "science",
+      "career_levels": [
+        "trainee",
+        "professional",
+        "senior"
+      ],
+      "employment_types": [
+        "employee",
+        "contractor"
+      ],
+      "work_arrangements": [
+        "on_site",
+        "mobile"
+      ],
+      "environments": [
+        "laboratory",
+        "field_site"
+      ],
+      "schedule_patterns": [
+        "regular_daytime",
+        "variable"
+      ],
+      "entry_routes": [
+        "degree",
+        "self_taught"
+      ],
+      "related_skills": [
+        "botany"
+      ]
+    }
+  }
 ]

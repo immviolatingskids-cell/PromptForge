@@ -143,6 +143,18 @@ def validate_file(path: Path) -> list[ValidationIssue]:
                     issues.append(ValidationIssue(path, f"value '{entry_id}' tension_with references unknown value '{target}'"))
                 elif entry_id not in by_id[target].get("metadata", {}).get("tension_with", []):
                     issues.append(ValidationIssue(path, f"value tension relationship '{entry_id}' -> '{target}' is asymmetric"))
+    if path.name == "occupations.json":
+        list_fields = {"career_levels", "employment_types", "work_arrangements", "environments", "schedule_patterns", "entry_routes", "related_skills"}
+        for entry in document:
+            if not isinstance(entry, dict):
+                continue
+            metadata = entry.get("metadata", {})
+            for field in list_fields:
+                if field in metadata:
+                    issues.extend(ValidationIssue(path, f"occupation '{entry.get('id')}' metadata {message}") for message in _validate_string_list(metadata[field], field))
+            for field in ("family", "cluster"):
+                if field in metadata and (not isinstance(metadata[field], str) or not ID_PATTERN.fullmatch(metadata[field])):
+                    issues.append(ValidationIssue(path, f"occupation '{entry.get('id')}' metadata '{field}' must be a readable id"))
     return issues
 
 

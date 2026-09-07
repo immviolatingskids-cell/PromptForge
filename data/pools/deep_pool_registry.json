@@ -1,5 +1,5 @@
 {
-  "version": "0.3.0",
+  "version": "0.3.1",
   "categories": [
     {"id":"appearance","name":"Appearance","icon":"🎨","children":[
       {"id":"body","name":"Body","icon":"👤","children":["height","build","frame","body_proportions"]},

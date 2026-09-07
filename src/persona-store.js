@@ -1,8 +1,10 @@
 import { normalizeValueProfile } from "./value-profile.js";
+import { structuredOccupation } from "./structured-fields.js";
 const KEY="personaforge.personas.v1";
 export function normalizePersona(persona){
   const copy=structuredClone(persona);
   if(copy?.personality)copy.personality.values=normalizeValueProfile(copy.personality.values);
+  if(copy?.life?.job && !copy.life.structured_occupation) copy.life.structured_occupation=structuredOccupation(copy.life.job);
   copy.state ||= {}; copy.state.locks ||= {}; copy.state.stale_fields ||= []; copy.state.warnings ||= [];
   return copy;
 }

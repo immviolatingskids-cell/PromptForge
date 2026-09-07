@@ -8,9 +8,9 @@ export function structuredName(given, family, options = {}) {
 export function structuredOccupation(entry) {
   if (!entry) return null;
   const metadata = entry.metadata || {};
-  return { id: entry.id, title: entry.name, category: metadata.category || metadata.occupation_category || null,
+  return { id: entry.id, title: entry.name, family: metadata.family || metadata.category || metadata.occupation_category || null, cluster: metadata.cluster || null, category: metadata.category || metadata.occupation_category || null,
     specialisation: metadata.specialisation || metadata.specialization || null,
-    skills: listValue(metadata.skills || metadata.related_skills), source: entry };
+    skills: listValue(metadata.skills || metadata.related_skills), career_levels: listValue(metadata.career_levels), employment_types: listValue(metadata.employment_types), work_arrangements: listValue(metadata.work_arrangements), environments: listValue(metadata.environments), entry_routes: listValue(metadata.entry_routes || metadata.education), schedule_patterns: listValue(metadata.schedule_patterns), source: entry };
 }
 
 export function structuredHobby(entry) {

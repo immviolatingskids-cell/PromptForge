@@ -2,6 +2,7 @@ import { generatePersona } from "./generator.js";
 
 const MODES = ["grounded", "varied", "chaotic"];
 const valueId = (value) => typeof value === "string" ? value : value?.id;
+const occupationField = (persona, field) => persona.life?.[field] || persona.life?.job?.metadata?.[field];
 const frequency = (values) => {
   const counts = new Map();
   for (const value of values.map(valueId).filter(Boolean)) counts.set(value, (counts.get(value) || 0) + 1);
@@ -30,6 +31,15 @@ export function diagnoseGeneration(library, options = {}) {
       species: distribution(personas.map((p) => p.foundation.species)),
       occupations: distribution(personas.map((p) => p.life.job)),
       hobbies: distribution(personas.map((p) => p.interests.hobbies[0])),
+      occupational_profiles: {
+        roles: distribution(personas.map((p) => p.life.job)),
+        families: distribution(personas.map((p) => occupationField(p, "family"))),
+        career_levels: distribution(personas.map((p) => p.life.career_level)),
+        employment_types: distribution(personas.map((p) => p.life.employment_type)),
+        arrangements: distribution(personas.map((p) => p.life.work_arrangement)),
+        environments: distribution(personas.map((p) => p.life.work_environment)),
+        profiles: distribution(personas.filter((p) => p.life.job).map((p) => [p.life.job.id, p.life.career_level, p.life.employment_type, p.life.work_arrangement, p.life.work_environment].join("+")))
+      },
       value_profiles: {
         primary: distribution(personas.map((p) => p.personality.values.primary)),
         secondary: distribution(personas.map((p) => p.personality.values.secondary).filter(Boolean)),

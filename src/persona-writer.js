@@ -20,7 +20,7 @@ At their core, ${p.origin.name} is ${name(p.personality.core).toLowerCase()}, su
 
 ## Life
 
-Their primary role is ${p.life.primary_role.toLowerCase()}${p.life.job?`, working as a ${job.toLowerCase()}`:""}. They have ${p.life.experience_years} years of relevant experience and an income band of ${p.life.income_band}. They live in a ${name(p.life.housing).toLowerCase()}; their usual transport is ${name(p.life.transport).toLowerCase()}, and they keep a ${p.life.schedule} schedule.
+Their primary role is ${p.life.primary_role.toLowerCase()}${p.life.job?`, working as a ${job.toLowerCase()}`:""}. They have ${p.life.experience_years} years of relevant experience${p.life.career_level?` at a ${p.life.career_level} level`:""}, with a ${p.life.employment_type||"usual"} arrangement${p.life.work_arrangement?` that is ${p.life.work_arrangement.replaceAll("_"," ")}`:""}. Their work context is ${p.life.work_environment?p.life.work_environment.replaceAll("_"," "):"unspecified"}, with an income band of ${p.life.income_band}; they live in a ${name(p.life.housing).toLowerCase()} and keep a ${p.life.schedule.replaceAll("_"," ")} schedule.
 
 ## Interests and Skills
 
