@@ -1,6 +1,7 @@
 function name(value) { return value?.name ?? value ?? "unspecified"; }
 function sentence(value) { const text=String(value); return text.charAt(0).toUpperCase()+text.slice(1); }
 import { valueProfileText } from "./value-profile.js";
+import { personalityText } from "./personality-depth.js";
 
 export function writePersona(persona) {
   const p=persona, job=p.life.job?.name || p.life.primary_role;
@@ -16,7 +17,7 @@ Their heritage is ${name(p.origin.heritage)}. They were raised in a ${p.origin.f
 
 ## Personality
 
-At their core, ${p.origin.name} is ${name(p.personality.core).toLowerCase()}, supported by ${p.personality.complementary.map(name).join(" and ").toLowerCase()}. Their ${name(p.personality.contrast).toLowerCase()} side adds contrast. Their most persistent flaw is being ${name(p.personality.flaw).toLowerCase()}, while ${valueProfileText(p.personality.values)}. One regular habit is: ${name(p.personality.habit)}. A personal quirk is: ${name(p.personality.quirk)}.
+At their core, ${personalityText(p)} While ${valueProfileText(p.personality.values)}.
 
 ## Life
 

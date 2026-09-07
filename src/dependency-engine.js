@@ -11,7 +11,7 @@ export const DEPENDENCIES = {
   "life.job": ["life.structured_occupation", "life.career_level", "life.employment_type", "life.work_arrangement", "life.work_environment", "life.occupation_entry_route", "life.pathway", "life.experience", "life.experience_years", "life.income_band", "life.housing", "life.schedule", "interests.skills", "appearance.clothing_style"],
   "life.education": ["life.occupation_entry_route", "life.pathway", "life.experience", "life.experience_years", "life.career_level"],
   "life.income_band": ["life.housing", "life.housing_profile", "life.transport", "life.mobility", "appearance.clothing_style"],
-  "personality.core": ["personality.complementary", "personality.contrast", "personality.flaw", "personality.values.primary", "personality.values.secondary", "personality.values.tension", "interests.hobbies"],
+  "personality.core": ["personality.complementary", "personality.contrast", "personality.depth", "personality.flaw", "personality.values.primary", "personality.values.secondary", "personality.values.tension", "interests.hobbies"],
   "personality.values.primary": ["personality.values.secondary", "personality.values.tension"],
   "personality.values.secondary": ["personality.values.tension"],
   "interests.hobbies": ["interests.structured_hobby", "interests.skills", "narrative.signature_item", "character_hook"],

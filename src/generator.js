@@ -9,6 +9,7 @@ import { structuredName, structuredOccupation, structuredHobby } from "./structu
 import { resolveContextProfile } from "./context-profile.js";
 import { chooseEducation, buildLifePath, experienceProfile } from "./life-pathway.js";
 import { housingProfile, mobilityProfile, scheduleProfile } from "./daily-life.js";
+import { personalityProfile } from "./personality-depth.js";
 
 const pick = (library, key, persona, rng, mode, soft = {}) => {
   const context = resolveContextProfile(library, persona);
@@ -94,6 +95,7 @@ export function generatePersona(library, options = {}) {
   persona.personality.values = valueSelection.profile;
   persona.state.selection_explanations = { values: valueSelection.explanation };
   persona.personality.habit = pick(library, "habits", persona, rng, mode); persona.personality.quirk = pick(library, "quirks", persona, rng, mode);
+  persona.personality.depth = personalityProfile(persona);
 
   const isMinor = ["child", "teen"].includes(persona.foundation.life_stage.id);
   persona.life.primary_role = isMinor ? "Student" : "Employed";

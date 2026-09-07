@@ -9,6 +9,7 @@ export function normalizePersona(persona){
   if(copy?.life && !copy.life.housing_profile && copy.life.housing) copy.life.housing_profile={type:copy.life.housing.id||copy.life.housing,tenure:"unknown",household:"unknown"};
   if(copy?.life && !copy.life.mobility && copy.life.transport) copy.life.mobility={primary:copy.life.transport.id||copy.life.transport,secondary:null,access:"unknown"};
   if(copy?.interests?.hobbies) copy.interests.hobbies=copy.interests.hobbies.map((hobby)=>({commitment:"casual",participation_style:"solo",social_context:"independent",...hobby}));
+  if(copy?.personality && !copy.personality.depth) copy.personality.depth={traits:[copy.personality.core?.id||copy.personality.core].filter(Boolean),flaw:copy.personality.flaw?.id||copy.personality.flaw||null,habit:copy.personality.habit?.id||copy.personality.habit||null,quirk:copy.personality.quirk?.id||copy.personality.quirk||null,value_families:[]};
   copy.state ||= {}; copy.state.locks ||= {}; copy.state.stale_fields ||= []; copy.state.warnings ||= [];
   return copy;
 }
