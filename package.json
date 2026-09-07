@@ -3,5 +3,5 @@
   "version": "0.3.2",
   "private": true,
   "type": "module",
-  "scripts": { "test": "node --test", "diagnose": "node scripts/generation-diagnostics.js" }
+  "scripts": { "test": "node --test", "diagnose": "node scripts/generation-diagnostics.js", "diagnostics:hobbies": "node scripts/hobby-diagnostics.js 1000" }
 }
