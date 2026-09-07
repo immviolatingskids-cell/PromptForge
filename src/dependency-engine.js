@@ -14,7 +14,7 @@ export const DEPENDENCIES = {
   "personality.core": ["personality.complementary", "personality.contrast", "personality.flaw", "personality.values.primary", "personality.values.secondary", "personality.values.tension", "interests.hobbies"],
   "personality.values.primary": ["personality.values.secondary", "personality.values.tension"],
   "personality.values.secondary": ["personality.values.tension"],
-  "interests.hobbies": ["interests.skills", "narrative.signature_item", "character_hook"],
+  "interests.hobbies": ["interests.structured_hobby", "interests.skills", "narrative.signature_item", "character_hook"],
   "appearance.surface": ["appearance.visual"],
   "narrative.signature_item": ["character_hook"]
 };

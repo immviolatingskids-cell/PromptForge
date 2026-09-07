@@ -1,7 +1,7 @@
 import { SeededRng } from "./seed-rng.js";
 import { contextFromPersona, filterCandidates, speciesTypeOf } from "./context-engine.js";
 import { chooseRanked } from "./candidate-ranker.js";
-import { distinctByCluster } from "./similarity-guard.js";
+import { distinctByCluster, selectDistinctRanked } from "./similarity-guard.js";
 import { selectValueProfile } from "./value-profile.js";
 import { runCoherence } from "./coherence.js";
 import { createCharacterHook } from "./character-hook.js";
@@ -116,9 +116,12 @@ export function generatePersona(library, options = {}) {
   persona.life.mobility = mobilityProfile(persona.life.transport, persona.life.work_arrangement, persona.life.work_environment, rng);
   persona.life.daily_rhythm = scheduleProfile(persona.life.schedule, persona.life.work_arrangement, persona.foundation.life_stage.id, persona.life.education?.metadata?.status);
 
-  persona.interests.hobbies = [{ ...pick(library, "hobbies", persona, rng, mode), commitment: rng.choice(["casual", "regular", "passionate", "expert"]) }];
+  const hobbyCandidates = filterCandidates(library.hobbies, contextFromPersona(persona));
+  const chosenHobbies = selectDistinctRanked(hobbyCandidates.length ? hobbyCandidates : library.hobbies, 2, (entries) => chooseRanked(entries, contextFromPersona(persona), rng, mode));
+  persona.interests.hobbies = chosenHobbies.map((hobby) => ({ ...hobby, commitment: rng.choice(["casual", "regular", "dedicated"]), participation_style: hobby.metadata?.participation_style || rng.choice(["solo", "social", "creative_project", "observational", "practical_maker"]), social_context: hobby.metadata?.social_context || rng.choice(["independent", "occasional_group", "community"]) }));
   persona.interests.structured_hobby = structuredHobby(persona.interests.hobbies[0]);
-  persona.interests.interests = [pick(library, "interests", persona, rng, mode)]; persona.interests.skills = persona.interests.hobbies[0].metadata?.related_skills || [];
+  const interest = pick(library, "interests", persona, rng, mode);
+  persona.interests.interests = [interest]; persona.interests.skills = [...new Set(persona.interests.hobbies.flatMap((item) => item.metadata?.related_skills || []))];
   persona.appearance.surface = { hair: pick(library, "hair", persona, rng, mode), eyes: pick(library, "eyes", persona, rng, mode), body: pick(library, "body", persona, rng, mode), feature: pick(library, "features", persona, rng, mode) };
   persona.appearance.visual = structuredClone(persona.appearance.surface); persona.appearance.clothing_style = pick(library, "clothingStyles", persona, rng, mode); persona.appearance.signature_outfit = pick(library, "outfits", persona, rng, mode);
   persona.narrative.goal = pick(library, "goals", persona, rng, mode); persona.narrative.secret = pick(library, "secrets", persona, rng, mode); persona.narrative.signature_item = pick(library, "signatureItems", persona, rng, mode, { linked_hobbies: persona.interests.hobbies.map((item) => item.id) });
