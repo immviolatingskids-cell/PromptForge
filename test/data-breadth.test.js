@@ -14,7 +14,7 @@ const pools = {
 
 test("v0.2 generation pools retain useful breadth", async () => {
   const version = JSON.parse(await readFile(new URL("../data/data_version.json", import.meta.url)));
-  assert.equal(version.data_version, "0.3.1");
+  assert.equal(version.data_version, "0.3.2");
   for (const [name, path] of Object.entries(pools)) {
     const entries = JSON.parse(await readFile(new URL(`../data/${path}.json`, import.meta.url)));
     assert.ok(entries.length >= 11, `${name} has only ${entries.length} entries`);

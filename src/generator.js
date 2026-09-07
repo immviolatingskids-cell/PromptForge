@@ -8,6 +8,7 @@ import { createCharacterHook } from "./character-hook.js";
 import { structuredName, structuredOccupation, structuredHobby } from "./structured-fields.js";
 import { resolveContextProfile } from "./context-profile.js";
 import { chooseEducation, buildLifePath, experienceProfile } from "./life-pathway.js";
+import { housingProfile, mobilityProfile, scheduleProfile } from "./daily-life.js";
 
 const pick = (library, key, persona, rng, mode, soft = {}) => {
   const context = resolveContextProfile(library, persona);
@@ -111,6 +112,9 @@ export function generatePersona(library, options = {}) {
   persona.life.housing = pick(library, "housing", persona, rng, mode, { income_bands: [persona.life.income_band] });
   persona.life.transport = pick(library, "transport", persona, rng, mode, { income_bands: [persona.life.income_band] });
   persona.life.schedule = isMinor ? "school schedule" : rng.choice(persona.life.job?.metadata?.schedule_patterns || ["regular_daytime"]);
+  persona.life.housing_profile = housingProfile(persona.life.housing, persona.life.income_band, persona.foundation.life_stage.id);
+  persona.life.mobility = mobilityProfile(persona.life.transport, persona.life.work_arrangement, persona.life.work_environment, rng);
+  persona.life.daily_rhythm = scheduleProfile(persona.life.schedule, persona.life.work_arrangement, persona.foundation.life_stage.id, persona.life.education?.metadata?.status);
 
   persona.interests.hobbies = [{ ...pick(library, "hobbies", persona, rng, mode), commitment: rng.choice(["casual", "regular", "passionate", "expert"]) }];
   persona.interests.structured_hobby = structuredHobby(persona.interests.hobbies[0]);
