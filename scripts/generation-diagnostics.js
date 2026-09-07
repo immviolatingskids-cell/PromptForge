@@ -5,7 +5,7 @@ const paths = { settings:"core/settings", eras:"core/eras", lifeStages:"core/lif
 const args = process.argv.slice(2); const samplesAt = args.indexOf("--samples"); const samples = samplesAt >= 0 ? Number(args[samplesAt + 1]) : 300;
 const library = {};
 for (const [key, path] of Object.entries(paths)) library[key] = JSON.parse(await readFile(new URL(`../data/${path}.json`, import.meta.url)));
-library.versions = { schema: "1.4", data: "0.3.1" };
+library.versions = { schema: "2.0", data: "0.4.0" };
 const report = diagnoseGeneration(library, { samples });
 if (args.includes("--queue")) {
   const queueUrl = new URL("../.personaforge/population_queue.json", import.meta.url);

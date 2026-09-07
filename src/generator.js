@@ -11,6 +11,7 @@ import { chooseEducation, buildLifePath, experienceProfile } from "./life-pathwa
 import { housingProfile, mobilityProfile, scheduleProfile } from "./daily-life.js";
 import { personalityProfile } from "./personality-depth.js";
 import { originProfile } from "./origin-context.js";
+import { buildNarrativeState } from "./narrative-integration.js";
 
 const pick = (library, key, persona, rng, mode, soft = {}) => {
   const context = resolveContextProfile(library, persona);
@@ -130,6 +131,7 @@ export function generatePersona(library, options = {}) {
   persona.appearance.surface = { hair: pick(library, "hair", persona, rng, mode), eyes: pick(library, "eyes", persona, rng, mode), body: pick(library, "body", persona, rng, mode), feature: pick(library, "features", persona, rng, mode) };
   persona.appearance.visual = structuredClone(persona.appearance.surface); persona.appearance.clothing_style = pick(library, "clothingStyles", persona, rng, mode); persona.appearance.signature_outfit = pick(library, "outfits", persona, rng, mode);
   persona.narrative.goal = pick(library, "goals", persona, rng, mode); persona.narrative.secret = pick(library, "secrets", persona, rng, mode); persona.narrative.signature_item = pick(library, "signatureItems", persona, rng, mode, { linked_hobbies: persona.interests.hobbies.map((item) => item.id) });
+  persona.narrative.integration = buildNarrativeState(persona, rng, mode);
   persona.expressions = Object.fromEntries(["default", "happy", "annoyed", "embarrassed", "angry", "focused"].map((emotion) => [emotion, pick(library, "expressions", persona, rng, mode)]));
   persona.character_hook = createCharacterHook(persona, rng);
   return runCoherence(persona);

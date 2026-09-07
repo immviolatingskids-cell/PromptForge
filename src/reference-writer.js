@@ -18,3 +18,5 @@ export function referencePackage(persona,mode="structured"){
 }
 
 export function referenceMarkdown(persona,mode="structured"){const prompts=referencePackage(persona,mode);return `# ${persona.origin.name} — Reference Package\n\n${Object.entries(prompts).map(([key,value])=>`## ${key.replaceAll("_"," ")}\n\n${value}`).join("\n\n")}`;}
+
+export function roleplayPackage(persona){const n=persona.narrative?.integration;return {current_goal:n?.goals?.short_term?.text||persona.narrative?.goal?.name||null,current_tension:n?.tensions?.[0]?.text||null,external_pressure:n?.pressures?.[0]?.text||null,relationship_hook:n?.relationship_hooks?.[0]?.text||null,scene_hook:n?.scene_hooks?.[0]?.text||null};}

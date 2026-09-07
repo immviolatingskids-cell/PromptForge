@@ -1,7 +1,7 @@
 {
   "name": "personaforge",
-  "version": "0.3.2",
+  "version": "0.4.0",
   "private": true,
   "type": "module",
-  "scripts": { "test": "node --test", "diagnose": "node scripts/generation-diagnostics.js", "diagnostics:hobbies": "node scripts/hobby-diagnostics.js 1000" }
+  "scripts": { "test": "node --test", "diagnose": "node scripts/generation-diagnostics.js", "diagnostics:hobbies": "node scripts/hobby-diagnostics.js 1000", "diagnostics:narrative": "node scripts/narrative-diagnostics.js 1000" }
 }

@@ -8,13 +8,15 @@ export const DEPENDENCIES = {
   "foundation.region": ["foundation.locale", "origin.heritage", "origin.name", "appearance.clothing_style"],
   "foundation.locale": ["origin.heritage", "origin.name", "appearance.clothing_style"],
   "origin.heritage": ["origin.name", "appearance.surface", "appearance.visual"],
-  "life.job": ["life.structured_occupation", "life.career_level", "life.employment_type", "life.work_arrangement", "life.work_environment", "life.occupation_entry_route", "life.pathway", "life.experience", "life.experience_years", "life.income_band", "life.housing", "life.schedule", "interests.skills", "appearance.clothing_style"],
+  "life.job": ["life.structured_occupation", "life.career_level", "life.employment_type", "life.work_arrangement", "life.work_environment", "life.occupation_entry_route", "life.pathway", "life.experience", "life.experience_years", "life.income_band", "life.housing", "life.schedule", "interests.skills", "appearance.clothing_style", "narrative.integration"],
   "life.education": ["life.occupation_entry_route", "life.pathway", "life.experience", "life.experience_years", "life.career_level"],
   "life.income_band": ["life.housing", "life.housing_profile", "life.transport", "life.mobility", "appearance.clothing_style"],
   "personality.core": ["personality.complementary", "personality.contrast", "personality.depth", "personality.flaw", "personality.values.primary", "personality.values.secondary", "personality.values.tension", "interests.hobbies"],
-  "personality.values.primary": ["personality.values.secondary", "personality.values.tension"],
+  "personality.values.primary": ["personality.values.secondary", "personality.values.tension", "narrative.integration"],
   "personality.values.secondary": ["personality.values.tension"],
-  "interests.hobbies": ["interests.structured_hobby", "interests.skills", "narrative.signature_item", "character_hook"],
+  "interests.hobbies": ["interests.structured_hobby", "interests.skills", "narrative.signature_item", "narrative.integration", "character_hook"],
+  "personality.flaw": ["narrative.integration"],
+  "life.housing": ["narrative.integration"],
   "appearance.surface": ["appearance.visual"],
   "narrative.signature_item": ["character_hook"]
 };

@@ -34,7 +34,7 @@ test("profile prose covers all depths without inventing an event", () => {
   assert.match(text, /can sometimes pull/); assert.doesNotMatch(text, /dispute|estranged|sacrifice|trauma/);
 });
 test("value role dependencies flow primary to secondary to tension", () => {
-  assert.deepEqual(new Set(affectedBy("personality.values.primary")), new Set(["personality.values.secondary", "personality.values.tension"]));
+  assert.deepEqual(new Set(affectedBy("personality.values.primary")), new Set(["personality.values.secondary", "personality.values.tension", "narrative.integration"]));
   assert.deepEqual(affectedBy("personality.values.tension"), []);
 });
 test("curated relationships are valid, non-self, and symmetric", () => {

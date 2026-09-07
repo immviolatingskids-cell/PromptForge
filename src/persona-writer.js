@@ -2,6 +2,7 @@ function name(value) { return value?.name ?? value ?? "unspecified"; }
 function sentence(value) { const text=String(value); return text.charAt(0).toUpperCase()+text.slice(1); }
 import { valueProfileText } from "./value-profile.js";
 import { personalityText } from "./personality-depth.js";
+import { narrativeProse } from "./narrative-integration.js";
 
 export function writePersona(persona) {
   const p=persona, job=p.life.job?.name || p.life.primary_role;
@@ -34,7 +35,7 @@ Their build is ${name(p.appearance.surface.body).toLowerCase()}. They have ${nam
 
 ## Roleplay Core
 
-Their main goal is to ${name(p.narrative.goal).toLowerCase()}. ${sentence(name(p.narrative.secret))}. Their signature item is ${name(p.narrative.signature_item)}, and its meaning connects directly to their history.
+${p.narrative.integration?narrativeProse(p.narrative.integration):`Their main goal is to ${name(p.narrative.goal).toLowerCase()}.`} ${sentence(name(p.narrative.secret))}. Their signature item is ${name(p.narrative.signature_item)}, and its meaning connects directly to their history.
 
 ## Character Hook
 
