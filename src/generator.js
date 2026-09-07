@@ -7,6 +7,7 @@ import { runCoherence } from "./coherence.js";
 import { createCharacterHook } from "./character-hook.js";
 import { structuredName, structuredOccupation, structuredHobby } from "./structured-fields.js";
 import { resolveContextProfile } from "./context-profile.js";
+import { chooseEducation, buildLifePath, experienceProfile } from "./life-pathway.js";
 
 const pick = (library, key, persona, rng, mode, soft = {}) => {
   const context = resolveContextProfile(library, persona);
@@ -93,17 +94,19 @@ export function generatePersona(library, options = {}) {
   persona.state.selection_explanations = { values: valueSelection.explanation };
   persona.personality.habit = pick(library, "habits", persona, rng, mode); persona.personality.quirk = pick(library, "quirks", persona, rng, mode);
 
-  persona.life.education = pick(library, "education", persona, rng, mode);
   const isMinor = ["child", "teen"].includes(persona.foundation.life_stage.id);
   persona.life.primary_role = isMinor ? "Student" : "Employed";
   persona.life.job = isMinor ? null : pick(library, "occupations", persona, rng, mode);
+  persona.life.education = chooseEducation(library.education, persona.life.job, rng, mode, persona.foundation.age, persona.foundation.life_stage.id);
   persona.life.structured_occupation = structuredOccupation(persona.life.job);
-  persona.life.experience_years = isMinor ? 0 : rng.integer(0, Math.max(1, persona.foundation.age));
+  persona.life.occupation_entry_route = isMinor ? null : rng.choice(persona.life.job?.metadata?.entry_routes || ["employer_training"]);
+  persona.life.experience = experienceProfile(persona.foundation.age, persona.foundation.life_stage.id, rng, persona.life.education, persona.life.occupation_entry_route);
+  persona.life.experience_years = persona.life.experience.total_years;
   persona.life.career_level = isMinor ? null : occupationalLevel(persona.life.job, persona.foundation.age, persona.life.experience_years, rng);
   persona.life.employment_type = isMinor ? null : rng.choice(persona.life.job?.metadata?.employment_types || ["employee"]);
   persona.life.work_arrangement = isMinor ? null : rng.choice(persona.life.job?.metadata?.work_arrangements || ["on_site"]);
   persona.life.work_environment = isMinor ? null : rng.choice(persona.life.job?.metadata?.environments || ["workplace"]);
-  persona.life.occupation_entry_route = isMinor ? null : rng.choice(persona.life.job?.metadata?.entry_routes || ["employer_training"]);
+  persona.life.pathway = buildLifePath({ education: persona.life.education, job: persona.life.job, entryRoute: persona.life.occupation_entry_route, age: persona.foundation.age, stage: persona.foundation.life_stage.id, experienceYears: persona.life.experience_years, rng });
   persona.life.income_band = persona.life.job?.metadata?.income_band || "low";
   persona.life.housing = pick(library, "housing", persona, rng, mode, { income_bands: [persona.life.income_band] });
   persona.life.transport = pick(library, "transport", persona, rng, mode, { income_bands: [persona.life.income_band] });

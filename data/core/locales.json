@@ -1,6 +1,225 @@
 [
-  {"id":"locale_global_english","name":"Global English","compatibility":{"settings":["modern","science_fiction"],"eras":["modern","future"],"species":[],"life_stages":[],"countries":[],"locales":[]},"metadata":{"language":"English","script":"Latin"}},
-  {"id":"locale_french","name":"French","compatibility":{"settings":["modern","fantasy"],"eras":["modern","medieval_inspired","timeless"],"species":[],"life_stages":[],"countries":[],"locales":[]},"metadata":{"language":"French","script":"Latin"}},
-  {"id":"locale_spanish","name":"Spanish","compatibility":{"settings":["modern","fantasy"],"eras":["modern","medieval_inspired","timeless"],"species":[],"life_stages":[],"countries":[],"locales":[]},"metadata":{"language":"Spanish","script":"Latin"}},
-  {"id":"locale_arabic","name":"Arabic","compatibility":{"settings":["modern","fantasy"],"eras":["modern","medieval_inspired","timeless"],"species":[],"life_stages":[],"countries":[],"locales":[]},"metadata":{"language":"Arabic","script":"Arabic"}}
+  {
+    "id": "locale_global_english",
+    "name": "Global English",
+    "compatibility": {
+      "settings": [
+        "modern",
+        "science_fiction"
+      ],
+      "eras": [
+        "modern",
+        "future"
+      ],
+      "species": [],
+      "life_stages": [],
+      "countries": [],
+      "locales": []
+    },
+    "metadata": {
+      "language": "English",
+      "script": "Latin"
+    }
+  },
+  {
+    "id": "locale_french",
+    "name": "French",
+    "compatibility": {
+      "settings": [
+        "modern",
+        "fantasy"
+      ],
+      "eras": [
+        "modern",
+        "medieval_inspired",
+        "timeless"
+      ],
+      "species": [],
+      "life_stages": [],
+      "countries": [],
+      "locales": []
+    },
+    "metadata": {
+      "language": "French",
+      "script": "Latin"
+    }
+  },
+  {
+    "id": "locale_spanish",
+    "name": "Spanish",
+    "compatibility": {
+      "settings": [
+        "modern",
+        "fantasy"
+      ],
+      "eras": [
+        "modern",
+        "medieval_inspired",
+        "timeless"
+      ],
+      "species": [],
+      "life_stages": [],
+      "countries": [],
+      "locales": []
+    },
+    "metadata": {
+      "language": "Spanish",
+      "script": "Latin"
+    }
+  },
+  {
+    "id": "locale_arabic",
+    "name": "Arabic",
+    "compatibility": {
+      "settings": [
+        "modern",
+        "fantasy"
+      ],
+      "eras": [
+        "modern",
+        "medieval_inspired",
+        "timeless"
+      ],
+      "species": [],
+      "life_stages": [],
+      "countries": [],
+      "locales": []
+    },
+    "metadata": {
+      "language": "Arabic",
+      "script": "Arabic"
+    }
+  },
+  {
+    "id": "locale_german",
+    "name": "German",
+    "compatibility": {
+      "settings": [
+        "modern",
+        "science_fiction"
+      ],
+      "eras": [
+        "modern",
+        "future"
+      ],
+      "species": [],
+      "life_stages": [],
+      "countries": [],
+      "locales": []
+    },
+    "metadata": {
+      "language": "German",
+      "script": "Latin"
+    }
+  },
+  {
+    "id": "locale_italian",
+    "name": "Italian",
+    "compatibility": {
+      "settings": [
+        "modern",
+        "science_fiction"
+      ],
+      "eras": [
+        "modern",
+        "future"
+      ],
+      "species": [],
+      "life_stages": [],
+      "countries": [],
+      "locales": []
+    },
+    "metadata": {
+      "language": "Italian",
+      "script": "Latin"
+    }
+  },
+  {
+    "id": "locale_portuguese",
+    "name": "Portuguese",
+    "compatibility": {
+      "settings": [
+        "modern",
+        "science_fiction"
+      ],
+      "eras": [
+        "modern",
+        "future"
+      ],
+      "species": [],
+      "life_stages": [],
+      "countries": [],
+      "locales": []
+    },
+    "metadata": {
+      "language": "Portuguese",
+      "script": "Latin"
+    }
+  },
+  {
+    "id": "locale_japanese",
+    "name": "Japanese",
+    "compatibility": {
+      "settings": [
+        "modern",
+        "science_fiction"
+      ],
+      "eras": [
+        "modern",
+        "future"
+      ],
+      "species": [],
+      "life_stages": [],
+      "countries": [],
+      "locales": []
+    },
+    "metadata": {
+      "language": "Japanese",
+      "script": "Japanese"
+    }
+  },
+  {
+    "id": "locale_mandarin",
+    "name": "Mandarin",
+    "compatibility": {
+      "settings": [
+        "modern",
+        "science_fiction"
+      ],
+      "eras": [
+        "modern",
+        "future"
+      ],
+      "species": [],
+      "life_stages": [],
+      "countries": [],
+      "locales": []
+    },
+    "metadata": {
+      "language": "Mandarin",
+      "script": "Han"
+    }
+  },
+  {
+    "id": "locale_hindi",
+    "name": "Hindi",
+    "compatibility": {
+      "settings": [
+        "modern",
+        "science_fiction"
+      ],
+      "eras": [
+        "modern",
+        "future"
+      ],
+      "species": [],
+      "life_stages": [],
+      "countries": [],
+      "locales": []
+    },
+    "metadata": {
+      "language": "Hindi",
+      "script": "Devanagari"
+    }
+  }
 ]

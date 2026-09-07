@@ -5,6 +5,7 @@ export function normalizePersona(persona){
   const copy=structuredClone(persona);
   if(copy?.personality)copy.personality.values=normalizeValueProfile(copy.personality.values);
   if(copy?.life?.job && !copy.life.structured_occupation) copy.life.structured_occupation=structuredOccupation(copy.life.job);
+  if(copy?.life && !copy.life.experience) copy.life.experience={total_years:copy.life.experience_years||0,field_years:copy.life.experience_years||0,current_role_years:copy.life.experience_years||0,training_years:0};
   copy.state ||= {}; copy.state.locks ||= {}; copy.state.stale_fields ||= []; copy.state.warnings ||= [];
   return copy;
 }

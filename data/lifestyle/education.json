@@ -1,13 +1,290 @@
 [
-  {"id":"secondary_school","name":"Secondary education","compatibility":{"settings":["modern"],"eras":["modern"],"species":["human"],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]}},
-  {"id":"degree","name":"University degree","compatibility":{"settings":["modern","science_fiction"],"eras":["modern","future"],"species":[],"life_stages":["young_adult","adult","mature","older"],"countries":[]}},
-  {"id":"apprenticeship","name":"Apprenticeship","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature"],"countries":[]}},
-  {"id":"self_taught","name":"Self-taught","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]}}
-  ,{"id":"foundational_learning","name":"Foundational education","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["child","teen"],"countries":[]}},
-  {"id":"professional_training","name":"Professional certification or training","compatibility":{"settings":["modern","science_fiction"],"eras":["modern","future"],"species":[],"life_stages":["young_adult","adult","mature","older"],"countries":[]}},
-  {"id":"postgraduate_degree","name":"Postgraduate degree","compatibility":{"settings":["modern","science_fiction"],"eras":["modern","future"],"species":[],"life_stages":["young_adult","adult","mature","older"],"countries":[]}},
-  {"id":"trade_school","name":"Trade school education","compatibility":{"settings":["modern","science_fiction"],"eras":["modern","future"],"species":[],"life_stages":["young_adult","adult","mature","older"],"countries":[]}},
-  {"id":"guild_training","name":"Guild training","compatibility":{"settings":["fantasy"],"eras":["medieval_inspired","timeless"],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]}},
-  {"id":"scholarly_tutelage","name":"Private scholarly tutelage","compatibility":{"settings":["fantasy"],"eras":["medieval_inspired","timeless"],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]}},
-  {"id":"service_academy","name":"Service academy training","compatibility":{"settings":["science_fiction"],"eras":["future"],"species":[],"life_stages":["young_adult","adult","mature","older"],"countries":[]}}
+  {
+    "id": "secondary_school",
+    "name": "Secondary education",
+    "compatibility": {
+      "settings": [
+        "modern"
+      ],
+      "eras": [
+        "modern"
+      ],
+      "species": [
+        "human"
+      ],
+      "life_stages": [
+        "teen",
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "level": "secondary",
+      "route": "academic",
+      "status": "completed",
+      "duration_years": 4
+    }
+  },
+  {
+    "id": "degree",
+    "name": "University degree",
+    "compatibility": {
+      "settings": [
+        "modern",
+        "science_fiction"
+      ],
+      "eras": [
+        "modern",
+        "future"
+      ],
+      "species": [],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "level": "undergraduate",
+      "route": "academic",
+      "status": "completed",
+      "duration_years": 4
+    }
+  },
+  {
+    "id": "apprenticeship",
+    "name": "Apprenticeship",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [
+        "teen",
+        "young_adult",
+        "adult",
+        "mature"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "level": "vocational",
+      "route": "apprenticeship",
+      "status": "completed",
+      "duration_years": 3
+    }
+  },
+  {
+    "id": "self_taught",
+    "name": "Self-taught",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [
+        "teen",
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "level": "specialist_training",
+      "route": "self_directed",
+      "status": "completed",
+      "duration_years": 1
+    }
+  },
+  {
+    "id": "foundational_learning",
+    "name": "Foundational education",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [
+        "child",
+        "teen"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "level": "compulsory",
+      "route": "academic",
+      "status": "ongoing",
+      "duration_years": 6
+    }
+  },
+  {
+    "id": "professional_training",
+    "name": "Professional certification or training",
+    "compatibility": {
+      "settings": [
+        "modern",
+        "science_fiction"
+      ],
+      "eras": [
+        "modern",
+        "future"
+      ],
+      "species": [],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "level": "professional",
+      "route": "professional",
+      "status": "completed",
+      "duration_years": 2
+    }
+  },
+  {
+    "id": "postgraduate_degree",
+    "name": "Postgraduate degree",
+    "compatibility": {
+      "settings": [
+        "modern",
+        "science_fiction"
+      ],
+      "eras": [
+        "modern",
+        "future"
+      ],
+      "species": [],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "level": "postgraduate",
+      "route": "academic",
+      "status": "completed",
+      "duration_years": 2
+    }
+  },
+  {
+    "id": "trade_school",
+    "name": "Trade school education",
+    "compatibility": {
+      "settings": [
+        "modern",
+        "science_fiction"
+      ],
+      "eras": [
+        "modern",
+        "future"
+      ],
+      "species": [],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "level": "vocational",
+      "route": "technical",
+      "status": "completed",
+      "duration_years": 2
+    }
+  },
+  {
+    "id": "guild_training",
+    "name": "Guild training",
+    "compatibility": {
+      "settings": [
+        "fantasy"
+      ],
+      "eras": [
+        "medieval_inspired",
+        "timeless"
+      ],
+      "species": [],
+      "life_stages": [
+        "teen",
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "level": "vocational",
+      "route": "guild_training",
+      "status": "completed",
+      "duration_years": 3
+    }
+  },
+  {
+    "id": "scholarly_tutelage",
+    "name": "Private scholarly tutelage",
+    "compatibility": {
+      "settings": [
+        "fantasy"
+      ],
+      "eras": [
+        "medieval_inspired",
+        "timeless"
+      ],
+      "species": [],
+      "life_stages": [
+        "teen",
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "level": "specialist_training",
+      "route": "mentorship",
+      "status": "completed",
+      "duration_years": 3
+    }
+  },
+  {
+    "id": "service_academy",
+    "name": "Service academy training",
+    "compatibility": {
+      "settings": [
+        "science_fiction"
+      ],
+      "eras": [
+        "future"
+      ],
+      "species": [],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "level": "professional",
+      "route": "military_training",
+      "status": "completed",
+      "duration_years": 3
+    }
+  }
 ]
