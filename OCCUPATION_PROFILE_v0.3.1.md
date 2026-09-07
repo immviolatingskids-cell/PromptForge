@@ -24,6 +24,10 @@ Occupation changes stale its structured profile, career level, employment type, 
 
 Generation remains seeded and deterministic. Occupational diagnostics report role, family, profile, career-level, employment, arrangement, and environment distributions alongside existing diversity reports. Populator validation checks occupational taxonomy IDs and structured metadata arrays.
 
+A deterministic 300-sample run produced 35/35/34 distinct generated roles in Grounded/Varied/Chaotic modes, with top-role shares of 7.7%/5.3%/5.7%. It produced 239/244/236 distinct occupational profiles and top-family shares of 12%/15%/14%, showing meaningful structure beyond raw title count.
+
+Verification completed: JavaScript 55/55 tests passed; Python 92/92 tests passed; JSON validation passed for 38 canonical files; health reported 0 errors, 23 warnings, and 145 informational findings; coverage reports 40 occupational entries; and `node scripts/generation-diagnostics.js` completed successfully.
+
 ## Known limitations
 
 The current catalogue uses abstract environment and employment IDs; setting-specific terminology and country-specific labour-market weighting remain intentionally light. Regulated education constraints are represented as entry-route metadata rather than hard qualification simulation.
