@@ -1,0 +1,38 @@
+[
+  {
+    "id": "child",
+    "name": "Child",
+    "compatibility": { "settings": [], "eras": [], "species": ["human"], "life_stages": [], "countries": [] },
+    "metadata": { "human_age_range": [0, 12] }
+  },
+  {
+    "id": "teen",
+    "name": "Teen",
+    "compatibility": { "settings": [], "eras": [], "species": ["human"], "life_stages": [], "countries": [] },
+    "metadata": { "human_age_range": [13, 17] }
+  },
+  {
+    "id": "young_adult",
+    "name": "Young Adult",
+    "compatibility": { "settings": [], "eras": [], "species": [], "life_stages": [], "countries": [] },
+    "metadata": { "human_age_range": [18, 24] }
+  },
+  {
+    "id": "adult",
+    "name": "Adult",
+    "compatibility": { "settings": [], "eras": [], "species": [], "life_stages": [], "countries": [] },
+    "metadata": { "human_age_range": [25, 39] }
+  },
+  {
+    "id": "mature",
+    "name": "Mature",
+    "compatibility": { "settings": [], "eras": [], "species": [], "life_stages": [], "countries": [] },
+    "metadata": { "human_age_range": [40, 59] }
+  },
+  {
+    "id": "older",
+    "name": "Older",
+    "compatibility": { "settings": [], "eras": [], "species": [], "life_stages": [], "countries": [] },
+    "metadata": { "human_age_range": [60, 120] }
+  }
+]

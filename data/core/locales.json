@@ -1,0 +1,6 @@
+[
+  {"id":"locale_global_english","name":"Global English","compatibility":{"settings":["modern","science_fiction"],"eras":["modern","future"],"species":[],"life_stages":[],"countries":[],"locales":[]},"metadata":{"language":"English","script":"Latin"}},
+  {"id":"locale_french","name":"French","compatibility":{"settings":["modern","fantasy"],"eras":["modern","medieval_inspired","timeless"],"species":[],"life_stages":[],"countries":[],"locales":[]},"metadata":{"language":"French","script":"Latin"}},
+  {"id":"locale_spanish","name":"Spanish","compatibility":{"settings":["modern","fantasy"],"eras":["modern","medieval_inspired","timeless"],"species":[],"life_stages":[],"countries":[],"locales":[]},"metadata":{"language":"Spanish","script":"Latin"}},
+  {"id":"locale_arabic","name":"Arabic","compatibility":{"settings":["modern","fantasy"],"eras":["modern","medieval_inspired","timeless"],"species":[],"life_stages":[],"countries":[],"locales":[]},"metadata":{"language":"Arabic","script":"Arabic"}}
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "id": "modern",
+    "name": "Modern Era",
+    "compatibility": { "settings": ["modern"], "eras": [], "species": [], "life_stages": [], "countries": [] },
+    "metadata": { "year_range": [1950, 2049] }
+  },
+  {
+    "id": "medieval_inspired",
+    "name": "Medieval-Inspired",
+    "compatibility": { "settings": ["fantasy"], "eras": [], "species": [], "life_stages": [], "countries": [] }
+  },
+  {
+    "id": "future",
+    "name": "Future",
+    "compatibility": { "settings": ["science_fiction", "modern"], "eras": [], "species": [], "life_stages": [], "countries": [] },
+    "metadata": { "suggested_start_year": 2050 }
+  }
+]

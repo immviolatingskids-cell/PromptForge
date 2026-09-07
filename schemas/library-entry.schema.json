@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://personaforge.local/schemas/library-entry.schema.json",
+  "title": "PersonaForge library entry",
+  "type": "object",
+  "required": ["id", "name", "compatibility"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*$"
+    },
+    "name": { "type": "string", "minLength": 1 },
+    "description": { "type": "string" },
+    "aliases": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true
+    },
+    "compatibility": {
+      "type": "object",
+      "required": ["settings", "eras", "species", "life_stages", "countries"],
+      "properties": {
+        "settings": { "$ref": "#/$defs/stringList" },
+        "eras": { "$ref": "#/$defs/stringList" },
+        "species": { "$ref": "#/$defs/stringList" },
+        "species_types": { "$ref": "#/$defs/stringList" },
+        "regions": { "$ref": "#/$defs/stringList" },
+        "locales": { "$ref": "#/$defs/stringList" },
+        "life_stages": { "$ref": "#/$defs/stringList" },
+        "countries": { "$ref": "#/$defs/stringList" }
+      },
+      "additionalProperties": false
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "family": { "type": "string", "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*$" },
+        "cluster": { "type": "string", "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*$" },
+        "context_affinities": {
+          "type": "object",
+          "properties": {
+            "settings": { "$ref": "#/$defs/stringList" }, "eras": { "$ref": "#/$defs/stringList" },
+            "species": { "$ref": "#/$defs/stringList" }, "species_types": { "$ref": "#/$defs/stringList" },
+            "regions": { "$ref": "#/$defs/stringList" }, "locales": { "$ref": "#/$defs/stringList" },
+            "life_stages": { "$ref": "#/$defs/stringList" }, "countries": { "$ref": "#/$defs/stringList" }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "stringList": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true
+    }
+  }
+}

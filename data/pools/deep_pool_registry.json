@@ -1,0 +1,27 @@
+{
+  "version": "0.3.0",
+  "categories": [
+    {"id":"appearance","name":"Appearance","icon":"🎨","children":[
+      {"id":"body","name":"Body","icon":"👤","children":["height","build","frame","body_proportions"]},
+      {"id":"skin","name":"Skin","children":["skin_tone","undertone","complexion","skin_details"]},
+      {"id":"face","name":"Face","icon":"🙂","children":["face_shape","jaw","cheekbones","chin","nose_shape","nose_bridge","nose_tip","lip_shape","lip_fullness"]},
+      {"id":"eyes","name":"Eyes","icon":"👁","children":["eye_shape","eye_colour","eye_details","brow_shape","brow_density"]},
+      {"id":"hair","name":"Hair","icon":"💇","children":["hair_colour","hair_length","hair_texture","hairstyle","fringe_bangs","hair_details"]},
+      {"id":"distinguishing_features","name":"Distinguishing Features","children":["freckles","scars","birthmarks","tattoos","piercings","other_marks"]}
+    ]},
+    {"id":"clothing","name":"Clothing","icon":"👗","children":[
+      {"id":"style","name":"Style","children":["clothing_styles"]},
+      {"id":"garments","name":"Garments","icon":"👚","children":["tops","shirts_blouses","knitwear","bottoms","trousers","shorts","skirts","dresses","jumpsuits_one_pieces",{"id":"outerwear","name":"Outerwear","children":["jackets","coats","hoodies"]},"formalwear","activewear","loungewear","footwear"]},
+      {"id":"construction_visual_details","name":"Construction / Visual Details","children":["materials","patterns","fits","silhouettes","necklines","sleeve_styles","lengths","layering"]},
+      {"id":"accessories","name":"Accessories","icon":"💍","children":["jewellery","bags","headwear","eyewear","belts","gloves","scarves","other_accessories"]}
+    ]}
+  ],
+  "pools": {
+    "height": {"name":"Height","target":10,"priority":"normal"}, "build":{"name":"Build","target":20}, "frame":{"name":"Frame","target":12}, "body_proportions":{"name":"Body Proportions","target":15},
+    "skin_tone":{"name":"Skin Tone","target":20}, "undertone":{"name":"Undertone","target":8}, "complexion":{"name":"Complexion","target":12}, "skin_details":{"name":"Skin Details","target":20},
+    "face_shape":{"name":"Face Shape","target":15}, "jaw":{"name":"Jaw","target":15}, "cheekbones":{"name":"Cheekbones","target":12}, "chin":{"name":"Chin","target":12}, "nose_shape":{"name":"Nose Shape","target":20}, "nose_bridge":{"name":"Nose Bridge","target":12}, "nose_tip":{"name":"Nose Tip","target":12}, "lip_shape":{"name":"Lip Shape","target":18}, "lip_fullness":{"name":"Lip Fullness","target":10},
+    "eye_shape":{"name":"Eye Shape","target":18}, "eye_colour":{"name":"Eye Colour","target":25}, "eye_details":{"name":"Eye Details","target":15}, "brow_shape":{"name":"Brow Shape","target":15}, "brow_density":{"name":"Brow Density","target":8},
+    "hair_colour":{"name":"Hair Colour","target":40}, "hair_length":{"name":"Hair Length","target":12}, "hair_texture":{"name":"Hair Texture","target":15}, "hairstyle":{"name":"Hairstyle","target":50,"priority":"high"}, "fringe_bangs":{"name":"Fringe / Bangs","target":20}, "hair_details":{"name":"Hair Details","target":20},
+    "freckles":{"name":"Freckles","target":12,"selection_mode":"multiple","none_allowed":true}, "scars":{"name":"Scars","target":25,"selection_mode":"multiple","none_allowed":true}, "birthmarks":{"name":"Birthmarks","target":15,"selection_mode":"multiple","none_allowed":true}, "tattoos":{"name":"Tattoos","target":30,"selection_mode":"multiple","none_allowed":true}, "piercings":{"name":"Piercings","target":25,"selection_mode":"multiple","none_allowed":true}, "other_marks":{"name":"Other Marks","target":15,"selection_mode":"multiple","none_allowed":true}
+  }
+}

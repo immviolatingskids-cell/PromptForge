@@ -1,0 +1,27 @@
+{
+  "Test": {
+    "id": "new",
+    "name": "New",
+    "compatibility": {
+      "settings": [
+        "gsg"
+      ],
+      "eras": [
+        "sh"
+      ],
+      "species": [
+        "dh"
+      ],
+      "life_stages": [
+        "sj"
+      ],
+      "countries": [
+        "djs"
+      ]
+    },
+    "description": "new test",
+    "tags": [
+      "test"
+    ]
+  }
+}

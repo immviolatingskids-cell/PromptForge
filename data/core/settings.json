@@ -1,0 +1,23 @@
+[
+  {
+    "id": "modern",
+    "name": "Modern",
+    "description": "A broadly contemporary real-world setting.",
+    "compatibility": { "settings": [], "eras": ["modern"], "species": ["human"], "life_stages": [], "countries": [] },
+    "metadata": { "year_range": [1950, 2049] }
+  },
+  {
+    "id": "fantasy",
+    "name": "Fantasy",
+    "description": "A setting where invented cultures and non-human species may exist.",
+    "compatibility": { "settings": [], "eras": ["timeless", "medieval_inspired"], "species": [], "life_stages": [], "countries": [] }
+  },
+  {
+    "id": "science_fiction",
+    "name": "Science Fiction",
+    "description": "A speculative setting shaped by advanced science or technology.",
+    "aliases": ["Sci-Fi"],
+    "compatibility": { "settings": [], "eras": ["future"], "species": [], "life_stages": [], "countries": [] },
+    "metadata": { "suggested_start_year": 2050 }
+  }
+]

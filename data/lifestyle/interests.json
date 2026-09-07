@@ -1,0 +1,14 @@
+[
+  {"id":"astronomy","name":"Astronomy","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]}},
+  {"id":"architecture","name":"Architecture","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]}},
+  {"id":"film_history","name":"Film history","compatibility":{"settings":["modern"],"eras":["modern"],"species":["human"],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]}},
+  {"id":"motorsports","name":"Motorsports","compatibility":{"settings":["modern","science_fiction"],"eras":["modern","future"],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]}},
+  {"id":"local_history","name":"Local history","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]}},
+  {"id":"linguistics","name":"Languages and linguistics","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]}},
+  {"id":"marine_life","name":"Marine life","compatibility":{"settings":["modern","science_fiction"],"eras":["modern","future"],"species":[],"life_stages":[],"countries":[]}},
+  {"id":"folk_music","name":"Folk music traditions","compatibility":{"settings":["modern","fantasy"],"eras":[],"species":[],"life_stages":[],"countries":[]}},
+  {"id":"urban_planning","name":"Urban planning","compatibility":{"settings":["modern","science_fiction"],"eras":["modern","future"],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]}},
+  {"id":"ecology","name":"Ecology","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]}},
+  {"id":"folklore","name":"Folklore and oral tradition","compatibility":{"settings":["modern","fantasy"],"eras":[],"species":[],"life_stages":[],"countries":[]}},
+  {"id":"space_exploration","name":"Space exploration","compatibility":{"settings":["modern","science_fiction"],"eras":["modern","future"],"species":[],"life_stages":[],"countries":[]}}
+]

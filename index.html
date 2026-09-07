@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PersonaForge</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div><p class="eyebrow">Local persona studio</p><h1>PersonaForge</h1></div>
+    <div class="top-actions">
+      <label>Variance <select id="variance"><option value="grounded">Grounded</option><option value="varied" selected>Varied</option><option value="chaotic">Chaotic</option></select></label>
+      <label>Seed <input id="seed" value="personaforge-001"></label>
+      <button id="generate" class="primary">Generate Persona</button>
+      <button id="reroll-unlocked">Reroll Unlocked</button>
+      <button id="save-persona">Save Persona</button>
+    </div>
+  </header>
+  <main class="workspace">
+    <aside class="panel foundation-panel">
+      <div class="panel-heading"><p class="eyebrow">Pass 1</p><h2>Foundation</h2></div>
+      <p class="muted">Choose an anchor to lock it. Leave Random to let the engine decide.</p>
+      <form id="foundation-form">
+        <label>Setting <select name="setting"></select></label>
+        <label>Era <select name="era"></select></label>
+        <label>Gender <select name="gender"><option value="">Random</option><option value="female">Female</option><option value="male">Male</option><option value="nonbinary">Nonbinary</option></select></label>
+        <label>Species <select name="species"></select></label>
+        <label>Life stage <select name="life_stage"></select></label>
+        <label>Age <input name="age" type="number" min="0" placeholder="Random"></label>
+        <label>Country <select name="country"></select></label>
+      </form>
+      <div class="legend"><span>● Selected = locked</span><span>○ Random = generated</span></div>
+    </aside>
+    <section class="panel studio-panel">
+      <div class="panel-heading horizontal"><div><p class="eyebrow">Canonical character</p><h2 id="persona-name">New Persona</h2></div><span id="status" class="status">Loading data…</span></div>
+      <nav class="tabs"><button class="active" data-tab="studio">Studio</button><button data-tab="persona">Persona</button><button data-tab="reference">Reference Package</button><button data-tab="library">Library</button></nav>
+      <div id="studio-view" class="tab-view"><div id="cards" class="card-grid"><div class="empty-state">Generate a persona to begin shaping the character.</div></div></div>
+      <div id="persona-view" class="tab-view" hidden><div class="output-actions"><button id="copy-persona">Copy Persona</button><button id="export-persona-md">Export Markdown</button><button id="export-persona-txt">Export TXT</button></div><article id="persona-output" class="prose-output"></article></div>
+      <div id="reference-view" class="tab-view" hidden><div class="output-actions"><label>Mode <select id="prompt-mode"><option value="structured">Structured</option><option value="polished">Polished</option></select></label><button id="reroll-visual">Reroll Visuals</button><button id="copy-prompt">Copy Prompt</button><button id="export-reference-md">Export Markdown</button></div><label>Prompt type <select id="prompt-type"></select></label><pre id="reference-output" class="prose-output"></pre></div><div id="library-view" class="tab-view" hidden><div class="panel-heading"><h2>Saved Personas</h2></div><div id="library-list"></div></div>
+    </section>
+    <aside class="panel context-panel">
+      <div class="panel-heading"><p class="eyebrow">Inspector</p><h2>Context</h2></div>
+      <div id="context"><p class="muted">Generation context, locks, and coherence results appear here.</p></div>
+    </aside>
+  </main>
+  <script type="module" src="src/app.js"></script>
+</body>
+</html>

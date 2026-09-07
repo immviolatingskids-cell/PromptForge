@@ -1,0 +1,13 @@
+[
+  {"id":"collects_ticket_stubs","name":"Collects ticket stubs","compatibility":{"settings":["modern"],"eras":["modern"],"species":[],"life_stages":[],"countries":[]}},
+  {"id":"names_houseplants","name":"Names houseplants","compatibility":{"settings":["modern"],"eras":[],"species":[],"life_stages":[],"countries":[]}},
+  {"id":"counts_doorways","name":"Counts doorways in unfamiliar places","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]}},
+  {"id":"folds_wrappers","name":"Folds wrappers into neat squares","compatibility":{"settings":["modern","science_fiction"],"eras":["modern","future"],"species":[],"life_stages":[],"countries":[]}},
+  {"id":"remembers_shoes","name":"Remembers people by their shoes","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]}},
+  {"id":"apologises_to_objects","name":"Apologises to objects they bump into","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]}},
+  {"id":"tiny_maps","name":"Draws tiny maps in notebook margins","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]}},
+  {"id":"tests_echoes","name":"Tests the echo in large rooms","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]}},
+  {"id":"colour_orders","name":"Arranges small objects by colour","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]}},
+  {"id":"collects_buttons","name":"Collects unusual buttons","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]}},
+  {"id":"whispers_measurements","name":"Whispers measurements while estimating distance","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]}}
+]

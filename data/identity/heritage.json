@@ -1,0 +1,14 @@
+[
+  {"id":"british","name":"British","compatibility":{"settings":["modern"],"eras":[],"species":["human"],"life_stages":[],"countries":["country_united_kingdom"]}},
+  {"id":"japanese","name":"Japanese","compatibility":{"settings":["modern"],"eras":[],"species":["human"],"life_stages":[],"countries":["country_japan"]}},
+  {"id":"brazilian","name":"Brazilian","compatibility":{"settings":["modern"],"eras":[],"species":["human"],"life_stages":[],"countries":["country_brazil"]}},
+  {"id":"british_japanese","name":"British-Japanese","compatibility":{"settings":["modern"],"eras":[],"species":["human"],"life_stages":[],"countries":["country_united_kingdom","country_japan"]}}
+  ,{"id":"eldorian","name":"Eldorian","compatibility":{"settings":["fantasy"],"eras":["medieval_inspired"],"species":["human","elf"],"life_stages":[],"countries":[]}}
+  ,{"id":"orbital_diaspora","name":"Orbital Diaspora","compatibility":{"settings":["science_fiction"],"eras":["future"],"species":["human"],"life_stages":[],"countries":[]}},
+  {"id":"british_brazilian","name":"British-Brazilian","compatibility":{"settings":["modern"],"eras":["modern"],"species":["human"],"life_stages":[],"countries":["country_united_kingdom","country_brazil"]}},
+  {"id":"japanese_brazilian","name":"Japanese-Brazilian","compatibility":{"settings":["modern"],"eras":["modern"],"species":["human"],"life_stages":[],"countries":["country_japan","country_brazil"]}},
+  {"id":"eldorian_borderlands","name":"Eldorian Borderlands","compatibility":{"settings":["fantasy"],"eras":["medieval_inspired","timeless"],"species":["human","elf"],"life_stages":[],"countries":[]}},
+  {"id":"eldorian_riverlands","name":"Eldorian Riverlands","compatibility":{"settings":["fantasy"],"eras":["medieval_inspired","timeless"],"species":["human","elf"],"life_stages":[],"countries":[]}},
+  {"id":"lunar_settler","name":"Lunar Settler","compatibility":{"settings":["science_fiction"],"eras":["future"],"species":["human"],"life_stages":[],"countries":[]}},
+  {"id":"station_born","name":"Station-born","compatibility":{"settings":["science_fiction"],"eras":["future"],"species":["human"],"life_stages":[],"countries":[]}}
+]

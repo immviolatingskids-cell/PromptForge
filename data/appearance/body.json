@@ -1,0 +1,14 @@
+[
+  {"id":"slender_average_height","name":"Slender, average height","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]},"metadata":{"build":"slender","height":"average"}},
+  {"id":"athletic_medium_height","name":"Athletic, medium height","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]},"metadata":{"build":"athletic","height":"medium"}},
+  {"id":"broad_tall","name":"Broad-built and tall","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["young_adult","adult","mature","older"],"countries":[]},"metadata":{"build":"broad","height":"tall"}}
+  ,{"id":"developing_average_height","name":"Developing build, average height for age","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["child","teen"],"countries":[]},"metadata":{"build":"developing","height":"average for age"}},
+  {"id":"compact_sturdy","name":"Compact, sturdy build","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]},"metadata":{"build":"sturdy","height":"short"}},
+  {"id":"lean_tall","name":"Lean and tall","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]},"metadata":{"build":"lean","height":"tall"}},
+  {"id":"soft_average","name":"Soft build, average height","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["young_adult","adult","mature","older"],"countries":[]},"metadata":{"build":"soft","height":"average"}},
+  {"id":"wiry_short","name":"Wiry and short","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]},"metadata":{"build":"wiry","height":"short"}},
+  {"id":"powerful_average","name":"Powerful build, average height","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["young_adult","adult","mature","older"],"countries":[]},"metadata":{"build":"powerful","height":"average"}},
+  {"id":"rangy_very_tall","name":"Rangy and unusually tall","compatibility":{"settings":["fantasy"],"eras":[],"species":["elf"],"life_stages":["young_adult","adult","mature","older"],"countries":[]},"metadata":{"build":"rangy","height":"very tall"}},
+  {"id":"slight_short","name":"Slight, short build","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]},"metadata":{"build":"slight","height":"short"}},
+  {"id":"broad_average","name":"Broad build, average height","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["young_adult","adult","mature","older"],"countries":[]},"metadata":{"build":"broad","height":"average"}}
+]

@@ -1,0 +1,14 @@
+[
+  {"id":"warm_smile","name":"Warm smile","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]},"metadata":{"emotion":"happy"}},
+  {"id":"focused_squint","name":"Focused squint","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]},"metadata":{"emotion":"focused"}},
+  {"id":"tight_jaw","name":"Tight jaw","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]},"metadata":{"emotion":"angry"}},
+  {"id":"averted_embarrassed_gaze","name":"Averted embarrassed gaze","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]},"metadata":{"emotion":"embarrassed"}},
+  {"id":"crooked_grin","name":"Crooked, knowing grin","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]},"metadata":{"emotion":"happy"}},
+  {"id":"raised_brow","name":"One eyebrow raised in quiet challenge","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]},"metadata":{"emotion":"annoyed"}},
+  {"id":"pressed_lips","name":"Pressed lips and a steady stare","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]},"metadata":{"emotion":"angry"}},
+  {"id":"bright_laugh","name":"Open laugh with bright, crinkled eyes","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]},"metadata":{"emotion":"happy"}},
+  {"id":"flushed_half_smile","name":"Flushed cheeks and a restrained half-smile","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]},"metadata":{"emotion":"embarrassed"}},
+  {"id":"distant_focus","name":"Distant focus with lips moving silently","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]},"metadata":{"emotion":"focused"}},
+  {"id":"neutral_alert","name":"Neutral, alert expression","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]},"metadata":{"emotion":"default"}},
+  {"id":"weary_amusement","name":"Weary amusement with one corner of the mouth lifted","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["young_adult","adult","mature","older"],"countries":[]},"metadata":{"emotion":"annoyed"}}
+]

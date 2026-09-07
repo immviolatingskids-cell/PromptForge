@@ -1,0 +1,3512 @@
+[
+  {
+    "id": "country_afghanistan",
+    "name": "Afghanistan",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "AF",
+      "iso3": "AFG",
+      "continent": "asia",
+      "region": "region_south_asia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_albania",
+    "name": "Albania",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "AL",
+      "iso3": "ALB",
+      "continent": "europe",
+      "region": "region_southern_europe",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_algeria",
+    "name": "Algeria",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "DZ",
+      "iso3": "DZA",
+      "continent": "africa",
+      "region": "region_north_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_andorra",
+    "name": "Andorra",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "AD",
+      "iso3": "AND",
+      "continent": "europe",
+      "region": "region_southern_europe",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_angola",
+    "name": "Angola",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "AO",
+      "iso3": "AGO",
+      "continent": "africa",
+      "region": "region_middle_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_antigua_and_barbuda",
+    "name": "Antigua and Barbuda",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "AG",
+      "iso3": "ATG",
+      "continent": "north_america",
+      "region": "region_caribbean",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_argentina",
+    "name": "Argentina",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "AR",
+      "iso3": "ARG",
+      "continent": "south_america",
+      "region": "south_america",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_armenia",
+    "name": "Armenia",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "AM",
+      "iso3": "ARM",
+      "continent": "asia",
+      "region": "region_west_asia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_australia",
+    "name": "Australia",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "AU",
+      "iso3": "AUS",
+      "continent": "region_oceania",
+      "region": "region_australia_new_zealand",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_austria",
+    "name": "Austria",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "AT",
+      "iso3": "AUT",
+      "continent": "europe",
+      "region": "region_western_europe",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_azerbaijan",
+    "name": "Azerbaijan",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "AZ",
+      "iso3": "AZE",
+      "continent": "asia",
+      "region": "region_west_asia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_bahamas",
+    "name": "Bahamas",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "BS",
+      "iso3": "BHS",
+      "continent": "north_america",
+      "region": "region_caribbean",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_bahrain",
+    "name": "Bahrain",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "BH",
+      "iso3": "BHR",
+      "continent": "asia",
+      "region": "region_west_asia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_bangladesh",
+    "name": "Bangladesh",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "BD",
+      "iso3": "BGD",
+      "continent": "asia",
+      "region": "region_south_asia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_barbados",
+    "name": "Barbados",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "BB",
+      "iso3": "BRB",
+      "continent": "north_america",
+      "region": "region_caribbean",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_belarus",
+    "name": "Belarus",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "BY",
+      "iso3": "BLR",
+      "continent": "europe",
+      "region": "region_eastern_europe",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_belgium",
+    "name": "Belgium",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "BE",
+      "iso3": "BEL",
+      "continent": "europe",
+      "region": "region_western_europe",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_belize",
+    "name": "Belize",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "BZ",
+      "iso3": "BLZ",
+      "continent": "north_america",
+      "region": "region_central_america",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_benin",
+    "name": "Benin",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "BJ",
+      "iso3": "BEN",
+      "continent": "africa",
+      "region": "region_west_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_bhutan",
+    "name": "Bhutan",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "BT",
+      "iso3": "BTN",
+      "continent": "asia",
+      "region": "region_south_asia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_bolivia_plurinational_state_of",
+    "name": "Bolivia (Plurinational State of)",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "BO",
+      "iso3": "BOL",
+      "continent": "south_america",
+      "region": "south_america",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_bosnia_and_herzegovina",
+    "name": "Bosnia and Herzegovina",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "BA",
+      "iso3": "BIH",
+      "continent": "europe",
+      "region": "region_southern_europe",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_botswana",
+    "name": "Botswana",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "BW",
+      "iso3": "BWA",
+      "continent": "africa",
+      "region": "region_southern_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_brazil",
+    "name": "Brazil",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "BR",
+      "iso3": "BRA",
+      "continent": "south_america",
+      "region": "south_america",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_brunei_darussalam",
+    "name": "Brunei Darussalam",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "BN",
+      "iso3": "BRN",
+      "continent": "asia",
+      "region": "region_southeast_asia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_bulgaria",
+    "name": "Bulgaria",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "BG",
+      "iso3": "BGR",
+      "continent": "europe",
+      "region": "region_eastern_europe",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_burkina_faso",
+    "name": "Burkina Faso",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "BF",
+      "iso3": "BFA",
+      "continent": "africa",
+      "region": "region_west_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_burundi",
+    "name": "Burundi",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "BI",
+      "iso3": "BDI",
+      "continent": "africa",
+      "region": "region_east_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_cabo_verde",
+    "name": "Cabo Verde",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "CV",
+      "iso3": "CPV",
+      "continent": "africa",
+      "region": "region_west_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_cambodia",
+    "name": "Cambodia",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "KH",
+      "iso3": "KHM",
+      "continent": "asia",
+      "region": "region_southeast_asia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_cameroon",
+    "name": "Cameroon",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "CM",
+      "iso3": "CMR",
+      "continent": "africa",
+      "region": "region_middle_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_canada",
+    "name": "Canada",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "CA",
+      "iso3": "CAN",
+      "continent": "north_america",
+      "region": "region_north_america",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_central_african_republic",
+    "name": "Central African Republic",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "CF",
+      "iso3": "CAF",
+      "continent": "africa",
+      "region": "region_middle_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_chad",
+    "name": "Chad",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "TD",
+      "iso3": "TCD",
+      "continent": "africa",
+      "region": "region_middle_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_chile",
+    "name": "Chile",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "CL",
+      "iso3": "CHL",
+      "continent": "south_america",
+      "region": "south_america",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_china",
+    "name": "China",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "CN",
+      "iso3": "CHN",
+      "continent": "asia",
+      "region": "east_asia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_colombia",
+    "name": "Colombia",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "CO",
+      "iso3": "COL",
+      "continent": "south_america",
+      "region": "south_america",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_comoros",
+    "name": "Comoros",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "KM",
+      "iso3": "COM",
+      "continent": "africa",
+      "region": "region_east_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_congo",
+    "name": "Congo",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "CG",
+      "iso3": "COG",
+      "continent": "africa",
+      "region": "region_middle_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_costa_rica",
+    "name": "Costa Rica",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "CR",
+      "iso3": "CRI",
+      "continent": "north_america",
+      "region": "region_central_america",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_croatia",
+    "name": "Croatia",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "HR",
+      "iso3": "HRV",
+      "continent": "europe",
+      "region": "region_southern_europe",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_cuba",
+    "name": "Cuba",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "CU",
+      "iso3": "CUB",
+      "continent": "north_america",
+      "region": "region_caribbean",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_cyprus",
+    "name": "Cyprus",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "CY",
+      "iso3": "CYP",
+      "continent": "asia",
+      "region": "region_west_asia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_czechia",
+    "name": "Czechia",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "CZ",
+      "iso3": "CZE",
+      "continent": "europe",
+      "region": "region_eastern_europe",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_cote_divoire",
+    "name": "Côte d’Ivoire",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "CI",
+      "iso3": "CIV",
+      "continent": "africa",
+      "region": "region_west_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_democratic_people_s_republic_of_korea",
+    "name": "Democratic People's Republic of Korea",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "KP",
+      "iso3": "PRK",
+      "continent": "asia",
+      "region": "east_asia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_democratic_republic_of_the_congo",
+    "name": "Democratic Republic of the Congo",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "CD",
+      "iso3": "COD",
+      "continent": "africa",
+      "region": "region_middle_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_denmark",
+    "name": "Denmark",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "DK",
+      "iso3": "DNK",
+      "continent": "europe",
+      "region": "region_northern_europe",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_djibouti",
+    "name": "Djibouti",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "DJ",
+      "iso3": "DJI",
+      "continent": "africa",
+      "region": "region_east_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_dominica",
+    "name": "Dominica",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "DM",
+      "iso3": "DMA",
+      "continent": "north_america",
+      "region": "region_caribbean",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_dominican_republic",
+    "name": "Dominican Republic",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "DO",
+      "iso3": "DOM",
+      "continent": "north_america",
+      "region": "region_caribbean",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_ecuador",
+    "name": "Ecuador",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "EC",
+      "iso3": "ECU",
+      "continent": "south_america",
+      "region": "south_america",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_egypt",
+    "name": "Egypt",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "EG",
+      "iso3": "EGY",
+      "continent": "africa",
+      "region": "region_north_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_el_salvador",
+    "name": "El Salvador",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "SV",
+      "iso3": "SLV",
+      "continent": "north_america",
+      "region": "region_central_america",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_equatorial_guinea",
+    "name": "Equatorial Guinea",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "GQ",
+      "iso3": "GNQ",
+      "continent": "africa",
+      "region": "region_middle_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_eritrea",
+    "name": "Eritrea",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "ER",
+      "iso3": "ERI",
+      "continent": "africa",
+      "region": "region_east_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_estonia",
+    "name": "Estonia",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "EE",
+      "iso3": "EST",
+      "continent": "europe",
+      "region": "region_northern_europe",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_eswatini",
+    "name": "Eswatini",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "SZ",
+      "iso3": "SWZ",
+      "continent": "africa",
+      "region": "region_southern_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_ethiopia",
+    "name": "Ethiopia",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "ET",
+      "iso3": "ETH",
+      "continent": "africa",
+      "region": "region_east_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_fiji",
+    "name": "Fiji",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "FJ",
+      "iso3": "FJI",
+      "continent": "region_oceania",
+      "region": "region_melanesia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_finland",
+    "name": "Finland",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "FI",
+      "iso3": "FIN",
+      "continent": "europe",
+      "region": "region_northern_europe",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_france",
+    "name": "France",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "FR",
+      "iso3": "FRA",
+      "continent": "europe",
+      "region": "region_western_europe",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_gabon",
+    "name": "Gabon",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "GA",
+      "iso3": "GAB",
+      "continent": "africa",
+      "region": "region_middle_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_gambia",
+    "name": "Gambia",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "GM",
+      "iso3": "GMB",
+      "continent": "africa",
+      "region": "region_west_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_georgia",
+    "name": "Georgia",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "GE",
+      "iso3": "GEO",
+      "continent": "asia",
+      "region": "region_west_asia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_germany",
+    "name": "Germany",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "DE",
+      "iso3": "DEU",
+      "continent": "europe",
+      "region": "region_western_europe",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_ghana",
+    "name": "Ghana",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "GH",
+      "iso3": "GHA",
+      "continent": "africa",
+      "region": "region_west_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_greece",
+    "name": "Greece",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "GR",
+      "iso3": "GRC",
+      "continent": "europe",
+      "region": "region_southern_europe",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_grenada",
+    "name": "Grenada",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "GD",
+      "iso3": "GRD",
+      "continent": "north_america",
+      "region": "region_caribbean",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_guatemala",
+    "name": "Guatemala",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "GT",
+      "iso3": "GTM",
+      "continent": "north_america",
+      "region": "region_central_america",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_guinea",
+    "name": "Guinea",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "GN",
+      "iso3": "GIN",
+      "continent": "africa",
+      "region": "region_west_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_guinea_bissau",
+    "name": "Guinea-Bissau",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "GW",
+      "iso3": "GNB",
+      "continent": "africa",
+      "region": "region_west_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_guyana",
+    "name": "Guyana",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "GY",
+      "iso3": "GUY",
+      "continent": "south_america",
+      "region": "south_america",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_haiti",
+    "name": "Haiti",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "HT",
+      "iso3": "HTI",
+      "continent": "north_america",
+      "region": "region_caribbean",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_holy_see",
+    "name": "Holy See",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "VA",
+      "iso3": "VAT",
+      "continent": "europe",
+      "region": "region_southern_europe",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_honduras",
+    "name": "Honduras",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "HN",
+      "iso3": "HND",
+      "continent": "north_america",
+      "region": "region_central_america",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_hungary",
+    "name": "Hungary",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "HU",
+      "iso3": "HUN",
+      "continent": "europe",
+      "region": "region_eastern_europe",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_iceland",
+    "name": "Iceland",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "IS",
+      "iso3": "ISL",
+      "continent": "europe",
+      "region": "region_northern_europe",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_india",
+    "name": "India",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "IN",
+      "iso3": "IND",
+      "continent": "asia",
+      "region": "region_south_asia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_indonesia",
+    "name": "Indonesia",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "ID",
+      "iso3": "IDN",
+      "continent": "asia",
+      "region": "region_southeast_asia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_iran_islamic_republic_of",
+    "name": "Iran (Islamic Republic of)",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "IR",
+      "iso3": "IRN",
+      "continent": "asia",
+      "region": "region_south_asia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_iraq",
+    "name": "Iraq",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "IQ",
+      "iso3": "IRQ",
+      "continent": "asia",
+      "region": "region_west_asia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_ireland",
+    "name": "Ireland",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "IE",
+      "iso3": "IRL",
+      "continent": "europe",
+      "region": "region_northern_europe",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_israel",
+    "name": "Israel",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "IL",
+      "iso3": "ISR",
+      "continent": "asia",
+      "region": "region_west_asia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_italy",
+    "name": "Italy",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "IT",
+      "iso3": "ITA",
+      "continent": "europe",
+      "region": "region_southern_europe",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_jamaica",
+    "name": "Jamaica",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "JM",
+      "iso3": "JAM",
+      "continent": "north_america",
+      "region": "region_caribbean",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_japan",
+    "name": "Japan",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "JP",
+      "iso3": "JPN",
+      "continent": "asia",
+      "region": "east_asia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_jordan",
+    "name": "Jordan",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "JO",
+      "iso3": "JOR",
+      "continent": "asia",
+      "region": "region_west_asia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_kazakhstan",
+    "name": "Kazakhstan",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "KZ",
+      "iso3": "KAZ",
+      "continent": "asia",
+      "region": "region_central_asia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_kenya",
+    "name": "Kenya",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "KE",
+      "iso3": "KEN",
+      "continent": "africa",
+      "region": "region_east_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_kiribati",
+    "name": "Kiribati",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "KI",
+      "iso3": "KIR",
+      "continent": "region_oceania",
+      "region": "region_micronesia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_kuwait",
+    "name": "Kuwait",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "KW",
+      "iso3": "KWT",
+      "continent": "asia",
+      "region": "region_west_asia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_kyrgyzstan",
+    "name": "Kyrgyzstan",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "KG",
+      "iso3": "KGZ",
+      "continent": "asia",
+      "region": "region_central_asia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_lao_people_s_democratic_republic",
+    "name": "Lao People's Democratic Republic",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "LA",
+      "iso3": "LAO",
+      "continent": "asia",
+      "region": "region_southeast_asia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_latvia",
+    "name": "Latvia",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "LV",
+      "iso3": "LVA",
+      "continent": "europe",
+      "region": "region_northern_europe",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_lebanon",
+    "name": "Lebanon",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "LB",
+      "iso3": "LBN",
+      "continent": "asia",
+      "region": "region_west_asia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_lesotho",
+    "name": "Lesotho",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "LS",
+      "iso3": "LSO",
+      "continent": "africa",
+      "region": "region_southern_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_liberia",
+    "name": "Liberia",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "LR",
+      "iso3": "LBR",
+      "continent": "africa",
+      "region": "region_west_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_libya",
+    "name": "Libya",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "LY",
+      "iso3": "LBY",
+      "continent": "africa",
+      "region": "region_north_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_liechtenstein",
+    "name": "Liechtenstein",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "LI",
+      "iso3": "LIE",
+      "continent": "europe",
+      "region": "region_western_europe",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_lithuania",
+    "name": "Lithuania",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "LT",
+      "iso3": "LTU",
+      "continent": "europe",
+      "region": "region_northern_europe",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_luxembourg",
+    "name": "Luxembourg",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "LU",
+      "iso3": "LUX",
+      "continent": "europe",
+      "region": "region_western_europe",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_madagascar",
+    "name": "Madagascar",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "MG",
+      "iso3": "MDG",
+      "continent": "africa",
+      "region": "region_east_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_malawi",
+    "name": "Malawi",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "MW",
+      "iso3": "MWI",
+      "continent": "africa",
+      "region": "region_east_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_malaysia",
+    "name": "Malaysia",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "MY",
+      "iso3": "MYS",
+      "continent": "asia",
+      "region": "region_southeast_asia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_maldives",
+    "name": "Maldives",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "MV",
+      "iso3": "MDV",
+      "continent": "asia",
+      "region": "region_south_asia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_mali",
+    "name": "Mali",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "ML",
+      "iso3": "MLI",
+      "continent": "africa",
+      "region": "region_west_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_malta",
+    "name": "Malta",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "MT",
+      "iso3": "MLT",
+      "continent": "europe",
+      "region": "region_southern_europe",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_marshall_islands",
+    "name": "Marshall Islands",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "MH",
+      "iso3": "MHL",
+      "continent": "region_oceania",
+      "region": "region_micronesia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_mauritania",
+    "name": "Mauritania",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "MR",
+      "iso3": "MRT",
+      "continent": "africa",
+      "region": "region_west_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_mauritius",
+    "name": "Mauritius",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "MU",
+      "iso3": "MUS",
+      "continent": "africa",
+      "region": "region_east_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_mexico",
+    "name": "Mexico",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "MX",
+      "iso3": "MEX",
+      "continent": "north_america",
+      "region": "region_central_america",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_micronesia_federated_states_of",
+    "name": "Micronesia (Federated States of)",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "FM",
+      "iso3": "FSM",
+      "continent": "region_oceania",
+      "region": "region_micronesia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_monaco",
+    "name": "Monaco",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "MC",
+      "iso3": "MCO",
+      "continent": "europe",
+      "region": "region_western_europe",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_mongolia",
+    "name": "Mongolia",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "MN",
+      "iso3": "MNG",
+      "continent": "asia",
+      "region": "east_asia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_montenegro",
+    "name": "Montenegro",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "ME",
+      "iso3": "MNE",
+      "continent": "europe",
+      "region": "region_southern_europe",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_morocco",
+    "name": "Morocco",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "MA",
+      "iso3": "MAR",
+      "continent": "africa",
+      "region": "region_north_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_mozambique",
+    "name": "Mozambique",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "MZ",
+      "iso3": "MOZ",
+      "continent": "africa",
+      "region": "region_east_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_myanmar",
+    "name": "Myanmar",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "MM",
+      "iso3": "MMR",
+      "continent": "asia",
+      "region": "region_southeast_asia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_namibia",
+    "name": "Namibia",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "NA",
+      "iso3": "NAM",
+      "continent": "africa",
+      "region": "region_southern_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_naoero",
+    "name": "Naoero",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "NR",
+      "iso3": "NRU",
+      "continent": "region_oceania",
+      "region": "region_micronesia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_nepal",
+    "name": "Nepal",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "NP",
+      "iso3": "NPL",
+      "continent": "asia",
+      "region": "region_south_asia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_netherlands_kingdom_of_the",
+    "name": "Netherlands (Kingdom of the)",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "NL",
+      "iso3": "NLD",
+      "continent": "europe",
+      "region": "region_western_europe",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_new_zealand",
+    "name": "New Zealand",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "NZ",
+      "iso3": "NZL",
+      "continent": "region_oceania",
+      "region": "region_australia_new_zealand",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_nicaragua",
+    "name": "Nicaragua",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "NI",
+      "iso3": "NIC",
+      "continent": "north_america",
+      "region": "region_central_america",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_niger",
+    "name": "Niger",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "NE",
+      "iso3": "NER",
+      "continent": "africa",
+      "region": "region_west_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_nigeria",
+    "name": "Nigeria",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "NG",
+      "iso3": "NGA",
+      "continent": "africa",
+      "region": "region_west_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_north_macedonia",
+    "name": "North Macedonia",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "MK",
+      "iso3": "MKD",
+      "continent": "europe",
+      "region": "region_southern_europe",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_norway",
+    "name": "Norway",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "NO",
+      "iso3": "NOR",
+      "continent": "europe",
+      "region": "region_northern_europe",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_oman",
+    "name": "Oman",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "OM",
+      "iso3": "OMN",
+      "continent": "asia",
+      "region": "region_west_asia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_pakistan",
+    "name": "Pakistan",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "PK",
+      "iso3": "PAK",
+      "continent": "asia",
+      "region": "region_south_asia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_palau",
+    "name": "Palau",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "PW",
+      "iso3": "PLW",
+      "continent": "region_oceania",
+      "region": "region_micronesia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_panama",
+    "name": "Panama",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "PA",
+      "iso3": "PAN",
+      "continent": "north_america",
+      "region": "region_central_america",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_papua_new_guinea",
+    "name": "Papua New Guinea",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "PG",
+      "iso3": "PNG",
+      "continent": "region_oceania",
+      "region": "region_melanesia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_paraguay",
+    "name": "Paraguay",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "PY",
+      "iso3": "PRY",
+      "continent": "south_america",
+      "region": "south_america",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_peru",
+    "name": "Peru",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "PE",
+      "iso3": "PER",
+      "continent": "south_america",
+      "region": "south_america",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_philippines",
+    "name": "Philippines",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "PH",
+      "iso3": "PHL",
+      "continent": "asia",
+      "region": "region_southeast_asia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_poland",
+    "name": "Poland",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "PL",
+      "iso3": "POL",
+      "continent": "europe",
+      "region": "region_eastern_europe",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_portugal",
+    "name": "Portugal",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "PT",
+      "iso3": "PRT",
+      "continent": "europe",
+      "region": "region_southern_europe",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_qatar",
+    "name": "Qatar",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "QA",
+      "iso3": "QAT",
+      "continent": "asia",
+      "region": "region_west_asia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_republic_of_korea",
+    "name": "Republic of Korea",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "KR",
+      "iso3": "KOR",
+      "continent": "asia",
+      "region": "east_asia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_republic_of_moldova",
+    "name": "Republic of Moldova",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "MD",
+      "iso3": "MDA",
+      "continent": "europe",
+      "region": "region_eastern_europe",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_romania",
+    "name": "Romania",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "RO",
+      "iso3": "ROU",
+      "continent": "europe",
+      "region": "region_eastern_europe",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_russian_federation",
+    "name": "Russian Federation",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "RU",
+      "iso3": "RUS",
+      "continent": "europe",
+      "region": "region_eastern_europe",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_rwanda",
+    "name": "Rwanda",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "RW",
+      "iso3": "RWA",
+      "continent": "africa",
+      "region": "region_east_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_saint_kitts_and_nevis",
+    "name": "Saint Kitts and Nevis",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "KN",
+      "iso3": "KNA",
+      "continent": "north_america",
+      "region": "region_caribbean",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_saint_lucia",
+    "name": "Saint Lucia",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "LC",
+      "iso3": "LCA",
+      "continent": "north_america",
+      "region": "region_caribbean",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_saint_vincent_and_the_grenadines",
+    "name": "Saint Vincent and the Grenadines",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "VC",
+      "iso3": "VCT",
+      "continent": "north_america",
+      "region": "region_caribbean",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_samoa",
+    "name": "Samoa",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "WS",
+      "iso3": "WSM",
+      "continent": "region_oceania",
+      "region": "region_polynesia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_san_marino",
+    "name": "San Marino",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "SM",
+      "iso3": "SMR",
+      "continent": "europe",
+      "region": "region_southern_europe",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_sao_tome_and_principe",
+    "name": "Sao Tome and Principe",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "ST",
+      "iso3": "STP",
+      "continent": "africa",
+      "region": "region_middle_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_saudi_arabia",
+    "name": "Saudi Arabia",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "SA",
+      "iso3": "SAU",
+      "continent": "asia",
+      "region": "region_west_asia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_senegal",
+    "name": "Senegal",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "SN",
+      "iso3": "SEN",
+      "continent": "africa",
+      "region": "region_west_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_serbia",
+    "name": "Serbia",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "RS",
+      "iso3": "SRB",
+      "continent": "europe",
+      "region": "region_southern_europe",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_seychelles",
+    "name": "Seychelles",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "SC",
+      "iso3": "SYC",
+      "continent": "africa",
+      "region": "region_east_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_sierra_leone",
+    "name": "Sierra Leone",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "SL",
+      "iso3": "SLE",
+      "continent": "africa",
+      "region": "region_west_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_singapore",
+    "name": "Singapore",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "SG",
+      "iso3": "SGP",
+      "continent": "asia",
+      "region": "region_southeast_asia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_slovakia",
+    "name": "Slovakia",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "SK",
+      "iso3": "SVK",
+      "continent": "europe",
+      "region": "region_eastern_europe",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_slovenia",
+    "name": "Slovenia",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "SI",
+      "iso3": "SVN",
+      "continent": "europe",
+      "region": "region_southern_europe",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_solomon_islands",
+    "name": "Solomon Islands",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "SB",
+      "iso3": "SLB",
+      "continent": "region_oceania",
+      "region": "region_melanesia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_somalia",
+    "name": "Somalia",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "SO",
+      "iso3": "SOM",
+      "continent": "africa",
+      "region": "region_east_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_south_africa",
+    "name": "South Africa",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "ZA",
+      "iso3": "ZAF",
+      "continent": "africa",
+      "region": "region_southern_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_south_sudan",
+    "name": "South Sudan",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "SS",
+      "iso3": "SSD",
+      "continent": "africa",
+      "region": "region_east_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_spain",
+    "name": "Spain",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "ES",
+      "iso3": "ESP",
+      "continent": "europe",
+      "region": "region_southern_europe",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_sri_lanka",
+    "name": "Sri Lanka",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "LK",
+      "iso3": "LKA",
+      "continent": "asia",
+      "region": "region_south_asia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_state_of_palestine",
+    "name": "State of Palestine",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "PS",
+      "iso3": "PSE",
+      "continent": "asia",
+      "region": "region_west_asia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_sudan",
+    "name": "Sudan",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "SD",
+      "iso3": "SDN",
+      "continent": "africa",
+      "region": "region_north_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_suriname",
+    "name": "Suriname",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "SR",
+      "iso3": "SUR",
+      "continent": "south_america",
+      "region": "south_america",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_sweden",
+    "name": "Sweden",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "SE",
+      "iso3": "SWE",
+      "continent": "europe",
+      "region": "region_northern_europe",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_switzerland",
+    "name": "Switzerland",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "CH",
+      "iso3": "CHE",
+      "continent": "europe",
+      "region": "region_western_europe",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_syrian_arab_republic",
+    "name": "Syrian Arab Republic",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "SY",
+      "iso3": "SYR",
+      "continent": "asia",
+      "region": "region_west_asia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_tajikistan",
+    "name": "Tajikistan",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "TJ",
+      "iso3": "TJK",
+      "continent": "asia",
+      "region": "region_central_asia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_thailand",
+    "name": "Thailand",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "TH",
+      "iso3": "THA",
+      "continent": "asia",
+      "region": "region_southeast_asia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_timor_leste",
+    "name": "Timor-Leste",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "TL",
+      "iso3": "TLS",
+      "continent": "asia",
+      "region": "region_southeast_asia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_togo",
+    "name": "Togo",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "TG",
+      "iso3": "TGO",
+      "continent": "africa",
+      "region": "region_west_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_tonga",
+    "name": "Tonga",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "TO",
+      "iso3": "TON",
+      "continent": "region_oceania",
+      "region": "region_polynesia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_trinidad_and_tobago",
+    "name": "Trinidad and Tobago",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "TT",
+      "iso3": "TTO",
+      "continent": "north_america",
+      "region": "region_caribbean",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_tunisia",
+    "name": "Tunisia",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "TN",
+      "iso3": "TUN",
+      "continent": "africa",
+      "region": "region_north_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_turkmenistan",
+    "name": "Turkmenistan",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "TM",
+      "iso3": "TKM",
+      "continent": "asia",
+      "region": "region_central_asia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_tuvalu",
+    "name": "Tuvalu",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "TV",
+      "iso3": "TUV",
+      "continent": "region_oceania",
+      "region": "region_polynesia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_turkiye",
+    "name": "Türkiye",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "TR",
+      "iso3": "TUR",
+      "continent": "asia",
+      "region": "region_west_asia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_uganda",
+    "name": "Uganda",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "UG",
+      "iso3": "UGA",
+      "continent": "africa",
+      "region": "region_east_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_ukraine",
+    "name": "Ukraine",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "UA",
+      "iso3": "UKR",
+      "continent": "europe",
+      "region": "region_eastern_europe",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_united_arab_emirates",
+    "name": "United Arab Emirates",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "AE",
+      "iso3": "ARE",
+      "continent": "asia",
+      "region": "region_west_asia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_united_kingdom",
+    "name": "United Kingdom",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "GB",
+      "iso3": "GBR",
+      "continent": "europe",
+      "region": "region_northern_europe",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_united_republic_of_tanzania",
+    "name": "United Republic of Tanzania",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "TZ",
+      "iso3": "TZA",
+      "continent": "africa",
+      "region": "region_east_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_united_states_of_america",
+    "name": "United States of America",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "US",
+      "iso3": "USA",
+      "continent": "north_america",
+      "region": "region_north_america",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_uruguay",
+    "name": "Uruguay",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "UY",
+      "iso3": "URY",
+      "continent": "south_america",
+      "region": "south_america",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_uzbekistan",
+    "name": "Uzbekistan",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "UZ",
+      "iso3": "UZB",
+      "continent": "asia",
+      "region": "region_central_asia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_vanuatu",
+    "name": "Vanuatu",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "VU",
+      "iso3": "VUT",
+      "continent": "region_oceania",
+      "region": "region_melanesia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_venezuela_bolivarian_republic_of",
+    "name": "Venezuela (Bolivarian Republic of)",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "VE",
+      "iso3": "VEN",
+      "continent": "south_america",
+      "region": "south_america",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_viet_nam",
+    "name": "Viet Nam",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "VN",
+      "iso3": "VNM",
+      "continent": "asia",
+      "region": "region_southeast_asia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_yemen",
+    "name": "Yemen",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "YE",
+      "iso3": "YEM",
+      "continent": "asia",
+      "region": "region_west_asia",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_zambia",
+    "name": "Zambia",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "ZM",
+      "iso3": "ZMB",
+      "continent": "africa",
+      "region": "region_east_africa",
+      "enabled": true
+    }
+  },
+  {
+    "id": "country_zimbabwe",
+    "name": "Zimbabwe",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "iso2": "ZW",
+      "iso3": "ZWE",
+      "continent": "africa",
+      "region": "region_east_africa",
+      "enabled": true
+    }
+  }
+]

@@ -1,0 +1,383 @@
+[
+  {
+    "id": "millennial",
+    "name": "Millennial",
+    "compatibility": {
+      "settings": [
+        "modern"
+      ],
+      "eras": [
+        "modern"
+      ],
+      "species": [
+        "human"
+      ],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "birth_year_range": [
+        1981,
+        1996
+      ],
+      "neutral_descriptor": "Early Digital"
+    }
+  },
+  {
+    "id": "generation_z",
+    "name": "Generation Z",
+    "aliases": [
+      "Gen Z"
+    ],
+    "compatibility": {
+      "settings": [
+        "modern"
+      ],
+      "eras": [
+        "modern"
+      ],
+      "species": [
+        "human"
+      ],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "birth_year_range": [
+        1997,
+        2012
+      ],
+      "neutral_descriptor": "Digital Native"
+    }
+  },
+  {
+    "id": "cohort_gen_alpha",
+    "name": "Generation Alpha",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "description": "Digital-native generation raised around tablets, streaming, AI-assisted tools, and highly connected media.",
+    "metadata": {
+      "rough_range": "2013–2024"
+    }
+  },
+  {
+    "id": "cohort_baby_boomer",
+    "name": "Baby Boomers",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "description": "Post-war generation whose adulthood spans major economic, social, and technological changes.",
+    "metadata": {
+      "rough_range": "1946–1964"
+    }
+  },
+  {
+    "id": "cohort_silent_generation",
+    "name": "Silent Generation",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "description": "Pre-digital generation shaped by wartime/post-war society and traditional institutions.",
+    "metadata": {
+      "rough_range": "1928–1945"
+    }
+  },
+  {
+    "id": "cohort_interwar",
+    "name": "Interwar Generation",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "description": "Born between the World Wars and reaching adulthood around WWII.",
+    "metadata": {
+      "rough_range": "1919–1927"
+    }
+  },
+  {
+    "id": "cohort_greatest_generation",
+    "name": "Greatest Generation",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "description": "Early-20th-century cohort whose adulthood was heavily shaped by depression and global war.",
+    "metadata": {
+      "rough_range": "1901–1918"
+    }
+  },
+  {
+    "id": "cohort_lost_generation",
+    "name": "Lost Generation",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "description": "Late-Victorian-born cohort associated historically with WWI-era adulthood and early modernity.",
+    "metadata": {
+      "rough_range": "1883–1900"
+    }
+  },
+  {
+    "id": "cohort_progressive",
+    "name": "Progressive Generation",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "description": "Mid-19th-century cohort useful for Victorian and industrial-era personas.",
+    "metadata": {
+      "rough_range": "1843–1859"
+    }
+  },
+  {
+    "id": "cohort_missionary",
+    "name": "Missionary Generation",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "description": "Late-19th-century cohort spanning industrialisation and major social change.",
+    "metadata": {
+      "rough_range": "1860–1882"
+    }
+  },
+  {
+    "id": "cohort_gilded",
+    "name": "Gilded Generation",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "description": "Early/mid-19th-century cohort useful for industrial and Victorian settings.",
+    "metadata": {
+      "rough_range": "1822–1842"
+    }
+  },
+  {
+    "id": "cohort_romantic",
+    "name": "Romantic Generation",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "description": "Napoleonic/early-industrial-era cohort useful for Regency and early Victorian contexts.",
+    "metadata": {
+      "rough_range": "1792–1821"
+    }
+  },
+  {
+    "id": "cohort_revolutionary",
+    "name": "Revolutionary Generation",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "description": "Enlightenment-era cohort reaching adulthood during major political revolutions.",
+    "metadata": {
+      "rough_range": "1742–1766"
+    }
+  },
+  {
+    "id": "cohort_enlightenment",
+    "name": "Enlightenment Generation",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "description": "Early-modern cohort useful for Enlightenment and pre-industrial characters.",
+    "metadata": {
+      "rough_range": "1674–1700"
+    }
+  },
+  {
+    "id": "cohort_renaissance",
+    "name": "Renaissance Cohort",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "description": "Broad PersonaForge grouping for characters shaped by Renaissance-era societies.",
+    "metadata": {
+      "rough_range": "c. 1450–1550"
+    }
+  },
+  {
+    "id": "cohort_medieval",
+    "name": "Medieval Cohort",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "description": "Broad historical cohort for medieval personas where modern generation labels aren't useful.",
+    "metadata": {
+      "rough_range": "c. 1000–1450"
+    }
+  },
+  {
+    "id": "cohort_ancient",
+    "name": "Ancient Cohort",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "description": "Broad fallback for ancient historical settings rather than forcing modern generational concepts.",
+    "metadata": {
+      "rough_range": "pre-1000"
+    }
+  },
+  {
+    "id": "cohort_rapid_digital_transition",
+    "name": "Rapid Digital Transition Cohort",
+    "compatibility": {
+      "settings": ["modern", "science_fiction"],
+      "eras": ["modern", "future"],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "description": "People whose formative education or early working life moved abruptly from mostly offline institutions to networked, mobile, and automated systems.",
+    "metadata": {
+      "formative_environment": "Rapid technological transition"
+    }
+  },
+  {
+    "id": "cohort_post_conflict_rebuilding",
+    "name": "Post-Conflict Rebuilding Cohort",
+    "compatibility": {
+      "settings": ["modern", "fantasy", "science_fiction"],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "description": "People who came of age while communities repaired infrastructure, institutions, trust, and family networks after a major conflict.",
+    "metadata": {
+      "formative_environment": "Post-conflict reconstruction"
+    }
+  },
+  {
+    "id": "cohort_displaced_migrant",
+    "name": "Displaced Migrant Cohort",
+    "compatibility": {
+      "settings": ["modern", "fantasy", "science_fiction"],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "description": "People whose formative years were shaped by forced movement, resettlement, divided identity, and adapting between cultural or linguistic systems.",
+    "metadata": {
+      "formative_environment": "Migration and displacement"
+    }
+  },
+  {
+    "id": "cohort_deindustrialized",
+    "name": "Deindustrialised Cohort",
+    "compatibility": {
+      "settings": ["modern", "science_fiction"],
+      "eras": ["modern", "future"],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "description": "People raised in communities where factories, mines, or major employers closed and families adapted to long-term economic restructuring.",
+    "metadata": {
+      "formative_environment": "Industrial decline and economic restructuring"
+    }
+  },
+  {
+    "id": "cohort_climate_disrupted",
+    "name": "Climate-Disrupted Cohort",
+    "compatibility": {
+      "settings": ["modern", "fantasy", "science_fiction"],
+      "eras": ["modern", "future"],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "description": "People whose formative environment was repeatedly shaped by ecological disruption, resource limits, extreme weather, or climate adaptation.",
+    "metadata": {
+      "formative_environment": "Environmental disruption and adaptation"
+    }
+  },
+  {
+    "id": "cohort_austerity_raised",
+    "name": "Austerity-Raised Cohort",
+    "compatibility": {
+      "settings": ["modern", "science_fiction"],
+      "eras": ["modern", "future"],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "description": "People who grew up amid prolonged public-service cuts, insecure work, constrained opportunity, and household resource management.",
+    "metadata": {
+      "formative_environment": "Economic austerity and precarity"
+    }
+  },
+  {
+    "id": "cohort_frontier_settlement",
+    "name": "Frontier Settlement Cohort",
+    "compatibility": {
+      "settings": ["fantasy", "science_fiction"],
+      "eras": ["medieval_inspired", "future"],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "description": "People formed by life in a newly settled or expanding community where institutions, supply lines, laws, and social norms were still being built.",
+    "metadata": {
+      "formative_environment": "Frontier settlement and institution-building"
+    }
+  }
+]

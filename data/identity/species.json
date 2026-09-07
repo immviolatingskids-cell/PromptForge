@@ -1,0 +1,339 @@
+[
+  {
+    "id": "human",
+    "name": "Human",
+    "compatibility": {
+      "settings": [
+        "modern",
+        "fantasy",
+        "science_fiction"
+      ],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "species_type": "organic_humanoid", "lifespan": 100,
+      "maturity_age": 18,
+      "apparent_age_model": "chronological"
+    }
+  },
+  {
+    "id": "elf",
+    "name": "Elf",
+    "compatibility": {
+      "settings": [
+        "fantasy"
+      ],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "species_type": "organic_humanoid", "lifespan": 750,
+      "maturity_age": 80,
+      "life_stage_ranges": {
+        "child": [
+          0,
+          29
+        ],
+        "teen": [
+          30,
+          79
+        ],
+        "young_adult": [
+          80,
+          149
+        ],
+        "adult": [
+          150,
+          349
+        ],
+        "mature": [
+          350,
+          549
+        ],
+        "older": [
+          550,
+          750
+        ]
+      },
+      "apparent_age_ranges": {
+        "young_adult": [
+          20,
+          29
+        ],
+        "adult": [
+          30,
+          44
+        ],
+        "mature": [
+          45,
+          59
+        ],
+        "older": [
+          60,
+          85
+        ]
+      }
+    }
+  },
+  {
+    "id": "species_angel",
+    "name": "Angel",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "description": "Ageless / Immortal",
+    "metadata": {
+      "species_type": "supernatural", "rough_range": "Celestial"
+    }
+  },
+  {
+    "id": "species_demon",
+    "name": "Demon",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "description": "Ageless / Immortal",
+    "metadata": {
+      "species_type": "supernatural", "rough_range": "Infernal / Supernatural"
+    }
+  },
+  {
+    "id": "species_vampire",
+    "name": "Vampire",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "description": "Potentially immortal",
+    "metadata": {
+      "species_type": "supernatural", "rough_range": "Undead / Supernatural"
+    }
+  },
+  {
+    "id": "species_dwarf",
+    "name": "Dwarf",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "description": "200–400 yrs",
+    "metadata": {
+      "species_type": "organic_humanoid", "rough_range": "Long-lived Humanoid"
+    }
+  },
+  {
+    "id": "species_orc",
+    "name": "Orc",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "description": "60–120 yrs",
+    "metadata": {
+      "species_type": "organic_humanoid", "rough_range": "Humanoid"
+    }
+  },
+  {
+    "id": "species_fae",
+    "name": "Fae",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "description": "Centuries / Ageless",
+    "metadata": {
+      "species_type": "supernatural", "rough_range": "Supernatural"
+    }
+  },
+  {
+    "id": "species_beastkin",
+    "name": "Beastkin",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "description": "70–150 yrs",
+    "metadata": {
+      "species_type": "organic_humanoid", "rough_range": "Humanoid / Hybrid"
+    }
+  },
+  {
+    "id": "species_android",
+    "name": "Android / Synthetic",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "description": "Indefinite / Model-dependent",
+    "metadata": {
+      "species_type": "artificial", "rough_range": "Artificial"
+    }
+  },
+  {
+    "id": "species_merfolk",
+    "name": "Merfolk",
+    "compatibility": {
+      "settings": ["fantasy", "science_fiction"],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "description": "Amphibious aquatic people with a water-dependent physiology",
+    "metadata": {
+      "lifespan": 120,
+      "maturity_age": 20,
+      "species_type": "aquatic", "rough_range": "Amphibious / Aquatic"
+    }
+  },
+  {
+    "id": "species_avian",
+    "name": "Avian",
+    "compatibility": {
+      "settings": ["fantasy", "science_fiction"],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "description": "Feathered, winged people with hollow-boned anatomy and exceptional aerial vision",
+    "metadata": {
+      "lifespan": 90,
+      "maturity_age": 16,
+      "species_type": "avian", "rough_range": "Winged / Avian"
+    }
+  },
+  {
+    "id": "species_insectoid",
+    "name": "Insectoid",
+    "compatibility": {
+      "settings": ["fantasy", "science_fiction"],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "description": "Exoskeletal people with compound vision, antennae, and segmented growth",
+    "metadata": {
+      "lifespan": 60,
+      "maturity_age": 12,
+      "species_type": "insectoid", "rough_range": "Exoskeletal / Metamorphic"
+    }
+  },
+  {
+    "id": "species_plantfolk",
+    "name": "Plantfolk",
+    "compatibility": {
+      "settings": ["fantasy", "science_fiction"],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "description": "Photosynthetic people whose bodies grow, heal, and exchange information like living plants",
+    "metadata": {
+      "lifespan": 300,
+      "maturity_age": 30,
+      "species_type": "botanical", "rough_range": "Photosynthetic / Botanical"
+    }
+  },
+  {
+    "id": "species_cephalid",
+    "name": "Cephalid",
+    "compatibility": {
+      "settings": ["fantasy", "science_fiction"],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "description": "Highly dexterous tentacled people with distributed neural control and adaptive skin",
+    "metadata": {
+      "lifespan": 80,
+      "maturity_age": 18,
+      "species_type": "amorphous", "rough_range": "Tentacled / Distributed Nervous System"
+    }
+  },
+  {
+    "id": "species_crystalline",
+    "name": "Crystalline",
+    "compatibility": {
+      "settings": ["fantasy", "science_fiction"],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "description": "Silicate-bodied people that sense vibration, store memory in lattice structures, and grow rather than age conventionally",
+    "metadata": {
+      "lifespan": 1000,
+      "maturity_age": 100,
+      "species_type": "crystalline", "rough_range": "Mineral / Resonant"
+    }
+  },
+  {
+    "id": "species_gelatinous",
+    "name": "Gelatinous",
+    "compatibility": {
+      "settings": ["fantasy", "science_fiction"],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "description": "Shape-flexible colonial organisms with distributed senses and the ability to divide or merge portions of their bodies",
+    "metadata": {
+      "lifespan": 200,
+      "maturity_age": 25,
+      "species_type": "amorphous", "rough_range": "Colonial / Amorphous"
+    }
+  },
+  {
+    "id": "species_energyform",
+    "name": "Energyform",
+    "compatibility": {
+      "settings": ["science_fiction"],
+      "eras": ["future"],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "description": "Non-corporeal sentient patterns sustained by fields, radiation, or engineered containment rather than organic bodies",
+    "metadata": {
+      "lifespan": "Indefinite / Pattern-dependent",
+      "maturity_age": "Emergence-dependent",
+      "species_type": "non_corporeal", "rough_range": "Non-corporeal / Energetic"
+    }
+  }
+]

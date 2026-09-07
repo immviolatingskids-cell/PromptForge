@@ -1,0 +1,4 @@
+{
+  "cooking": {"common":["home_cooking","baking","grilling","meal_prep","regional_cuisine"],"full":["home_cooking","baking","grilling","meal_prep","regional_cuisine","preserving"]},
+  "photography": {"common":["portrait_photography","street_photography","landscape_photography"],"full":["portrait_photography","street_photography","landscape_photography","film_photography","documentary_photography"]}
+}

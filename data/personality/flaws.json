@@ -1,0 +1,13 @@
+[
+  {"id":"stubborn","name":"Stubborn","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]},"metadata":{"fits_traits":["independent","patient"]}},
+  {"id":"overcommitted","name":"Overcommitted","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["young_adult","adult","mature"],"countries":[]},"metadata":{"fits_traits":["ambitious","compassionate"]}},
+  {"id":"guarded","name":"Guarded","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]},"metadata":{"fits_traits":["observant"]}},
+  {"id":"impatient","name":"Impatient","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]},"metadata":{"fits_traits":["ambitious","decisive"]}},
+  {"id":"conflict_avoidant","name":"Conflict-avoidant","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]},"metadata":{"fits_traits":["diplomatic","compassionate"]}},
+  {"id":"overly_blunt","name":"Overly blunt","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]},"metadata":{"fits_traits":["pragmatic","independent"]}},
+  {"id":"perfectionist","name":"Perfectionist","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]},"metadata":{"fits_traits":["methodical","ambitious"]}},
+  {"id":"reckless","name":"Reckless when excited","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature"],"countries":[]},"metadata":{"fits_traits":["spontaneous","playful"]}},
+  {"id":"self_doubting","name":"Prone to self-doubt","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]},"metadata":{"fits_traits":["reflective","compassionate"]}},
+  {"id":"workaholic","name":"Lets work crowd out rest","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["young_adult","adult","mature"],"countries":[]},"metadata":{"fits_traits":["ambitious","methodical"]}},
+  {"id":"too_trusting","name":"Too quick to trust","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]},"metadata":{"fits_traits":["idealistic","sociable"]}}
+]

@@ -1,0 +1,32 @@
+[
+  {"id":"bennett","name":"Bennett","compatibility":{"settings":["modern"],"eras":[],"species":["human"],"life_stages":[],"countries":["country_united_kingdom"]}},
+  {"id":"sato","name":"Satō","compatibility":{"settings":["modern"],"eras":[],"species":["human"],"life_stages":[],"countries":["country_japan"]}},
+  {"id":"silva","name":"Silva","compatibility":{"settings":["modern"],"eras":[],"species":["human"],"life_stages":[],"countries":["country_brazil"]}},
+  {"id":"silverleaf","name":"Silverleaf","compatibility":{"settings":["fantasy"],"eras":[],"species":["elf"],"life_stages":[],"countries":[]}}
+  ,{"id":"vale","name":"Vale","compatibility":{"settings":["fantasy"],"eras":["medieval_inspired"],"species":["human"],"life_stages":[],"countries":[]}}
+  ,{"id":"arden","name":"Arden","compatibility":{"settings":["science_fiction"],"eras":["future"],"species":["human"],"life_stages":[],"countries":[]}},
+  {"id":"fletcher","name":"Fletcher","compatibility":{"settings":["modern"],"eras":["modern"],"species":["human"],"life_stages":[],"countries":["country_united_kingdom"]}},
+  {"id":"rahman_uk","name":"Rahman","compatibility":{"settings":["modern"],"eras":["modern"],"species":["human"],"life_stages":[],"countries":["country_united_kingdom"]}},
+  {"id":"nakamura","name":"Nakamura","compatibility":{"settings":["modern"],"eras":["modern"],"species":["human"],"life_stages":[],"countries":["country_japan"]}},
+  {"id":"mori","name":"Mori","compatibility":{"settings":["modern"],"eras":["modern"],"species":["human"],"life_stages":[],"countries":["country_japan"]}},
+  {"id":"oliveira","name":"Oliveira","compatibility":{"settings":["modern"],"eras":["modern"],"species":["human"],"life_stages":[],"countries":["country_brazil"]}},
+  {"id":"costa","name":"Costa","compatibility":{"settings":["modern"],"eras":["modern"],"species":["human"],"life_stages":[],"countries":["country_brazil"]}},
+  {"id":"evenfall","name":"Evenfall","compatibility":{"settings":["fantasy"],"eras":["medieval_inspired","timeless"],"species":["elf"],"life_stages":[],"countries":[]}},
+  {"id":"thorne","name":"Thorne","compatibility":{"settings":["fantasy"],"eras":["medieval_inspired","timeless"],"species":[],"life_stages":[],"countries":[]}},
+  {"id":"solari","name":"Solari","compatibility":{"settings":["science_fiction"],"eras":["future"],"species":["human"],"life_stages":[],"countries":[]}},
+  {"id":"vek","name":"Vek","compatibility":{"settings":["science_fiction"],"eras":["future"],"species":["human"],"life_stages":[],"countries":[]}},
+  {"id":"okafor_uk","name":"Okafor","compatibility":{"settings":["modern"],"eras":["modern"],"species":["human"],"life_stages":[],"countries":["country_united_kingdom"]}},
+  {"id":"hussain_uk","name":"Hussain","compatibility":{"settings":["modern"],"eras":["modern"],"species":["human"],"life_stages":[],"countries":["country_united_kingdom"]}},
+  {"id":"kobayashi","name":"Kobayashi","compatibility":{"settings":["modern"],"eras":["modern"],"species":["human"],"life_stages":[],"countries":["country_japan"]}},
+  {"id":"ishikawa","name":"Ishikawa","compatibility":{"settings":["modern"],"eras":["modern"],"species":["human"],"life_stages":[],"countries":["country_japan"]}},
+  {"id":"pereira","name":"Pereira","compatibility":{"settings":["modern"],"eras":["modern"],"species":["human"],"life_stages":[],"countries":["country_brazil"]}},
+  {"id":"almeida","name":"Almeida","compatibility":{"settings":["modern"],"eras":["modern"],"species":["human"],"life_stages":[],"countries":["country_brazil"]}},
+  {"id":"brightmere","name":"Brightmere","compatibility":{"settings":["fantasy"],"eras":["medieval_inspired","timeless"],"species":[],"life_stages":[],"countries":[]}},
+  {"id":"reedwalker","name":"Reedwalker","compatibility":{"settings":["fantasy"],"eras":["medieval_inspired","timeless"],"species":[],"life_stages":[],"countries":[]}},
+  {"id":"hollowbrook","name":"Hollowbrook","compatibility":{"settings":["fantasy"],"eras":["medieval_inspired","timeless"],"species":[],"life_stages":[],"countries":[]}},
+  {"id":"navarro_orbital","name":"Navarro","compatibility":{"settings":["science_fiction"],"eras":["future"],"species":[],"life_stages":[],"countries":[]}},
+  {"id":"sen_orbital","name":"Sen","compatibility":{"settings":["science_fiction"],"eras":["future"],"species":[],"life_stages":[],"countries":[]}},
+  {"id":"kael_orbital","name":"Kael","compatibility":{"settings":["science_fiction"],"eras":["future"],"species":[],"life_stages":[],"countries":[]}},
+  {"id":"north","name":"North","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]}},
+  {"id":"marrow","name":"Marrow","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]}}
+]

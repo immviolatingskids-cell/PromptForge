@@ -1,0 +1,15 @@
+[
+  {"id":"master_a_craft","name":"Master a demanding craft","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]}},
+  {"id":"build_stable_home","name":"Build a stable home","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["young_adult","adult","mature","older"],"countries":[]}},
+  {"id":"reconnect_family","name":"Reconnect with an estranged family member","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]}},
+  {"id":"document_hidden_places","name":"Document places most people overlook","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["young_adult","adult","mature","older"],"countries":[]}}
+  ,{"id":"discover_wider_world","name":"Discover more of the wider world","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["child","teen"],"countries":[]}},
+  {"id":"earn_community_trust","name":"Earn the trust of a wary community","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]}},
+  {"id":"finish_life_work","name":"Complete a long-delayed body of work","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["adult","mature","older"],"countries":[]}},
+  {"id":"mentor_successor","name":"Prepare a worthy successor","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["adult","mature","older"],"countries":[]}},
+  {"id":"repair_reputation","name":"Repair a damaged reputation","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["young_adult","adult","mature","older"],"countries":[]}},
+  {"id":"protect_local_place","name":"Protect a place that others overlook","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]}},
+  {"id":"solve_old_mystery","name":"Solve a mystery that has lingered for years","compatibility":{"settings":["fantasy","science_fiction"],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]}},
+  {"id":"start_small_business","name":"Build a small independent livelihood","compatibility":{"settings":["modern","fantasy"],"eras":[],"species":[],"life_stages":["young_adult","adult","mature","older"],"countries":[]}},
+  {"id":"chart_uncharted_route","name":"Chart a safe route through unknown territory","compatibility":{"settings":["fantasy","science_fiction"],"eras":[],"species":[],"life_stages":["young_adult","adult","mature","older"],"countries":[]}}
+]

@@ -1,0 +1,13 @@
+[
+  {"id":"early_walk","name":"Takes an early walk","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["young_adult","adult","mature","older"],"countries":[]}},
+  {"id":"annotates_books","name":"Annotates books","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]}},
+  {"id":"hums_while_working","name":"Hums while working","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]}},
+  {"id":"keeps_daily_list","name":"Keeps a handwritten daily list","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]}},
+  {"id":"checks_weather","name":"Checks the weather before choosing clothes","compatibility":{"settings":["modern","science_fiction"],"eras":["modern","future"],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]}},
+  {"id":"tidies_workspace","name":"Tidies their workspace before beginning","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]}},
+  {"id":"late_night_tea","name":"Makes tea late at night","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]}},
+  {"id":"practises_greetings","name":"Practises difficult conversations in advance","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]}},
+  {"id":"saves_string","name":"Saves useful lengths of string and ribbon","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]}},
+  {"id":"window_reading","name":"Reads beside a window whenever possible","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]}},
+  {"id":"equipment_check","name":"Double-checks equipment before leaving","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]}}
+]

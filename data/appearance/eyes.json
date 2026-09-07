@@ -1,0 +1,14 @@
+[
+  {"id":"almond_brown","name":"Almond-shaped brown eyes","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]},"metadata":{"shape":"almond","color":"brown"}},
+  {"id":"round_green","name":"Round green eyes","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]},"metadata":{"shape":"round","color":"green"}},
+  {"id":"hooded_grey","name":"Hooded grey eyes","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]},"metadata":{"shape":"hooded","color":"grey"}},
+  {"id":"gold_flecked","name":"Gold-flecked hazel eyes","compatibility":{"settings":["fantasy"],"eras":[],"species":["elf"],"life_stages":[],"countries":[]},"metadata":{"shape":"almond","color":"hazel with gold flecks"}},
+  {"id":"deep_set_blue","name":"Deep-set blue eyes","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]},"metadata":{"shape":"deep-set","color":"blue"}},
+  {"id":"wide_dark_brown","name":"Wide dark-brown eyes","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]},"metadata":{"shape":"wide","color":"dark brown"}},
+  {"id":"upturned_amber","name":"Slightly upturned amber eyes","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]},"metadata":{"shape":"upturned","color":"amber"}},
+  {"id":"monolid_black","name":"Dark monolid eyes","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]},"metadata":{"shape":"monolid","color":"near-black"}},
+  {"id":"downturned_hazel","name":"Gently downturned hazel eyes","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]},"metadata":{"shape":"downturned","color":"hazel"}},
+  {"id":"pale_violet","name":"Pale violet eyes","compatibility":{"settings":["fantasy"],"eras":[],"species":["elf"],"life_stages":[],"countries":[]},"metadata":{"shape":"almond","color":"pale violet"}},
+  {"id":"cybernetic_teal","name":"Teal eyes with a subtle cybernetic iris ring","compatibility":{"settings":["science_fiction"],"eras":["future"],"species":["human"],"life_stages":["young_adult","adult","mature","older"],"countries":[]},"metadata":{"shape":"round","color":"teal","augmentation":"iris ring"}},
+  {"id":"soft_grey_green","name":"Soft grey-green eyes","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]},"metadata":{"shape":"hooded","color":"grey-green"}}
+]

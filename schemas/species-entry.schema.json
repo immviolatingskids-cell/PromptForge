@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://personaforge.local/schemas/species-entry.schema.json",
+  "title": "PersonaForge species entry",
+  "allOf": [
+    { "$ref": "library-entry.schema.json" },
+    { "type": "object", "properties": {
+      "species_type": { "type": "string", "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*$" }
+    } }
+  ]
+}

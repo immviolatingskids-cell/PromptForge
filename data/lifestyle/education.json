@@ -1,0 +1,13 @@
+[
+  {"id":"secondary_school","name":"Secondary education","compatibility":{"settings":["modern"],"eras":["modern"],"species":["human"],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]}},
+  {"id":"degree","name":"University degree","compatibility":{"settings":["modern","science_fiction"],"eras":["modern","future"],"species":[],"life_stages":["young_adult","adult","mature","older"],"countries":[]}},
+  {"id":"apprenticeship","name":"Apprenticeship","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature"],"countries":[]}},
+  {"id":"self_taught","name":"Self-taught","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]}}
+  ,{"id":"foundational_learning","name":"Foundational education","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["child","teen"],"countries":[]}},
+  {"id":"professional_training","name":"Professional certification or training","compatibility":{"settings":["modern","science_fiction"],"eras":["modern","future"],"species":[],"life_stages":["young_adult","adult","mature","older"],"countries":[]}},
+  {"id":"postgraduate_degree","name":"Postgraduate degree","compatibility":{"settings":["modern","science_fiction"],"eras":["modern","future"],"species":[],"life_stages":["young_adult","adult","mature","older"],"countries":[]}},
+  {"id":"trade_school","name":"Trade school education","compatibility":{"settings":["modern","science_fiction"],"eras":["modern","future"],"species":[],"life_stages":["young_adult","adult","mature","older"],"countries":[]}},
+  {"id":"guild_training","name":"Guild training","compatibility":{"settings":["fantasy"],"eras":["medieval_inspired","timeless"],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]}},
+  {"id":"scholarly_tutelage","name":"Private scholarly tutelage","compatibility":{"settings":["fantasy"],"eras":["medieval_inspired","timeless"],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]}},
+  {"id":"service_academy","name":"Service academy training","compatibility":{"settings":["science_fiction"],"eras":["future"],"species":[],"life_stages":["young_adult","adult","mature","older"],"countries":[]}}
+]

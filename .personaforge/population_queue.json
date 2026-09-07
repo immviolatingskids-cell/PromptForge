@@ -1,0 +1,34 @@
+[
+  {
+    "kind": "legacy",
+    "branch": "identity/names/given_names",
+    "category": "identity/names/given_names",
+    "current": 40,
+    "minimum": 20,
+    "healthy": 40,
+    "target": 80,
+    "subcategory": null,
+    "goal": "bring-to-healthy",
+    "goal_threshold": 50,
+    "diagnostic_reason": "weak_context_slice",
+    "diagnostic_context": {
+      "setting": "modern"
+    }
+  },
+  {
+    "kind": "legacy",
+    "branch": "identity/names/family_names",
+    "category": "identity/names/family_names",
+    "current": 30,
+    "minimum": 15,
+    "healthy": 30,
+    "target": 60,
+    "subcategory": null,
+    "goal": "bring-to-healthy",
+    "goal_threshold": 38,
+    "diagnostic_reason": "weak_context_slice",
+    "diagnostic_context": {
+      "setting": "modern"
+    }
+  }
+]

@@ -1,0 +1,1718 @@
+[
+  {
+    "id": "loyalty",
+    "name": "Loyalty",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "family": "connection",
+      "cluster": "loyalty",
+      "tension_with": [
+        "truth"
+      ]
+    }
+  },
+  {
+    "id": "curiosity",
+    "name": "Curiosity",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "family": "knowledge",
+      "cluster": "curiosity"
+    }
+  },
+  {
+    "id": "fairness",
+    "name": "Fairness",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "family": "social_responsibility",
+      "cluster": "fairness"
+    }
+  },
+  {
+    "id": "freedom",
+    "name": "Freedom",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "family": "autonomy",
+      "cluster": "liberty",
+      "tension_with": [
+        "safety",
+        "stability"
+      ]
+    }
+  },
+  {
+    "id": "community",
+    "name": "Community",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "family": "connection",
+      "cluster": "community"
+    }
+  },
+  {
+    "id": "craftsmanship",
+    "name": "Craftsmanship",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "family": "achievement",
+      "cluster": "craft"
+    }
+  },
+  {
+    "id": "knowledge",
+    "name": "Knowledge",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "family": "knowledge",
+      "cluster": "learning"
+    }
+  },
+  {
+    "id": "stability",
+    "name": "Stability",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "family": "security",
+      "cluster": "stability",
+      "tension_with": [
+        "freedom",
+        "independence",
+        "spontaneity"
+      ]
+    }
+  },
+  {
+    "id": "tradition",
+    "name": "Tradition",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "family": "tradition",
+      "cluster": "continuity",
+      "tension_with": [
+        "originality"
+      ]
+    }
+  },
+  {
+    "id": "self_expression",
+    "name": "Self-expression",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "family": "creativity",
+      "cluster": "expression"
+    }
+  },
+  {
+    "id": "responsibility",
+    "name": "Responsibility",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "family": "ethics",
+      "cluster": "duty"
+    }
+  },
+  {
+    "id": "discovery",
+    "name": "Discovery",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "family": "adventure",
+      "cluster": "exploration",
+      "context_affinities": {
+        "settings": [
+          "fantasy",
+          "science_fiction"
+        ]
+      }
+    }
+  },
+  {
+    "id": "privacy",
+    "name": "Privacy",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "family": "autonomy",
+      "cluster": "privacy"
+    }
+  },
+  {
+    "id": "excellence",
+    "name": "Excellence",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "family": "achievement",
+      "cluster": "excellence"
+    }
+  },
+  {
+    "id": "recognition",
+    "name": "Recognition",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "family": "status",
+      "cluster": "recognition"
+    }
+  },
+  {
+    "id": "friendship",
+    "name": "Friendship",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "family": "connection",
+      "cluster": "friendship"
+    }
+  },
+  {
+    "id": "family_closeness",
+    "name": "Family closeness",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "family": "connection",
+      "cluster": "family_closeness",
+      "tension_with": [
+        "ambition"
+      ]
+    }
+  },
+  {
+    "id": "compassion",
+    "name": "Compassion",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "family": "compassion",
+      "cluster": "care"
+    }
+  },
+  {
+    "id": "service",
+    "name": "Service",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "family": "compassion",
+      "cluster": "service"
+    }
+  },
+  {
+    "id": "imagination",
+    "name": "Imagination",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "family": "creativity",
+      "cluster": "imagination"
+    }
+  },
+  {
+    "id": "truth",
+    "name": "Truth",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "family": "knowledge",
+      "cluster": "truthfulness",
+      "tension_with": [
+        "loyalty"
+      ]
+    }
+  },
+  {
+    "id": "adventure",
+    "name": "Adventure",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "family": "adventure",
+      "cluster": "adventure"
+    }
+  },
+  {
+    "id": "influence",
+    "name": "Influence",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "family": "status",
+      "cluster": "influence"
+    }
+  },
+  {
+    "id": "accountability",
+    "name": "Accountability",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "family": "ethics",
+      "cluster": "accountability"
+    }
+  },
+  {
+    "id": "equality",
+    "name": "Equality",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "family": "social_responsibility",
+      "cluster": "equality",
+      "tension_with": [
+        "authority"
+      ]
+    }
+  },
+  {
+    "id": "spiritual_depth",
+    "name": "Spiritual depth",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "family": "spirituality",
+      "cluster": "transcendence"
+    }
+  },
+  {
+    "id": "delight",
+    "name": "Delight",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "family": "pleasure",
+      "cluster": "joy"
+    }
+  },
+  {
+    "id": "hospitality",
+    "name": "Hospitality",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "family": "connection",
+      "cluster": "hospitality"
+    }
+  },
+  {
+    "id": "resilience",
+    "name": "Resilience",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "family": "security",
+      "cluster": "resilience"
+    }
+  },
+  {
+    "id": "stewardship",
+    "name": "Stewardship",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "family": "nature",
+      "cluster": "stewardship"
+    }
+  },
+  {
+    "id": "playfulness",
+    "name": "Playfulness",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "family": "pleasure",
+      "cluster": "play"
+    }
+  },
+  {
+    "id": "humility",
+    "name": "Humility",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "family": "tradition",
+      "cluster": "humility"
+    }
+  },
+  {
+    "id": "independence",
+    "name": "Independence",
+    "metadata": {
+      "family": "autonomy",
+      "cluster": "self_direction",
+      "tension_with": [
+        "belonging",
+        "stability"
+      ]
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "personal_freedom",
+    "name": "Personal freedom",
+    "metadata": {
+      "family": "autonomy",
+      "cluster": "liberty",
+      "tension_with": [
+        "safety"
+      ]
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "self_reliance",
+    "name": "Self-reliance",
+    "metadata": {
+      "family": "autonomy",
+      "cluster": "self_sufficiency",
+      "tension_with": [
+        "mutual_support"
+      ]
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "authenticity",
+    "name": "Authenticity",
+    "metadata": {
+      "family": "autonomy",
+      "cluster": "self_congruence"
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "belonging",
+    "name": "Belonging",
+    "metadata": {
+      "family": "connection",
+      "cluster": "belonging",
+      "tension_with": [
+        "independence"
+      ]
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "companionship",
+    "name": "Companionship",
+    "metadata": {
+      "family": "connection",
+      "cluster": "companionship"
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "intimacy",
+    "name": "Intimacy",
+    "metadata": {
+      "family": "connection",
+      "cluster": "close_bonding"
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "mutual_support",
+    "name": "Mutual support",
+    "metadata": {
+      "family": "connection",
+      "cluster": "reciprocity",
+      "tension_with": [
+        "self_reliance"
+      ]
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "family_loyalty",
+    "name": "Family loyalty",
+    "metadata": {
+      "family": "family",
+      "cluster": "kinship"
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "parenthood",
+    "name": "Parenthood",
+    "metadata": {
+      "family": "family",
+      "cluster": "caregiving"
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "providing_for_loved_ones",
+    "name": "Providing for loved ones",
+    "metadata": {
+      "family": "family",
+      "cluster": "provision"
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "ambition",
+    "name": "Ambition",
+    "metadata": {
+      "family": "achievement",
+      "cluster": "aspiration",
+      "tension_with": [
+        "family_closeness",
+        "leisure"
+      ]
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "mastery",
+    "name": "Mastery",
+    "metadata": {
+      "family": "achievement",
+      "cluster": "skill_development"
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "competence",
+    "name": "Competence",
+    "metadata": {
+      "family": "achievement",
+      "cluster": "capability"
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "accomplishment",
+    "name": "Accomplishment",
+    "metadata": {
+      "family": "achievement",
+      "cluster": "attainment"
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "understanding",
+    "name": "Understanding",
+    "metadata": {
+      "family": "knowledge",
+      "cluster": "comprehension"
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "wisdom",
+    "name": "Wisdom",
+    "metadata": {
+      "family": "knowledge",
+      "cluster": "judgment"
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "originality",
+    "name": "Originality",
+    "metadata": {
+      "family": "creativity",
+      "cluster": "innovation",
+      "tension_with": [
+        "tradition"
+      ]
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "artistic_freedom",
+    "name": "Artistic freedom",
+    "metadata": {
+      "family": "creativity",
+      "cluster": "creative_autonomy"
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "honesty",
+    "name": "Honesty",
+    "metadata": {
+      "family": "ethics",
+      "cluster": "truthfulness"
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "integrity",
+    "name": "Integrity",
+    "metadata": {
+      "family": "ethics",
+      "cluster": "moral_consistency"
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "keeping_one_word",
+    "name": "Keeping one's word",
+    "metadata": {
+      "family": "ethics",
+      "cluster": "promise_keeping"
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "kindness",
+    "name": "Kindness",
+    "metadata": {
+      "family": "compassion",
+      "cluster": "benevolence"
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "empathy",
+    "name": "Empathy",
+    "metadata": {
+      "family": "compassion",
+      "cluster": "understanding_others"
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "generosity",
+    "name": "Generosity",
+    "metadata": {
+      "family": "compassion",
+      "cluster": "giving"
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "forgiveness",
+    "name": "Forgiveness",
+    "metadata": {
+      "family": "compassion",
+      "cluster": "mercy",
+      "tension_with": [
+        "justice"
+      ]
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "safety",
+    "name": "Safety",
+    "metadata": {
+      "family": "security",
+      "cluster": "protection",
+      "tension_with": [
+        "calculated_risk",
+        "freedom",
+        "personal_freedom"
+      ]
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "preparedness",
+    "name": "Preparedness",
+    "metadata": {
+      "family": "security",
+      "cluster": "readiness",
+      "tension_with": [
+        "calculated_risk"
+      ]
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "financial_security",
+    "name": "Financial security",
+    "metadata": {
+      "family": "security",
+      "cluster": "material_security"
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "predictability",
+    "name": "Predictability",
+    "metadata": {
+      "family": "security",
+      "cluster": "order",
+      "tension_with": [
+        "spontaneity"
+      ]
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "novelty",
+    "name": "Novelty",
+    "metadata": {
+      "family": "adventure",
+      "cluster": "new_experience"
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "challenge",
+    "name": "Challenge",
+    "metadata": {
+      "family": "adventure",
+      "cluster": "testing_limits"
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "spontaneity",
+    "name": "Spontaneity",
+    "metadata": {
+      "family": "adventure",
+      "cluster": "improvisation",
+      "tension_with": [
+        "predictability",
+        "stability"
+      ]
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "calculated_risk",
+    "name": "Calculated risk",
+    "metadata": {
+      "family": "adventure",
+      "cluster": "risk_taking",
+      "tension_with": [
+        "preparedness",
+        "safety"
+      ]
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "heritage",
+    "name": "Heritage",
+    "metadata": {
+      "family": "tradition",
+      "cluster": "inheritance"
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "custom",
+    "name": "Custom",
+    "metadata": {
+      "family": "tradition",
+      "cluster": "practice"
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "preserving_history",
+    "name": "Preserving history",
+    "metadata": {
+      "family": "tradition",
+      "cluster": "remembrance"
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "ceremony",
+    "name": "Ceremony",
+    "metadata": {
+      "family": "tradition",
+      "cluster": "ritual"
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "faith",
+    "name": "Faith",
+    "metadata": {
+      "family": "spirituality",
+      "cluster": "belief"
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "inner_peace",
+    "name": "Inner peace",
+    "metadata": {
+      "family": "spirituality",
+      "cluster": "equanimity"
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "enlightenment",
+    "name": "Enlightenment",
+    "metadata": {
+      "family": "spirituality",
+      "cluster": "wisdom"
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "reverence",
+    "name": "Reverence",
+    "metadata": {
+      "family": "spirituality",
+      "cluster": "awe"
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "justice",
+    "name": "Justice",
+    "metadata": {
+      "family": "social_responsibility",
+      "cluster": "justice",
+      "tension_with": [
+        "forgiveness"
+      ]
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "tolerance",
+    "name": "Tolerance",
+    "metadata": {
+      "family": "social_responsibility",
+      "cluster": "pluralism"
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "civic_responsibility",
+    "name": "Civic responsibility",
+    "metadata": {
+      "family": "social_responsibility",
+      "cluster": "citizenship"
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "solidarity",
+    "name": "Solidarity",
+    "metadata": {
+      "family": "social_responsibility",
+      "cluster": "mutual_aid"
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "human_dignity",
+    "name": "Human dignity",
+    "metadata": {
+      "family": "social_responsibility",
+      "cluster": "dignity"
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "prestige",
+    "name": "Prestige",
+    "metadata": {
+      "family": "status",
+      "cluster": "esteem"
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "wealth",
+    "name": "Wealth",
+    "metadata": {
+      "family": "status",
+      "cluster": "material_success"
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "authority",
+    "name": "Authority",
+    "metadata": {
+      "family": "status",
+      "cluster": "power",
+      "tension_with": [
+        "equality"
+      ]
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "perseverance",
+    "name": "Perseverance",
+    "metadata": {
+      "family": "discipline",
+      "cluster": "persistence"
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "restraint",
+    "name": "Restraint",
+    "metadata": {
+      "family": "discipline",
+      "cluster": "moderation"
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "order",
+    "name": "Order",
+    "metadata": {
+      "family": "discipline",
+      "cluster": "organization"
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "reliability",
+    "name": "Reliability",
+    "metadata": {
+      "family": "discipline",
+      "cluster": "dependability"
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "consistency",
+    "name": "Consistency",
+    "metadata": {
+      "family": "discipline",
+      "cluster": "steadiness"
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "enjoyment",
+    "name": "Enjoyment",
+    "metadata": {
+      "family": "pleasure",
+      "cluster": "delight"
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "comfort",
+    "name": "Comfort",
+    "metadata": {
+      "family": "pleasure",
+      "cluster": "ease"
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "leisure",
+    "name": "Leisure",
+    "metadata": {
+      "family": "pleasure",
+      "cluster": "rest",
+      "tension_with": [
+        "ambition"
+      ]
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "beauty",
+    "name": "Beauty",
+    "metadata": {
+      "family": "pleasure",
+      "cluster": "aesthetic_appreciation"
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "quality_of_life",
+    "name": "Quality of life",
+    "metadata": {
+      "family": "pleasure",
+      "cluster": "wellbeing"
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "ecological_balance",
+    "name": "Ecological balance",
+    "metadata": {
+      "family": "nature",
+      "cluster": "harmony"
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "meaning",
+    "name": "Meaning",
+    "metadata": {
+      "family": "purpose",
+      "cluster": "significance"
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "devotion_to_a_cause",
+    "name": "Devotion to a cause",
+    "metadata": {
+      "family": "purpose",
+      "cluster": "commitment"
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  },
+  {
+    "id": "leaving_an_impact",
+    "name": "Leaving an impact",
+    "metadata": {
+      "family": "purpose",
+      "cluster": "legacy"
+    },
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    }
+  }
+]

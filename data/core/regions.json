@@ -1,0 +1,807 @@
+[
+  {
+    "id": "africa",
+    "name": "Africa",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": [
+        "country_algeria",
+        "country_angola",
+        "country_benin",
+        "country_botswana",
+        "country_burkina_faso",
+        "country_burundi",
+        "country_cabo_verde",
+        "country_cameroon",
+        "country_central_african_republic",
+        "country_chad",
+        "country_comoros",
+        "country_congo",
+        "country_cote_divoire",
+        "country_democratic_republic_of_the_congo",
+        "country_djibouti",
+        "country_egypt",
+        "country_equatorial_guinea",
+        "country_eritrea",
+        "country_eswatini",
+        "country_ethiopia",
+        "country_gabon",
+        "country_gambia",
+        "country_ghana",
+        "country_guinea",
+        "country_guinea_bissau",
+        "country_kenya",
+        "country_lesotho",
+        "country_liberia",
+        "country_libya",
+        "country_madagascar",
+        "country_malawi",
+        "country_mali",
+        "country_mauritania",
+        "country_mauritius",
+        "country_morocco",
+        "country_mozambique",
+        "country_namibia",
+        "country_niger",
+        "country_nigeria",
+        "country_rwanda",
+        "country_sao_tome_and_principe",
+        "country_senegal",
+        "country_seychelles",
+        "country_sierra_leone",
+        "country_somalia",
+        "country_south_africa",
+        "country_south_sudan",
+        "country_sudan",
+        "country_togo",
+        "country_tunisia",
+        "country_uganda",
+        "country_united_republic_of_tanzania",
+        "country_zambia",
+        "country_zimbabwe"
+      ]
+    },
+    "metadata": {
+      "kind": "continent"
+    }
+  },
+  {
+    "id": "asia",
+    "name": "Asia",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": [
+        "country_afghanistan",
+        "country_armenia",
+        "country_azerbaijan",
+        "country_bahrain",
+        "country_bangladesh",
+        "country_bhutan",
+        "country_brunei_darussalam",
+        "country_cambodia",
+        "country_china",
+        "country_cyprus",
+        "country_democratic_people_s_republic_of_korea",
+        "country_georgia",
+        "country_india",
+        "country_indonesia",
+        "country_iran_islamic_republic_of",
+        "country_iraq",
+        "country_israel",
+        "country_japan",
+        "country_jordan",
+        "country_kazakhstan",
+        "country_kuwait",
+        "country_kyrgyzstan",
+        "country_lao_people_s_democratic_republic",
+        "country_lebanon",
+        "country_malaysia",
+        "country_maldives",
+        "country_mongolia",
+        "country_myanmar",
+        "country_nepal",
+        "country_oman",
+        "country_pakistan",
+        "country_philippines",
+        "country_qatar",
+        "country_republic_of_korea",
+        "country_saudi_arabia",
+        "country_singapore",
+        "country_sri_lanka",
+        "country_state_of_palestine",
+        "country_syrian_arab_republic",
+        "country_tajikistan",
+        "country_thailand",
+        "country_timor_leste",
+        "country_turkmenistan",
+        "country_turkiye",
+        "country_united_arab_emirates",
+        "country_uzbekistan",
+        "country_viet_nam",
+        "country_yemen"
+      ]
+    },
+    "metadata": {
+      "kind": "continent"
+    }
+  },
+  {
+    "id": "europe",
+    "name": "Europe",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": [
+        "country_albania",
+        "country_andorra",
+        "country_austria",
+        "country_belarus",
+        "country_belgium",
+        "country_bosnia_and_herzegovina",
+        "country_bulgaria",
+        "country_croatia",
+        "country_czechia",
+        "country_denmark",
+        "country_estonia",
+        "country_finland",
+        "country_france",
+        "country_germany",
+        "country_greece",
+        "country_holy_see",
+        "country_hungary",
+        "country_iceland",
+        "country_ireland",
+        "country_italy",
+        "country_latvia",
+        "country_liechtenstein",
+        "country_lithuania",
+        "country_luxembourg",
+        "country_malta",
+        "country_monaco",
+        "country_montenegro",
+        "country_netherlands_kingdom_of_the",
+        "country_north_macedonia",
+        "country_norway",
+        "country_poland",
+        "country_portugal",
+        "country_republic_of_moldova",
+        "country_romania",
+        "country_russian_federation",
+        "country_san_marino",
+        "country_serbia",
+        "country_slovakia",
+        "country_slovenia",
+        "country_spain",
+        "country_sweden",
+        "country_switzerland",
+        "country_ukraine",
+        "country_united_kingdom"
+      ]
+    },
+    "metadata": {
+      "kind": "continent"
+    }
+  },
+  {
+    "id": "north_america",
+    "name": "North America",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": [
+        "country_antigua_and_barbuda",
+        "country_bahamas",
+        "country_barbados",
+        "country_belize",
+        "country_canada",
+        "country_costa_rica",
+        "country_cuba",
+        "country_dominica",
+        "country_dominican_republic",
+        "country_el_salvador",
+        "country_grenada",
+        "country_guatemala",
+        "country_haiti",
+        "country_honduras",
+        "country_jamaica",
+        "country_mexico",
+        "country_nicaragua",
+        "country_panama",
+        "country_saint_kitts_and_nevis",
+        "country_saint_lucia",
+        "country_saint_vincent_and_the_grenadines",
+        "country_trinidad_and_tobago",
+        "country_united_states_of_america"
+      ]
+    },
+    "metadata": {
+      "kind": "continent"
+    }
+  },
+  {
+    "id": "region_oceania",
+    "name": "Oceania",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": [
+        "country_australia",
+        "country_fiji",
+        "country_kiribati",
+        "country_marshall_islands",
+        "country_micronesia_federated_states_of",
+        "country_naoero",
+        "country_new_zealand",
+        "country_palau",
+        "country_papua_new_guinea",
+        "country_samoa",
+        "country_solomon_islands",
+        "country_tonga",
+        "country_tuvalu",
+        "country_vanuatu"
+      ]
+    },
+    "metadata": {
+      "kind": "continent"
+    }
+  },
+  {
+    "id": "south_america",
+    "name": "South America",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": [
+        "country_argentina",
+        "country_bolivia_plurinational_state_of",
+        "country_brazil",
+        "country_chile",
+        "country_colombia",
+        "country_ecuador",
+        "country_guyana",
+        "country_paraguay",
+        "country_peru",
+        "country_suriname",
+        "country_uruguay",
+        "country_venezuela_bolivarian_republic_of"
+      ]
+    },
+    "metadata": {
+      "kind": "continent_region",
+      "continent": "south_america"
+    }
+  },
+  {
+    "id": "region_north_africa",
+    "name": "Northern Africa",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": [
+        "country_algeria",
+        "country_egypt",
+        "country_libya",
+        "country_morocco",
+        "country_sudan",
+        "country_tunisia"
+      ]
+    },
+    "metadata": {
+      "kind": "region",
+      "continent": "africa"
+    }
+  },
+  {
+    "id": "region_east_africa",
+    "name": "Eastern Africa",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": [
+        "country_burundi",
+        "country_comoros",
+        "country_djibouti",
+        "country_eritrea",
+        "country_ethiopia",
+        "country_kenya",
+        "country_madagascar",
+        "country_malawi",
+        "country_mauritius",
+        "country_mozambique",
+        "country_rwanda",
+        "country_seychelles",
+        "country_somalia",
+        "country_south_sudan",
+        "country_uganda",
+        "country_united_republic_of_tanzania",
+        "country_zambia",
+        "country_zimbabwe"
+      ]
+    },
+    "metadata": {
+      "kind": "region",
+      "continent": "africa"
+    }
+  },
+  {
+    "id": "region_middle_africa",
+    "name": "Middle Africa",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": [
+        "country_angola",
+        "country_cameroon",
+        "country_central_african_republic",
+        "country_chad",
+        "country_congo",
+        "country_democratic_republic_of_the_congo",
+        "country_equatorial_guinea",
+        "country_gabon",
+        "country_sao_tome_and_principe"
+      ]
+    },
+    "metadata": {
+      "kind": "region",
+      "continent": "africa"
+    }
+  },
+  {
+    "id": "region_southern_africa",
+    "name": "Southern Africa",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": [
+        "country_botswana",
+        "country_eswatini",
+        "country_lesotho",
+        "country_namibia",
+        "country_south_africa"
+      ]
+    },
+    "metadata": {
+      "kind": "region",
+      "continent": "africa"
+    }
+  },
+  {
+    "id": "region_west_africa",
+    "name": "Western Africa",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": [
+        "country_benin",
+        "country_burkina_faso",
+        "country_cabo_verde",
+        "country_cote_divoire",
+        "country_gambia",
+        "country_ghana",
+        "country_guinea",
+        "country_guinea_bissau",
+        "country_liberia",
+        "country_mali",
+        "country_mauritania",
+        "country_niger",
+        "country_nigeria",
+        "country_senegal",
+        "country_sierra_leone",
+        "country_togo"
+      ]
+    },
+    "metadata": {
+      "kind": "region",
+      "continent": "africa"
+    }
+  },
+  {
+    "id": "region_north_america",
+    "name": "Northern America",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": [
+        "country_canada",
+        "country_united_states_of_america"
+      ]
+    },
+    "metadata": {
+      "kind": "region",
+      "continent": "north_america"
+    }
+  },
+  {
+    "id": "region_central_america",
+    "name": "Central America",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": [
+        "country_belize",
+        "country_costa_rica",
+        "country_el_salvador",
+        "country_guatemala",
+        "country_honduras",
+        "country_mexico",
+        "country_nicaragua",
+        "country_panama"
+      ]
+    },
+    "metadata": {
+      "kind": "region",
+      "continent": "north_america"
+    }
+  },
+  {
+    "id": "region_caribbean",
+    "name": "Caribbean",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": [
+        "country_antigua_and_barbuda",
+        "country_bahamas",
+        "country_barbados",
+        "country_cuba",
+        "country_dominica",
+        "country_dominican_republic",
+        "country_grenada",
+        "country_haiti",
+        "country_jamaica",
+        "country_saint_kitts_and_nevis",
+        "country_saint_lucia",
+        "country_saint_vincent_and_the_grenadines",
+        "country_trinidad_and_tobago"
+      ]
+    },
+    "metadata": {
+      "kind": "region",
+      "continent": "north_america"
+    }
+  },
+  {
+    "id": "region_central_asia",
+    "name": "Central Asia",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": [
+        "country_kazakhstan",
+        "country_kyrgyzstan",
+        "country_tajikistan",
+        "country_turkmenistan",
+        "country_uzbekistan"
+      ]
+    },
+    "metadata": {
+      "kind": "region",
+      "continent": "asia"
+    }
+  },
+  {
+    "id": "east_asia",
+    "name": "East Asia",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": [
+        "country_china",
+        "country_democratic_people_s_republic_of_korea",
+        "country_japan",
+        "country_mongolia",
+        "country_republic_of_korea"
+      ]
+    },
+    "metadata": {
+      "kind": "region",
+      "continent": "asia"
+    }
+  },
+  {
+    "id": "region_southeast_asia",
+    "name": "Southeast Asia",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": [
+        "country_brunei_darussalam",
+        "country_cambodia",
+        "country_indonesia",
+        "country_lao_people_s_democratic_republic",
+        "country_malaysia",
+        "country_myanmar",
+        "country_philippines",
+        "country_singapore",
+        "country_thailand",
+        "country_timor_leste",
+        "country_viet_nam"
+      ]
+    },
+    "metadata": {
+      "kind": "region",
+      "continent": "asia"
+    }
+  },
+  {
+    "id": "region_south_asia",
+    "name": "South Asia",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": [
+        "country_afghanistan",
+        "country_bangladesh",
+        "country_bhutan",
+        "country_india",
+        "country_iran_islamic_republic_of",
+        "country_maldives",
+        "country_nepal",
+        "country_pakistan",
+        "country_sri_lanka"
+      ]
+    },
+    "metadata": {
+      "kind": "region",
+      "continent": "asia"
+    }
+  },
+  {
+    "id": "region_west_asia",
+    "name": "West Asia",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": [
+        "country_armenia",
+        "country_azerbaijan",
+        "country_bahrain",
+        "country_cyprus",
+        "country_georgia",
+        "country_iraq",
+        "country_israel",
+        "country_jordan",
+        "country_kuwait",
+        "country_lebanon",
+        "country_oman",
+        "country_qatar",
+        "country_saudi_arabia",
+        "country_state_of_palestine",
+        "country_syrian_arab_republic",
+        "country_turkiye",
+        "country_united_arab_emirates",
+        "country_yemen"
+      ]
+    },
+    "metadata": {
+      "kind": "region",
+      "continent": "asia"
+    }
+  },
+  {
+    "id": "region_eastern_europe",
+    "name": "Eastern Europe",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": [
+        "country_belarus",
+        "country_bulgaria",
+        "country_czechia",
+        "country_hungary",
+        "country_poland",
+        "country_republic_of_moldova",
+        "country_romania",
+        "country_russian_federation",
+        "country_slovakia",
+        "country_ukraine"
+      ]
+    },
+    "metadata": {
+      "kind": "region",
+      "continent": "europe"
+    }
+  },
+  {
+    "id": "region_northern_europe",
+    "name": "Northern Europe",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": [
+        "country_denmark",
+        "country_estonia",
+        "country_finland",
+        "country_iceland",
+        "country_ireland",
+        "country_latvia",
+        "country_lithuania",
+        "country_norway",
+        "country_sweden",
+        "country_united_kingdom"
+      ]
+    },
+    "metadata": {
+      "kind": "region",
+      "continent": "europe"
+    }
+  },
+  {
+    "id": "region_southern_europe",
+    "name": "Southern Europe",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": [
+        "country_albania",
+        "country_andorra",
+        "country_bosnia_and_herzegovina",
+        "country_croatia",
+        "country_greece",
+        "country_holy_see",
+        "country_italy",
+        "country_malta",
+        "country_montenegro",
+        "country_north_macedonia",
+        "country_portugal",
+        "country_san_marino",
+        "country_serbia",
+        "country_slovenia",
+        "country_spain"
+      ]
+    },
+    "metadata": {
+      "kind": "region",
+      "continent": "europe"
+    }
+  },
+  {
+    "id": "region_western_europe",
+    "name": "Western Europe",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": [
+        "country_austria",
+        "country_belgium",
+        "country_france",
+        "country_germany",
+        "country_liechtenstein",
+        "country_luxembourg",
+        "country_monaco",
+        "country_netherlands_kingdom_of_the",
+        "country_switzerland"
+      ]
+    },
+    "metadata": {
+      "kind": "region",
+      "continent": "europe"
+    }
+  },
+  {
+    "id": "region_australia_new_zealand",
+    "name": "Australia and New Zealand",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": [
+        "country_australia",
+        "country_new_zealand"
+      ]
+    },
+    "metadata": {
+      "kind": "region",
+      "continent": "region_oceania"
+    }
+  },
+  {
+    "id": "region_melanesia",
+    "name": "Melanesia",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": [
+        "country_fiji",
+        "country_papua_new_guinea",
+        "country_solomon_islands",
+        "country_vanuatu"
+      ]
+    },
+    "metadata": {
+      "kind": "region",
+      "continent": "region_oceania"
+    }
+  },
+  {
+    "id": "region_micronesia",
+    "name": "Micronesia",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": [
+        "country_kiribati",
+        "country_marshall_islands",
+        "country_micronesia_federated_states_of",
+        "country_naoero",
+        "country_palau"
+      ]
+    },
+    "metadata": {
+      "kind": "region",
+      "continent": "region_oceania"
+    }
+  },
+  {
+    "id": "region_polynesia",
+    "name": "Polynesia",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": [
+        "country_samoa",
+        "country_tonga",
+        "country_tuvalu"
+      ]
+    },
+    "metadata": {
+      "kind": "region",
+      "continent": "region_oceania"
+    }
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {"id":"light_freckles","name":"Light freckles across the nose","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]}},
+  {"id":"small_brow_scar","name":"Small scar through one eyebrow","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]}},
+  {"id":"deep_dimple","name":"A deep dimple when smiling","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]}},
+  {"id":"pointed_ears","name":"Long pointed ears","compatibility":{"settings":["fantasy"],"eras":[],"species":["elf"],"life_stages":[],"countries":[]}},
+  {"id":"beauty_mark_cheek","name":"Small beauty mark high on one cheek","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]}},
+  {"id":"crooked_nose","name":"Slightly crooked nose from an old break","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]}},
+  {"id":"gap_tooth","name":"Distinctive gap between the front teeth","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]}},
+  {"id":"silver_temple_streak","name":"Natural silver streak at one temple","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["young_adult","adult","mature","older"],"countries":[]}},
+  {"id":"callused_hands","name":"Noticeably callused hands","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]}},
+  {"id":"forearm_birthmark","name":"Irregular birthmark along one forearm","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]}},
+  {"id":"ear_implant","name":"Low-profile communications implant behind one ear","compatibility":{"settings":["science_fiction"],"eras":["future"],"species":["human"],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]}},
+  {"id":"ritual_hand_marks","name":"Faded ceremonial markings across both hands","compatibility":{"settings":["fantasy"],"eras":["medieval_inspired","timeless"],"species":[],"life_stages":["young_adult","adult","mature","older"],"countries":[]}}
+]
