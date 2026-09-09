@@ -65,7 +65,7 @@ export function normalizeProject(raw = {}) {
   };
 }
 
-export function serializeProject(project) { return JSON.stringify({ format: "promptforge-project", formatVersion: 1, project: normalizeProject(project) }, null, 2); }
+export function serializeProject(project) { const portable = normalizeProject(project); portable.relationshipRefs = []; return JSON.stringify({ format: "promptforge-project", formatVersion: 1, project: portable }, null, 2); }
 
 export function parseProjectImport(text) {
   let parsed;
@@ -81,7 +81,7 @@ export class ProjectStore {
   open(projectId) { return this.all().find(project => project.id === projectId) || null; }
   create(fields = {}) { const stamp = now(), project = normalizeProject({ ...fields, id: fields.id || makeId(), createdAt: stamp, updatedAt: stamp }); this.write([project, ...this.all()]); return project; }
   update(projectId, patch = {}) { const items = this.all(), index = items.findIndex(project => project.id === projectId); if (index < 0) return null; items[index] = normalizeProject({ ...items[index], ...patch, id: projectId, createdAt: items[index].createdAt, updatedAt: now() }); this.write(items); return items[index]; }
-  duplicate(projectId) { const source = this.open(projectId); if (!source) throw new Error(`Project not found: ${projectId}`); return this.create({ ...source, id: undefined, name: `${source.name} Copy`, state: { needsReview: false, revision: 1, lastContextChange: null }, memberState: Object.fromEntries(source.personaRefs.map(ref => [ref.id, normalizeMemberState()])), provenance: { kind: "duplicate", sourceProjectId: source.id } }); }
+  duplicate(projectId) { const source = this.open(projectId); if (!source) throw new Error(`Project not found: ${projectId}`); return this.create({ ...source, id: undefined, name: `${source.name} Copy`, relationshipRefs: [], state: { needsReview: false, revision: 1, lastContextChange: null }, memberState: Object.fromEntries(source.personaRefs.map(ref => [ref.id, normalizeMemberState()])), provenance: { kind: "duplicate", sourceProjectId: source.id } }); }
   addPersona(projectId, personaId) { const project = this.open(projectId), ref = createReference("persona", personaId); if (!project || !ref || project.personaRefs.some(item => item.id === ref.id)) return project; return this.update(projectId, { personaRefs: [...project.personaRefs, ref], memberState: { ...project.memberState, [ref.id]: normalizeMemberState() } }); }
   removePersona(projectId, personaId) { const project = this.open(projectId); if (!project) return null; const memberState = { ...project.memberState }; delete memberState[personaId]; return this.update(projectId, { personaRefs: project.personaRefs.filter(ref => ref.id !== personaId), memberState }); }
   addScene(projectId, sceneId) { const project = this.open(projectId), ref = createReference("scene", sceneId); if (!project || !ref || project.sceneRefs.some(item => item.id === ref.id)) return project; return this.update(projectId, { sceneRefs: [...project.sceneRefs, ref] }); }
