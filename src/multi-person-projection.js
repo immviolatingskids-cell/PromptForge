@@ -1,7 +1,8 @@
 import { projectVisual } from "./visual-projection.js";
 import { relationshipLabel } from "./relationship-types.js";
+import { PROJECTION_VERSION } from "./versioning.js";
 
-export const MULTI_PERSON_PROJECTION_VERSION = 1;
+export const MULTI_PERSON_PROJECTION_VERSION = PROJECTION_VERSION;
 const clean = value => String(value ?? "").trim();
 const idOf = value => value?.meta?.persona_id || value?.id || value;
 const nameOf = value => value?.origin?.name || idOf(value) || "Unnamed participant";

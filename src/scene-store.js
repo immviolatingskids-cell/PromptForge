@@ -1,4 +1,5 @@
 import { createReference, validateReference } from "./reference-model.js";
+import { versionMetadata } from "./versioning.js";
 
 export const SCENE_KEY = "personaforge.scenes.v1";
 export const SCENE_SCHEMA_VERSION = 2;
@@ -54,7 +55,7 @@ export class SceneStore {
   update(id, patch = {}) { const items = this.all(), index = items.findIndex(scene => scene.id === id); if (index < 0) return null; const checked = validateScene({ ...items[index], ...patch, id, createdAt: items[index].createdAt, modifiedAt: now() }); if (!checked.valid) throw new Error(checked.issues.join(". ")); items[index] = checked.value; this.write(items); return items[index]; }
   delete(id) { const items = this.all(), next = items.filter(scene => scene.id !== id); this.write(next); return next.length !== items.length; }
   export(id, format = "json") { const item = this.open(id); return item ? (format === "markdown" ? sceneMarkdown(item) : serializeScene(item)) : null; }
-  browserData() { return { scenes: this.all(), sceneSchemaVersion: SCENE_SCHEMA_VERSION }; }
+  browserData() { return { scenes: this.all(), sceneSchemaVersion: SCENE_SCHEMA_VERSION, versionMetadata: versionMetadata({ scene: 1 }) }; }
   importBrowserData(snapshot, maps = {}) {
     const incoming = Array.isArray(snapshot?.scenes) ? snapshot.scenes : [], existing = this.all(), used = new Set(existing.map(scene => scene.id)), accepted = [], idMap = {};
     for (const raw of incoming) { const checked = validateScene(raw); if (!checked.valid) continue; const scene = checked.value, original = scene.id; let id = original, suffix = 1; while (used.has(id)) id = `${original}_import_${suffix++}`; used.add(id); idMap[original] = id; scene.id = id;
