@@ -57,11 +57,24 @@ class ValidatorTests(unittest.TestCase):
             (data_root / "pools").mkdir(parents=True)
             (data_root / "data_version.json").write_text('{"data_version":"0.2.6"}', encoding="utf-8")
             (data_root / "pools" / "deep_pool_registry.json").write_text('{"version":"0.2.5","categories":[],"pools":{}}', encoding="utf-8")
+            (data_root / "schema_version.json").write_text('{"schema_version":"2.0","application_version":"0.2.6"}', encoding="utf-8")
             (root / "package.json").write_text('{"version":"0.2.5"}', encoding="utf-8")
             issues = validate_data_tree(data_root)
         messages = " ".join(issue.message for issue in issues)
         self.assertIn("registry version", messages)
         self.assertIn("package version", messages)
+
+    def test_application_and_data_versions_are_independent(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            data_root = root / "data"
+            (data_root / "pools").mkdir(parents=True)
+            (data_root / "data_version.json").write_text('{"data_version":"0.4.0"}', encoding="utf-8")
+            (data_root / "schema_version.json").write_text('{"schema_version":"2.0","application_version":"0.5.0"}', encoding="utf-8")
+            (data_root / "pools" / "deep_pool_registry.json").write_text('{"version":"0.4.0","categories":[],"pools":{}}', encoding="utf-8")
+            (root / "package.json").write_text('{"version":"0.5.0"}', encoding="utf-8")
+            issues = validate_data_tree(data_root)
+        self.assertNotIn("version", " ".join(issue.message for issue in issues))
 
     def test_value_tension_references_and_symmetry_are_validated(self) -> None:
         compatibility = {key: [] for key in ("settings", "eras", "species", "life_stages", "countries")}

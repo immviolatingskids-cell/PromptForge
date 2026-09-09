@@ -13,6 +13,7 @@ import { dependencyInfo, markStale } from "./dependency-engine.js";
 import { queryLibrary } from "./library-query.js";
 import { comparePersonas } from "./library-compare.js";
 import { ProjectStore } from "./project-store.js";
+import { ProjectCoordinator, attachProjectContext, projectGenerationOptions, updatePersonaProjectOverride } from "./project-context.js";
 import { SceneStore } from "./scene-store.js";
 import { initProductShell } from "./product-shell.js";
 import { normalizeGenreProfile } from "./genre-profile.js";
@@ -23,6 +24,7 @@ import { normalizePurposeReference } from "./reference-model.js";
 const state = { library: null, persona: null, controller: null, dirty: false, lastChange: "", inspectorTrigger: null, inspectorPath: "", libraryCompare: [] };
 const store = new PersonaStore();
 const projectStore = new ProjectStore();
+const projectCoordinator = new ProjectCoordinator(projectStore, store);
 const sceneStore = new SceneStore();
 function renderLibraryComparison(){let panel=document.querySelector("#library-comparison");if(!panel){panel=document.createElement("section");panel.id="library-comparison";panel.className="library-comparison";document.querySelector("#library-list").before(panel);}const records=store.allWithMetadata().filter(item=>state.libraryCompare.includes(item.persona.meta.persona_id));if(records.length!==2){panel.hidden=true;return;}const result=comparePersonas(records[0].persona,records[1].persona);panel.hidden=false;panel.innerHTML=`<div class="panel-heading horizontal"><div><p class="eyebrow">Saved persona comparison</p><h3>${escapeHtml(records[0].persona.origin.name)} vs ${escapeHtml(records[1].persona.origin.name)}</h3></div><button data-library-action="clear-compare">Clear</button></div><p class="muted">${result.changedSections} changed section${result.changedSections===1?"":"s"}. Expand a section to inspect deterministic field differences.</p>${result.sections.map(section=>`<details><summary>${escapeHtml(section.id)} <span>${section.same?"Same":`${section.differences.length} difference${section.differences.length===1?"":"s"}`}</span></summary>${section.same?`<p class="muted">No canonical differences.</p>`:section.differences.slice(0,12).map(diff=>`<p><strong>${escapeHtml(diff.path)}</strong> · ${escapeHtml(diff.status)}<br><small>${escapeHtml(JSON.stringify(diff.a??"—"))} → ${escapeHtml(JSON.stringify(diff.b??"—"))}</small></p>`).join("")}</details>`).join("")}`;}
 function applyLibraryFilters(){renderLibrary();}
@@ -132,6 +134,9 @@ function applyCharacterDraft(persona, draft, {editing=false}={}) {
     if(value===undefined||value===null||value==="")return;
     let next=value;
     if(key==="setting")next=state.library.settings.find(entry=>entry.id===value);
+    if(key==="era")next=state.library.eras.find(entry=>entry.id===value);
+    if(key==="country")next=state.library.countries.find(entry=>entry.id===value);
+    if(key==="species")next=state.library.species.find(entry=>entry.id===value);
     if(key==="life_stage")next=state.library.lifeStages.find(entry=>entry.id===value);
     if(key==="age")next=Number(value);
     if(next===undefined||next===null||Number.isNaN(next))return;
@@ -140,7 +145,7 @@ function applyCharacterDraft(persona, draft, {editing=false}={}) {
     copy.foundation[key]=structuredClone(next);
     copy.state.locks[`foundation.${key}`]=true;
   };
-  if(editing){setFoundation("age",draft.age);setFoundation("gender",draft.gender);setFoundation("setting",draft.setting);setFoundation("life_stage",draft.life_stage);}
+  if(editing){setFoundation("age",draft.age);setFoundation("gender",draft.gender);setFoundation("setting",draft.setting);setFoundation("era",draft.era);setFoundation("country",draft.country);setFoundation("species",draft.species);setFoundation("life_stage",draft.life_stage);}
   if(String(draft.name||"").trim()){copy.origin.name=String(draft.name).trim().slice(0,120);copy.state.locks["origin.name"]=true;}
   copy.extensions||={};copy.extensions.promptforge||={};
   copy.extensions.promptforge.characterOverrides={
@@ -158,15 +163,20 @@ initProductShell({
   metadata:id=>store.libraryMetadata(id),
   sceneStore,
   projectStore,
+  projectCoordinator,
   createCharacter:draft=>{
-    const anchors=Object.fromEntries([["setting",draft.setting],["gender",draft.gender],["life_stage",draft.life_stage],["age",draft.age?Number(draft.age):""]].filter(([,value])=>value!==""&&value!==undefined));
-    const persona=applyCharacterDraft(generatePersona(state.library,{seed:draft.seed||Date.now(),mode:"varied",anchors}),draft);
-    const saved=store.save(persona);renderLibrary();forgeEvent("generation",`Created character: ${saved.origin.name}`);return saved;
+    const anchors=Object.fromEntries([["setting",draft.setting],["era",draft.era],["country",draft.country],["species",draft.species],["gender",draft.gender],["life_stage",draft.life_stage],["age",draft.age?Number(draft.age):""]].filter(([,value])=>value!==""&&value!==undefined));
+    const project=draft.projectId?projectStore.open(draft.projectId):null;
+    const options=project?projectGenerationOptions(project,{seed:draft.seed||Date.now(),anchors,library:state.library}):{seed:draft.seed||Date.now(),mode:"varied",anchors};
+    let persona=applyCharacterDraft(generatePersona(state.library,options),draft);
+    if(project)persona=attachProjectContext(persona,project,anchors,options.projectInheritance);
+    const saved=store.save(persona);if(project)projectStore.addPersona(project.id,saved.meta.persona_id);renderLibrary();forgeEvent("generation",`Created character: ${saved.origin.name}`);return saved;
   },
-  updateCharacter:(id,draft)=>{const saved=store.save(applyCharacterDraft(store.open(id),draft,{editing:true}));renderLibrary();return saved;},
+  updateCharacter:(id,draft)=>{const original=store.open(id);let persona=applyCharacterDraft(original,draft,{editing:true});for(const projectId of Object.keys(persona.extensions?.promptforge?.projectContexts||{})){const project=projectStore.open(projectId);if(!project)continue;for(const field of ["setting","era","country","species"]){const before=original.foundation?.[field]?.id??original.foundation?.[field];if(draft[field]&&draft[field]!==before)persona=updatePersonaProjectOverride(persona,project,field,draft[field]);}}const saved=store.save(persona);renderLibrary();return saved;},
   updateCharacterContinuity:(id,event)=>{const saved=store.updateContinuity(id,event);if(saved)renderLibrary();return saved;},
   updateCharacterIntelligence:(id,intelligence)=>{const persona=store.open(id);if(!persona)return null;persona.extensions.promptforge.characterIntelligence=normalizeCharacterIntelligence(intelligence);const saved=store.save(normalizePersona(persona));renderLibrary();return saved;},
   updateCharacterReferences:(id,references)=>{const persona=store.open(id);if(!persona)return null;persona.extensions.promptforge.references=(Array.isArray(references)?references:[]).map(normalizePurposeReference).filter(Boolean);const saved=store.save(normalizePersona(persona));renderLibrary();return saved;},
   openAdvanced:id=>{if(id){const persona=store.open(id);if(persona){state.persona=persona;state.controller=new PersonaController(state.library,state.persona);state.dirty=false;state.lastChange="Opened from Character Studio";render();}}location.hash="studio";},
   importCharacter:raw=>{const snapshot=Array.isArray(raw?.personas)?raw:{personas:[raw?.persona||raw],personaLibrary:{}};const result=store.importBrowserData(snapshot);const id=Object.values(result.idMap)[0];const persona=store.open(id);if(!persona)throw new Error("The file does not contain a valid persona.");renderLibrary();return persona;}
+  ,updateProjectPersonaOverride:(projectId,personaId,field,value)=>{const project=projectStore.open(projectId),persona=store.open(personaId);if(!project||!persona)return null;const entry=(state.library[{setting:"settings",era:"eras",country:"countries",species:"species"}[field]]||[]).find(item=>item.id===value);if(!entry)return null;persona.foundation[field]=structuredClone(entry);persona.state.locks[`foundation.${field}`]=true;markStale(persona,`foundation.${field}`);const saved=store.save(updatePersonaProjectOverride(persona,project,field,value));renderLibrary();return saved;}
 });

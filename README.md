@@ -2,7 +2,9 @@
 
 PromptForge is a local-first character and scene studio. Its creative shell is organised around Home, Characters, Scenes, Projects, Genres, and Library, while the existing Control Centre and advanced PersonaForge workbench remain available for pool management, diagnostics, canonical locks, rerolls, inspection, and output control.
 
-The product follows one rule: simple on the surface, deep underneath. Character Studio and Scene Forge call the existing deterministic persona engine rather than maintaining a second model. Weighted genres are optional influence profiles, projects provide reference-based context, and saved scenes continue the same canonical character across moments.
+The product follows one rule: simple on the surface, deep underneath. PromptForge v0.5.0 introduces Project Foundations: versioned, reference-based Projects with provenance-preserving context inheritance, review markers, safe local portability, and project-aware generation through the existing deterministic persona engine. Weighted genres remain optional influences, and standalone personas remain first-class.
+
+See [PROJECT_FOUNDATIONS_v0.5.0.md](PROJECT_FOUNDATIONS_v0.5.0.md) for the architecture and compatibility report.
 
 Character Intelligence programme milestone: **v0.6.9**. It adds semantic genre recipes, reusable universal human relationships, typed character truth and preferences, contextual lifestyle and scene resolution, purpose-aware references, and bounded current-life continuity without changing the canonical PersonaForge engine or its `0.4.0` catalogue/data contract.
 

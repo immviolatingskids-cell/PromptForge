@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://promptforge.local/schemas/project.schema.json",
+  "title": "PromptForge Project",
+  "type": "object",
+  "required": ["schemaVersion", "id", "name", "createdAt", "updatedAt", "versions", "context", "defaults", "personaRefs", "memberState", "state", "entities", "extensions"],
+  "properties": {
+    "schemaVersion": { "const": 3 },
+    "id": { "type": "string", "minLength": 1, "maxLength": 160 },
+    "name": { "type": "string", "minLength": 1, "maxLength": 120 },
+    "description": { "type": "string", "maxLength": 1000 },
+    "createdAt": { "type": "string" },
+    "updatedAt": { "type": "string" },
+    "versions": {
+      "type": "object",
+      "required": ["projectSchema", "application", "data", "personaSchema"],
+      "properties": { "projectSchema": { "const": 3 }, "application": { "type": "string" }, "data": { "type": "string" }, "personaSchema": { "type": "string" } },
+      "additionalProperties": false
+    },
+    "context": {
+      "type": "object",
+      "required": ["setting", "era", "country", "species", "premise", "extensions"],
+      "properties": { "setting": { "type": "string" }, "era": { "type": "string" }, "country": { "type": "string" }, "species": { "type": "string" }, "premise": { "type": "string" }, "extensions": { "type": "object" } },
+      "additionalProperties": false
+    },
+    "defaults": { "type": "object" },
+    "personaRefs": { "type": "array", "items": { "type": "object", "required": ["type", "id"], "properties": { "type": { "const": "persona" }, "id": { "type": "string", "minLength": 1 } }, "additionalProperties": false } },
+    "memberState": { "type": "object" },
+    "state": { "type": "object" },
+    "entities": { "type": "object", "required": ["casts", "groups", "relationships", "locations", "scenes"] },
+    "extensions": { "type": "object" }
+  },
+  "additionalProperties": true
+}

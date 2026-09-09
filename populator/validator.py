@@ -324,20 +324,23 @@ def _validate_component_versions(data_root: Path) -> list[ValidationIssue]:
                 issues.append(_issue(registry_path, f"registry version {registry.get('version')!r} does not match data_version {authoritative!r}"))
         except (OSError, UnicodeError, json.JSONDecodeError):
             pass
+    application_version = None
     schema_path = data_root / "schema_version.json"
     if schema_path.exists():
         try:
             schema = json.loads(schema_path.read_text(encoding="utf-8"))
-            if isinstance(schema, dict) and schema.get("application_version") not in (None, authoritative):
-                issues.append(_issue(schema_path, f"application_version {schema.get('application_version')!r} does not match data_version {authoritative!r}"))
+            if isinstance(schema, dict):
+                application_version = schema.get("application_version")
+                if application_version is not None and (not isinstance(application_version, str) or not application_version.strip()):
+                    issues.append(_issue(schema_path, "application_version must be a non-empty string"))
         except (OSError, UnicodeError, json.JSONDecodeError):
             pass
     package_path = data_root.parent / "package.json"
     if package_path.exists():
         try:
             package = json.loads(package_path.read_text(encoding="utf-8"))
-            if isinstance(package, dict) and package.get("version") not in (None, authoritative):
-                issues.append(_issue(package_path, f"package version {package.get('version')!r} does not match data_version {authoritative!r}"))
+            if isinstance(package, dict) and application_version and package.get("version") not in (None, application_version):
+                issues.append(_issue(package_path, f"package version {package.get('version')!r} does not match application_version {application_version!r}"))
         except (OSError, UnicodeError, json.JSONDecodeError):
             pass
     return issues

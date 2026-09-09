@@ -27,6 +27,8 @@ export function normalizePersona(persona){
   copy.style_profile=normalizeGenreProfile(copy.style_profile||copy.extensions?.promptforge?.styleProfile||{});
   copy.extensions ||= {};
   copy.extensions.promptforge ||= {};
+  const projectContexts=copy.extensions.promptforge.projectContexts;
+  copy.extensions.promptforge.projectContexts=projectContexts&&typeof projectContexts==="object"&&!Array.isArray(projectContexts)?projectContexts:{};
   const overrides=copy.extensions.promptforge.characterOverrides;
   copy.extensions.promptforge.characterOverrides=overrides&&typeof overrides==="object"&&!Array.isArray(overrides)?overrides:{};
   copy.extensions.promptforge.characterIntelligence=normalizeCharacterIntelligence(copy.extensions.promptforge.characterIntelligence||{});

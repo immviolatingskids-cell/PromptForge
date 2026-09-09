@@ -90,7 +90,9 @@ Lifecycle changes are explicit events: `set_current`, `clear_current`, `upsert_t
 
 ## Project context
 
-Projects remain reference-based under the existing `personaforge.projects.v1` storage key. Project schema version 2 adds normalized `sceneRefs`, `locations`, `relationships`, `notes`, and `genreProfile` extension points. Version 1 records load through `normalizeProject` with empty additive defaults.
+Projects remain reference-based under the existing `personaforge.projects.v1` storage key. Project schema version 3 establishes the v0.5.0 foundation: distinct version metadata, structured context/defaults, typed persona references, member review state, revisions, and explicit future entity collection boundaries. Version 1 and 2 records load through additive normalization. Canonical personas remain independently owned by `PersonaStore`, and a persona may be associated with multiple Projects.
+
+`src/project-context.js` records inherited values, persona overrides, independent values, generation inputs, and per-Project review state under the persona's PromptForge extension. Project context changes never rewrite persona decisions; inheriting fields receive dependency-derived review hints.
 
 Projects do not rewrite personas. Scene Forge may use a project location, premise, or notes when the scene leaves a corresponding choice open. A saved scene is linked back through a scene reference.
 
