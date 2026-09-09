@@ -6,7 +6,11 @@ Locations are first-class reusable Project entities persisted by `LocationStore`
 
 Browser export/import includes Locations. Imports remap colliding IDs and update project references and child parent references in a two-pass import. Raw records remain available to diagnostics, which report invalid records, unknown types, missing projects/parents, malformed parents, self-parenting, cycles, duplicate IDs, and resolved counts.
 
-The Product Shell exposes the Location store through the application bridge and supports project-scoped creation with optional city geography. Persona geography remains independent. Scene Forge can resolve a Location, its ancestry, and its context through `open()` and `ancestry()` without duplicating records.
+The Product Shell exposes a full project-scoped Location editor: create, edit, delete, type selection, parent selection, structured geography, environment JSON, and human-readable cards. Persona geography remains independent. Scene Forge can resolve a Location, its ancestry, and its context through `open()` and `ancestry()` without duplicating records.
+
+Legacy string fields (`project.locations`) remain as compatibility context for the existing scene resolver; canonical reusable places live only in `locationRefs` and `LocationStore`. Legacy `project.entities.locations` is accepted as a migration source for typed references and is emitted empty, so it is no longer a second authority. Ambiguous legacy strings are preserved rather than fabricated into Location records.
+
+Import performs a two-pass ID remap before applying parent references. A cycle in imported evidence is retained unchanged and surfaced by diagnostics; normal create/update operations reject self-parenting and cycles. This preserves damaged evidence for repair without allowing new invalid hierarchy edits.
 
 Regression commands: `npm test`, `python -m unittest discover -s tests -v`, `python -m populator.main validate`, and `python populate.py health`.
 

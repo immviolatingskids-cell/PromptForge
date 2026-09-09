@@ -297,6 +297,11 @@ export function initProductShell(bridge) {
     const people = personas(), options = people.map(item => `<option value="${escapeHtml(item.persona.meta.persona_id)}">${escapeHtml(item.persona.origin.name)}</option>`).join(""), types = Object.values(bridge.relationshipTypes || {}).map(type => `<option value="${escapeHtml(type.id)}">${escapeHtml(type.label)}</option>`).join("");
     const section = document.createElement("section"); section.className = "pf-surface pf-profile-panel"; section.innerHTML = `<div class="pf-section-heading"><div><p class="pf-kicker">Graph</p><h2>Relationship editor</h2></div></div><form id="relationship-create-form" data-project-id="${escapeHtml(projectId)}" class="pf-form-grid"><label>Source persona<select name="sourceRef" required>${options}</select></label><label>Relationship type<select name="type" required>${types}</select></label><label>Target persona<select name="targetRef" required>${options}</select></label><label>Status<select name="status"><option value="">Custom / unspecified</option>${["active","former","estranged","deceased","complicated","unknown"].map(value=>`<option value="${value}">${humanize(value)}</option>`).join("")}</select></label><label class="pf-span-2">Description<textarea name="description" rows="2"></textarea></label><button class="pf-primary" type="submit">Create relationship</button></form>`; panel.appendChild(section);
   }
+  function enhanceLocationControls(projectId) {
+    const panel = document.querySelector("#product-view"); if (!panel || !bridge.locationStore || panel.querySelector("#location-editor")) return;
+    const locations = bridge.locationStore.all().filter(item => item.projectRef?.id === projectId), types = (bridge.locationTypes || []).map(item => `<option value="${escapeHtml(item.id)}">${escapeHtml(item.label)}</option>`).join(""), parents = locations.map(item => `<option value="${escapeHtml(item.id)}">${escapeHtml(item.name)}</option>`).join("");
+    const section = document.createElement("section"); section.id = "location-editor"; section.className = "pf-surface pf-profile-panel"; section.innerHTML = `<div class="pf-section-heading"><div><p class="pf-kicker">Places</p><h2>Location editor</h2></div></div><form id="location-form" data-project-id="${escapeHtml(projectId)}" class="pf-form-grid"><input type="hidden" name="id"><label>Name<input name="name" required maxlength="160"></label><label>Type<select name="type" required>${types}</select></label><label>Parent location<select name="parentRef"><option value="">No parent</option>${parents}</select></label><label>Country / world<input name="country"></label><label>Region<input name="region"></label><label>City / settlement<input name="city"></label><label>District / neighbourhood<input name="district"></label><label class="pf-span-2">Description<textarea name="description" rows="2"></textarea></label><label class="pf-span-2">Environment metadata (JSON, optional)<textarea name="environment" rows="2" placeholder='{"indoorOutdoor":"indoor"}'></textarea></label><div class="pf-form-actions"><button class="pf-primary" type="submit">Save location</button><button type="button" data-location-action="clear">Clear</button></div></form><div class="pf-list">${locations.map(item => `<article class="pf-scene-card"><div><h3>${escapeHtml(item.name)}</h3><p>${escapeHtml(item.type)}${item.geography?.city ? ` · ${escapeHtml(item.geography.city)}` : ""}</p></div><div><button type="button" data-location-action="edit" data-id="${escapeHtml(item.id)}">Edit</button><button type="button" data-location-action="delete" data-id="${escapeHtml(item.id)}">Delete</button></div></article>`).join("")}</div>`; panel.appendChild(section);
+  }
   function navigate() {
     const parts = location.hash.slice(1).split("/");
     const area = routeTitles[parts[0]] ? parts[0] : "";
@@ -311,7 +316,7 @@ export function initProductShell(bridge) {
     if (area === "projects") projectsView(parts[1] ? decodeURIComponent(parts.slice(1).join("/")) : "");
     if (area === "genres") genresView();
     if (area === "library") libraryView();
-    if (area === "projects" && parts[1]) enhanceRelationshipControls(decodeURIComponent(parts.slice(1).join("/")));
+    if (area === "projects" && parts[1]) { const projectId = decodeURIComponent(parts.slice(1).join("/")); enhanceRelationshipControls(projectId); enhanceLocationControls(projectId); }
     view.focus({ preventScroll: true });
   }
 
@@ -327,6 +332,15 @@ export function initProductShell(bridge) {
   });
 
   document.addEventListener("click", async event => {
+    const locationButton = event.target.closest("[data-location-action]");
+    if (locationButton) {
+      const form = document.querySelector("#location-form"), action = locationButton.dataset.locationAction;
+      if (action === "clear") { form?.reset(); if (form) form.elements.id.value = ""; return; }
+      const item = bridge.locationStore?.open(locationButton.dataset.id);
+      if (action === "delete" && item && confirm(`Delete ${item.name}?`)) { bridge.locationStore.delete(item.id); const project = projectStore.open(form?.dataset.projectId); if (project) projectStore.update(project.id, { locationRefs: project.locationRefs.filter(ref => ref.id !== item.id) }); navigate(); }
+      if (action === "edit" && item && form) { form.elements.id.value = item.id; form.elements.name.value = item.name; form.elements.type.value = item.type; form.elements.parentRef.value = item.parentRef?.id || ""; for (const key of ["country", "region", "city", "district"]) form.elements[key].value = item.geography?.[key] || ""; form.elements.description.value = item.description || ""; form.elements.environment.value = JSON.stringify(item.environment || {}); form.elements.name.focus(); }
+      return;
+    }
     const button = event.target.closest("[data-product-action]");
     if (!button) return;
     const action = button.dataset.productAction;
@@ -375,6 +389,7 @@ export function initProductShell(bridge) {
   });
   root.addEventListener("submit", event => { const form = event.target.closest("#relationship-create-form"); if (!form) return; event.preventDefault(); const values = Object.fromEntries(new FormData(form)); try { const relationship = relationshipStore.create({ projectRef: { type: "project", id: form.dataset.projectId }, sourceRef: { type: "persona", id: values.sourceRef }, targetRef: { type: "persona", id: values.targetRef }, type: values.type, status: values.status || null, description: values.description }); const project = projectStore.open(form.dataset.projectId); projectStore.update(project.id, { relationshipRefs: [...project.relationshipRefs, { type: "relationship", id: relationship.id }] }); navigate(); } catch (error) { alert(error.message); } });
   root.addEventListener("submit", event => { const form = event.target.closest("#location-create-form"); if (!form) return; event.preventDefault(); const values = Object.fromEntries(new FormData(form)); try { const locationRecord = bridge.locationStore.create({ projectRef: { type: "project", id: form.dataset.projectId }, name: values.name, type: values.type, description: values.description, geography: values.city ? { city: values.city } : {} }); const project = projectStore.open(form.dataset.projectId); projectStore.update(project.id, { locationRefs: [...project.locationRefs, { type: "location", id: locationRecord.id }] }); navigate(); } catch (error) { alert(error.message); } });
+  root.addEventListener("submit", event => { const form = event.target.closest("#location-form"); if (!form) return; event.preventDefault(); const values = Object.fromEntries(new FormData(form)), geography = Object.fromEntries([["country", values.country], ["region", values.region], ["city", values.city], ["district", values.district]].filter(([, value]) => value?.trim())); let environment = {}; try { environment = values.environment?.trim() ? JSON.parse(values.environment) : {}; } catch { alert("Environment metadata must be valid JSON."); return; } try { const patch = { projectRef: { type: "project", id: form.dataset.projectId }, name: values.name, type: values.type, description: values.description, geography, environment, parentRef: values.parentRef ? { type: "location", id: values.parentRef } : null }; const item = values.id ? bridge.locationStore.update(values.id, patch) : bridge.locationStore.create(patch); const project = projectStore.open(form.dataset.projectId); if (item && project && !project.locationRefs.some(ref => ref.id === item.id)) projectStore.update(project.id, { locationRefs: [...project.locationRefs, { type: "location", id: item.id }] }); navigate(); } catch (error) { alert(error.message); } });
 
   dialog.addEventListener("input", event => {
     if (event.target.type === "range") event.target.nextElementSibling.textContent = event.target.value;
