@@ -1,8 +1,8 @@
 {
   "name": "personaforge",
-  "version": "0.5.1",
+  "version": "0.5.4",
   "private": true,
   "type": "module",
-  "scripts": { "test": "node --test", "visual-review": "node visual-review/capture.mjs", "diagnose": "node scripts/generation-diagnostics.js", "diagnostics:hobbies": "node scripts/hobby-diagnostics.js 1000", "diagnostics:narrative": "node scripts/narrative-diagnostics.js 1000", "diagnostics:visual": "node scripts/visual-diagnostics.js 1000", "diagnostics:adapters": "node scripts/adapter-diagnostics.js", "diagnostics:visual-quality": "node scripts/visual-quality-diagnostics.js 100", "diagnostics:density": "node scripts/density-diagnostics.js", "diagnostics:explainability": "node scripts/explainability-diagnostics.js 100", "diagnostics:alternatives": "node scripts/alternatives-diagnostics.js", "review:visual": "node scripts/visual-editorial-review.js 100", "review:visual-samples": "node scripts/visual-editorial-samples.js" },
+  "scripts": { "test": "node --test", "visual-review": "node visual-review/capture.mjs", "visual-review:scenes": "node visual-review/scene-forge.mjs", "diagnose": "node scripts/generation-diagnostics.js", "diagnostics:hobbies": "node scripts/hobby-diagnostics.js 1000", "diagnostics:narrative": "node scripts/narrative-diagnostics.js 1000", "diagnostics:visual": "node scripts/visual-diagnostics.js 1000", "diagnostics:adapters": "node scripts/adapter-diagnostics.js", "diagnostics:visual-quality": "node scripts/visual-quality-diagnostics.js 100", "diagnostics:density": "node scripts/density-diagnostics.js", "diagnostics:explainability": "node scripts/explainability-diagnostics.js 100", "diagnostics:alternatives": "node scripts/alternatives-diagnostics.js", "review:visual": "node scripts/visual-editorial-review.js 100", "review:visual-samples": "node scripts/visual-editorial-samples.js" },
   "devDependencies": { "playwright": "^1.55.0" }
 }
