@@ -60,6 +60,7 @@ export function initControlCentre(bridge) {
       store.session.unshift({type:action === "audit" ? "diagnostics" : "backups"});
       data = await hubRequest();
       report(action === "audit" ? "Health audit completed." : "Backup created. Download it from Data & Backup.");
+      window.dispatchEvent(new CustomEvent("pf-toast", {detail:{message:action === "audit" ? "Health audit completed" : "Backup completed"}}));
     } catch (error) { report(error.message, true); }
     finally { busy = false; render(); }
   }
@@ -84,7 +85,7 @@ export function initControlCentre(bridge) {
         const name = await askText("Name this generation preset:", "My generation setup");
         if (!name?.trim()) return;
         const preset = {...bridge.capture(), id:crypto.randomUUID(), name:name.trim().slice(0,80), tags:[], favorite:false, createdAt:new Date().toISOString()};
-        store.savePreset(preset); store.record("presets", `Saved preset: ${preset.name}`);
+        store.savePreset(preset); store.record("presets", `Saved preset: ${preset.name}`); window.dispatchEvent(new CustomEvent("pf-toast", {detail:{message:"Preset saved"}}));
       }
       const preset = store.data.presets.find(p => p.id === button.dataset.id);
       if (preset) {
