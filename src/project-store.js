@@ -21,7 +21,8 @@ export function normalizeProjectContext(context = {}) {
 
 export function normalizeProjectDefaults(defaults = {}) {
   const source = object(defaults);
-  return { varianceMode: ["grounded", "varied", "wild"].includes(source.varianceMode) ? source.varianceMode : "varied", extensions: structuredClone(object(source.extensions)) };
+  const varianceMode = source.varianceMode === "wild" ? "chaotic" : source.varianceMode;
+  return { varianceMode: ["grounded", "varied", "chaotic"].includes(varianceMode) ? varianceMode : "varied", extensions: structuredClone(object(source.extensions)) };
 }
 
 function normalizeMemberState(value = {}) {

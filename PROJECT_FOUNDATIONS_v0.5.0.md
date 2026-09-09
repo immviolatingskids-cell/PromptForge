@@ -22,7 +22,7 @@ Project schema version 3 contains:
 - stable `id`, `name`, optional `description`, `createdAt`, and `updatedAt`;
 - distinct `versions.projectSchema`, `versions.application`, `versions.data`, and `versions.personaSchema`;
 - structured `context` with setting, era/year label, country, species, premise, and an extension boundary;
-- `defaults.varianceMode` and a typed defaults extension boundary;
+- `defaults.varianceMode` and a typed defaults extension boundary. Variance uses the canonical PromptForge terms `grounded`, `varied`, and `chaotic`; the legacy Project-only input `wild` is accepted and normalized to `chaotic`;
 - `personaRefs` and per-member review state;
 - project revision/review state;
 - explicit future entity collection boundaries for casts, groups, relationships, locations, and scenes;
