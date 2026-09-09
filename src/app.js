@@ -108,6 +108,26 @@ document.querySelector("#project-list")?.addEventListener("click",()=>setTimeout
 document.addEventListener("click",event=>{const button=event.target.closest("button[data-project-action=\"add\"]");if(!button)return;event.preventDefault();event.stopImmediatePropagation();const project=projectStore.open(button.dataset.id),panel=document.querySelector("#project-detail");if(!project||!panel)return;const choices=store.allWithMetadata().filter(r=>!project.personaRefs.some(ref=>ref.id===r.persona.meta.persona_id));panel.hidden=false;panel.dataset.projectId=project.id;panel.innerHTML=`<form id="project-add-form" class="output-group"><h3>Add character to ${escapeHtml(project.name)}</h3>${choices.length?`<label>Saved persona<select name="personaId" required>${choices.map(r=>`<option value="${escapeHtml(r.persona.meta.persona_id)}">${escapeHtml(r.persona.origin.name)}</option>`).join("")}</select></label><button class="primary" type="submit">Add character</button>`:'<p class="muted">No saved personas are available yet.</p>'}</form>`;},true);
 document.addEventListener("submit",event=>{const form=event.target.closest("#project-add-form");if(!form)return;event.preventDefault();const panel=document.querySelector("#project-detail"),personaId=new FormData(form).get("personaId");if(panel?.dataset.projectId&&personaId)projectStore.addPersona(panel.dataset.projectId,personaId);form.remove();renderProjects();});
 renderProjects();
+
+// Cast/Group management completion surface: enriches the existing project detail without embedding records.
+function renderCollectionManagement(projectId) {
+  const project = projectStore.open(projectId), detail = document.querySelector("#project-detail"); if (!project || !detail) return;
+  for (const [storeObj, label, kind] of [[castStore, "Casts", "cast"], [groupStore, "Groups", "group"]]) {
+    const id = `project-${kind}-management`, old = detail.querySelector(`#${id}`); old?.remove();
+    const items = storeObj.all().filter(item => item.projectRef?.id === projectId), section = document.createElement("section"); section.id = id; section.className = "output-group";
+    section.innerHTML = `<h3>${label}</h3>${items.length ? items.map(item => `<div class="field"><span><strong>${escapeHtml(item.name)}</strong> · ${item.personaRefs.length} member(s)</span><button data-collection-action="edit" data-kind="${kind}" data-collection-id="${escapeHtml(item.id)}">Edit</button><button data-collection-action="members" data-kind="${kind}" data-collection-id="${escapeHtml(item.id)}">Manage members</button><button data-collection-action="delete" data-kind="${kind}" data-collection-id="${escapeHtml(item.id)}">Delete</button></div>`).join("") : '<p class="muted">No collections yet.</p>'}<button data-collection-action="create" data-kind="${kind}">Create ${label.slice(0,-1)}</button>`;
+    detail.appendChild(section);
+  }
+}
+document.addEventListener("click", event => {
+  const opened = event.target.closest("button[data-project-action=\"open\"]"); if (opened) { const panel = document.querySelector("#project-detail"); if (panel) { panel.dataset.projectId = opened.dataset.id; setTimeout(() => renderCollectionManagement(opened.dataset.id), 0); } }
+  const button = event.target.closest("[data-collection-action]"); if (!button) return; const kind = button.dataset.kind, storeObj = kind === "group" ? groupStore : castStore, projectId = document.querySelector("#project-detail")?.dataset.projectId; if (!projectId) return;
+  if (button.dataset.collectionAction === "create") { const name = window.prompt(`${kind === "group" ? "Group" : "Cast"} name:`); if (name?.trim()) { const item = storeObj.create({ name: name.trim(), projectRef: { type: "project", id: projectId } }); const project = projectStore.open(projectId); projectStore.update(projectId, { [`${kind}Refs`]: [...project[`${kind}Refs`], { type: kind, id: item.id }] }); } }
+  if (button.dataset.collectionAction === "edit") { const item = storeObj.open(button.dataset.collectionId), name = window.prompt("Name:", item?.name || ""); if (item && name?.trim()) storeObj.update(item.id, { name: name.trim() }); }
+  if (button.dataset.collectionAction === "members") { const item = storeObj.open(button.dataset.collectionId), people = store.allWithMetadata(), choice = window.prompt(`Enter persona ID to toggle membership:\n${people.map(r => `${r.persona.meta.persona_id} — ${r.persona.origin.name}`).join("\n")}`); if (item && choice?.trim()) { const id = choice.trim(); item.personaRefs.some(ref => ref.id === id) ? storeObj.removePersona(item.id, id) : storeObj.addPersona(item.id, id); } }
+  if (button.dataset.collectionAction === "delete") { const item = storeObj.open(button.dataset.collectionId); if (item && window.confirm(`Delete ${item.name}? Personas will be preserved.`)) { storeObj.delete(item.id); const project = projectStore.open(projectId); projectStore.update(projectId, { [`${kind}Refs`]: project[`${kind}Refs`].filter(ref => ref.id !== item.id) }); } }
+  renderCollectionManagement(projectId);
+}, true);
 hub = initControlCentre({
   settings: () => state.library?.settings || [],
   personas: () => store.all(),
