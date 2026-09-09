@@ -7,6 +7,7 @@ const definitions = [
 export const RELATIONSHIP_TYPES = Object.freeze(Object.fromEntries(definitions.map(([id,label,directional,inverse,category]) => [id, Object.freeze({id,label,directional,inverse,category})])));
 export const RELATIONSHIP_STATUSES = Object.freeze(["active", "former", "estranged", "deceased", "complicated", "unknown"]);
 export const getRelationshipType = id => RELATIONSHIP_TYPES[id] || null;
+export const relationshipLabel = id => RELATIONSHIP_TYPES[id]?.label || String(id || "Unknown relationship");
 export const inverseRelationshipType = id => RELATIONSHIP_TYPES[id]?.inverse ? RELATIONSHIP_TYPES[RELATIONSHIP_TYPES[id].inverse] : null;
 export const isSymmetricRelationship = id => RELATIONSHIP_TYPES[id] ? !RELATIONSHIP_TYPES[id].directional : false;
 export function canonicalRelationshipKey(type, sourceId, targetId) { const def = getRelationshipType(type); if (!def || !sourceId || !targetId) return null; if (def.directional && def.inverse) { const canonicalType = [type, def.inverse].sort()[0], source = type === canonicalType ? sourceId : targetId, target = type === canonicalType ? targetId : sourceId; return `${canonicalType}:${source}:${target}`; } if (def.directional) return `${type}:${sourceId}:${targetId}`; const [left,right] = [sourceId,targetId].sort(); return `${type}:${left}:${right}`; }

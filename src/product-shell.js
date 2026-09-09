@@ -4,6 +4,7 @@ import { continuityFor } from "./character-continuity.js";
 import { REFERENCE_MEDIA_TYPES, REFERENCE_PURPOSES, REFERENCE_STRENGTHS, assemblePurposeReferences, createPurposeReference } from "./reference-model.js";
 import { resolveScene } from "./scene-resolver.js";
 import { sceneReferences } from "./scene-store.js";
+import { relationshipLabel } from "./relationship-types.js";
 
 const routeTitles = { home: "Home", characters: "Characters", scenes: "Scenes", projects: "Projects", genres: "Genres", library: "Library" };
 const wizardSteps = ["Core details", "Appearance", "Personality", "Background", "Lifestyle", "Style & genre", "References", "Review"];
@@ -290,6 +291,11 @@ export function initProductShell(bridge) {
     dialog.querySelector("input")?.focus();
   }
 
+  function enhanceRelationshipControls(projectId) {
+    const panel = document.querySelector("#product-view"); if (!panel || !relationshipStore || panel.querySelector("#relationship-create-form")) return;
+    const people = personas(), options = people.map(item => `<option value="${escapeHtml(item.persona.meta.persona_id)}">${escapeHtml(item.persona.origin.name)}</option>`).join(""), types = Object.values(bridge.relationshipTypes || {}).map(type => `<option value="${escapeHtml(type.id)}">${escapeHtml(type.label)}</option>`).join("");
+    const section = document.createElement("section"); section.className = "pf-surface pf-profile-panel"; section.innerHTML = `<div class="pf-section-heading"><div><p class="pf-kicker">Graph</p><h2>Relationship editor</h2></div></div><form id="relationship-create-form" data-project-id="${escapeHtml(projectId)}" class="pf-form-grid"><label>Source persona<select name="sourceRef" required>${options}</select></label><label>Relationship type<select name="type" required>${types}</select></label><label>Target persona<select name="targetRef" required>${options}</select></label><label>Status<select name="status"><option value="">Custom / unspecified</option>${["active","former","estranged","deceased","complicated","unknown"].map(value=>`<option value="${value}">${humanize(value)}</option>`).join("")}</select></label><label class="pf-span-2">Description<textarea name="description" rows="2"></textarea></label><button class="pf-primary" type="submit">Create relationship</button></form>`; panel.appendChild(section);
+  }
   function navigate() {
     const parts = location.hash.slice(1).split("/");
     const area = routeTitles[parts[0]] ? parts[0] : "";
@@ -304,6 +310,7 @@ export function initProductShell(bridge) {
     if (area === "projects") projectsView(parts[1] ? decodeURIComponent(parts.slice(1).join("/")) : "");
     if (area === "genres") genresView();
     if (area === "library") libraryView();
+    if (area === "projects" && parts[1]) enhanceRelationshipControls(decodeURIComponent(parts.slice(1).join("/")));
     view.focus({ preventScroll: true });
   }
 
@@ -365,6 +372,7 @@ export function initProductShell(bridge) {
     const suggestions = root.querySelector("#scene-suggestions");
     if (suggestions) suggestions.innerHTML = sceneSuggestionMarkup(personById(event.target.value));
   });
+  root.addEventListener("submit", event => { const form = event.target.closest("#relationship-create-form"); if (!form) return; event.preventDefault(); const values = Object.fromEntries(new FormData(form)); try { const relationship = relationshipStore.create({ projectRef: { type: "project", id: form.dataset.projectId }, sourceRef: { type: "persona", id: values.sourceRef }, targetRef: { type: "persona", id: values.targetRef }, type: values.type, status: values.status || null, description: values.description }); const project = projectStore.open(form.dataset.projectId); projectStore.update(project.id, { relationshipRefs: [...project.relationshipRefs, { type: "relationship", id: relationship.id }] }); navigate(); } catch (error) { alert(error.message); } });
 
   dialog.addEventListener("input", event => {
     if (event.target.type === "range") event.target.nextElementSibling.textContent = event.target.value;

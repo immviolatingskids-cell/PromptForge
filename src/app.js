@@ -17,6 +17,7 @@ import { ProjectCoordinator, attachProjectContext, projectGenerationOptions, upd
 import { SceneStore } from "./scene-store.js";
 import { CastStore, GroupStore } from "./cast-group-store.js";
 import { RelationshipStore } from "./relationship-store.js";
+import { RELATIONSHIP_TYPES } from "./relationship-types.js";
 import { initProductShell } from "./product-shell.js";
 import { normalizeGenreProfile } from "./genre-profile.js";
 import { normalizeCharacterIntelligence } from "./character-intelligence.js";
@@ -189,7 +190,7 @@ initProductShell({
   openPersona:id=>store.open(id),
   metadata:id=>store.libraryMetadata(id),
   sceneStore,
-  projectStore, castStore, groupStore, relationshipStore,
+  projectStore, castStore, groupStore, relationshipStore, relationshipTypes: RELATIONSHIP_TYPES,
   projectCoordinator,
   createCharacter:draft=>{
     const anchors=Object.fromEntries([["setting",draft.setting],["era",draft.era],["country",draft.country],["species",draft.species],["gender",draft.gender],["life_stage",draft.life_stage],["age",draft.age?Number(draft.age):""]].filter(([,value])=>value!==""&&value!==undefined));
