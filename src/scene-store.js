@@ -24,7 +24,9 @@ export function normalizeScene(raw = {}) {
       time: ["explicit", "project", "independent"].includes(source.inheritance?.time) ? source.inheritance.time : (source.requirements?.time ? "explicit" : "project")
     },
     requirements: { location: text(source.requirements?.location, 160), activity: text(source.requirements?.activity, 500), action: text(source.requirements?.action || source.requirements?.activity, 500), time: text(source.requirements?.time, 160), era: text(source.requirements?.era, 160), socialContext: text(source.requirements?.socialContext, 300), mood: text(source.requirements?.mood, 300), atmosphere: text(source.requirements?.atmosphere || source.requirements?.mood, 300), conflict: text(source.requirements?.conflict, 1000) },
-    controls: structuredClone(object(source.controls)), resolved: source.resolved && typeof source.resolved === "object" && !Array.isArray(source.resolved) ? structuredClone(source.resolved) : null,
+    controls: structuredClone(object(source.controls)),
+    projection: { focusPersonaId: text(source.projection?.focusPersonaId, 160) || focusPersonaRef?.id || null, composition: text(source.projection?.composition, 300), density: ["compact", "standard", "detailed"].includes(source.projection?.density) ? source.projection.density : "standard", visualTarget: text(source.projection?.visualTarget, 80) || text(source.controls?.target, 80) || "generic", mode: text(source.projection?.mode, 80) || "narrative_scene", locks: structuredClone(object(source.projection?.locks)), overrides: structuredClone(object(source.projection?.overrides)) },
+    resolved: source.resolved && typeof source.resolved === "object" && !Array.isArray(source.resolved) ? structuredClone(source.resolved) : null,
     output: { summary: text(source.output?.summary, 12000), prompt: text(source.output?.prompt, 20000), negativePrompt: text(source.output?.negativePrompt, 5000), package: structuredClone(object(source.output?.package)) },
     state: { stale: source.state?.stale === true, needsReview: source.state?.needsReview === true }, createdAt, modifiedAt: typeof source.modifiedAt === "string" ? source.modifiedAt : createdAt
   };
