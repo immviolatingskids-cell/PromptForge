@@ -78,9 +78,9 @@ export function parseProjectImport(text) {
 }
 
 export class ProjectStore {
-  constructor(storage = globalThis.localStorage) { this.storage = storage; }
-  all() { try { const value = JSON.parse(this.storage.getItem(PROJECT_KEY) || "[]"); return Array.isArray(value) ? value.filter(item => validateProject(item).valid).map(normalizeProject) : []; } catch { return []; } }
-  write(items) { this.storage.setItem(PROJECT_KEY, JSON.stringify(items.map(normalizeProject))); }
+  constructor(storage = globalThis.localStorage) { this.storage = storage; this.cacheKey = null; this.cacheValue = null; }
+  all() { try { const serialized = this.storage.getItem(PROJECT_KEY) || "[]"; if (serialized === this.cacheKey && this.cacheValue) return this.cacheValue.map(normalizeProject); const value = JSON.parse(serialized); const raw = Array.isArray(value) ? value.filter(item => validateProject(item).valid) : []; this.cacheKey = serialized; this.cacheValue = raw; return raw.map(normalizeProject); } catch { return []; } }
+  write(items) { const serialized = JSON.stringify(items.map(normalizeProject)); this.storage.setItem(PROJECT_KEY, serialized); this.cacheKey = serialized; this.cacheValue = JSON.parse(serialized); }
   open(projectId) { return this.all().find(project => project.id === projectId) || null; }
   create(fields = {}) { const stamp = now(), project = normalizeProject({ ...fields, id: fields.id || makeId(), createdAt: stamp, updatedAt: stamp }); project.workspace.activity = [activity("project.created", project.name)]; this.write([project, ...this.all()]); return project; }
   update(projectId, patch = {}) { const items = this.all(), index = items.findIndex(project => project.id === projectId); if (index < 0) return null; const current = items[index], next = normalizeProject({ ...current, ...patch, id: projectId, createdAt: current.createdAt, updatedAt: now() }); const changed = Object.keys(patch).filter(key => key !== "updatedAt"); const suppliedActivity = Array.isArray(patch.workspace?.activity); next.workspace.activity = suppliedActivity ? next.workspace.activity.slice(-100) : [...current.workspace.activity, activity(patch.activityType || "project.updated", changed.join(", "))].slice(-100); delete next.workspace.activityType; this.write(items.map((item, itemIndex) => itemIndex === index ? next : item)); return next; }
