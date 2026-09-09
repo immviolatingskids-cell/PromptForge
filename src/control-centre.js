@@ -1,7 +1,7 @@
 import { askText, confirmAction } from "./hub-dialog.js";
 import { HubStore, applyAppearance } from "./hub-store.js?v=0.4.9.2";
 import { hubRequest, hubPost } from "./hub-api.js?v=0.4.9.2";
-import { pages, renderPage } from "./hub-views.js?v=0.4.9.2";
+import { pages, renderPage } from "./hub-views.js?v=0.7.1";
 
 export function initControlCentre(bridge) {
   const store = new HubStore();

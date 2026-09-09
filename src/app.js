@@ -1,4 +1,4 @@
-import { initControlCentre } from "./control-centre.js?v=0.4.9.2";
+import { initControlCentre } from "./control-centre.js?v=0.7.1";
 import { loadLibrary } from "./data-loader.js";
 import { generatePersona } from "./generator.js";
 import { PersonaController } from "./persona-controller.js";
