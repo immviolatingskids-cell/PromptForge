@@ -1,14 +1,1212 @@
 [
-  {"id":"almond_brown","name":"Almond-shaped brown eyes","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]},"metadata":{"shape":"almond","color":"brown"}},
-  {"id":"round_green","name":"Round green eyes","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]},"metadata":{"shape":"round","color":"green"}},
-  {"id":"hooded_grey","name":"Hooded grey eyes","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]},"metadata":{"shape":"hooded","color":"grey"}},
-  {"id":"gold_flecked","name":"Gold-flecked hazel eyes","compatibility":{"settings":["fantasy"],"eras":[],"species":["elf"],"life_stages":[],"countries":[]},"metadata":{"shape":"almond","color":"hazel with gold flecks"}},
-  {"id":"deep_set_blue","name":"Deep-set blue eyes","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]},"metadata":{"shape":"deep-set","color":"blue"}},
-  {"id":"wide_dark_brown","name":"Wide dark-brown eyes","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]},"metadata":{"shape":"wide","color":"dark brown"}},
-  {"id":"upturned_amber","name":"Slightly upturned amber eyes","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]},"metadata":{"shape":"upturned","color":"amber"}},
-  {"id":"monolid_black","name":"Dark monolid eyes","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]},"metadata":{"shape":"monolid","color":"near-black"}},
-  {"id":"downturned_hazel","name":"Gently downturned hazel eyes","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]},"metadata":{"shape":"downturned","color":"hazel"}},
-  {"id":"pale_violet","name":"Pale violet eyes","compatibility":{"settings":["fantasy"],"eras":[],"species":["elf"],"life_stages":[],"countries":[]},"metadata":{"shape":"almond","color":"pale violet"}},
-  {"id":"cybernetic_teal","name":"Teal eyes with a subtle cybernetic iris ring","compatibility":{"settings":["science_fiction"],"eras":["future"],"species":["human"],"life_stages":["young_adult","adult","mature","older"],"countries":[]},"metadata":{"shape":"round","color":"teal","augmentation":"iris ring"}},
-  {"id":"soft_grey_green","name":"Soft grey-green eyes","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]},"metadata":{"shape":"hooded","color":"grey-green"}}
+  {
+    "id": "almond_brown",
+    "name": "Almond-shaped brown eyes",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "shape": "almond",
+      "color": "brown",
+      "pool_id": "brow_shape",
+      "pool_path": "appearance/eyes/brow_shape",
+      "subcategory": "brow_shape"
+    }
+  },
+  {
+    "id": "round_green",
+    "name": "Round green eyes",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "shape": "round",
+      "color": "green"
+    }
+  },
+  {
+    "id": "hooded_grey",
+    "name": "Hooded grey eyes",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "shape": "hooded",
+      "color": "grey"
+    }
+  },
+  {
+    "id": "gold_flecked",
+    "name": "Gold-flecked hazel eyes",
+    "compatibility": {
+      "settings": [
+        "fantasy"
+      ],
+      "eras": [],
+      "species": [
+        "elf"
+      ],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "shape": "almond",
+      "color": "hazel with gold flecks"
+    }
+  },
+  {
+    "id": "deep_set_blue",
+    "name": "Deep-set blue eyes",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "shape": "deep-set",
+      "color": "blue"
+    }
+  },
+  {
+    "id": "wide_dark_brown",
+    "name": "Wide dark-brown eyes",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "shape": "wide",
+      "color": "dark brown"
+    }
+  },
+  {
+    "id": "upturned_amber",
+    "name": "Slightly upturned amber eyes",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "shape": "upturned",
+      "color": "amber"
+    }
+  },
+  {
+    "id": "monolid_black",
+    "name": "Dark monolid eyes",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "shape": "monolid",
+      "color": "near-black"
+    }
+  },
+  {
+    "id": "downturned_hazel",
+    "name": "Gently downturned hazel eyes",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "shape": "downturned",
+      "color": "hazel"
+    }
+  },
+  {
+    "id": "pale_violet",
+    "name": "Pale violet eyes",
+    "compatibility": {
+      "settings": [
+        "fantasy"
+      ],
+      "eras": [],
+      "species": [
+        "elf"
+      ],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "shape": "almond",
+      "color": "pale violet"
+    }
+  },
+  {
+    "id": "cybernetic_teal",
+    "name": "Teal eyes with a subtle cybernetic iris ring",
+    "compatibility": {
+      "settings": [
+        "science_fiction"
+      ],
+      "eras": [
+        "future"
+      ],
+      "species": [
+        "human"
+      ],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "shape": "round",
+      "color": "teal",
+      "augmentation": "iris ring"
+    }
+  },
+  {
+    "id": "soft_grey_green",
+    "name": "Soft grey-green eyes",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "shape": "hooded",
+      "color": "grey-green"
+    }
+  },
+  {
+    "id": "eye_shape_classic_01",
+    "name": "Eye Shape classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "eye_shape",
+      "pool_path": "appearance/eyes/eye_shape",
+      "subcategory": "eye_shape"
+    }
+  },
+  {
+    "id": "eye_shape_refined_02",
+    "name": "Eye Shape refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "eye_shape",
+      "pool_path": "appearance/eyes/eye_shape",
+      "subcategory": "eye_shape"
+    }
+  },
+  {
+    "id": "eye_shape_weathered_03",
+    "name": "Eye Shape weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "eye_shape",
+      "pool_path": "appearance/eyes/eye_shape",
+      "subcategory": "eye_shape"
+    }
+  },
+  {
+    "id": "eye_shape_practical_04",
+    "name": "Eye Shape practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "eye_shape",
+      "pool_path": "appearance/eyes/eye_shape",
+      "subcategory": "eye_shape"
+    }
+  },
+  {
+    "id": "eye_shape_distinctive_05",
+    "name": "Eye Shape distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "eye_shape",
+      "pool_path": "appearance/eyes/eye_shape",
+      "subcategory": "eye_shape"
+    }
+  },
+  {
+    "id": "eye_shape_subtle_06",
+    "name": "Eye Shape subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "eye_shape",
+      "pool_path": "appearance/eyes/eye_shape",
+      "subcategory": "eye_shape"
+    }
+  },
+  {
+    "id": "eye_shape_layered_07",
+    "name": "Eye Shape layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "eye_shape",
+      "pool_path": "appearance/eyes/eye_shape",
+      "subcategory": "eye_shape"
+    }
+  },
+  {
+    "id": "eye_shape_handcrafted_08",
+    "name": "Eye Shape handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "eye_shape",
+      "pool_path": "appearance/eyes/eye_shape",
+      "subcategory": "eye_shape"
+    }
+  },
+  {
+    "id": "eye_shape_adaptive_09",
+    "name": "Eye Shape adaptive 09",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "eye_shape",
+      "pool_path": "appearance/eyes/eye_shape",
+      "subcategory": "eye_shape"
+    }
+  },
+  {
+    "id": "eye_colour_classic_01",
+    "name": "Eye Colour classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "eye_colour",
+      "pool_path": "appearance/eyes/eye_colour",
+      "subcategory": "eye_colour"
+    }
+  },
+  {
+    "id": "eye_colour_refined_02",
+    "name": "Eye Colour refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "eye_colour",
+      "pool_path": "appearance/eyes/eye_colour",
+      "subcategory": "eye_colour"
+    }
+  },
+  {
+    "id": "eye_colour_weathered_03",
+    "name": "Eye Colour weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "eye_colour",
+      "pool_path": "appearance/eyes/eye_colour",
+      "subcategory": "eye_colour"
+    }
+  },
+  {
+    "id": "eye_colour_practical_04",
+    "name": "Eye Colour practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "eye_colour",
+      "pool_path": "appearance/eyes/eye_colour",
+      "subcategory": "eye_colour"
+    }
+  },
+  {
+    "id": "eye_colour_distinctive_05",
+    "name": "Eye Colour distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "eye_colour",
+      "pool_path": "appearance/eyes/eye_colour",
+      "subcategory": "eye_colour"
+    }
+  },
+  {
+    "id": "eye_colour_subtle_06",
+    "name": "Eye Colour subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "eye_colour",
+      "pool_path": "appearance/eyes/eye_colour",
+      "subcategory": "eye_colour"
+    }
+  },
+  {
+    "id": "eye_colour_layered_07",
+    "name": "Eye Colour layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "eye_colour",
+      "pool_path": "appearance/eyes/eye_colour",
+      "subcategory": "eye_colour"
+    }
+  },
+  {
+    "id": "eye_colour_handcrafted_08",
+    "name": "Eye Colour handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "eye_colour",
+      "pool_path": "appearance/eyes/eye_colour",
+      "subcategory": "eye_colour"
+    }
+  },
+  {
+    "id": "eye_colour_adaptive_09",
+    "name": "Eye Colour adaptive 09",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "eye_colour",
+      "pool_path": "appearance/eyes/eye_colour",
+      "subcategory": "eye_colour"
+    }
+  },
+  {
+    "id": "eye_colour_ceremonial_10",
+    "name": "Eye Colour ceremonial 10",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "eye_colour",
+      "pool_path": "appearance/eyes/eye_colour",
+      "subcategory": "eye_colour"
+    }
+  },
+  {
+    "id": "eye_colour_everyday_11",
+    "name": "Eye Colour everyday 11",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "eye_colour",
+      "pool_path": "appearance/eyes/eye_colour",
+      "subcategory": "eye_colour"
+    }
+  },
+  {
+    "id": "eye_colour_formal_12",
+    "name": "Eye Colour formal 12",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "eye_colour",
+      "pool_path": "appearance/eyes/eye_colour",
+      "subcategory": "eye_colour"
+    }
+  },
+  {
+    "id": "eye_colour_lightweight_13",
+    "name": "Eye Colour lightweight 13",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "eye_colour",
+      "pool_path": "appearance/eyes/eye_colour",
+      "subcategory": "eye_colour"
+    }
+  },
+  {
+    "id": "eye_details_classic_01",
+    "name": "Eye Details classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "eye_details",
+      "pool_path": "appearance/eyes/eye_details",
+      "subcategory": "eye_details"
+    }
+  },
+  {
+    "id": "eye_details_refined_02",
+    "name": "Eye Details refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "eye_details",
+      "pool_path": "appearance/eyes/eye_details",
+      "subcategory": "eye_details"
+    }
+  },
+  {
+    "id": "eye_details_weathered_03",
+    "name": "Eye Details weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "eye_details",
+      "pool_path": "appearance/eyes/eye_details",
+      "subcategory": "eye_details"
+    }
+  },
+  {
+    "id": "eye_details_practical_04",
+    "name": "Eye Details practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "eye_details",
+      "pool_path": "appearance/eyes/eye_details",
+      "subcategory": "eye_details"
+    }
+  },
+  {
+    "id": "eye_details_distinctive_05",
+    "name": "Eye Details distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "eye_details",
+      "pool_path": "appearance/eyes/eye_details",
+      "subcategory": "eye_details"
+    }
+  },
+  {
+    "id": "eye_details_subtle_06",
+    "name": "Eye Details subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "eye_details",
+      "pool_path": "appearance/eyes/eye_details",
+      "subcategory": "eye_details"
+    }
+  },
+  {
+    "id": "eye_details_layered_07",
+    "name": "Eye Details layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "eye_details",
+      "pool_path": "appearance/eyes/eye_details",
+      "subcategory": "eye_details"
+    }
+  },
+  {
+    "id": "eye_details_handcrafted_08",
+    "name": "Eye Details handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "eye_details",
+      "pool_path": "appearance/eyes/eye_details",
+      "subcategory": "eye_details"
+    }
+  },
+  {
+    "id": "brow_shape_classic_01",
+    "name": "Brow Shape classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "brow_shape",
+      "pool_path": "appearance/eyes/brow_shape",
+      "subcategory": "brow_shape"
+    }
+  },
+  {
+    "id": "brow_shape_refined_02",
+    "name": "Brow Shape refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "brow_shape",
+      "pool_path": "appearance/eyes/brow_shape",
+      "subcategory": "brow_shape"
+    }
+  },
+  {
+    "id": "brow_shape_weathered_03",
+    "name": "Brow Shape weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "brow_shape",
+      "pool_path": "appearance/eyes/brow_shape",
+      "subcategory": "brow_shape"
+    }
+  },
+  {
+    "id": "brow_shape_practical_04",
+    "name": "Brow Shape practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "brow_shape",
+      "pool_path": "appearance/eyes/brow_shape",
+      "subcategory": "brow_shape"
+    }
+  },
+  {
+    "id": "brow_shape_distinctive_05",
+    "name": "Brow Shape distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "brow_shape",
+      "pool_path": "appearance/eyes/brow_shape",
+      "subcategory": "brow_shape"
+    }
+  },
+  {
+    "id": "brow_shape_subtle_06",
+    "name": "Brow Shape subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "brow_shape",
+      "pool_path": "appearance/eyes/brow_shape",
+      "subcategory": "brow_shape"
+    }
+  },
+  {
+    "id": "brow_shape_layered_07",
+    "name": "Brow Shape layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "brow_shape",
+      "pool_path": "appearance/eyes/brow_shape",
+      "subcategory": "brow_shape"
+    }
+  },
+  {
+    "id": "brow_shape_handcrafted_08",
+    "name": "Brow Shape handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "brow_shape",
+      "pool_path": "appearance/eyes/brow_shape",
+      "subcategory": "brow_shape"
+    }
+  },
+  {
+    "id": "brow_density_classic_01",
+    "name": "Brow Density classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "brow_density",
+      "pool_path": "appearance/eyes/brow_density",
+      "subcategory": "brow_density"
+    }
+  },
+  {
+    "id": "brow_density_refined_02",
+    "name": "Brow Density refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "brow_density",
+      "pool_path": "appearance/eyes/brow_density",
+      "subcategory": "brow_density"
+    }
+  },
+  {
+    "id": "brow_density_weathered_03",
+    "name": "Brow Density weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "brow_density",
+      "pool_path": "appearance/eyes/brow_density",
+      "subcategory": "brow_density"
+    }
+  },
+  {
+    "id": "brow_density_practical_04",
+    "name": "Brow Density practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "brow_density",
+      "pool_path": "appearance/eyes/brow_density",
+      "subcategory": "brow_density"
+    }
+  },
+  {
+    "id": "appearance_eyes_eye_shape_supplemental_01",
+    "name": "appearance eyes eye_shape supplemental 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "eye_shape",
+      "pool_path": "appearance/eyes/eye_shape",
+      "subcategory": "eye_shape"
+    }
+  },
+  {
+    "id": "appearance_eyes_eye_details_supplemental_01",
+    "name": "appearance eyes eye_details supplemental 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "eye_details",
+      "pool_path": "appearance/eyes/eye_details",
+      "subcategory": "eye_details"
+    }
+  },
+  {
+    "id": "appearance_eyes_brow_shape_supplemental_02",
+    "name": "appearance eyes brow_shape supplemental 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "brow_shape",
+      "pool_path": "appearance/eyes/brow_shape",
+      "subcategory": "brow_shape"
+    }
+  },
+  {
+    "id": "appearance_eyes_brow_density_supplemental_01",
+    "name": "appearance eyes brow_density supplemental 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "brow_density",
+      "pool_path": "appearance/eyes/brow_density",
+      "subcategory": "brow_density"
+    }
+  },
+  {
+    "id": "aster_eye_details_1",
+    "name": "Aster eye details 1",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "eye_details",
+      "pool_path": "appearance/eyes/eye_details",
+      "subcategory": "eye_details"
+    }
+  },
+  {
+    "id": "aster_brow_shape_1",
+    "name": "Aster brow shape 1",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "brow_shape",
+      "pool_path": "appearance/eyes/brow_shape",
+      "subcategory": "brow_shape"
+    }
+  },
+  {
+    "id": "aster_brow_density_1",
+    "name": "Aster brow density 1",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "brow_density",
+      "pool_path": "appearance/eyes/brow_density",
+      "subcategory": "brow_density"
+    }
+  },
+  {
+    "id": "bracken_brow_density_2",
+    "name": "Bracken brow density 2",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "brow_density",
+      "pool_path": "appearance/eyes/brow_density",
+      "subcategory": "brow_density"
+    }
+  },
+  {
+    "id": "cinder_brow_density_3",
+    "name": "Cinder brow density 3",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "brow_density",
+      "pool_path": "appearance/eyes/brow_density",
+      "subcategory": "brow_density"
+    }
+  },
+  {
+    "id": "dapple_brow_density_4",
+    "name": "Dapple brow density 4",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "brow_density",
+      "pool_path": "appearance/eyes/brow_density",
+      "subcategory": "brow_density"
+    }
+  },
+  {
+    "id": "ember_brow_density_5",
+    "name": "Ember brow density 5",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "brow_density",
+      "pool_path": "appearance/eyes/brow_density",
+      "subcategory": "brow_density"
+    }
+  }
 ]

@@ -1,0 +1,435 @@
+import { GENRE_DIMENSION_DEFINITIONS, GENRE_REGISTRY, blendedGenreDimensions, genreById, genreProfileFor, genreProfileLabel, normalizeGenreProfile, relatedGenreSuggestions, weightedGenreInfluences } from "./genre-profile.js";
+import { explainCharacterIntelligence } from "./character-intelligence.js";
+import { continuityFor } from "./character-continuity.js";
+import { REFERENCE_MEDIA_TYPES, REFERENCE_PURPOSES, REFERENCE_STRENGTHS, assemblePurposeReferences, createPurposeReference } from "./reference-model.js";
+import { resolveScene } from "./scene-resolver.js";
+import { sceneReferences } from "./scene-store.js";
+
+const routeTitles = { home: "Home", characters: "Characters", scenes: "Scenes", projects: "Projects", genres: "Genres", library: "Library" };
+const wizardSteps = ["Core details", "Appearance", "Personality", "Background", "Lifestyle", "Style & genre", "References", "Review"];
+const escapeHtml = value => String(value ?? "").replace(/[&<>"']/g, character => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[character]));
+const display = value => value?.name ?? value?.text ?? value ?? "—";
+const initials = value => String(value || "?").split(/\s+/).filter(Boolean).slice(0, 2).map(part => part[0]).join("").toUpperCase();
+const splitList = value => String(value || "").split(",").map(item => item.trim()).filter(Boolean);
+const dateLabel = value => value ? new Intl.DateTimeFormat(undefined, { month: "short", day: "numeric" }).format(new Date(value)) : "Saved locally";
+const humanize = value => String(value || "").replaceAll("_", " ").replaceAll("-", " ").replace(/\b\w/g, letter => letter.toUpperCase());
+
+export function sceneSuggestionsFor(persona) {
+  const profile = genreProfileFor(persona);
+  const continuity = continuityFor(persona);
+  const activities = [continuity.current.situation, continuity.current.goal, ...weightedGenreInfluences(profile, "activities").map(item => item.value)].filter(Boolean);
+  const locations = weightedGenreInfluences(profile, "environments").map(item => item.value);
+  return {
+    activities: [...new Set(activities)].slice(0, 4),
+    locations: [...new Set(locations)].slice(0, 4)
+  };
+}
+
+function sceneSuggestionMarkup(persona) {
+  const suggestions = sceneSuggestionsFor(persona);
+  const buttons = [
+    ...suggestions.activities.map(value => ["activity", value]),
+    ...suggestions.locations.map(value => ["location", value])
+  ];
+  return `<span>Starting points</span>${buttons.map(([field, value]) => `<button type="button" data-product-action="use-scene-suggestion" data-field="${field}" data-value="${escapeHtml(value)}">${escapeHtml(value)}</button>`).join("") || "<small>Add a style blend or current focus to unlock suggestions.</small>"}`;
+}
+
+function referenceLabel(reference) {
+  return reference.label || reference.source || humanize(reference.id);
+}
+
+function purposeReferencesFor(persona) {
+  return assemblePurposeReferences(persona?.extensions?.promptforge?.references || []);
+}
+
+function sourceExplanation(domain, source, detail = {}) {
+  const selected = detail.selected;
+  const reason = source === "advanced override"
+    ? "uses your fine-tuning"
+    : selected?.kind === "canonical_fact" || selected?.kind === "explicit_override"
+      ? "keeps the character consistent"
+    : selected?.kind === "scene_requirement" ? "comes from this scene"
+      : selected?.kind === "temporary_state" ? "follows their current life"
+        : selected?.kind === "project_context" ? "fits the selected project"
+          : selected?.kind === "preference" ? "matches a saved preference"
+            : selected?.kind === "genre_influence" ? "supports the style blend"
+              : "fills a detail you left open";
+  return { label: humanize(domain), source: humanize(source || "Character context"), reason };
+}
+
+function characterSubtitle(persona) {
+  const overrides=persona.extensions?.promptforge?.characterOverrides||{};
+  return [overrides.occupation||display(persona.life?.job),overrides.location||display(persona.origin?.current_location||persona.foundation?.country),persona.foundation?.age?`${persona.foundation.age}`:""].filter(value=>value&&value!=="—").join(" · ");
+}
+
+function traitLabels(persona) {
+  return [persona.personality?.core, ...(persona.personality?.complementary || []), persona.personality?.contrast].map(display).filter(value => value && value !== "—").slice(0, 4);
+}
+
+function emptyState(title, body, action = "") {
+  return `<section class="pf-empty"><span class="pf-empty-mark" aria-hidden="true">✦</span><h2>${escapeHtml(title)}</h2><p>${escapeHtml(body)}</p>${action}</section>`;
+}
+
+function characterCard(persona, metadata = {}) {
+  const id = persona.meta?.persona_id;
+  const styles = genreProfileLabel(genreProfileFor(persona)).slice(0, 2);
+  const current = continuityFor(persona).current;
+  const now = current.situation || current.goal || current.project;
+  return `<article class="pf-character-card">
+    <button class="pf-card-open" data-product-action="open-character" data-id="${escapeHtml(id)}" aria-label="Open ${escapeHtml(persona.origin?.name)}">
+      <span class="pf-avatar" aria-hidden="true">${escapeHtml(initials(persona.origin?.name))}</span>
+      <span class="pf-card-copy"><span class="pf-kicker">${metadata.favorite ? "Favourite character" : "Character"}</span><strong>${escapeHtml(persona.origin?.name || "Unnamed character")}</strong><small>${escapeHtml(characterSubtitle(persona) || "Canonical persona")}</small></span>
+      <span class="pf-arrow" aria-hidden="true">↗</span>
+    </button>
+    ${now ? `<p class="pf-card-now"><span aria-hidden="true">●</span><span><strong>Right now</strong>${escapeHtml(now)}</span></p>` : ""}
+    <div class="pf-chip-row">${traitLabels(persona).slice(0, 2).map(value => `<span class="pf-chip">${escapeHtml(value)}</span>`).join("")}${styles.map(value => `<span class="pf-chip pf-chip-accent">${escapeHtml(value)}</span>`).join("")}</div>
+    <div class="pf-card-actions"><button data-product-action="scene-for-character" data-id="${escapeHtml(id)}">New scene</button><button data-product-action="edit-character" data-id="${escapeHtml(id)}">Edit</button></div>
+  </article>`;
+}
+
+function sceneCard(scene, persona) {
+  return `<article class="pf-scene-card"><div class="pf-scene-icon" aria-hidden="true">◫</div><div><p class="pf-kicker">${escapeHtml(scene.requirements?.time || "Scene")}</p><h3>${escapeHtml(scene.title)}</h3><p>${escapeHtml(persona?.origin?.name || "Missing character")} · ${escapeHtml(scene.requirements?.location || "Contextual location")}</p></div><button data-product-action="open-scene" data-id="${escapeHtml(scene.id)}" class="pf-icon-button" aria-label="Open ${escapeHtml(scene.title)}">→</button></article>`;
+}
+
+function projectCard(project) {
+  return `<article class="pf-project-card"><div class="pf-project-mark" aria-hidden="true">${escapeHtml(initials(project.name))}</div><div><p class="pf-kicker">${project.personaRefs.length} character${project.personaRefs.length === 1 ? "" : "s"} · ${project.sceneRefs.length} scene${project.sceneRefs.length === 1 ? "" : "s"}</p><h3>${escapeHtml(project.name)}</h3><p>${escapeHtml(project.context?.premise || project.description || [project.context?.setting, project.context?.era].filter(Boolean).join(" · ") || "A shared creative context")}</p></div><button class="pf-icon-button" data-product-action="open-project" data-id="${escapeHtml(project.id)}" aria-label="Open ${escapeHtml(project.name)}">→</button></article>`;
+}
+
+export function initProductShell(bridge) {
+  const root = document.querySelector("#product-shell");
+  const view = document.querySelector("#product-view");
+  const dialog = document.querySelector("#product-dialog");
+  const sceneStore = bridge.sceneStore;
+  const projectStore = bridge.projectStore;
+  const state = { wizardStep: 0, draft: {}, sceneResult: null, editingCharacterId: null };
+
+  const personas = () => bridge.personas().filter(item => !item.metadata.archived);
+  const personById = id => bridge.openPersona(id);
+  const projectById = id => projectStore.open(id);
+
+  function setChrome(area, title, subtitle = "") {
+    document.querySelector("#product-breadcrumb").textContent = `PromptForge / ${routeTitles[area] || area}`;
+    document.querySelector("#product-title").textContent = title;
+    document.querySelector("#product-subtitle").textContent = subtitle;
+    document.title = `${title} · PromptForge`;
+  }
+
+  function setActive(area) {
+    document.querySelectorAll(".app-rail a[data-product-route]").forEach(link => {
+      if (link.dataset.productRoute === area) link.setAttribute("aria-current", "page"); else link.removeAttribute("aria-current");
+    });
+    document.querySelector("#primary-hub")?.removeAttribute("aria-current");
+    document.querySelector("#primary-studio")?.removeAttribute("aria-current");
+  }
+
+  function homeView() {
+    const characters = personas();
+    const scenes = sceneStore.all();
+    const projects = projectStore.all().filter(project => !project.workspace.archived);
+    const latest = scenes[0] || characters[0]?.persona || projects[0];
+    setChrome("home", "Good evening", "Pick up where you left off, or begin something new.");
+    const continuation = latest ? `<section class="pf-continue pf-surface">
+      <div><p class="pf-kicker">Continue working</p><h2>${escapeHtml(latest.title || latest.origin?.name || latest.name)}</h2><p>${escapeHtml(latest.requirements?.activity || characterSubtitle(latest) || latest.context?.premise || "Your latest creative work")}</p></div>
+      <button class="pf-primary" data-product-action="${latest.title ? "open-scene" : latest.origin ? "open-character" : "open-project"}" data-id="${escapeHtml(latest.id || latest.meta?.persona_id)}">Open workspace <span aria-hidden="true">→</span></button>
+    </section>` : "";
+    view.innerHTML = `${continuation}<section class="pf-action-grid" aria-label="Create">
+      <button class="pf-action-card pf-action-featured" data-product-action="create-character"><span class="pf-action-icon" aria-hidden="true">＋</span><span><strong>Create a character</strong><small>Start simple. Shape the details as you go.</small></span><span aria-hidden="true">→</span></button>
+      <button class="pf-action-card" data-product-action="new-scene"><span class="pf-action-icon" aria-hidden="true">◫</span><span><strong>Create a scene</strong><small>Put a saved character into a moment.</small></span><span aria-hidden="true">→</span></button>
+      <button class="pf-action-card" data-product-action="browse-genres"><span class="pf-action-icon" aria-hidden="true">✣</span><span><strong>Explore genres</strong><small>Blend style influences without changing identity.</small></span><span aria-hidden="true">→</span></button>
+    </section>
+    <section class="pf-section"><div class="pf-section-heading"><div><p class="pf-kicker">Your cast</p><h2>Recent characters</h2></div><a href="#characters">View all</a></div>${characters.length ? `<div class="pf-character-grid">${characters.slice(0, 4).map(item => characterCard(item.persona, item.metadata)).join("")}</div>` : emptyState("No saved characters yet", "Create your first character to begin building scenes and projects.", '<button class="pf-primary" data-product-action="create-character">Create character</button>')}</section>
+    <section class="pf-home-lower"><div class="pf-section"><div class="pf-section-heading"><div><p class="pf-kicker">Story contexts</p><h2>Recent projects</h2></div><a href="#projects">View all</a></div>${projects.length ? `<div class="pf-list">${projects.slice(0, 3).map(projectCard).join("")}</div>` : `<div class="pf-compact-empty">Projects bring characters and scenes together. <a href="#projects">Create one</a></div>`}</div><div class="pf-section"><div class="pf-section-heading"><div><p class="pf-kicker">Moments</p><h2>Recent scenes</h2></div><a href="#scenes">View all</a></div>${scenes.length ? `<div class="pf-list">${scenes.slice(0, 3).map(scene => sceneCard(scene, personById(scene.characterRef?.id))).join("")}</div>` : `<div class="pf-compact-empty">Scene Forge is ready when your first character is saved.</div>`}</div></section>`;
+  }
+
+  function charactersView(id = "") {
+    if (id) return characterDetailView(id);
+    setChrome("characters", "Characters", "A living cast, powered by PersonaForge underneath.");
+    const records = personas();
+    view.innerHTML = `<div class="pf-page-actions"><div class="pf-search"><span aria-hidden="true">⌕</span><input id="character-search" type="search" placeholder="Search characters" aria-label="Search characters"></div><button class="pf-primary" data-product-action="create-character">＋ New character</button></div>${records.length ? `<div id="character-results" class="pf-character-grid pf-character-grid-large">${records.map(item => characterCard(item.persona, item.metadata)).join("")}</div>` : emptyState("Create your first character", "Guided mode keeps the first decisions light. PersonaForge handles the depth behind the scenes.", '<button class="pf-primary" data-product-action="create-character">Create character</button>')}`;
+  }
+
+  function characterDetailView(id) {
+    const persona = personById(id);
+    if (!persona) { location.hash = "characters"; return; }
+    const profile = genreProfileFor(persona);
+    const overrides = persona.extensions?.promptforge?.characterOverrides || {};
+    const hobbies = (persona.interests?.hobbies || []).map(display).filter(Boolean).slice(0, 5);
+    const continuity = continuityFor(persona);
+    const references = purposeReferencesFor(persona);
+    const intelligence = explainCharacterIntelligence(persona);
+    const dimensions = Object.entries(blendedGenreDimensions(profile)).sort((left, right) => right[1] - left[1]).slice(0, 6);
+    const related = relatedGenreSuggestions(profile, { limit: 3 });
+    const currentSummary = continuity.current.situation || continuity.current.goal || continuity.current.project || overrides.currentLife || "No current focus set";
+    setChrome("characters", persona.origin?.name || "Character", characterSubtitle(persona));
+    view.innerHTML = `<div class="pf-detail-actions"><a href="#characters" class="pf-back">← All characters</a><div><button data-product-action="edit-character" data-id="${escapeHtml(id)}">Edit character</button><button data-product-action="focus-current-life">Update current life</button><button data-product-action="open-advanced" data-id="${escapeHtml(id)}">Advanced PersonaForge ↗</button><button class="pf-primary" data-product-action="scene-for-character" data-id="${escapeHtml(id)}">Create scene</button></div></div>
+    <section class="pf-profile-hero pf-surface"><div class="pf-avatar pf-avatar-large" aria-hidden="true">${escapeHtml(initials(persona.origin?.name))}</div><div class="pf-profile-main"><p class="pf-kicker">Character profile</p><h2>${escapeHtml(persona.origin?.name)}</h2><p class="pf-profile-subtitle">${escapeHtml(characterSubtitle(persona))}</p><div class="pf-chip-row">${traitLabels(persona).map(value => `<span class="pf-chip">${escapeHtml(value)}</span>`).join("")}</div></div><div class="pf-profile-now"><span><i aria-hidden="true"></i> Right now</span><strong>${escapeHtml(currentSummary)}</strong><small>${continuity.current.updatedAt ? `Updated ${escapeHtml(dateLabel(continuity.current.updatedAt))}` : "Ready to shape"}</small></div></section>
+    <div class="pf-profile-grid"><section class="pf-surface pf-profile-panel pf-style-panel"><p class="pf-kicker">Style blend</p><h3>${profile.genres.length ? "Visual influences" : "Character-led, no genres"}</h3>${profile.genres.length ? `<div class="pf-weight-list">${profile.genres.map(item => `<div><span>${escapeHtml(genreById(item.id)?.name || item.id)}</span><div><i style="width:${Math.round(item.weight * 100)}%"></i></div><strong>${Math.round(item.weight * 100)}%</strong></div>`).join("")}</div>${dimensions.length ? `<div class="pf-dimension-map" aria-label="Combined style qualities">${dimensions.map(([key, strength]) => `<span style="--strength:${Math.round(strength * 100)}%"><i></i><strong>${escapeHtml(GENRE_DIMENSION_DEFINITIONS[key]?.[0] || humanize(key))}</strong><small>${Math.round(strength * 100)}%</small></span>`).join("")}</div>` : ""}${related.length ? `<p class="pf-related"><span>You may also like</span>${related.map(item => `<a href="#genres" title="${escapeHtml(item.reasons.join(", "))}">${escapeHtml(item.name)}</a>`).join("")}</p>` : ""}` : `<p class="pf-muted">Genres are optional. Scenes can follow the character and moment alone.</p>`}</section>
+    <section class="pf-surface pf-profile-panel"><p class="pf-kicker">Interests</p><h3>Everyday touchpoints</h3><div class="pf-chip-row">${[...hobbies, ...splitList(overrides.interests)].slice(0, 7).map(value => `<span class="pf-chip">${escapeHtml(value)}</span>`).join("") || '<span class="pf-muted">No interests added yet.</span>'}</div></section>
+    <section id="current-life" class="pf-surface pf-profile-panel pf-current-life"><p class="pf-kicker">Current life</p><h3>${escapeHtml(currentSummary)}</h3><dl>${continuity.current.project ? `<div><dt>Project</dt><dd>${escapeHtml(continuity.current.project)}</dd></div>` : ""}${continuity.current.goal ? `<div><dt>Goal</dt><dd>${escapeHtml(continuity.current.goal)}</dd></div>` : ""}${continuity.threads.filter(thread => thread.status === "active").map(thread => `<div><dt>Open thread</dt><dd>${escapeHtml(thread.title)}</dd></div>`).join("")}</dl>${typeof bridge.updateCharacterContinuity === "function" ? `<details><summary>Update current life</summary><form id="character-continuity-form" data-persona-id="${escapeHtml(id)}"><label>Current project<input name="project" value="${escapeHtml(continuity.current.project || "")}" placeholder="What are they part of?"></label><label>Current goal<input name="goal" value="${escapeHtml(continuity.current.goal || "")}" placeholder="What are they working toward?"></label><label>Situation<textarea name="situation" rows="3" placeholder="What is happening in their life now?">${escapeHtml(continuity.current.situation || "")}</textarea></label><label>New open thread<input name="thread" placeholder="An unresolved plan or relationship"></label><button type="submit">Save current life</button></form></details>` : ""}</section>
+    <section class="pf-surface pf-profile-panel"><p class="pf-kicker">Creative guardrails</p><h3>Keep these choices intact</h3><p>${escapeHtml((profile.exclusions || []).join(" · ") || "No style exclusions")}</p><small>Your explicit character choices take priority over project and style suggestions.</small></section></div>
+    <section class="pf-surface pf-reference-panel"><div><p class="pf-kicker">Creative references</p><h2>${references.references.length ? `${references.references.length} purposeful reference${references.references.length === 1 ? "" : "s"}` : "No references yet"}</h2><p>Each reference has one clear job, so a moodboard cannot quietly rewrite identity.</p></div>${references.references.length ? `<div class="pf-reference-list">${references.references.map(reference => `<article><span class="pf-reference-type">${escapeHtml(humanize(reference.purpose))}</span><strong>${escapeHtml(referenceLabel(reference))}</strong><small>${escapeHtml(humanize(reference.strength))} influence · guides ${escapeHtml(reference.influence.map(humanize).join(", "))}</small></article>`).join("")}</div>` : `<button data-product-action="edit-character" data-id="${escapeHtml(id)}">Add a reference</button>`}<details><summary>How this character is understood</summary><p>${intelligence.counts.canonical_fact || 0} fixed facts, ${intelligence.counts.explicit_override || 0} choices you made, and ${(intelligence.counts.preference || 0) + (intelligence.counts.affinity || 0)} softer preferences. Fixed facts always lead.</p></details></section>`;
+  }
+
+  function genresView() {
+    setChrome("genres", "Genre library", "Style recipes that influence a character without rewriting who they are.");
+    view.innerHTML = `<div class="pf-page-actions"><div class="pf-search"><span aria-hidden="true">⌕</span><input id="genre-search" type="search" placeholder="Search genres" aria-label="Search genres"></div><span class="pf-count">${GENRE_REGISTRY.length} foundation genres</span></div><div id="genre-results" class="pf-genre-grid">${GENRE_REGISTRY.map(genre => `<article class="pf-genre-card" data-search="${escapeHtml(`${genre.name} ${genre.family} ${genre.definition}`.toLowerCase())}"><div class="pf-genre-swatch" data-genre="${escapeHtml(genre.id)}"><span>${escapeHtml(initials(genre.name))}</span></div><div><p class="pf-kicker">${escapeHtml(genre.family.replaceAll("-", " "))}</p><h2>${escapeHtml(genre.name)}</h2><p>${escapeHtml(genre.definition)}</p><div class="pf-chip-row">${Object.keys(genre.dimensions).slice(0, 3).map(item => `<span class="pf-chip">${escapeHtml(item)}</span>`).join("")}</div></div></article>`).join("")}</div><section class="pf-note"><strong>Designed for blending.</strong><span>Each genre carries semantic dimensions and soft affinities for wardrobe, activities, places, and props. Canonical character facts and explicit exclusions always win.</span></section>`;
+  }
+
+  function libraryView() {
+    setChrome("library", "Library", "Reusable building blocks for characters, genres, and scenes.");
+    const lib = bridge.library();
+    const domains = [
+      ["Personality", (lib.traits?.length || 0) + (lib.values?.length || 0) + (lib.quirks?.length || 0), "Traits, values, quirks, and habits"],
+      ["Lifestyle & interests", (lib.hobbies?.length || 0) + (lib.interests?.length || 0), "Hobbies, interests, routines, and activities"],
+      ["Appearance", (lib.hair?.length || 0) + (lib.eyes?.length || 0) + (lib.body?.length || 0), "Reusable visual characteristics"],
+      ["Locations & context", (lib.countries?.length || 0) + (lib.settings?.length || 0), "Places, eras, and environmental context"],
+      ["Genre recipes", GENRE_REGISTRY.length, "Weighted style and environment affinities"],
+      ["Reference packages", personas().length, "Structured character outputs and prompt projections"]
+    ];
+    view.innerHTML = `<div class="pf-library-grid">${domains.map(([name, count, copy], index) => `<article class="pf-library-card"><span class="pf-library-icon" aria-hidden="true">${["◌", "◇", "◎", "⌖", "✣", "▤"][index]}</span><div><p class="pf-kicker">${count} available</p><h2>${escapeHtml(name)}</h2><p>${escapeHtml(copy)}</p></div>${name === "Genre recipes" ? '<a href="#genres">Explore →</a>' : name === "Reference packages" ? '<a href="#studio">Open advanced →</a>' : '<span class="pf-library-status">Managed in Control Centre</span>'}</article>`).join("")}</div><section class="pf-note"><strong>Universal first.</strong><span>General human traits stay reusable across every character. Genres add affinity and atmosphere rather than duplicating identity.</span></section>`;
+  }
+
+  function scenesView(id = "") {
+    const records = personas();
+    if (!records.length) {
+      setChrome("scenes", "Scene Forge", "Turn a saved character into a moment.");
+      view.innerHTML = emptyState("A scene begins with a character", "Create and save a character first. Scene Forge will carry their canonical identity forward.", '<button class="pf-primary" data-product-action="create-character">Create character</button>');
+      return;
+    }
+    const existing = id ? sceneStore.open(id) : null;
+    const preferred = existing?.characterRef?.id || state.draft.sceneCharacterId || records[0].persona.meta.persona_id;
+    setChrome("scenes", existing ? existing.title : "Scene Forge", "Choose the moment. PromptForge resolves the supporting detail.");
+    const requirements = existing?.requirements || {};
+    const controls = existing?.controls || {};
+    const projects = projectStore.all().filter(project => !project.workspace.archived);
+    const result = existing?.output?.prompt ? existing : state.sceneResult;
+    const sources = result?.resolved?.sources || {};
+    const sourceDetails = result?.resolved?.source_details || {};
+    const sceneReference = controls.references?.[0] || null;
+    view.innerHTML = `<div class="pf-scene-layout"><form id="scene-form" class="pf-scene-form pf-surface"><div class="pf-form-heading"><div><p class="pf-kicker">Simple scene setup</p><h2>Define the moment</h2></div><span class="pf-step-badge">6 choices</span></div>
+      <label>Character<select name="characterId" required>${records.map(item => `<option value="${escapeHtml(item.persona.meta.persona_id)}" ${item.persona.meta.persona_id === preferred ? "selected" : ""}>${escapeHtml(item.persona.origin.name)}</option>`).join("")}</select></label>
+      <div id="scene-suggestions" class="pf-suggestion-box" aria-live="polite">${sceneSuggestionMarkup(personById(preferred))}</div>
+      <div class="pf-form-grid"><label>Location<input name="location" value="${escapeHtml(requirements.location || "")}" placeholder="e.g. Café"></label><label>Activity<input name="activity" value="${escapeHtml(requirements.activity || "")}" placeholder="e.g. Working on a personal project"></label><label>Time<input name="time" value="${escapeHtml(requirements.time || "")}" placeholder="e.g. Late afternoon"></label><label>Company<input name="socialContext" value="${escapeHtml(requirements.socialContext || "")}" placeholder="e.g. Alone"></label><label class="pf-span-2">Mood / atmosphere<input name="mood" value="${escapeHtml(requirements.mood || "")}" placeholder="e.g. Cozy and focused"></label></div>
+      <details class="pf-advanced"><summary>Fine-tune the scene</summary><div class="pf-form-grid"><label>Project<select name="projectId"><option value="">No project context</option>${projects.map(project => `<option value="${escapeHtml(project.id)}" ${existing?.projectRef?.id === project.id ? "selected" : ""}>${escapeHtml(project.name)}</option>`).join("")}</select></label><label>Seed<input name="seed" value="${escapeHtml(controls.seed || "scene-001")}"></label><label>Output target<select name="target">${["generic", "chatgpt", "gemini", "niji"].map(value => `<option value="${value}" ${controls.target === value ? "selected" : ""}>${humanize(value)}</option>`).join("")}</select></label><label>Detail<select name="density">${["compact", "standard", "detailed"].map(value => `<option value="${value}" ${(controls.density || "standard") === value ? "selected" : ""}>${humanize(value)}</option>`).join("")}</select></label><label>Wardrobe<input name="wardrobe" value="${escapeHtml(controls.wardrobe || "")}" placeholder="Let the character and context decide"></label><label>Props<input name="props" value="${escapeHtml(controls.props || "")}" placeholder="Objects important to this moment"></label><label>Expression<input name="expression" value="${escapeHtml(controls.expression || "")}" placeholder="e.g. quietly delighted"></label><label>Pose / body language<input name="pose" value="${escapeHtml(controls.pose || "")}" placeholder="e.g. leaning into the task"></label><label>Composition<input name="composition" value="${escapeHtml(controls.composition || "")}" placeholder="e.g. intimate medium portrait"></label><label>Lighting<input name="lighting" value="${escapeHtml(controls.lighting || "")}" placeholder="e.g. soft window light"></label></div><details class="pf-reference-controls"><summary>Add a reference for this scene</summary><div class="pf-form-grid"><label>Reference ID or URL<input name="referenceSource" value="${escapeHtml(sceneReference?.source || sceneReference?.id || "")}" placeholder="A moodboard, image, palette, or note"></label><label>Use it for<select name="referencePurpose">${REFERENCE_PURPOSES.map(value => `<option value="${value}" ${sceneReference?.purpose === value ? "selected" : ""}>${humanize(value)}</option>`).join("")}</select></label><label>Reference type<select name="referenceMediaType">${REFERENCE_MEDIA_TYPES.map(value => `<option value="${value}" ${sceneReference?.media_type === value ? "selected" : ""}>${humanize(value)}</option>`).join("")}</select></label><label>Influence<select name="referenceStrength">${Object.keys(REFERENCE_STRENGTHS).map(value => `<option value="${value}" ${(sceneReference?.strength || "supporting") === value ? "selected" : ""}>${humanize(value)}</option>`).join("")}</select></label></div><p>A fashion reference guides clothing; an environment reference guides place and light. Its purpose limits what it can change.</p></details><p>Your saved character choices remain active. Leave any field blank and PromptForge will choose from the character, project, and style context.</p></details>
+      <button class="pf-primary pf-generate" type="submit">Generate scene prompt <span aria-hidden="true">→</span></button></form>
+      <aside class="pf-scene-preview pf-surface">${result ? `<p class="pf-kicker">Scene prompt</p><h2>${escapeHtml(result.title)}</h2><pre>${escapeHtml(result.output.prompt)}</pre><details class="pf-why-panel"><summary>Why these choices?</summary><div>${Object.entries(sources).map(([key, source]) => { const explanation = sourceExplanation(key, source, sourceDetails[key]); return `<article><span>${escapeHtml(explanation.label)}</span><strong>${escapeHtml(explanation.source)}</strong><small>${escapeHtml(explanation.reason)}</small>${sourceDetails[key]?.alternatives?.length ? `<em>${sourceDetails[key].alternatives.length} other option${sourceDetails[key].alternatives.length === 1 ? "" : "s"} considered</em>` : ""}</article>`; }).join("")}</div></details>${result.resolved?.references?.references?.length ? `<div class="pf-used-references"><span>References used</span>${result.resolved.references.references.filter(reference => reference.enabled).map(reference => `<strong>${escapeHtml(referenceLabel(reference))} · ${escapeHtml(humanize(reference.purpose))}</strong>`).join("")}</div>` : ""}<div class="pf-inline-actions"><button data-product-action="copy-scene" data-id="${escapeHtml(result.id)}">Copy prompt</button><button class="pf-primary" data-product-action="scene-for-character" data-id="${escapeHtml(result.characterRef?.id)}">Create variation</button></div>` : `<div class="pf-preview-empty"><span aria-hidden="true">◫</span><h2>Your scene will appear here</h2><p>PromptForge can suggest the supporting detail, while your character choices stay intact.</p></div>`}</aside></div>
+      <section class="pf-section"><div class="pf-section-heading"><div><p class="pf-kicker">Saved locally</p><h2>Recent scenes</h2></div></div><div class="pf-list">${sceneStore.all().slice(0, 6).map(scene => sceneCard(scene, personById(scene.characterRef?.id))).join("") || '<div class="pf-compact-empty">No scenes generated yet.</div>'}</div></section>`;
+  }
+
+  function projectsView(id = "") {
+    if (id) return projectDetailView(id);
+    setChrome("projects", "Projects", "Contextual homes for casts, locations, and scenes.");
+    const projects = projectStore.all().filter(project => !project.workspace.archived);
+    view.innerHTML = `<div class="pf-page-actions"><div><p class="pf-muted">Projects reference saved characters. They never duplicate or rewrite canonical persona data.</p></div><button class="pf-primary" data-product-action="create-project">＋ New project</button></div>${projects.length ? `<div class="pf-project-grid">${projects.map(projectCard).join("")}</div>` : emptyState("Create a project", "Bring characters, locations, and scenes together without turning the project into a second source of truth.", '<button class="pf-primary" data-product-action="create-project">Create project</button>')}`;
+  }
+
+  function projectDetailView(id) {
+    const project = projectById(id);
+    if (!project) { location.hash = "projects"; return; }
+    setChrome("projects", project.name, [project.context.setting, project.context.era].filter(Boolean).join(" · ") || "Shared creative context");
+    const characters = project.personaRefs.map(ref => personById(ref.id)).filter(Boolean);
+    const scenes = project.sceneRefs.map(ref => sceneStore.open(ref.id)).filter(Boolean);
+    const available = personas().filter(item => !project.personaRefs.some(ref => ref.id === item.persona.meta.persona_id));
+    view.innerHTML = `<div class="pf-detail-actions"><a href="#projects" class="pf-back">← All projects</a><button class="pf-primary" data-product-action="project-scene" data-id="${escapeHtml(id)}">Create scene in project</button></div><section class="pf-project-hero pf-surface"><div><p class="pf-kicker">Project context</p><h2>${escapeHtml(project.name)}</h2><p>${escapeHtml(project.context.premise || project.description || "Add a premise to give scenes a shared direction.")}</p></div><div class="pf-project-stats"><span><strong>${characters.length}</strong>Characters</span><span><strong>${scenes.length}</strong>Scenes</span><span><strong>${project.locations.length}</strong>Locations</span></div></section>
+    <div class="pf-project-columns"><section class="pf-surface pf-profile-panel"><div class="pf-section-heading"><div><p class="pf-kicker">Cast</p><h2>Characters</h2></div></div>${characters.length ? `<div class="pf-character-grid">${characters.map(persona => characterCard(persona, bridge.metadata(persona.meta.persona_id))).join("")}</div>` : '<p class="pf-muted">No characters attached yet.</p>'}${available.length ? `<form id="project-add-character" data-project-id="${escapeHtml(id)}" class="pf-inline-form"><select name="personaId" aria-label="Character to add">${available.map(item => `<option value="${escapeHtml(item.persona.meta.persona_id)}">${escapeHtml(item.persona.origin.name)}</option>`).join("")}</select><button type="submit">Add character</button></form>` : ""}</section>
+    <section class="pf-surface pf-profile-panel"><div class="pf-section-heading"><div><p class="pf-kicker">World anchors</p><h2>Locations</h2></div></div><div class="pf-chip-row">${project.locations.map(location => `<span class="pf-chip">${escapeHtml(location)}</span>`).join("") || '<span class="pf-muted">No locations added.</span>'}</div><form id="project-context-form" data-project-id="${escapeHtml(id)}"><label>Premise<textarea name="premise" rows="3">${escapeHtml(project.context.premise)}</textarea></label><label>Locations<input name="locations" value="${escapeHtml(project.locations.join(", "))}" placeholder="Apartment, office, local café"></label><label>Project notes<textarea name="notes" rows="3">${escapeHtml(project.notes)}</textarea></label><button type="submit">Save context</button></form></section></div>
+    <section class="pf-section"><div class="pf-section-heading"><div><p class="pf-kicker">Story moments</p><h2>Scenes</h2></div></div><div class="pf-list">${scenes.map(scene => sceneCard(scene, personById(scene.characterRef?.id))).join("") || '<div class="pf-compact-empty">Scenes created with this project will appear here.</div>'}</div></section>`;
+  }
+
+  function openWizard(personaId = "") {
+    state.editingCharacterId = personaId;
+    const persona = personaId ? personById(personaId) : null;
+    const overrides = persona?.extensions?.promptforge?.characterOverrides || {};
+    state.wizardStep = 0;
+    state.draft = persona ? {
+      name: persona.origin?.name, age: persona.foundation?.age, gender: persona.foundation?.gender,
+      setting: persona.foundation?.setting?.id, life_stage: persona.foundation?.life_stage?.id,
+      appearance: overrides.appearance || "", personality: overrides.personality || "", background: overrides.background || "",
+      occupation: overrides.occupation || "", location: overrides.location || "", interests: overrides.interests || "",
+      currentLife: continuityFor(persona).current.situation || overrides.currentLife || "", references: overrides.references || "", exclusions: genreProfileFor(persona).exclusions.join(", "),
+      purposeReferences: purposeReferencesFor(persona).references,
+      genres: Object.fromEntries(genreProfileFor(persona).genres.map(item => [item.id, Math.round(item.weight * 100)])), seed: persona.meta?.seed
+    } : { genres: {}, purposeReferences: [], seed: `character-${Date.now().toString(36)}` };
+    renderWizard();
+    if (!dialog.open) dialog.showModal();
+    dialog.querySelector("input, textarea, select")?.focus({preventScroll:true});
+  }
+
+  function saveWizardFields() {
+    const form = dialog.querySelector("#character-wizard-form");
+    if (!form) return;
+    const values = Object.fromEntries(new FormData(form));
+    Object.assign(state.draft, values);
+    if (state.wizardStep === 5) {
+      state.draft.genres = Object.fromEntries(GENRE_REGISTRY.map(genre => [genre.id, Number(values[`genre-${genre.id}`] || 0)]).filter(([, weight]) => weight > 0));
+    }
+  }
+
+  function wizardStepContent() {
+    const draft = state.draft;
+    if (state.wizardStep === 0) return `<div class="pf-form-grid"><label class="pf-span-2">Name <input name="name" value="${escapeHtml(draft.name || "")}" placeholder="Leave blank for a generated name"></label><label>Age <input type="number" min="0" name="age" value="${escapeHtml(draft.age || "")}" placeholder="Let PromptForge decide"></label><label>Gender <select name="gender"><option value="">Let PromptForge decide</option>${["female", "male", "nonbinary"].map(value => `<option value="${value}" ${draft.gender === value ? "selected" : ""}>${value[0].toUpperCase() + value.slice(1)}</option>`).join("")}</select></label><label>Setting<select name="setting"><option value="">Let PromptForge decide</option>${bridge.library().settings.map(entry => `<option value="${escapeHtml(entry.id)}" ${draft.setting === entry.id ? "selected" : ""}>${escapeHtml(entry.name)}</option>`).join("")}</select></label><label>Life stage<select name="life_stage"><option value="">Let PromptForge decide</option>${bridge.library().lifeStages.map(entry => `<option value="${escapeHtml(entry.id)}" ${draft.life_stage === entry.id ? "selected" : ""}>${escapeHtml(entry.name)}</option>`).join("")}</select></label></div>`;
+    if (state.wizardStep === 1) return `<label>Appearance direction <textarea name="appearance" rows="6" placeholder="Optional: the details that matter most. Canonical appearance remains generated and inspectable in Advanced PersonaForge.">${escapeHtml(draft.appearance || "")}</textarea></label><p class="pf-helper">Use this for explicit creative requirements, not every possible detail.</p>`;
+    if (state.wizardStep === 2) return `<label>Personality direction <textarea name="personality" rows="6" placeholder="Optional: thoughtful, direct, slow to trust…">${escapeHtml(draft.personality || "")}</textarea></label><p class="pf-helper">PromptForge still builds a coherent canonical trait and value profile underneath.</p>`;
+    if (state.wizardStep === 3) return `<div class="pf-form-grid"><label>Occupation <input name="occupation" value="${escapeHtml(draft.occupation || "")}" placeholder="Optional explicit role"></label><label>Current location <input name="location" value="${escapeHtml(draft.location || "")}" placeholder="Optional city or region"></label><label class="pf-span-2">Background notes <textarea name="background" rows="5" placeholder="The life context that should carry into scenes.">${escapeHtml(draft.background || "")}</textarea></label></div>`;
+    if (state.wizardStep === 4) return `<label>Interests <input name="interests" value="${escapeHtml(draft.interests || "")}" placeholder="Photography, gaming, travel"></label><label>Current life <textarea name="currentLife" rows="5" placeholder="What are they doing or working toward now?">${escapeHtml(draft.currentLife || "")}</textarea></label>`;
+    if (state.wizardStep === 5) return `<p class="pf-helper">Add any number of genres. Weights are normalized when saved; zero genres is fully supported.</p><div class="pf-genre-controls">${GENRE_REGISTRY.map(genre => `<label><span><strong>${escapeHtml(genre.name)}</strong><small>${escapeHtml(genre.definition)}</small></span><input type="range" min="0" max="100" step="5" name="genre-${escapeHtml(genre.id)}" value="${escapeHtml(draft.genres?.[genre.id] || 0)}"><output>${escapeHtml(draft.genres?.[genre.id] || 0)}</output></label>`).join("")}</div><label>Style exclusions <input name="exclusions" value="${escapeHtml(draft.exclusions || "")}" placeholder="coffee, formalwear, neon"></label>`;
+    if (state.wizardStep === 6) return `${draft.purposeReferences?.length ? `<div class="pf-reference-list pf-reference-list-compact">${draft.purposeReferences.map(reference => `<article><span class="pf-reference-type">${escapeHtml(humanize(reference.purpose))}</span><strong>${escapeHtml(referenceLabel(reference))}</strong><small>${escapeHtml(humanize(reference.strength))} influence</small></article>`).join("")}</div>` : ""}<div class="pf-form-grid"><label class="pf-span-2">Reference ID or URL<input name="referenceSource" value="${escapeHtml(draft.referenceSource || "")}" placeholder="Paste a link or give this reference a memorable ID"></label><label>Use it for<select name="referencePurpose">${REFERENCE_PURPOSES.map(value => `<option value="${value}" ${draft.referencePurpose === value ? "selected" : ""}>${humanize(value)}</option>`).join("")}</select></label><label>Reference type<select name="referenceMediaType">${REFERENCE_MEDIA_TYPES.map(value => `<option value="${value}" ${draft.referenceMediaType === value ? "selected" : ""}>${humanize(value)}</option>`).join("")}</select></label><label>Influence<select name="referenceStrength">${Object.keys(REFERENCE_STRENGTHS).map(value => `<option value="${value}" ${(draft.referenceStrength || "supporting") === value ? "selected" : ""}>${humanize(value)}</option>`).join("")}</select></label><label>Label<input name="referenceLabel" value="${escapeHtml(draft.referenceLabel || "")}" placeholder="Optional friendly name"></label></div><label>Reference notes<textarea name="references" rows="4" placeholder="What should PromptForge notice or preserve?">${escapeHtml(draft.references || "")}</textarea></label><p class="pf-helper">Purpose creates a boundary: fashion guides clothes, environment guides setting and light, and appearance guides visible features.</p>`;
+    const genres = Object.entries(draft.genres || {}).filter(([, weight]) => Number(weight) > 0).map(([id, weight]) => `${genreById(id)?.name || id} ${weight}`).join(" · ");
+    return `<div class="pf-review"><div><span>Name</span><strong>${escapeHtml(draft.name || (state.editingCharacterId ? "Keep current name" : "Generated name"))}</strong></div><div><span>Foundation</span><strong>${escapeHtml([draft.age && `Age ${draft.age}`, draft.gender, draft.setting].filter(Boolean).join(" · ") || "Contextual")}</strong></div><div><span>Style</span><strong>${escapeHtml(genres || "No genre influence")}</strong></div><div><span>Explicit notes</span><strong>${escapeHtml([draft.personality, draft.background, draft.currentLife].filter(Boolean).join(" · ") || "None")}</strong></div></div><section class="pf-note"><strong>Canonical integrity</strong><span>${state.editingCharacterId ? "Core persona facts stay intact. This update changes only the friendly-layer overrides and style profile." : "PromptForge will generate one canonical persona, then attach your explicit creative choices as additive overrides."}</span></section>`;
+  }
+
+  function renderWizard() {
+    dialog.innerHTML = `<div class="pf-dialog-head"><div><p class="pf-kicker">${state.editingCharacterId ? "Edit character" : "Create character"}</p><h2>${wizardSteps[state.wizardStep]}</h2></div><button class="pf-dialog-close" data-product-action="close-dialog" aria-label="Close">×</button></div><div class="pf-mode-tabs" role="tablist"><button class="active" role="tab" aria-selected="true">Guided</button><button role="tab" data-product-action="open-advanced" data-id="${escapeHtml(state.editingCharacterId || "")}">Advanced</button><button role="tab" data-product-action="import-character">Import</button></div><div class="pf-wizard"><ol>${wizardSteps.map((step, index) => `<li class="${index === state.wizardStep ? "active" : index < state.wizardStep ? "done" : ""}"><span>${index < state.wizardStep ? "✓" : index + 1}</span>${escapeHtml(step)}</li>`).join("")}</ol><form id="character-wizard-form"><div class="pf-wizard-content">${wizardStepContent()}</div><div class="pf-wizard-actions">${state.wizardStep ? '<button type="button" data-product-action="wizard-back">Back</button>' : '<span></span>'}<button class="pf-primary" type="submit">${state.wizardStep === wizardSteps.length - 1 ? (state.editingCharacterId ? "Save changes" : "Create character") : "Next →"}</button></div></form></div><input id="character-import-file" type="file" accept="application/json" hidden>`;
+    dialog.querySelector("input, textarea, select")?.focus({ preventScroll: true });
+  }
+
+  function openProjectDialog() {
+    dialog.innerHTML = `<div class="pf-dialog-head"><div><p class="pf-kicker">New project</p><h2>Create a shared context</h2></div><button class="pf-dialog-close" data-product-action="close-dialog" aria-label="Close">×</button></div><form id="product-project-create-form" class="pf-dialog-form"><label>Project name<input name="name" required maxlength="120" placeholder="Maya — Everyday Life"></label><label>Premise<textarea name="premise" rows="4" placeholder="What connects the characters and scenes?"></textarea></label><div class="pf-form-grid"><label>Setting<input name="setting" placeholder="Manchester"></label><label>Era<input name="era" placeholder="Contemporary"></label></div><label>Locations<input name="locations" placeholder="Apartment, office, local café"></label><div class="pf-wizard-actions"><button type="button" data-product-action="close-dialog">Cancel</button><button class="pf-primary" type="submit">Create project</button></div></form>`;
+    if (!dialog.open) dialog.showModal();
+    dialog.querySelector("input")?.focus();
+  }
+
+  function navigate() {
+    const parts = location.hash.slice(1).split("/");
+    const area = routeTitles[parts[0]] ? parts[0] : "";
+    if (!area) { root.hidden = true; return; }
+    document.querySelector("#control-centre").hidden = true;
+    document.querySelector("#studio-shell").hidden = true;
+    root.hidden = false;
+    setActive(area);
+    if (area === "home") homeView();
+    if (area === "characters") charactersView(parts[1] ? decodeURIComponent(parts.slice(1).join("/")) : "");
+    if (area === "scenes") scenesView(parts[1] ? decodeURIComponent(parts.slice(1).join("/")) : "");
+    if (area === "projects") projectsView(parts[1] ? decodeURIComponent(parts.slice(1).join("/")) : "");
+    if (area === "genres") genresView();
+    if (area === "library") libraryView();
+    view.focus({ preventScroll: true });
+  }
+
+  root.addEventListener("input", event => {
+    if (event.target.matches('#character-search')) {
+      const query = event.target.value.toLowerCase();
+      document.querySelectorAll("#character-results .pf-character-card").forEach(card => card.hidden = !card.textContent.toLowerCase().includes(query));
+    }
+    if (event.target.matches('#genre-search')) {
+      const query = event.target.value.toLowerCase();
+      document.querySelectorAll("#genre-results .pf-genre-card").forEach(card => card.hidden = !card.dataset.search.includes(query));
+    }
+  });
+
+  document.addEventListener("click", async event => {
+    const button = event.target.closest("[data-product-action]");
+    if (!button) return;
+    const action = button.dataset.productAction;
+    if (action === "create-character") openWizard();
+    if (action === "edit-character") openWizard(button.dataset.id);
+    if (action === "open-character") location.hash = `characters/${encodeURIComponent(button.dataset.id)}`;
+    if (action === "open-project") location.hash = `projects/${encodeURIComponent(button.dataset.id)}`;
+    if (action === "open-scene") location.hash = `scenes/${encodeURIComponent(button.dataset.id)}`;
+    if (action === "new-scene") location.hash = "scenes";
+    if (action === "browse-genres") location.hash = "genres";
+    if (action === "scene-for-character") { state.draft.sceneCharacterId = button.dataset.id; location.hash = "scenes"; }
+    if (action === "project-scene") { const project = projectById(button.dataset.id); state.draft.sceneCharacterId = project?.personaRefs[0]?.id || ""; location.hash = "scenes"; setTimeout(() => { const select = document.querySelector('#scene-form select[name="projectId"]'); if (select) select.value = button.dataset.id; }, 0); }
+    if (action === "open-advanced") { dialog.close(); bridge.openAdvanced(button.dataset.id || state.editingCharacterId); }
+    if (action === "close-dialog") dialog.close();
+    if (action === "wizard-back") { saveWizardFields(); state.wizardStep--; renderWizard(); }
+    if (action === "import-character") document.querySelector("#character-import-file")?.click();
+    if (action === "create-project") openProjectDialog();
+    if (action === "copy-scene") { const scene = sceneStore.open(button.dataset.id); if (scene?.output.prompt) await navigator.clipboard.writeText(scene.output.prompt); }
+    if (action === "use-scene-suggestion") {
+      const input = document.querySelector(`#scene-form [name="${button.dataset.field}"]`);
+      if (input) { input.value = button.dataset.value || ""; input.focus(); }
+    }
+    if (action === "focus-current-life") {
+      const panel = document.querySelector("#current-life");
+      const details = panel?.querySelector("details");
+      if (details) details.open = true;
+      panel?.scrollIntoView({ behavior: "smooth", block: "center" });
+      details?.querySelector("input, textarea")?.focus({ preventScroll: true });
+    }
+  });
+
+  root.addEventListener("change", event => {
+    if (!event.target.matches('#scene-form select[name="characterId"]')) return;
+    const suggestions = root.querySelector("#scene-suggestions");
+    if (suggestions) suggestions.innerHTML = sceneSuggestionMarkup(personById(event.target.value));
+  });
+
+  dialog.addEventListener("input", event => {
+    if (event.target.type === "range") event.target.nextElementSibling.textContent = event.target.value;
+  });
+
+  dialog.addEventListener("change", async event => {
+    if (event.target.id !== "character-import-file" || !event.target.files?.[0]) return;
+    try {
+      const raw = JSON.parse(await event.target.files[0].text());
+      const result = bridge.importCharacter(raw);
+      dialog.close();
+      location.hash = `characters/${encodeURIComponent(result.meta.persona_id)}`;
+    } catch (error) { alert(`Import failed: ${error.message}`); }
+  });
+
+  document.addEventListener("submit", event => {
+    if (event.target.id === "character-wizard-form") {
+      event.preventDefault(); saveWizardFields();
+      if (state.wizardStep < wizardSteps.length - 1) { state.wizardStep++; renderWizard(); return; }
+      let persona = state.editingCharacterId ? bridge.updateCharacter(state.editingCharacterId, state.draft) : bridge.createCharacter(state.draft);
+      if (typeof bridge.updateCharacterReferences === "function") {
+        const newReference = state.draft.referenceSource ? createPurposeReference(state.draft.referenceSource, state.draft.referencePurpose || "appearance", {
+          media_type: state.draft.referenceMediaType || "image",
+          strength: state.draft.referenceStrength || "supporting",
+          label: state.draft.referenceLabel,
+          source: state.draft.referenceSource,
+          notes: state.draft.references
+        }) : null;
+        const references = assemblePurposeReferences([...(state.draft.purposeReferences || []), ...(newReference ? [newReference] : [])]).references;
+        persona = bridge.updateCharacterReferences(persona.meta.persona_id, references) || persona;
+      }
+      dialog.close();
+      location.hash = `characters/${encodeURIComponent(persona.meta.persona_id)}`;
+    }
+    if (event.target.id === "scene-form") {
+      event.preventDefault();
+      const values = Object.fromEntries(new FormData(event.target));
+      const persona = personById(values.characterId);
+      const project = values.projectId ? projectById(values.projectId) : null;
+      const requirements = { location: values.location, activity: values.activity, time: values.time, socialContext: values.socialContext, mood: values.mood };
+      const reference = values.referenceSource ? createPurposeReference(values.referenceSource, values.referencePurpose || "environment", {
+        media_type: values.referenceMediaType || "image", strength: values.referenceStrength || "supporting", source: values.referenceSource
+      }) : null;
+      const controls = { seed: values.seed, target: values.target, density: values.density, wardrobe: values.wardrobe, props: values.props, expression: values.expression, pose: values.pose, composition: values.composition, lighting: values.lighting, references: reference ? [reference] : [] };
+      const resolved = resolveScene({ persona, requirements, project, library: bridge.library(), seed: values.seed, controls, target: values.target, density: values.density });
+      const title = values.activity ? `${values.activity} · ${values.location || "Scene"}` : `${persona.origin.name} · ${values.location || "New Scene"}`;
+      const refs = sceneReferences(values.characterId, values.projectId);
+      const scene = sceneStore.create({ title, ...refs, requirements, controls, resolved, output: { prompt: resolved.prompt, negativePrompt: resolved.negativePrompt } });
+      if (project) projectStore.addScene(project.id, scene.id);
+      if (typeof bridge.updateCharacterContinuity === "function") bridge.updateCharacterContinuity(values.characterId, { type: "record_scene", scene: { id: scene.id, title: scene.title } });
+      state.sceneResult = scene;
+      location.hash = `scenes/${encodeURIComponent(scene.id)}`;
+    }
+    if (event.target.id === "product-project-create-form") {
+      event.preventDefault(); const values = Object.fromEntries(new FormData(event.target));
+      const project = projectStore.create({ name: values.name, context: { setting: values.setting, era: values.era, premise: values.premise }, locations: splitList(values.locations) });
+      dialog.close(); location.hash = `projects/${encodeURIComponent(project.id)}`;
+    }
+    if (event.target.id === "project-add-character") {
+      event.preventDefault(); const personaId = new FormData(event.target).get("personaId"); projectStore.addPersona(event.target.dataset.projectId, personaId); navigate();
+    }
+    if (event.target.id === "project-context-form") {
+      event.preventDefault(); const values = Object.fromEntries(new FormData(event.target)); const project = projectById(event.target.dataset.projectId);
+      projectStore.update(project.id, { context: { ...project.context, premise: values.premise }, locations: splitList(values.locations), notes: values.notes }); navigate();
+    }
+    if (event.target.id === "character-continuity-form") {
+      event.preventDefault();
+      const values = Object.fromEntries(new FormData(event.target));
+      const id = event.target.dataset.personaId;
+      bridge.updateCharacterContinuity(id, { type: "set_current", current: { project: values.project, goal: values.goal, situation: values.situation } });
+      if (values.thread) bridge.updateCharacterContinuity(id, { type: "upsert_thread", thread: { title: values.thread } });
+      navigate();
+    }
+  });
+
+  window.addEventListener("hashchange", navigate);
+  if (!location.hash) location.hash = "home"; else navigate();
+  return { navigate };
+}

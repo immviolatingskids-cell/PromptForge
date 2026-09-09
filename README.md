@@ -1,4 +1,18 @@
-# PersonaForge — v0.2.6
+# PromptForge
+
+PromptForge is a local-first character and scene studio. Its creative shell is organised around Home, Characters, Scenes, Projects, Genres, and Library, while the existing Control Centre and advanced PersonaForge workbench remain available for pool management, diagnostics, canonical locks, rerolls, inspection, and output control.
+
+The product follows one rule: simple on the surface, deep underneath. Character Studio and Scene Forge call the existing deterministic persona engine rather than maintaining a second model. Weighted genres are optional influence profiles, projects provide reference-based context, and saved scenes continue the same canonical character across moments.
+
+Character Intelligence programme milestone: **v0.6.9**. It adds semantic genre recipes, reusable universal human relationships, typed character truth and preferences, contextual lifestyle and scene resolution, purpose-aware references, and bounded current-life continuity without changing the canonical PersonaForge engine or its `0.4.0` catalogue/data contract.
+
+Run the application with:
+
+```powershell
+python start.py
+```
+
+Then open `http://127.0.0.1:8765`. See [`docs/PRODUCT_ARCHITECTURE.md`](docs/PRODUCT_ARCHITECTURE.md) for product boundaries, data priority, compatibility behavior, and extension points.
 
 ## Populator Library Workshop
 
@@ -31,6 +45,10 @@ Run `npm run diagnose -- --samples 300` for seeded repetition, contextual-slice,
 stereotype-concentration, and variance-mode diagnostics. Add `--queue` to merge
 actionable findings into the Populator queue; those records preserve the triggering
 context and set a growth target above the pool's current count.
+
+Visual projection diagnostics are available with `npm run diagnostics:visual`.
+Run `npm run review:visual` for deterministic editorial checks covering abstract
+psychology leakage, unspecified values, prompt bloat, and contradictions.
 
 Risky mutations—bulk imports and batch metadata changes—create a full ZIP backup and a one-action undo record before writing. Possible variants remain importable and are shown separately from likely or exact duplicates.
 
@@ -2966,3 +2984,7 @@ Deep migration is conservative: only canonical, unambiguous mappings are applied
 Coverage now uses one minimum/healthy/target contract for legacy pools and deep registry leaves. Queue records name their intended goal, presets default to conservative minimum-first population, and library health measures minimum/healthy readiness without penalizing unfinished long-term expansion targets.
 
 See `COVERAGE_ARCHITECTURE_v0.2.7.md` for threshold semantics, status names, configuration examples, queue commands, preset policies, compatibility rules, and agent-facing health fields.
+
+## Control Centre
+
+The local studio now opens in a personalised Control Centre with live coverage, diagnostics, generation presets, appearance preferences, activity and backup downloads. Start (or restart) `python start.py` to enable its local API. See [the Control Centre guide](docs/CONTROL_CENTRE.md) for architecture, persistence, testing and current limitations.

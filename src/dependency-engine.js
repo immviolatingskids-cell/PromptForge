@@ -8,17 +8,22 @@ export const DEPENDENCIES = {
   "foundation.region": ["foundation.locale", "origin.heritage", "origin.name", "appearance.clothing_style"],
   "foundation.locale": ["origin.heritage", "origin.name", "appearance.clothing_style"],
   "origin.heritage": ["origin.name", "appearance.surface", "appearance.visual"],
-  "life.job": ["life.structured_occupation", "life.career_level", "life.employment_type", "life.work_arrangement", "life.work_environment", "life.occupation_entry_route", "life.pathway", "life.experience", "life.experience_years", "life.income_band", "life.housing", "life.schedule", "interests.skills", "appearance.clothing_style", "narrative.integration"],
+  "life.job": ["life.structured_occupation", "life.career_level", "life.employment_type", "life.work_arrangement", "life.work_environment", "life.occupation_entry_route", "life.pathway", "life.experience", "life.experience_years", "life.income_band", "life.housing", "life.schedule", "interests.skills", "appearance.clothing_style", "narrative.integration", "visual_projection.occupation", "visual_projection.environment"],
   "life.education": ["life.occupation_entry_route", "life.pathway", "life.experience", "life.experience_years", "life.career_level"],
   "life.income_band": ["life.housing", "life.housing_profile", "life.transport", "life.mobility", "appearance.clothing_style"],
   "personality.core": ["personality.complementary", "personality.contrast", "personality.depth", "personality.flaw", "personality.values.primary", "personality.values.secondary", "personality.values.tension", "interests.hobbies"],
   "personality.values.primary": ["personality.values.secondary", "personality.values.tension", "narrative.integration"],
   "personality.values.secondary": ["personality.values.tension"],
-  "interests.hobbies": ["interests.structured_hobby", "interests.skills", "narrative.signature_item", "narrative.integration", "character_hook"],
+  "interests.hobbies": ["interests.structured_hobby", "interests.skills", "narrative.signature_item", "narrative.integration", "character_hook", "visual_projection.activity", "visual_projection.environment"],
   "personality.flaw": ["narrative.integration"],
-  "life.housing": ["narrative.integration"],
-  "appearance.surface": ["appearance.visual"],
-  "narrative.signature_item": ["character_hook"]
+  "life.housing": ["narrative.integration", "visual_projection.environment"],
+  "appearance.surface": ["appearance.visual", "visual_projection.appearance", "visual_projection.wardrobe"],
+  "narrative.signature_item": ["character_hook"],
+  "appearance.visual": ["visual_projection.appearance"],
+  "appearance.clothing_style": ["visual_projection.wardrobe"],
+  "appearance.signature_outfit": ["visual_projection.wardrobe"],
+  "origin.current_location": ["visual_projection.environment"],
+  "narrative.integration": []
 };
 
 export function affectedBy(path) {
@@ -26,6 +31,8 @@ export function affectedBy(path) {
   while (queue.length) for (const child of DEPENDENCIES[queue.shift()] || []) if (!found.has(child)) { found.add(child); queue.push(child); }
   return [...found];
 }
+
+export function dependencyInfo(path) { return { direct: DEPENDENCIES[path] || [], downstream: affectedBy(path) }; }
 
 export function markStale(persona, changedPath) {
   const locked = persona.state.locks || {};

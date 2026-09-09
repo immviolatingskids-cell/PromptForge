@@ -1,14 +1,1532 @@
 [
-  {"id":"light_freckles","name":"Light freckles across the nose","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]}},
-  {"id":"small_brow_scar","name":"Small scar through one eyebrow","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]}},
-  {"id":"deep_dimple","name":"A deep dimple when smiling","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]}},
-  {"id":"pointed_ears","name":"Long pointed ears","compatibility":{"settings":["fantasy"],"eras":[],"species":["elf"],"life_stages":[],"countries":[]}},
-  {"id":"beauty_mark_cheek","name":"Small beauty mark high on one cheek","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]}},
-  {"id":"crooked_nose","name":"Slightly crooked nose from an old break","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]}},
-  {"id":"gap_tooth","name":"Distinctive gap between the front teeth","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]}},
-  {"id":"silver_temple_streak","name":"Natural silver streak at one temple","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["young_adult","adult","mature","older"],"countries":[]}},
-  {"id":"callused_hands","name":"Noticeably callused hands","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]}},
-  {"id":"forearm_birthmark","name":"Irregular birthmark along one forearm","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]}},
-  {"id":"ear_implant","name":"Low-profile communications implant behind one ear","compatibility":{"settings":["science_fiction"],"eras":["future"],"species":["human"],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]}},
-  {"id":"ritual_hand_marks","name":"Faded ceremonial markings across both hands","compatibility":{"settings":["fantasy"],"eras":["medieval_inspired","timeless"],"species":[],"life_stages":["young_adult","adult","mature","older"],"countries":[]}}
+  {
+    "id": "light_freckles",
+    "name": "Light freckles across the nose",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    }
+  },
+  {
+    "id": "small_brow_scar",
+    "name": "Small scar through one eyebrow",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [
+        "teen",
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    }
+  },
+  {
+    "id": "deep_dimple",
+    "name": "A deep dimple when smiling",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    }
+  },
+  {
+    "id": "pointed_ears",
+    "name": "Long pointed ears",
+    "compatibility": {
+      "settings": [
+        "fantasy"
+      ],
+      "eras": [],
+      "species": [
+        "elf"
+      ],
+      "life_stages": [],
+      "countries": []
+    }
+  },
+  {
+    "id": "beauty_mark_cheek",
+    "name": "Small beauty mark high on one cheek",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    }
+  },
+  {
+    "id": "crooked_nose",
+    "name": "Slightly crooked nose from an old break",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [
+        "teen",
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    }
+  },
+  {
+    "id": "gap_tooth",
+    "name": "Distinctive gap between the front teeth",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    }
+  },
+  {
+    "id": "silver_temple_streak",
+    "name": "Natural silver streak at one temple",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    }
+  },
+  {
+    "id": "callused_hands",
+    "name": "Noticeably callused hands",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [
+        "teen",
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    }
+  },
+  {
+    "id": "forearm_birthmark",
+    "name": "Irregular birthmark along one forearm",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    }
+  },
+  {
+    "id": "ear_implant",
+    "name": "Low-profile communications implant behind one ear",
+    "compatibility": {
+      "settings": [
+        "science_fiction"
+      ],
+      "eras": [
+        "future"
+      ],
+      "species": [
+        "human"
+      ],
+      "life_stages": [
+        "teen",
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    }
+  },
+  {
+    "id": "ritual_hand_marks",
+    "name": "Faded ceremonial markings across both hands",
+    "compatibility": {
+      "settings": [
+        "fantasy"
+      ],
+      "eras": [
+        "medieval_inspired",
+        "timeless"
+      ],
+      "species": [],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    }
+  },
+  {
+    "id": "freckles_classic_01",
+    "name": "Freckles classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "freckles",
+      "pool_path": "appearance/distinguishing_features/freckles",
+      "subcategory": "freckles"
+    }
+  },
+  {
+    "id": "freckles_refined_02",
+    "name": "Freckles refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "freckles",
+      "pool_path": "appearance/distinguishing_features/freckles",
+      "subcategory": "freckles"
+    }
+  },
+  {
+    "id": "freckles_weathered_03",
+    "name": "Freckles weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "freckles",
+      "pool_path": "appearance/distinguishing_features/freckles",
+      "subcategory": "freckles"
+    }
+  },
+  {
+    "id": "freckles_practical_04",
+    "name": "Freckles practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "freckles",
+      "pool_path": "appearance/distinguishing_features/freckles",
+      "subcategory": "freckles"
+    }
+  },
+  {
+    "id": "freckles_distinctive_05",
+    "name": "Freckles distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "freckles",
+      "pool_path": "appearance/distinguishing_features/freckles",
+      "subcategory": "freckles"
+    }
+  },
+  {
+    "id": "freckles_subtle_06",
+    "name": "Freckles subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "freckles",
+      "pool_path": "appearance/distinguishing_features/freckles",
+      "subcategory": "freckles"
+    }
+  },
+  {
+    "id": "scars_classic_01",
+    "name": "Scars classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "scars",
+      "pool_path": "appearance/distinguishing_features/scars",
+      "subcategory": "scars"
+    }
+  },
+  {
+    "id": "scars_refined_02",
+    "name": "Scars refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "scars",
+      "pool_path": "appearance/distinguishing_features/scars",
+      "subcategory": "scars"
+    }
+  },
+  {
+    "id": "scars_weathered_03",
+    "name": "Scars weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "scars",
+      "pool_path": "appearance/distinguishing_features/scars",
+      "subcategory": "scars"
+    }
+  },
+  {
+    "id": "scars_practical_04",
+    "name": "Scars practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "scars",
+      "pool_path": "appearance/distinguishing_features/scars",
+      "subcategory": "scars"
+    }
+  },
+  {
+    "id": "scars_distinctive_05",
+    "name": "Scars distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "scars",
+      "pool_path": "appearance/distinguishing_features/scars",
+      "subcategory": "scars"
+    }
+  },
+  {
+    "id": "scars_subtle_06",
+    "name": "Scars subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "scars",
+      "pool_path": "appearance/distinguishing_features/scars",
+      "subcategory": "scars"
+    }
+  },
+  {
+    "id": "scars_layered_07",
+    "name": "Scars layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "scars",
+      "pool_path": "appearance/distinguishing_features/scars",
+      "subcategory": "scars"
+    }
+  },
+  {
+    "id": "scars_handcrafted_08",
+    "name": "Scars handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "scars",
+      "pool_path": "appearance/distinguishing_features/scars",
+      "subcategory": "scars"
+    }
+  },
+  {
+    "id": "scars_adaptive_09",
+    "name": "Scars adaptive 09",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "scars",
+      "pool_path": "appearance/distinguishing_features/scars",
+      "subcategory": "scars"
+    }
+  },
+  {
+    "id": "scars_ceremonial_10",
+    "name": "Scars ceremonial 10",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "scars",
+      "pool_path": "appearance/distinguishing_features/scars",
+      "subcategory": "scars"
+    }
+  },
+  {
+    "id": "scars_everyday_11",
+    "name": "Scars everyday 11",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "scars",
+      "pool_path": "appearance/distinguishing_features/scars",
+      "subcategory": "scars"
+    }
+  },
+  {
+    "id": "scars_formal_12",
+    "name": "Scars formal 12",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "scars",
+      "pool_path": "appearance/distinguishing_features/scars",
+      "subcategory": "scars"
+    }
+  },
+  {
+    "id": "scars_lightweight_13",
+    "name": "Scars lightweight 13",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "scars",
+      "pool_path": "appearance/distinguishing_features/scars",
+      "subcategory": "scars"
+    }
+  },
+  {
+    "id": "birthmarks_classic_01",
+    "name": "Birthmarks classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "birthmarks",
+      "pool_path": "appearance/distinguishing_features/birthmarks",
+      "subcategory": "birthmarks"
+    }
+  },
+  {
+    "id": "birthmarks_refined_02",
+    "name": "Birthmarks refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "birthmarks",
+      "pool_path": "appearance/distinguishing_features/birthmarks",
+      "subcategory": "birthmarks"
+    }
+  },
+  {
+    "id": "birthmarks_weathered_03",
+    "name": "Birthmarks weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "birthmarks",
+      "pool_path": "appearance/distinguishing_features/birthmarks",
+      "subcategory": "birthmarks"
+    }
+  },
+  {
+    "id": "birthmarks_practical_04",
+    "name": "Birthmarks practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "birthmarks",
+      "pool_path": "appearance/distinguishing_features/birthmarks",
+      "subcategory": "birthmarks"
+    }
+  },
+  {
+    "id": "birthmarks_distinctive_05",
+    "name": "Birthmarks distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "birthmarks",
+      "pool_path": "appearance/distinguishing_features/birthmarks",
+      "subcategory": "birthmarks"
+    }
+  },
+  {
+    "id": "birthmarks_subtle_06",
+    "name": "Birthmarks subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "birthmarks",
+      "pool_path": "appearance/distinguishing_features/birthmarks",
+      "subcategory": "birthmarks"
+    }
+  },
+  {
+    "id": "birthmarks_layered_07",
+    "name": "Birthmarks layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "birthmarks",
+      "pool_path": "appearance/distinguishing_features/birthmarks",
+      "subcategory": "birthmarks"
+    }
+  },
+  {
+    "id": "birthmarks_handcrafted_08",
+    "name": "Birthmarks handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "birthmarks",
+      "pool_path": "appearance/distinguishing_features/birthmarks",
+      "subcategory": "birthmarks"
+    }
+  },
+  {
+    "id": "tattoos_classic_01",
+    "name": "Tattoos classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "tattoos",
+      "pool_path": "appearance/distinguishing_features/tattoos",
+      "subcategory": "tattoos"
+    }
+  },
+  {
+    "id": "tattoos_refined_02",
+    "name": "Tattoos refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "tattoos",
+      "pool_path": "appearance/distinguishing_features/tattoos",
+      "subcategory": "tattoos"
+    }
+  },
+  {
+    "id": "tattoos_weathered_03",
+    "name": "Tattoos weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "tattoos",
+      "pool_path": "appearance/distinguishing_features/tattoos",
+      "subcategory": "tattoos"
+    }
+  },
+  {
+    "id": "tattoos_practical_04",
+    "name": "Tattoos practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "tattoos",
+      "pool_path": "appearance/distinguishing_features/tattoos",
+      "subcategory": "tattoos"
+    }
+  },
+  {
+    "id": "tattoos_distinctive_05",
+    "name": "Tattoos distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "tattoos",
+      "pool_path": "appearance/distinguishing_features/tattoos",
+      "subcategory": "tattoos"
+    }
+  },
+  {
+    "id": "tattoos_subtle_06",
+    "name": "Tattoos subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "tattoos",
+      "pool_path": "appearance/distinguishing_features/tattoos",
+      "subcategory": "tattoos"
+    }
+  },
+  {
+    "id": "tattoos_layered_07",
+    "name": "Tattoos layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "tattoos",
+      "pool_path": "appearance/distinguishing_features/tattoos",
+      "subcategory": "tattoos"
+    }
+  },
+  {
+    "id": "tattoos_handcrafted_08",
+    "name": "Tattoos handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "tattoos",
+      "pool_path": "appearance/distinguishing_features/tattoos",
+      "subcategory": "tattoos"
+    }
+  },
+  {
+    "id": "tattoos_adaptive_09",
+    "name": "Tattoos adaptive 09",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "tattoos",
+      "pool_path": "appearance/distinguishing_features/tattoos",
+      "subcategory": "tattoos"
+    }
+  },
+  {
+    "id": "tattoos_ceremonial_10",
+    "name": "Tattoos ceremonial 10",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "tattoos",
+      "pool_path": "appearance/distinguishing_features/tattoos",
+      "subcategory": "tattoos"
+    }
+  },
+  {
+    "id": "tattoos_everyday_11",
+    "name": "Tattoos everyday 11",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "tattoos",
+      "pool_path": "appearance/distinguishing_features/tattoos",
+      "subcategory": "tattoos"
+    }
+  },
+  {
+    "id": "tattoos_formal_12",
+    "name": "Tattoos formal 12",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "tattoos",
+      "pool_path": "appearance/distinguishing_features/tattoos",
+      "subcategory": "tattoos"
+    }
+  },
+  {
+    "id": "tattoos_lightweight_13",
+    "name": "Tattoos lightweight 13",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "tattoos",
+      "pool_path": "appearance/distinguishing_features/tattoos",
+      "subcategory": "tattoos"
+    }
+  },
+  {
+    "id": "tattoos_structured_14",
+    "name": "Tattoos structured 14",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "tattoos",
+      "pool_path": "appearance/distinguishing_features/tattoos",
+      "subcategory": "tattoos"
+    }
+  },
+  {
+    "id": "tattoos_textured_15",
+    "name": "Tattoos textured 15",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "tattoos",
+      "pool_path": "appearance/distinguishing_features/tattoos",
+      "subcategory": "tattoos"
+    }
+  },
+  {
+    "id": "piercings_classic_01",
+    "name": "Piercings classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "piercings",
+      "pool_path": "appearance/distinguishing_features/piercings",
+      "subcategory": "piercings"
+    }
+  },
+  {
+    "id": "piercings_refined_02",
+    "name": "Piercings refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "piercings",
+      "pool_path": "appearance/distinguishing_features/piercings",
+      "subcategory": "piercings"
+    }
+  },
+  {
+    "id": "piercings_weathered_03",
+    "name": "Piercings weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "piercings",
+      "pool_path": "appearance/distinguishing_features/piercings",
+      "subcategory": "piercings"
+    }
+  },
+  {
+    "id": "piercings_practical_04",
+    "name": "Piercings practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "piercings",
+      "pool_path": "appearance/distinguishing_features/piercings",
+      "subcategory": "piercings"
+    }
+  },
+  {
+    "id": "piercings_distinctive_05",
+    "name": "Piercings distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "piercings",
+      "pool_path": "appearance/distinguishing_features/piercings",
+      "subcategory": "piercings"
+    }
+  },
+  {
+    "id": "piercings_subtle_06",
+    "name": "Piercings subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "piercings",
+      "pool_path": "appearance/distinguishing_features/piercings",
+      "subcategory": "piercings"
+    }
+  },
+  {
+    "id": "piercings_layered_07",
+    "name": "Piercings layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "piercings",
+      "pool_path": "appearance/distinguishing_features/piercings",
+      "subcategory": "piercings"
+    }
+  },
+  {
+    "id": "piercings_handcrafted_08",
+    "name": "Piercings handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "piercings",
+      "pool_path": "appearance/distinguishing_features/piercings",
+      "subcategory": "piercings"
+    }
+  },
+  {
+    "id": "piercings_adaptive_09",
+    "name": "Piercings adaptive 09",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "piercings",
+      "pool_path": "appearance/distinguishing_features/piercings",
+      "subcategory": "piercings"
+    }
+  },
+  {
+    "id": "piercings_ceremonial_10",
+    "name": "Piercings ceremonial 10",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "piercings",
+      "pool_path": "appearance/distinguishing_features/piercings",
+      "subcategory": "piercings"
+    }
+  },
+  {
+    "id": "piercings_everyday_11",
+    "name": "Piercings everyday 11",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "piercings",
+      "pool_path": "appearance/distinguishing_features/piercings",
+      "subcategory": "piercings"
+    }
+  },
+  {
+    "id": "piercings_formal_12",
+    "name": "Piercings formal 12",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "piercings",
+      "pool_path": "appearance/distinguishing_features/piercings",
+      "subcategory": "piercings"
+    }
+  },
+  {
+    "id": "piercings_lightweight_13",
+    "name": "Piercings lightweight 13",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "piercings",
+      "pool_path": "appearance/distinguishing_features/piercings",
+      "subcategory": "piercings"
+    }
+  },
+  {
+    "id": "other_marks_classic_01",
+    "name": "Other Marks classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "other_marks",
+      "pool_path": "appearance/distinguishing_features/other_marks",
+      "subcategory": "other_marks"
+    }
+  },
+  {
+    "id": "other_marks_refined_02",
+    "name": "Other Marks refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "other_marks",
+      "pool_path": "appearance/distinguishing_features/other_marks",
+      "subcategory": "other_marks"
+    }
+  },
+  {
+    "id": "other_marks_weathered_03",
+    "name": "Other Marks weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "other_marks",
+      "pool_path": "appearance/distinguishing_features/other_marks",
+      "subcategory": "other_marks"
+    }
+  },
+  {
+    "id": "other_marks_practical_04",
+    "name": "Other Marks practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "other_marks",
+      "pool_path": "appearance/distinguishing_features/other_marks",
+      "subcategory": "other_marks"
+    }
+  },
+  {
+    "id": "other_marks_distinctive_05",
+    "name": "Other Marks distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "other_marks",
+      "pool_path": "appearance/distinguishing_features/other_marks",
+      "subcategory": "other_marks"
+    }
+  },
+  {
+    "id": "other_marks_subtle_06",
+    "name": "Other Marks subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "other_marks",
+      "pool_path": "appearance/distinguishing_features/other_marks",
+      "subcategory": "other_marks"
+    }
+  },
+  {
+    "id": "other_marks_layered_07",
+    "name": "Other Marks layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "other_marks",
+      "pool_path": "appearance/distinguishing_features/other_marks",
+      "subcategory": "other_marks"
+    }
+  },
+  {
+    "id": "other_marks_handcrafted_08",
+    "name": "Other Marks handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "other_marks",
+      "pool_path": "appearance/distinguishing_features/other_marks",
+      "subcategory": "other_marks"
+    }
+  },
+  {
+    "id": "appearance_features_freckles_supplemental_01",
+    "name": "appearance features freckles supplemental 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "freckles",
+      "pool_path": "appearance/distinguishing_features/freckles",
+      "subcategory": "freckles"
+    }
+  },
+  {
+    "id": "appearance_features_birthmarks_supplemental_01",
+    "name": "appearance features birthmarks supplemental 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "birthmarks",
+      "pool_path": "appearance/distinguishing_features/birthmarks",
+      "subcategory": "birthmarks"
+    }
+  },
+  {
+    "id": "aster_freckles_1",
+    "name": "Aster freckles 1",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "freckles",
+      "pool_path": "appearance/distinguishing_features/freckles",
+      "subcategory": "freckles"
+    }
+  },
+  {
+    "id": "bracken_freckles_2",
+    "name": "Bracken freckles 2",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "freckles",
+      "pool_path": "appearance/distinguishing_features/freckles",
+      "subcategory": "freckles"
+    }
+  },
+  {
+    "id": "cinder_freckles_3",
+    "name": "Cinder freckles 3",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "freckles",
+      "pool_path": "appearance/distinguishing_features/freckles",
+      "subcategory": "freckles"
+    }
+  },
+  {
+    "id": "aster_birthmarks_1",
+    "name": "Aster birthmarks 1",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "birthmarks",
+      "pool_path": "appearance/distinguishing_features/birthmarks",
+      "subcategory": "birthmarks"
+    }
+  },
+  {
+    "id": "aster_other_marks_1",
+    "name": "Aster other marks 1",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "other_marks",
+      "pool_path": "appearance/distinguishing_features/other_marks",
+      "subcategory": "other_marks"
+    }
+  },
+  {
+    "id": "bracken_other_marks_2",
+    "name": "Bracken other marks 2",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "other_marks",
+      "pool_path": "appearance/distinguishing_features/other_marks",
+      "subcategory": "other_marks"
+    }
+  }
 ]

@@ -1,14 +1,1022 @@
 [
-  {"id":"slender_average_height","name":"Slender, average height","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]},"metadata":{"build":"slender","height":"average"}},
-  {"id":"athletic_medium_height","name":"Athletic, medium height","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]},"metadata":{"build":"athletic","height":"medium"}},
-  {"id":"broad_tall","name":"Broad-built and tall","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["young_adult","adult","mature","older"],"countries":[]},"metadata":{"build":"broad","height":"tall"}}
-  ,{"id":"developing_average_height","name":"Developing build, average height for age","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["child","teen"],"countries":[]},"metadata":{"build":"developing","height":"average for age"}},
-  {"id":"compact_sturdy","name":"Compact, sturdy build","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]},"metadata":{"build":"sturdy","height":"short"}},
-  {"id":"lean_tall","name":"Lean and tall","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]},"metadata":{"build":"lean","height":"tall"}},
-  {"id":"soft_average","name":"Soft build, average height","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["young_adult","adult","mature","older"],"countries":[]},"metadata":{"build":"soft","height":"average"}},
-  {"id":"wiry_short","name":"Wiry and short","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]},"metadata":{"build":"wiry","height":"short"}},
-  {"id":"powerful_average","name":"Powerful build, average height","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["young_adult","adult","mature","older"],"countries":[]},"metadata":{"build":"powerful","height":"average"}},
-  {"id":"rangy_very_tall","name":"Rangy and unusually tall","compatibility":{"settings":["fantasy"],"eras":[],"species":["elf"],"life_stages":["young_adult","adult","mature","older"],"countries":[]},"metadata":{"build":"rangy","height":"very tall"}},
-  {"id":"slight_short","name":"Slight, short build","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]},"metadata":{"build":"slight","height":"short"}},
-  {"id":"broad_average","name":"Broad build, average height","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["young_adult","adult","mature","older"],"countries":[]},"metadata":{"build":"broad","height":"average"}}
+  {
+    "id": "slender_average_height",
+    "name": "Slender, average height",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [
+        "teen",
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "build": "slender",
+      "height": "average",
+      "pool_id": "height",
+      "pool_path": "appearance/body/height",
+      "subcategory": "height"
+    }
+  },
+  {
+    "id": "athletic_medium_height",
+    "name": "Athletic, medium height",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [
+        "teen",
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "build": "athletic",
+      "height": "medium",
+      "pool_id": "height",
+      "pool_path": "appearance/body/height",
+      "subcategory": "height"
+    }
+  },
+  {
+    "id": "broad_tall",
+    "name": "Broad-built and tall",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "build": "broad",
+      "height": "tall"
+    }
+  },
+  {
+    "id": "developing_average_height",
+    "name": "Developing build, average height for age",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [
+        "child",
+        "teen"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "build": "developing",
+      "height": "average for age"
+    }
+  },
+  {
+    "id": "compact_sturdy",
+    "name": "Compact, sturdy build",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [
+        "teen",
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "build": "sturdy",
+      "height": "short",
+      "pool_id": "build",
+      "pool_path": "appearance/body/build",
+      "subcategory": "build"
+    }
+  },
+  {
+    "id": "lean_tall",
+    "name": "Lean and tall",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [
+        "teen",
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "build": "lean",
+      "height": "tall"
+    }
+  },
+  {
+    "id": "soft_average",
+    "name": "Soft build, average height",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "build": "soft",
+      "height": "average"
+    }
+  },
+  {
+    "id": "wiry_short",
+    "name": "Wiry and short",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [
+        "teen",
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "build": "wiry",
+      "height": "short"
+    }
+  },
+  {
+    "id": "powerful_average",
+    "name": "Powerful build, average height",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "build": "powerful",
+      "height": "average"
+    }
+  },
+  {
+    "id": "rangy_very_tall",
+    "name": "Rangy and unusually tall",
+    "compatibility": {
+      "settings": [
+        "fantasy"
+      ],
+      "eras": [],
+      "species": [
+        "elf"
+      ],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "build": "rangy",
+      "height": "very tall"
+    }
+  },
+  {
+    "id": "slight_short",
+    "name": "Slight, short build",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [
+        "teen",
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "build": "slight",
+      "height": "short",
+      "pool_id": "build",
+      "pool_path": "appearance/body/build",
+      "subcategory": "build"
+    }
+  },
+  {
+    "id": "broad_average",
+    "name": "Broad build, average height",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "build": "broad",
+      "height": "average"
+    }
+  },
+  {
+    "id": "height_classic_01",
+    "name": "Height classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "height",
+      "pool_path": "appearance/body/height",
+      "subcategory": "height"
+    }
+  },
+  {
+    "id": "height_refined_02",
+    "name": "Height refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "height",
+      "pool_path": "appearance/body/height",
+      "subcategory": "height"
+    }
+  },
+  {
+    "id": "height_weathered_03",
+    "name": "Height weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "height",
+      "pool_path": "appearance/body/height",
+      "subcategory": "height"
+    }
+  },
+  {
+    "id": "height_practical_04",
+    "name": "Height practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "height",
+      "pool_path": "appearance/body/height",
+      "subcategory": "height"
+    }
+  },
+  {
+    "id": "height_distinctive_05",
+    "name": "Height distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "height",
+      "pool_path": "appearance/body/height",
+      "subcategory": "height"
+    }
+  },
+  {
+    "id": "build_classic_01",
+    "name": "Build classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "build",
+      "pool_path": "appearance/body/build",
+      "subcategory": "build"
+    }
+  },
+  {
+    "id": "build_refined_02",
+    "name": "Build refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "build",
+      "pool_path": "appearance/body/build",
+      "subcategory": "build"
+    }
+  },
+  {
+    "id": "build_weathered_03",
+    "name": "Build weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "build",
+      "pool_path": "appearance/body/build",
+      "subcategory": "build"
+    }
+  },
+  {
+    "id": "build_practical_04",
+    "name": "Build practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "build",
+      "pool_path": "appearance/body/build",
+      "subcategory": "build"
+    }
+  },
+  {
+    "id": "build_distinctive_05",
+    "name": "Build distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "build",
+      "pool_path": "appearance/body/build",
+      "subcategory": "build"
+    }
+  },
+  {
+    "id": "build_subtle_06",
+    "name": "Build subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "build",
+      "pool_path": "appearance/body/build",
+      "subcategory": "build"
+    }
+  },
+  {
+    "id": "build_layered_07",
+    "name": "Build layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "build",
+      "pool_path": "appearance/body/build",
+      "subcategory": "build"
+    }
+  },
+  {
+    "id": "build_handcrafted_08",
+    "name": "Build handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "build",
+      "pool_path": "appearance/body/build",
+      "subcategory": "build"
+    }
+  },
+  {
+    "id": "build_adaptive_09",
+    "name": "Build adaptive 09",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "build",
+      "pool_path": "appearance/body/build",
+      "subcategory": "build"
+    }
+  },
+  {
+    "id": "build_ceremonial_10",
+    "name": "Build ceremonial 10",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "build",
+      "pool_path": "appearance/body/build",
+      "subcategory": "build"
+    }
+  },
+  {
+    "id": "frame_classic_01",
+    "name": "Frame classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "frame",
+      "pool_path": "appearance/body/frame",
+      "subcategory": "frame"
+    }
+  },
+  {
+    "id": "frame_refined_02",
+    "name": "Frame refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "frame",
+      "pool_path": "appearance/body/frame",
+      "subcategory": "frame"
+    }
+  },
+  {
+    "id": "frame_weathered_03",
+    "name": "Frame weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "frame",
+      "pool_path": "appearance/body/frame",
+      "subcategory": "frame"
+    }
+  },
+  {
+    "id": "frame_practical_04",
+    "name": "Frame practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "frame",
+      "pool_path": "appearance/body/frame",
+      "subcategory": "frame"
+    }
+  },
+  {
+    "id": "frame_distinctive_05",
+    "name": "Frame distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "frame",
+      "pool_path": "appearance/body/frame",
+      "subcategory": "frame"
+    }
+  },
+  {
+    "id": "frame_subtle_06",
+    "name": "Frame subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "frame",
+      "pool_path": "appearance/body/frame",
+      "subcategory": "frame"
+    }
+  },
+  {
+    "id": "body_proportions_classic_01",
+    "name": "Body Proportions classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "body_proportions",
+      "pool_path": "appearance/body/body_proportions",
+      "subcategory": "body_proportions"
+    }
+  },
+  {
+    "id": "body_proportions_refined_02",
+    "name": "Body Proportions refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "body_proportions",
+      "pool_path": "appearance/body/body_proportions",
+      "subcategory": "body_proportions"
+    }
+  },
+  {
+    "id": "body_proportions_weathered_03",
+    "name": "Body Proportions weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "body_proportions",
+      "pool_path": "appearance/body/body_proportions",
+      "subcategory": "body_proportions"
+    }
+  },
+  {
+    "id": "body_proportions_practical_04",
+    "name": "Body Proportions practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "body_proportions",
+      "pool_path": "appearance/body/body_proportions",
+      "subcategory": "body_proportions"
+    }
+  },
+  {
+    "id": "body_proportions_distinctive_05",
+    "name": "Body Proportions distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "body_proportions",
+      "pool_path": "appearance/body/body_proportions",
+      "subcategory": "body_proportions"
+    }
+  },
+  {
+    "id": "body_proportions_subtle_06",
+    "name": "Body Proportions subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "body_proportions",
+      "pool_path": "appearance/body/body_proportions",
+      "subcategory": "body_proportions"
+    }
+  },
+  {
+    "id": "body_proportions_layered_07",
+    "name": "Body Proportions layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "body_proportions",
+      "pool_path": "appearance/body/body_proportions",
+      "subcategory": "body_proportions"
+    }
+  },
+  {
+    "id": "body_proportions_handcrafted_08",
+    "name": "Body Proportions handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "body_proportions",
+      "pool_path": "appearance/body/body_proportions",
+      "subcategory": "body_proportions"
+    }
+  },
+  {
+    "id": "appearance_body_height_supplemental_01",
+    "name": "appearance body height supplemental 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "height",
+      "pool_path": "appearance/body/height",
+      "subcategory": "height"
+    }
+  },
+  {
+    "id": "appearance_body_frame_supplemental_01",
+    "name": "appearance body frame supplemental 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "frame",
+      "pool_path": "appearance/body/frame",
+      "subcategory": "frame"
+    }
+  },
+  {
+    "id": "appearance_body_body_proportions_supplemental_01",
+    "name": "appearance body body_proportions supplemental 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "body_proportions",
+      "pool_path": "appearance/body/body_proportions",
+      "subcategory": "body_proportions"
+    }
+  },
+  {
+    "id": "aster_height_1",
+    "name": "Aster height 1",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "height",
+      "pool_path": "appearance/body/height",
+      "subcategory": "height"
+    }
+  },
+  {
+    "id": "bracken_height_2",
+    "name": "Bracken height 2",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "height",
+      "pool_path": "appearance/body/height",
+      "subcategory": "height"
+    }
+  },
+  {
+    "id": "cinder_height_3",
+    "name": "Cinder height 3",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "height",
+      "pool_path": "appearance/body/height",
+      "subcategory": "height"
+    }
+  },
+  {
+    "id": "dapple_height_4",
+    "name": "Dapple height 4",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "height",
+      "pool_path": "appearance/body/height",
+      "subcategory": "height"
+    }
+  },
+  {
+    "id": "aster_frame_1",
+    "name": "Aster frame 1",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "frame",
+      "pool_path": "appearance/body/frame",
+      "subcategory": "frame"
+    }
+  },
+  {
+    "id": "bracken_frame_2",
+    "name": "Bracken frame 2",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "frame",
+      "pool_path": "appearance/body/frame",
+      "subcategory": "frame"
+    }
+  },
+  {
+    "id": "cinder_frame_3",
+    "name": "Cinder frame 3",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "frame",
+      "pool_path": "appearance/body/frame",
+      "subcategory": "frame"
+    }
+  },
+  {
+    "id": "aster_body_proportions_1",
+    "name": "Aster body proportions 1",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "body_proportions",
+      "pool_path": "appearance/body/body_proportions",
+      "subcategory": "body_proportions"
+    }
+  }
 ]

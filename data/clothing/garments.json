@@ -1,0 +1,4315 @@
+[
+  {
+    "id": "tops_classic_01",
+    "name": "Tops classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "tops",
+      "pool_path": "clothing/garments/tops",
+      "subcategory": "tops"
+    }
+  },
+  {
+    "id": "tops_refined_02",
+    "name": "Tops refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "tops",
+      "pool_path": "clothing/garments/tops",
+      "subcategory": "tops"
+    }
+  },
+  {
+    "id": "tops_weathered_03",
+    "name": "Tops weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "tops",
+      "pool_path": "clothing/garments/tops",
+      "subcategory": "tops"
+    }
+  },
+  {
+    "id": "tops_practical_04",
+    "name": "Tops practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "tops",
+      "pool_path": "clothing/garments/tops",
+      "subcategory": "tops"
+    }
+  },
+  {
+    "id": "tops_distinctive_05",
+    "name": "Tops distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "tops",
+      "pool_path": "clothing/garments/tops",
+      "subcategory": "tops"
+    }
+  },
+  {
+    "id": "tops_subtle_06",
+    "name": "Tops subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "tops",
+      "pool_path": "clothing/garments/tops",
+      "subcategory": "tops"
+    }
+  },
+  {
+    "id": "tops_layered_07",
+    "name": "Tops layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "tops",
+      "pool_path": "clothing/garments/tops",
+      "subcategory": "tops"
+    }
+  },
+  {
+    "id": "tops_handcrafted_08",
+    "name": "Tops handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "tops",
+      "pool_path": "clothing/garments/tops",
+      "subcategory": "tops"
+    }
+  },
+  {
+    "id": "tops_adaptive_09",
+    "name": "Tops adaptive 09",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "tops",
+      "pool_path": "clothing/garments/tops",
+      "subcategory": "tops"
+    }
+  },
+  {
+    "id": "tops_ceremonial_10",
+    "name": "Tops ceremonial 10",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "tops",
+      "pool_path": "clothing/garments/tops",
+      "subcategory": "tops"
+    }
+  },
+  {
+    "id": "tops_everyday_11",
+    "name": "Tops everyday 11",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "tops",
+      "pool_path": "clothing/garments/tops",
+      "subcategory": "tops"
+    }
+  },
+  {
+    "id": "tops_formal_12",
+    "name": "Tops formal 12",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "tops",
+      "pool_path": "clothing/garments/tops",
+      "subcategory": "tops"
+    }
+  },
+  {
+    "id": "tops_lightweight_13",
+    "name": "Tops lightweight 13",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "tops",
+      "pool_path": "clothing/garments/tops",
+      "subcategory": "tops"
+    }
+  },
+  {
+    "id": "tops_structured_14",
+    "name": "Tops structured 14",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "tops",
+      "pool_path": "clothing/garments/tops",
+      "subcategory": "tops"
+    }
+  },
+  {
+    "id": "tops_textured_15",
+    "name": "Tops textured 15",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "tops",
+      "pool_path": "clothing/garments/tops",
+      "subcategory": "tops"
+    }
+  },
+  {
+    "id": "tops_minimal_16",
+    "name": "Tops minimal 16",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "tops",
+      "pool_path": "clothing/garments/tops",
+      "subcategory": "tops"
+    }
+  },
+  {
+    "id": "tops_ornate_17",
+    "name": "Tops ornate 17",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "tops",
+      "pool_path": "clothing/garments/tops",
+      "subcategory": "tops"
+    }
+  },
+  {
+    "id": "tops_durable_18",
+    "name": "Tops durable 18",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "tops",
+      "pool_path": "clothing/garments/tops",
+      "subcategory": "tops"
+    }
+  },
+  {
+    "id": "tops_soft_19",
+    "name": "Tops soft 19",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "tops",
+      "pool_path": "clothing/garments/tops",
+      "subcategory": "tops"
+    }
+  },
+  {
+    "id": "tops_bold_20",
+    "name": "Tops bold 20",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "tops",
+      "pool_path": "clothing/garments/tops",
+      "subcategory": "tops"
+    }
+  },
+  {
+    "id": "shirts_blouses_classic_01",
+    "name": "Shirts Blouses classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "shirts_blouses",
+      "pool_path": "clothing/garments/shirts_blouses",
+      "subcategory": "shirts_blouses"
+    }
+  },
+  {
+    "id": "shirts_blouses_refined_02",
+    "name": "Shirts Blouses refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "shirts_blouses",
+      "pool_path": "clothing/garments/shirts_blouses",
+      "subcategory": "shirts_blouses"
+    }
+  },
+  {
+    "id": "shirts_blouses_weathered_03",
+    "name": "Shirts Blouses weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "shirts_blouses",
+      "pool_path": "clothing/garments/shirts_blouses",
+      "subcategory": "shirts_blouses"
+    }
+  },
+  {
+    "id": "shirts_blouses_practical_04",
+    "name": "Shirts Blouses practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "shirts_blouses",
+      "pool_path": "clothing/garments/shirts_blouses",
+      "subcategory": "shirts_blouses"
+    }
+  },
+  {
+    "id": "shirts_blouses_distinctive_05",
+    "name": "Shirts Blouses distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "shirts_blouses",
+      "pool_path": "clothing/garments/shirts_blouses",
+      "subcategory": "shirts_blouses"
+    }
+  },
+  {
+    "id": "shirts_blouses_subtle_06",
+    "name": "Shirts Blouses subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "shirts_blouses",
+      "pool_path": "clothing/garments/shirts_blouses",
+      "subcategory": "shirts_blouses"
+    }
+  },
+  {
+    "id": "shirts_blouses_layered_07",
+    "name": "Shirts Blouses layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "shirts_blouses",
+      "pool_path": "clothing/garments/shirts_blouses",
+      "subcategory": "shirts_blouses"
+    }
+  },
+  {
+    "id": "shirts_blouses_handcrafted_08",
+    "name": "Shirts Blouses handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "shirts_blouses",
+      "pool_path": "clothing/garments/shirts_blouses",
+      "subcategory": "shirts_blouses"
+    }
+  },
+  {
+    "id": "shirts_blouses_adaptive_09",
+    "name": "Shirts Blouses adaptive 09",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "shirts_blouses",
+      "pool_path": "clothing/garments/shirts_blouses",
+      "subcategory": "shirts_blouses"
+    }
+  },
+  {
+    "id": "shirts_blouses_ceremonial_10",
+    "name": "Shirts Blouses ceremonial 10",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "shirts_blouses",
+      "pool_path": "clothing/garments/shirts_blouses",
+      "subcategory": "shirts_blouses"
+    }
+  },
+  {
+    "id": "shirts_blouses_everyday_11",
+    "name": "Shirts Blouses everyday 11",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "shirts_blouses",
+      "pool_path": "clothing/garments/shirts_blouses",
+      "subcategory": "shirts_blouses"
+    }
+  },
+  {
+    "id": "shirts_blouses_formal_12",
+    "name": "Shirts Blouses formal 12",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "shirts_blouses",
+      "pool_path": "clothing/garments/shirts_blouses",
+      "subcategory": "shirts_blouses"
+    }
+  },
+  {
+    "id": "shirts_blouses_lightweight_13",
+    "name": "Shirts Blouses lightweight 13",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "shirts_blouses",
+      "pool_path": "clothing/garments/shirts_blouses",
+      "subcategory": "shirts_blouses"
+    }
+  },
+  {
+    "id": "shirts_blouses_structured_14",
+    "name": "Shirts Blouses structured 14",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "shirts_blouses",
+      "pool_path": "clothing/garments/shirts_blouses",
+      "subcategory": "shirts_blouses"
+    }
+  },
+  {
+    "id": "shirts_blouses_textured_15",
+    "name": "Shirts Blouses textured 15",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "shirts_blouses",
+      "pool_path": "clothing/garments/shirts_blouses",
+      "subcategory": "shirts_blouses"
+    }
+  },
+  {
+    "id": "knitwear_classic_01",
+    "name": "Knitwear classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "knitwear",
+      "pool_path": "clothing/garments/knitwear",
+      "subcategory": "knitwear"
+    }
+  },
+  {
+    "id": "knitwear_refined_02",
+    "name": "Knitwear refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "knitwear",
+      "pool_path": "clothing/garments/knitwear",
+      "subcategory": "knitwear"
+    }
+  },
+  {
+    "id": "knitwear_weathered_03",
+    "name": "Knitwear weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "knitwear",
+      "pool_path": "clothing/garments/knitwear",
+      "subcategory": "knitwear"
+    }
+  },
+  {
+    "id": "knitwear_practical_04",
+    "name": "Knitwear practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "knitwear",
+      "pool_path": "clothing/garments/knitwear",
+      "subcategory": "knitwear"
+    }
+  },
+  {
+    "id": "knitwear_distinctive_05",
+    "name": "Knitwear distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "knitwear",
+      "pool_path": "clothing/garments/knitwear",
+      "subcategory": "knitwear"
+    }
+  },
+  {
+    "id": "knitwear_subtle_06",
+    "name": "Knitwear subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "knitwear",
+      "pool_path": "clothing/garments/knitwear",
+      "subcategory": "knitwear"
+    }
+  },
+  {
+    "id": "knitwear_layered_07",
+    "name": "Knitwear layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "knitwear",
+      "pool_path": "clothing/garments/knitwear",
+      "subcategory": "knitwear"
+    }
+  },
+  {
+    "id": "knitwear_handcrafted_08",
+    "name": "Knitwear handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "knitwear",
+      "pool_path": "clothing/garments/knitwear",
+      "subcategory": "knitwear"
+    }
+  },
+  {
+    "id": "knitwear_adaptive_09",
+    "name": "Knitwear adaptive 09",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "knitwear",
+      "pool_path": "clothing/garments/knitwear",
+      "subcategory": "knitwear"
+    }
+  },
+  {
+    "id": "knitwear_ceremonial_10",
+    "name": "Knitwear ceremonial 10",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "knitwear",
+      "pool_path": "clothing/garments/knitwear",
+      "subcategory": "knitwear"
+    }
+  },
+  {
+    "id": "knitwear_everyday_11",
+    "name": "Knitwear everyday 11",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "knitwear",
+      "pool_path": "clothing/garments/knitwear",
+      "subcategory": "knitwear"
+    }
+  },
+  {
+    "id": "knitwear_formal_12",
+    "name": "Knitwear formal 12",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "knitwear",
+      "pool_path": "clothing/garments/knitwear",
+      "subcategory": "knitwear"
+    }
+  },
+  {
+    "id": "knitwear_lightweight_13",
+    "name": "Knitwear lightweight 13",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "knitwear",
+      "pool_path": "clothing/garments/knitwear",
+      "subcategory": "knitwear"
+    }
+  },
+  {
+    "id": "bottoms_classic_01",
+    "name": "Bottoms classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "bottoms",
+      "pool_path": "clothing/garments/bottoms",
+      "subcategory": "bottoms"
+    }
+  },
+  {
+    "id": "bottoms_refined_02",
+    "name": "Bottoms refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "bottoms",
+      "pool_path": "clothing/garments/bottoms",
+      "subcategory": "bottoms"
+    }
+  },
+  {
+    "id": "bottoms_weathered_03",
+    "name": "Bottoms weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "bottoms",
+      "pool_path": "clothing/garments/bottoms",
+      "subcategory": "bottoms"
+    }
+  },
+  {
+    "id": "bottoms_practical_04",
+    "name": "Bottoms practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "bottoms",
+      "pool_path": "clothing/garments/bottoms",
+      "subcategory": "bottoms"
+    }
+  },
+  {
+    "id": "bottoms_distinctive_05",
+    "name": "Bottoms distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "bottoms",
+      "pool_path": "clothing/garments/bottoms",
+      "subcategory": "bottoms"
+    }
+  },
+  {
+    "id": "bottoms_subtle_06",
+    "name": "Bottoms subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "bottoms",
+      "pool_path": "clothing/garments/bottoms",
+      "subcategory": "bottoms"
+    }
+  },
+  {
+    "id": "bottoms_layered_07",
+    "name": "Bottoms layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "bottoms",
+      "pool_path": "clothing/garments/bottoms",
+      "subcategory": "bottoms"
+    }
+  },
+  {
+    "id": "bottoms_handcrafted_08",
+    "name": "Bottoms handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "bottoms",
+      "pool_path": "clothing/garments/bottoms",
+      "subcategory": "bottoms"
+    }
+  },
+  {
+    "id": "bottoms_adaptive_09",
+    "name": "Bottoms adaptive 09",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "bottoms",
+      "pool_path": "clothing/garments/bottoms",
+      "subcategory": "bottoms"
+    }
+  },
+  {
+    "id": "bottoms_ceremonial_10",
+    "name": "Bottoms ceremonial 10",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "bottoms",
+      "pool_path": "clothing/garments/bottoms",
+      "subcategory": "bottoms"
+    }
+  },
+  {
+    "id": "bottoms_everyday_11",
+    "name": "Bottoms everyday 11",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "bottoms",
+      "pool_path": "clothing/garments/bottoms",
+      "subcategory": "bottoms"
+    }
+  },
+  {
+    "id": "bottoms_formal_12",
+    "name": "Bottoms formal 12",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "bottoms",
+      "pool_path": "clothing/garments/bottoms",
+      "subcategory": "bottoms"
+    }
+  },
+  {
+    "id": "bottoms_lightweight_13",
+    "name": "Bottoms lightweight 13",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "bottoms",
+      "pool_path": "clothing/garments/bottoms",
+      "subcategory": "bottoms"
+    }
+  },
+  {
+    "id": "bottoms_structured_14",
+    "name": "Bottoms structured 14",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "bottoms",
+      "pool_path": "clothing/garments/bottoms",
+      "subcategory": "bottoms"
+    }
+  },
+  {
+    "id": "bottoms_textured_15",
+    "name": "Bottoms textured 15",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "bottoms",
+      "pool_path": "clothing/garments/bottoms",
+      "subcategory": "bottoms"
+    }
+  },
+  {
+    "id": "trousers_classic_01",
+    "name": "Trousers classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "trousers",
+      "pool_path": "clothing/garments/trousers",
+      "subcategory": "trousers"
+    }
+  },
+  {
+    "id": "trousers_refined_02",
+    "name": "Trousers refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "trousers",
+      "pool_path": "clothing/garments/trousers",
+      "subcategory": "trousers"
+    }
+  },
+  {
+    "id": "trousers_weathered_03",
+    "name": "Trousers weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "trousers",
+      "pool_path": "clothing/garments/trousers",
+      "subcategory": "trousers"
+    }
+  },
+  {
+    "id": "trousers_practical_04",
+    "name": "Trousers practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "trousers",
+      "pool_path": "clothing/garments/trousers",
+      "subcategory": "trousers"
+    }
+  },
+  {
+    "id": "trousers_distinctive_05",
+    "name": "Trousers distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "trousers",
+      "pool_path": "clothing/garments/trousers",
+      "subcategory": "trousers"
+    }
+  },
+  {
+    "id": "trousers_subtle_06",
+    "name": "Trousers subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "trousers",
+      "pool_path": "clothing/garments/trousers",
+      "subcategory": "trousers"
+    }
+  },
+  {
+    "id": "trousers_layered_07",
+    "name": "Trousers layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "trousers",
+      "pool_path": "clothing/garments/trousers",
+      "subcategory": "trousers"
+    }
+  },
+  {
+    "id": "trousers_handcrafted_08",
+    "name": "Trousers handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "trousers",
+      "pool_path": "clothing/garments/trousers",
+      "subcategory": "trousers"
+    }
+  },
+  {
+    "id": "trousers_adaptive_09",
+    "name": "Trousers adaptive 09",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "trousers",
+      "pool_path": "clothing/garments/trousers",
+      "subcategory": "trousers"
+    }
+  },
+  {
+    "id": "trousers_ceremonial_10",
+    "name": "Trousers ceremonial 10",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "trousers",
+      "pool_path": "clothing/garments/trousers",
+      "subcategory": "trousers"
+    }
+  },
+  {
+    "id": "trousers_everyday_11",
+    "name": "Trousers everyday 11",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "trousers",
+      "pool_path": "clothing/garments/trousers",
+      "subcategory": "trousers"
+    }
+  },
+  {
+    "id": "trousers_formal_12",
+    "name": "Trousers formal 12",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "trousers",
+      "pool_path": "clothing/garments/trousers",
+      "subcategory": "trousers"
+    }
+  },
+  {
+    "id": "trousers_lightweight_13",
+    "name": "Trousers lightweight 13",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "trousers",
+      "pool_path": "clothing/garments/trousers",
+      "subcategory": "trousers"
+    }
+  },
+  {
+    "id": "trousers_structured_14",
+    "name": "Trousers structured 14",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "trousers",
+      "pool_path": "clothing/garments/trousers",
+      "subcategory": "trousers"
+    }
+  },
+  {
+    "id": "trousers_textured_15",
+    "name": "Trousers textured 15",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "trousers",
+      "pool_path": "clothing/garments/trousers",
+      "subcategory": "trousers"
+    }
+  },
+  {
+    "id": "shorts_classic_01",
+    "name": "Shorts classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "shorts",
+      "pool_path": "clothing/garments/shorts",
+      "subcategory": "shorts"
+    }
+  },
+  {
+    "id": "shorts_refined_02",
+    "name": "Shorts refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "shorts",
+      "pool_path": "clothing/garments/shorts",
+      "subcategory": "shorts"
+    }
+  },
+  {
+    "id": "shorts_weathered_03",
+    "name": "Shorts weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "shorts",
+      "pool_path": "clothing/garments/shorts",
+      "subcategory": "shorts"
+    }
+  },
+  {
+    "id": "shorts_practical_04",
+    "name": "Shorts practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "shorts",
+      "pool_path": "clothing/garments/shorts",
+      "subcategory": "shorts"
+    }
+  },
+  {
+    "id": "shorts_distinctive_05",
+    "name": "Shorts distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "shorts",
+      "pool_path": "clothing/garments/shorts",
+      "subcategory": "shorts"
+    }
+  },
+  {
+    "id": "shorts_subtle_06",
+    "name": "Shorts subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "shorts",
+      "pool_path": "clothing/garments/shorts",
+      "subcategory": "shorts"
+    }
+  },
+  {
+    "id": "shorts_layered_07",
+    "name": "Shorts layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "shorts",
+      "pool_path": "clothing/garments/shorts",
+      "subcategory": "shorts"
+    }
+  },
+  {
+    "id": "shorts_handcrafted_08",
+    "name": "Shorts handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "shorts",
+      "pool_path": "clothing/garments/shorts",
+      "subcategory": "shorts"
+    }
+  },
+  {
+    "id": "shorts_adaptive_09",
+    "name": "Shorts adaptive 09",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "shorts",
+      "pool_path": "clothing/garments/shorts",
+      "subcategory": "shorts"
+    }
+  },
+  {
+    "id": "shorts_ceremonial_10",
+    "name": "Shorts ceremonial 10",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "shorts",
+      "pool_path": "clothing/garments/shorts",
+      "subcategory": "shorts"
+    }
+  },
+  {
+    "id": "skirts_classic_01",
+    "name": "Skirts classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "skirts",
+      "pool_path": "clothing/garments/skirts",
+      "subcategory": "skirts"
+    }
+  },
+  {
+    "id": "skirts_refined_02",
+    "name": "Skirts refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "skirts",
+      "pool_path": "clothing/garments/skirts",
+      "subcategory": "skirts"
+    }
+  },
+  {
+    "id": "skirts_weathered_03",
+    "name": "Skirts weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "skirts",
+      "pool_path": "clothing/garments/skirts",
+      "subcategory": "skirts"
+    }
+  },
+  {
+    "id": "skirts_practical_04",
+    "name": "Skirts practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "skirts",
+      "pool_path": "clothing/garments/skirts",
+      "subcategory": "skirts"
+    }
+  },
+  {
+    "id": "skirts_subtle_06",
+    "name": "Skirts subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "skirts",
+      "pool_path": "clothing/garments/skirts",
+      "subcategory": "skirts"
+    }
+  },
+  {
+    "id": "skirts_layered_07",
+    "name": "Skirts layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "skirts",
+      "pool_path": "clothing/garments/skirts",
+      "subcategory": "skirts"
+    }
+  },
+  {
+    "id": "skirts_adaptive_09",
+    "name": "Skirts adaptive 09",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "skirts",
+      "pool_path": "clothing/garments/skirts",
+      "subcategory": "skirts"
+    }
+  },
+  {
+    "id": "skirts_everyday_11",
+    "name": "Skirts everyday 11",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "skirts",
+      "pool_path": "clothing/garments/skirts",
+      "subcategory": "skirts"
+    }
+  },
+  {
+    "id": "skirts_formal_12",
+    "name": "Skirts formal 12",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "skirts",
+      "pool_path": "clothing/garments/skirts",
+      "subcategory": "skirts"
+    }
+  },
+  {
+    "id": "skirts_lightweight_13",
+    "name": "Skirts lightweight 13",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "skirts",
+      "pool_path": "clothing/garments/skirts",
+      "subcategory": "skirts"
+    }
+  },
+  {
+    "id": "dresses_classic_01",
+    "name": "Dresses classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "dresses",
+      "pool_path": "clothing/garments/dresses",
+      "subcategory": "dresses"
+    }
+  },
+  {
+    "id": "dresses_refined_02",
+    "name": "Dresses refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "dresses",
+      "pool_path": "clothing/garments/dresses",
+      "subcategory": "dresses"
+    }
+  },
+  {
+    "id": "dresses_weathered_03",
+    "name": "Dresses weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "dresses",
+      "pool_path": "clothing/garments/dresses",
+      "subcategory": "dresses"
+    }
+  },
+  {
+    "id": "dresses_practical_04",
+    "name": "Dresses practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "dresses",
+      "pool_path": "clothing/garments/dresses",
+      "subcategory": "dresses"
+    }
+  },
+  {
+    "id": "dresses_distinctive_05",
+    "name": "Dresses distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "dresses",
+      "pool_path": "clothing/garments/dresses",
+      "subcategory": "dresses"
+    }
+  },
+  {
+    "id": "dresses_subtle_06",
+    "name": "Dresses subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "dresses",
+      "pool_path": "clothing/garments/dresses",
+      "subcategory": "dresses"
+    }
+  },
+  {
+    "id": "dresses_layered_07",
+    "name": "Dresses layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "dresses",
+      "pool_path": "clothing/garments/dresses",
+      "subcategory": "dresses"
+    }
+  },
+  {
+    "id": "dresses_handcrafted_08",
+    "name": "Dresses handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "dresses",
+      "pool_path": "clothing/garments/dresses",
+      "subcategory": "dresses"
+    }
+  },
+  {
+    "id": "dresses_adaptive_09",
+    "name": "Dresses adaptive 09",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "dresses",
+      "pool_path": "clothing/garments/dresses",
+      "subcategory": "dresses"
+    }
+  },
+  {
+    "id": "dresses_ceremonial_10",
+    "name": "Dresses ceremonial 10",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "dresses",
+      "pool_path": "clothing/garments/dresses",
+      "subcategory": "dresses"
+    }
+  },
+  {
+    "id": "dresses_everyday_11",
+    "name": "Dresses everyday 11",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "dresses",
+      "pool_path": "clothing/garments/dresses",
+      "subcategory": "dresses"
+    }
+  },
+  {
+    "id": "dresses_formal_12",
+    "name": "Dresses formal 12",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "dresses",
+      "pool_path": "clothing/garments/dresses",
+      "subcategory": "dresses"
+    }
+  },
+  {
+    "id": "dresses_lightweight_13",
+    "name": "Dresses lightweight 13",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "dresses",
+      "pool_path": "clothing/garments/dresses",
+      "subcategory": "dresses"
+    }
+  },
+  {
+    "id": "dresses_structured_14",
+    "name": "Dresses structured 14",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "dresses",
+      "pool_path": "clothing/garments/dresses",
+      "subcategory": "dresses"
+    }
+  },
+  {
+    "id": "dresses_textured_15",
+    "name": "Dresses textured 15",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "dresses",
+      "pool_path": "clothing/garments/dresses",
+      "subcategory": "dresses"
+    }
+  },
+  {
+    "id": "jumpsuits_one_pieces_classic_01",
+    "name": "Jumpsuits One Pieces classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jumpsuits_one_pieces",
+      "pool_path": "clothing/garments/jumpsuits_one_pieces",
+      "subcategory": "jumpsuits_one_pieces"
+    }
+  },
+  {
+    "id": "jumpsuits_one_pieces_refined_02",
+    "name": "Jumpsuits One Pieces refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jumpsuits_one_pieces",
+      "pool_path": "clothing/garments/jumpsuits_one_pieces",
+      "subcategory": "jumpsuits_one_pieces"
+    }
+  },
+  {
+    "id": "jumpsuits_one_pieces_weathered_03",
+    "name": "Jumpsuits One Pieces weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jumpsuits_one_pieces",
+      "pool_path": "clothing/garments/jumpsuits_one_pieces",
+      "subcategory": "jumpsuits_one_pieces"
+    }
+  },
+  {
+    "id": "jumpsuits_one_pieces_practical_04",
+    "name": "Jumpsuits One Pieces practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jumpsuits_one_pieces",
+      "pool_path": "clothing/garments/jumpsuits_one_pieces",
+      "subcategory": "jumpsuits_one_pieces"
+    }
+  },
+  {
+    "id": "jumpsuits_one_pieces_distinctive_05",
+    "name": "Jumpsuits One Pieces distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jumpsuits_one_pieces",
+      "pool_path": "clothing/garments/jumpsuits_one_pieces",
+      "subcategory": "jumpsuits_one_pieces"
+    }
+  },
+  {
+    "id": "jumpsuits_one_pieces_subtle_06",
+    "name": "Jumpsuits One Pieces subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jumpsuits_one_pieces",
+      "pool_path": "clothing/garments/jumpsuits_one_pieces",
+      "subcategory": "jumpsuits_one_pieces"
+    }
+  },
+  {
+    "id": "jumpsuits_one_pieces_layered_07",
+    "name": "Jumpsuits One Pieces layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jumpsuits_one_pieces",
+      "pool_path": "clothing/garments/jumpsuits_one_pieces",
+      "subcategory": "jumpsuits_one_pieces"
+    }
+  },
+  {
+    "id": "jumpsuits_one_pieces_handcrafted_08",
+    "name": "Jumpsuits One Pieces handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jumpsuits_one_pieces",
+      "pool_path": "clothing/garments/jumpsuits_one_pieces",
+      "subcategory": "jumpsuits_one_pieces"
+    }
+  },
+  {
+    "id": "jackets_classic_01",
+    "name": "Jackets classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jackets",
+      "pool_path": "clothing/garments/outerwear/jackets",
+      "subcategory": "jackets"
+    }
+  },
+  {
+    "id": "jackets_refined_02",
+    "name": "Jackets refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jackets",
+      "pool_path": "clothing/garments/outerwear/jackets",
+      "subcategory": "jackets"
+    }
+  },
+  {
+    "id": "jackets_weathered_03",
+    "name": "Jackets weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jackets",
+      "pool_path": "clothing/garments/outerwear/jackets",
+      "subcategory": "jackets"
+    }
+  },
+  {
+    "id": "jackets_practical_04",
+    "name": "Jackets practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jackets",
+      "pool_path": "clothing/garments/outerwear/jackets",
+      "subcategory": "jackets"
+    }
+  },
+  {
+    "id": "jackets_distinctive_05",
+    "name": "Jackets distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jackets",
+      "pool_path": "clothing/garments/outerwear/jackets",
+      "subcategory": "jackets"
+    }
+  },
+  {
+    "id": "jackets_subtle_06",
+    "name": "Jackets subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jackets",
+      "pool_path": "clothing/garments/outerwear/jackets",
+      "subcategory": "jackets"
+    }
+  },
+  {
+    "id": "jackets_layered_07",
+    "name": "Jackets layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jackets",
+      "pool_path": "clothing/garments/outerwear/jackets",
+      "subcategory": "jackets"
+    }
+  },
+  {
+    "id": "jackets_handcrafted_08",
+    "name": "Jackets handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jackets",
+      "pool_path": "clothing/garments/outerwear/jackets",
+      "subcategory": "jackets"
+    }
+  },
+  {
+    "id": "jackets_adaptive_09",
+    "name": "Jackets adaptive 09",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jackets",
+      "pool_path": "clothing/garments/outerwear/jackets",
+      "subcategory": "jackets"
+    }
+  },
+  {
+    "id": "jackets_ceremonial_10",
+    "name": "Jackets ceremonial 10",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jackets",
+      "pool_path": "clothing/garments/outerwear/jackets",
+      "subcategory": "jackets"
+    }
+  },
+  {
+    "id": "jackets_everyday_11",
+    "name": "Jackets everyday 11",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jackets",
+      "pool_path": "clothing/garments/outerwear/jackets",
+      "subcategory": "jackets"
+    }
+  },
+  {
+    "id": "jackets_formal_12",
+    "name": "Jackets formal 12",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jackets",
+      "pool_path": "clothing/garments/outerwear/jackets",
+      "subcategory": "jackets"
+    }
+  },
+  {
+    "id": "jackets_lightweight_13",
+    "name": "Jackets lightweight 13",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jackets",
+      "pool_path": "clothing/garments/outerwear/jackets",
+      "subcategory": "jackets"
+    }
+  },
+  {
+    "id": "jackets_structured_14",
+    "name": "Jackets structured 14",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jackets",
+      "pool_path": "clothing/garments/outerwear/jackets",
+      "subcategory": "jackets"
+    }
+  },
+  {
+    "id": "jackets_textured_15",
+    "name": "Jackets textured 15",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jackets",
+      "pool_path": "clothing/garments/outerwear/jackets",
+      "subcategory": "jackets"
+    }
+  },
+  {
+    "id": "jackets_minimal_16",
+    "name": "Jackets minimal 16",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jackets",
+      "pool_path": "clothing/garments/outerwear/jackets",
+      "subcategory": "jackets"
+    }
+  },
+  {
+    "id": "jackets_ornate_17",
+    "name": "Jackets ornate 17",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jackets",
+      "pool_path": "clothing/garments/outerwear/jackets",
+      "subcategory": "jackets"
+    }
+  },
+  {
+    "id": "jackets_durable_18",
+    "name": "Jackets durable 18",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jackets",
+      "pool_path": "clothing/garments/outerwear/jackets",
+      "subcategory": "jackets"
+    }
+  },
+  {
+    "id": "coats_classic_01",
+    "name": "Coats classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "coats",
+      "pool_path": "clothing/garments/outerwear/coats",
+      "subcategory": "coats"
+    }
+  },
+  {
+    "id": "coats_refined_02",
+    "name": "Coats refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "coats",
+      "pool_path": "clothing/garments/outerwear/coats",
+      "subcategory": "coats"
+    }
+  },
+  {
+    "id": "coats_weathered_03",
+    "name": "Coats weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "coats",
+      "pool_path": "clothing/garments/outerwear/coats",
+      "subcategory": "coats"
+    }
+  },
+  {
+    "id": "coats_practical_04",
+    "name": "Coats practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "coats",
+      "pool_path": "clothing/garments/outerwear/coats",
+      "subcategory": "coats"
+    }
+  },
+  {
+    "id": "coats_distinctive_05",
+    "name": "Coats distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "coats",
+      "pool_path": "clothing/garments/outerwear/coats",
+      "subcategory": "coats"
+    }
+  },
+  {
+    "id": "coats_subtle_06",
+    "name": "Coats subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "coats",
+      "pool_path": "clothing/garments/outerwear/coats",
+      "subcategory": "coats"
+    }
+  },
+  {
+    "id": "coats_layered_07",
+    "name": "Coats layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "coats",
+      "pool_path": "clothing/garments/outerwear/coats",
+      "subcategory": "coats"
+    }
+  },
+  {
+    "id": "coats_handcrafted_08",
+    "name": "Coats handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "coats",
+      "pool_path": "clothing/garments/outerwear/coats",
+      "subcategory": "coats"
+    }
+  },
+  {
+    "id": "coats_adaptive_09",
+    "name": "Coats adaptive 09",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "coats",
+      "pool_path": "clothing/garments/outerwear/coats",
+      "subcategory": "coats"
+    }
+  },
+  {
+    "id": "coats_ceremonial_10",
+    "name": "Coats ceremonial 10",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "coats",
+      "pool_path": "clothing/garments/outerwear/coats",
+      "subcategory": "coats"
+    }
+  },
+  {
+    "id": "coats_everyday_11",
+    "name": "Coats everyday 11",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "coats",
+      "pool_path": "clothing/garments/outerwear/coats",
+      "subcategory": "coats"
+    }
+  },
+  {
+    "id": "coats_formal_12",
+    "name": "Coats formal 12",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "coats",
+      "pool_path": "clothing/garments/outerwear/coats",
+      "subcategory": "coats"
+    }
+  },
+  {
+    "id": "coats_lightweight_13",
+    "name": "Coats lightweight 13",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "coats",
+      "pool_path": "clothing/garments/outerwear/coats",
+      "subcategory": "coats"
+    }
+  },
+  {
+    "id": "coats_structured_14",
+    "name": "Coats structured 14",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "coats",
+      "pool_path": "clothing/garments/outerwear/coats",
+      "subcategory": "coats"
+    }
+  },
+  {
+    "id": "coats_textured_15",
+    "name": "Coats textured 15",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "coats",
+      "pool_path": "clothing/garments/outerwear/coats",
+      "subcategory": "coats"
+    }
+  },
+  {
+    "id": "hoodies_classic_01",
+    "name": "Hoodies classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hoodies",
+      "pool_path": "clothing/garments/outerwear/hoodies",
+      "subcategory": "hoodies"
+    }
+  },
+  {
+    "id": "hoodies_refined_02",
+    "name": "Hoodies refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hoodies",
+      "pool_path": "clothing/garments/outerwear/hoodies",
+      "subcategory": "hoodies"
+    }
+  },
+  {
+    "id": "hoodies_weathered_03",
+    "name": "Hoodies weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hoodies",
+      "pool_path": "clothing/garments/outerwear/hoodies",
+      "subcategory": "hoodies"
+    }
+  },
+  {
+    "id": "hoodies_practical_04",
+    "name": "Hoodies practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hoodies",
+      "pool_path": "clothing/garments/outerwear/hoodies",
+      "subcategory": "hoodies"
+    }
+  },
+  {
+    "id": "hoodies_distinctive_05",
+    "name": "Hoodies distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hoodies",
+      "pool_path": "clothing/garments/outerwear/hoodies",
+      "subcategory": "hoodies"
+    }
+  },
+  {
+    "id": "hoodies_subtle_06",
+    "name": "Hoodies subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hoodies",
+      "pool_path": "clothing/garments/outerwear/hoodies",
+      "subcategory": "hoodies"
+    }
+  },
+  {
+    "id": "hoodies_layered_07",
+    "name": "Hoodies layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hoodies",
+      "pool_path": "clothing/garments/outerwear/hoodies",
+      "subcategory": "hoodies"
+    }
+  },
+  {
+    "id": "hoodies_handcrafted_08",
+    "name": "Hoodies handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hoodies",
+      "pool_path": "clothing/garments/outerwear/hoodies",
+      "subcategory": "hoodies"
+    }
+  },
+  {
+    "id": "hoodies_adaptive_09",
+    "name": "Hoodies adaptive 09",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hoodies",
+      "pool_path": "clothing/garments/outerwear/hoodies",
+      "subcategory": "hoodies"
+    }
+  },
+  {
+    "id": "hoodies_ceremonial_10",
+    "name": "Hoodies ceremonial 10",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hoodies",
+      "pool_path": "clothing/garments/outerwear/hoodies",
+      "subcategory": "hoodies"
+    }
+  },
+  {
+    "id": "formalwear_classic_01",
+    "name": "Formalwear classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "formalwear",
+      "pool_path": "clothing/garments/formalwear",
+      "subcategory": "formalwear"
+    }
+  },
+  {
+    "id": "formalwear_refined_02",
+    "name": "Formalwear refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "formalwear",
+      "pool_path": "clothing/garments/formalwear",
+      "subcategory": "formalwear"
+    }
+  },
+  {
+    "id": "formalwear_weathered_03",
+    "name": "Formalwear weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "formalwear",
+      "pool_path": "clothing/garments/formalwear",
+      "subcategory": "formalwear"
+    }
+  },
+  {
+    "id": "formalwear_practical_04",
+    "name": "Formalwear practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "formalwear",
+      "pool_path": "clothing/garments/formalwear",
+      "subcategory": "formalwear"
+    }
+  },
+  {
+    "id": "formalwear_distinctive_05",
+    "name": "Formalwear distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "formalwear",
+      "pool_path": "clothing/garments/formalwear",
+      "subcategory": "formalwear"
+    }
+  },
+  {
+    "id": "formalwear_subtle_06",
+    "name": "Formalwear subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "formalwear",
+      "pool_path": "clothing/garments/formalwear",
+      "subcategory": "formalwear"
+    }
+  },
+  {
+    "id": "formalwear_layered_07",
+    "name": "Formalwear layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "formalwear",
+      "pool_path": "clothing/garments/formalwear",
+      "subcategory": "formalwear"
+    }
+  },
+  {
+    "id": "formalwear_handcrafted_08",
+    "name": "Formalwear handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "formalwear",
+      "pool_path": "clothing/garments/formalwear",
+      "subcategory": "formalwear"
+    }
+  },
+  {
+    "id": "formalwear_adaptive_09",
+    "name": "Formalwear adaptive 09",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "formalwear",
+      "pool_path": "clothing/garments/formalwear",
+      "subcategory": "formalwear"
+    }
+  },
+  {
+    "id": "formalwear_ceremonial_10",
+    "name": "Formalwear ceremonial 10",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "formalwear",
+      "pool_path": "clothing/garments/formalwear",
+      "subcategory": "formalwear"
+    }
+  },
+  {
+    "id": "formalwear_everyday_11",
+    "name": "Formalwear everyday 11",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "formalwear",
+      "pool_path": "clothing/garments/formalwear",
+      "subcategory": "formalwear"
+    }
+  },
+  {
+    "id": "formalwear_formal_12",
+    "name": "Formalwear formal 12",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "formalwear",
+      "pool_path": "clothing/garments/formalwear",
+      "subcategory": "formalwear"
+    }
+  },
+  {
+    "id": "formalwear_lightweight_13",
+    "name": "Formalwear lightweight 13",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "formalwear",
+      "pool_path": "clothing/garments/formalwear",
+      "subcategory": "formalwear"
+    }
+  },
+  {
+    "id": "formalwear_structured_14",
+    "name": "Formalwear structured 14",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "formalwear",
+      "pool_path": "clothing/garments/formalwear",
+      "subcategory": "formalwear"
+    }
+  },
+  {
+    "id": "formalwear_textured_15",
+    "name": "Formalwear textured 15",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "formalwear",
+      "pool_path": "clothing/garments/formalwear",
+      "subcategory": "formalwear"
+    }
+  },
+  {
+    "id": "activewear_classic_01",
+    "name": "Activewear classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "activewear",
+      "pool_path": "clothing/garments/activewear",
+      "subcategory": "activewear"
+    }
+  },
+  {
+    "id": "activewear_refined_02",
+    "name": "Activewear refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "activewear",
+      "pool_path": "clothing/garments/activewear",
+      "subcategory": "activewear"
+    }
+  },
+  {
+    "id": "activewear_weathered_03",
+    "name": "Activewear weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "activewear",
+      "pool_path": "clothing/garments/activewear",
+      "subcategory": "activewear"
+    }
+  },
+  {
+    "id": "activewear_practical_04",
+    "name": "Activewear practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "activewear",
+      "pool_path": "clothing/garments/activewear",
+      "subcategory": "activewear"
+    }
+  },
+  {
+    "id": "activewear_distinctive_05",
+    "name": "Activewear distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "activewear",
+      "pool_path": "clothing/garments/activewear",
+      "subcategory": "activewear"
+    }
+  },
+  {
+    "id": "activewear_subtle_06",
+    "name": "Activewear subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "activewear",
+      "pool_path": "clothing/garments/activewear",
+      "subcategory": "activewear"
+    }
+  },
+  {
+    "id": "activewear_layered_07",
+    "name": "Activewear layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "activewear",
+      "pool_path": "clothing/garments/activewear",
+      "subcategory": "activewear"
+    }
+  },
+  {
+    "id": "activewear_handcrafted_08",
+    "name": "Activewear handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "activewear",
+      "pool_path": "clothing/garments/activewear",
+      "subcategory": "activewear"
+    }
+  },
+  {
+    "id": "activewear_adaptive_09",
+    "name": "Activewear adaptive 09",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "activewear",
+      "pool_path": "clothing/garments/activewear",
+      "subcategory": "activewear"
+    }
+  },
+  {
+    "id": "activewear_ceremonial_10",
+    "name": "Activewear ceremonial 10",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "activewear",
+      "pool_path": "clothing/garments/activewear",
+      "subcategory": "activewear"
+    }
+  },
+  {
+    "id": "activewear_everyday_11",
+    "name": "Activewear everyday 11",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "activewear",
+      "pool_path": "clothing/garments/activewear",
+      "subcategory": "activewear"
+    }
+  },
+  {
+    "id": "activewear_formal_12",
+    "name": "Activewear formal 12",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "activewear",
+      "pool_path": "clothing/garments/activewear",
+      "subcategory": "activewear"
+    }
+  },
+  {
+    "id": "activewear_lightweight_13",
+    "name": "Activewear lightweight 13",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "activewear",
+      "pool_path": "clothing/garments/activewear",
+      "subcategory": "activewear"
+    }
+  },
+  {
+    "id": "loungewear_classic_01",
+    "name": "Loungewear classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "loungewear",
+      "pool_path": "clothing/garments/loungewear",
+      "subcategory": "loungewear"
+    }
+  },
+  {
+    "id": "loungewear_refined_02",
+    "name": "Loungewear refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "loungewear",
+      "pool_path": "clothing/garments/loungewear",
+      "subcategory": "loungewear"
+    }
+  },
+  {
+    "id": "loungewear_weathered_03",
+    "name": "Loungewear weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "loungewear",
+      "pool_path": "clothing/garments/loungewear",
+      "subcategory": "loungewear"
+    }
+  },
+  {
+    "id": "loungewear_practical_04",
+    "name": "Loungewear practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "loungewear",
+      "pool_path": "clothing/garments/loungewear",
+      "subcategory": "loungewear"
+    }
+  },
+  {
+    "id": "loungewear_distinctive_05",
+    "name": "Loungewear distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "loungewear",
+      "pool_path": "clothing/garments/loungewear",
+      "subcategory": "loungewear"
+    }
+  },
+  {
+    "id": "loungewear_subtle_06",
+    "name": "Loungewear subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "loungewear",
+      "pool_path": "clothing/garments/loungewear",
+      "subcategory": "loungewear"
+    }
+  },
+  {
+    "id": "loungewear_layered_07",
+    "name": "Loungewear layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "loungewear",
+      "pool_path": "clothing/garments/loungewear",
+      "subcategory": "loungewear"
+    }
+  },
+  {
+    "id": "loungewear_handcrafted_08",
+    "name": "Loungewear handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "loungewear",
+      "pool_path": "clothing/garments/loungewear",
+      "subcategory": "loungewear"
+    }
+  },
+  {
+    "id": "loungewear_adaptive_09",
+    "name": "Loungewear adaptive 09",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "loungewear",
+      "pool_path": "clothing/garments/loungewear",
+      "subcategory": "loungewear"
+    }
+  },
+  {
+    "id": "loungewear_ceremonial_10",
+    "name": "Loungewear ceremonial 10",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "loungewear",
+      "pool_path": "clothing/garments/loungewear",
+      "subcategory": "loungewear"
+    }
+  },
+  {
+    "id": "footwear_classic_01",
+    "name": "Footwear classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "footwear",
+      "pool_path": "clothing/garments/footwear",
+      "subcategory": "footwear"
+    }
+  },
+  {
+    "id": "footwear_refined_02",
+    "name": "Footwear refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "footwear",
+      "pool_path": "clothing/garments/footwear",
+      "subcategory": "footwear"
+    }
+  },
+  {
+    "id": "footwear_weathered_03",
+    "name": "Footwear weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "footwear",
+      "pool_path": "clothing/garments/footwear",
+      "subcategory": "footwear"
+    }
+  },
+  {
+    "id": "footwear_practical_04",
+    "name": "Footwear practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "footwear",
+      "pool_path": "clothing/garments/footwear",
+      "subcategory": "footwear"
+    }
+  },
+  {
+    "id": "footwear_distinctive_05",
+    "name": "Footwear distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "footwear",
+      "pool_path": "clothing/garments/footwear",
+      "subcategory": "footwear"
+    }
+  },
+  {
+    "id": "footwear_subtle_06",
+    "name": "Footwear subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "footwear",
+      "pool_path": "clothing/garments/footwear",
+      "subcategory": "footwear"
+    }
+  },
+  {
+    "id": "footwear_layered_07",
+    "name": "Footwear layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "footwear",
+      "pool_path": "clothing/garments/footwear",
+      "subcategory": "footwear"
+    }
+  },
+  {
+    "id": "footwear_handcrafted_08",
+    "name": "Footwear handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "footwear",
+      "pool_path": "clothing/garments/footwear",
+      "subcategory": "footwear"
+    }
+  },
+  {
+    "id": "footwear_adaptive_09",
+    "name": "Footwear adaptive 09",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "footwear",
+      "pool_path": "clothing/garments/footwear",
+      "subcategory": "footwear"
+    }
+  },
+  {
+    "id": "footwear_ceremonial_10",
+    "name": "Footwear ceremonial 10",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "footwear",
+      "pool_path": "clothing/garments/footwear",
+      "subcategory": "footwear"
+    }
+  },
+  {
+    "id": "footwear_everyday_11",
+    "name": "Footwear everyday 11",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "footwear",
+      "pool_path": "clothing/garments/footwear",
+      "subcategory": "footwear"
+    }
+  },
+  {
+    "id": "footwear_formal_12",
+    "name": "Footwear formal 12",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "footwear",
+      "pool_path": "clothing/garments/footwear",
+      "subcategory": "footwear"
+    }
+  },
+  {
+    "id": "footwear_lightweight_13",
+    "name": "Footwear lightweight 13",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "footwear",
+      "pool_path": "clothing/garments/footwear",
+      "subcategory": "footwear"
+    }
+  },
+  {
+    "id": "footwear_structured_14",
+    "name": "Footwear structured 14",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "footwear",
+      "pool_path": "clothing/garments/footwear",
+      "subcategory": "footwear"
+    }
+  },
+  {
+    "id": "footwear_textured_15",
+    "name": "Footwear textured 15",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "footwear",
+      "pool_path": "clothing/garments/footwear",
+      "subcategory": "footwear"
+    }
+  },
+  {
+    "id": "footwear_minimal_16",
+    "name": "Footwear minimal 16",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "footwear",
+      "pool_path": "clothing/garments/footwear",
+      "subcategory": "footwear"
+    }
+  },
+  {
+    "id": "footwear_ornate_17",
+    "name": "Footwear ornate 17",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "footwear",
+      "pool_path": "clothing/garments/footwear",
+      "subcategory": "footwear"
+    }
+  },
+  {
+    "id": "footwear_durable_18",
+    "name": "Footwear durable 18",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "footwear",
+      "pool_path": "clothing/garments/footwear",
+      "subcategory": "footwear"
+    }
+  },
+  {
+    "id": "footwear_soft_19",
+    "name": "Footwear soft 19",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "footwear",
+      "pool_path": "clothing/garments/footwear",
+      "subcategory": "footwear"
+    }
+  },
+  {
+    "id": "footwear_bold_20",
+    "name": "Footwear bold 20",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "footwear",
+      "pool_path": "clothing/garments/footwear",
+      "subcategory": "footwear"
+    }
+  },
+  {
+    "id": "clothing_garments_jumpsuits_one_pieces_supplemental_01",
+    "name": "clothing garments jumpsuits_one_pieces supplemental 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jumpsuits_one_pieces",
+      "pool_path": "clothing/garments/jumpsuits_one_pieces",
+      "subcategory": "jumpsuits_one_pieces"
+    }
+  },
+  {
+    "id": "aster_jumpsuits_one_pieces_1",
+    "name": "Aster jumpsuits one pieces 1",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jumpsuits_one_pieces",
+      "pool_path": "clothing/garments/jumpsuits_one_pieces",
+      "subcategory": "jumpsuits_one_pieces"
+    }
+  },
+  {
+    "id": "aster_skirts_01",
+    "name": "Aster skirts 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "skirts",
+      "pool_path": "clothing/garments/skirts",
+      "subcategory": "skirts"
+    }
+  },
+  {
+    "id": "bracken_skirts_02",
+    "name": "Bracken skirts 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "skirts",
+      "pool_path": "clothing/garments/skirts",
+      "subcategory": "skirts"
+    }
+  },
+  {
+    "id": "cinder_skirts_03",
+    "name": "Cinder skirts 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "skirts",
+      "pool_path": "clothing/garments/skirts",
+      "subcategory": "skirts"
+    }
+  }
+]

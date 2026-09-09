@@ -1,0 +1,1807 @@
+[
+  {
+    "id": "materials_classic_01",
+    "name": "Materials classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "materials",
+      "pool_path": "clothing/construction_visual_details/materials",
+      "subcategory": "materials"
+    }
+  },
+  {
+    "id": "materials_refined_02",
+    "name": "Materials refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "materials",
+      "pool_path": "clothing/construction_visual_details/materials",
+      "subcategory": "materials"
+    }
+  },
+  {
+    "id": "materials_weathered_03",
+    "name": "Materials weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "materials",
+      "pool_path": "clothing/construction_visual_details/materials",
+      "subcategory": "materials"
+    }
+  },
+  {
+    "id": "materials_practical_04",
+    "name": "Materials practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "materials",
+      "pool_path": "clothing/construction_visual_details/materials",
+      "subcategory": "materials"
+    }
+  },
+  {
+    "id": "materials_distinctive_05",
+    "name": "Materials distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "materials",
+      "pool_path": "clothing/construction_visual_details/materials",
+      "subcategory": "materials"
+    }
+  },
+  {
+    "id": "materials_subtle_06",
+    "name": "Materials subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "materials",
+      "pool_path": "clothing/construction_visual_details/materials",
+      "subcategory": "materials"
+    }
+  },
+  {
+    "id": "materials_layered_07",
+    "name": "Materials layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "materials",
+      "pool_path": "clothing/construction_visual_details/materials",
+      "subcategory": "materials"
+    }
+  },
+  {
+    "id": "materials_handcrafted_08",
+    "name": "Materials handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "materials",
+      "pool_path": "clothing/construction_visual_details/materials",
+      "subcategory": "materials"
+    }
+  },
+  {
+    "id": "materials_adaptive_09",
+    "name": "Materials adaptive 09",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "materials",
+      "pool_path": "clothing/construction_visual_details/materials",
+      "subcategory": "materials"
+    }
+  },
+  {
+    "id": "materials_ceremonial_10",
+    "name": "Materials ceremonial 10",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "materials",
+      "pool_path": "clothing/construction_visual_details/materials",
+      "subcategory": "materials"
+    }
+  },
+  {
+    "id": "materials_everyday_11",
+    "name": "Materials everyday 11",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "materials",
+      "pool_path": "clothing/construction_visual_details/materials",
+      "subcategory": "materials"
+    }
+  },
+  {
+    "id": "materials_formal_12",
+    "name": "Materials formal 12",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "materials",
+      "pool_path": "clothing/construction_visual_details/materials",
+      "subcategory": "materials"
+    }
+  },
+  {
+    "id": "materials_lightweight_13",
+    "name": "Materials lightweight 13",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "materials",
+      "pool_path": "clothing/construction_visual_details/materials",
+      "subcategory": "materials"
+    }
+  },
+  {
+    "id": "patterns_classic_01",
+    "name": "Patterns classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "patterns",
+      "pool_path": "clothing/construction_visual_details/patterns",
+      "subcategory": "patterns"
+    }
+  },
+  {
+    "id": "patterns_refined_02",
+    "name": "Patterns refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "patterns",
+      "pool_path": "clothing/construction_visual_details/patterns",
+      "subcategory": "patterns"
+    }
+  },
+  {
+    "id": "patterns_weathered_03",
+    "name": "Patterns weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "patterns",
+      "pool_path": "clothing/construction_visual_details/patterns",
+      "subcategory": "patterns"
+    }
+  },
+  {
+    "id": "patterns_practical_04",
+    "name": "Patterns practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "patterns",
+      "pool_path": "clothing/construction_visual_details/patterns",
+      "subcategory": "patterns"
+    }
+  },
+  {
+    "id": "patterns_distinctive_05",
+    "name": "Patterns distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "patterns",
+      "pool_path": "clothing/construction_visual_details/patterns",
+      "subcategory": "patterns"
+    }
+  },
+  {
+    "id": "patterns_subtle_06",
+    "name": "Patterns subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "patterns",
+      "pool_path": "clothing/construction_visual_details/patterns",
+      "subcategory": "patterns"
+    }
+  },
+  {
+    "id": "patterns_layered_07",
+    "name": "Patterns layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "patterns",
+      "pool_path": "clothing/construction_visual_details/patterns",
+      "subcategory": "patterns"
+    }
+  },
+  {
+    "id": "patterns_handcrafted_08",
+    "name": "Patterns handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "patterns",
+      "pool_path": "clothing/construction_visual_details/patterns",
+      "subcategory": "patterns"
+    }
+  },
+  {
+    "id": "patterns_adaptive_09",
+    "name": "Patterns adaptive 09",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "patterns",
+      "pool_path": "clothing/construction_visual_details/patterns",
+      "subcategory": "patterns"
+    }
+  },
+  {
+    "id": "patterns_ceremonial_10",
+    "name": "Patterns ceremonial 10",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "patterns",
+      "pool_path": "clothing/construction_visual_details/patterns",
+      "subcategory": "patterns"
+    }
+  },
+  {
+    "id": "patterns_everyday_11",
+    "name": "Patterns everyday 11",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "patterns",
+      "pool_path": "clothing/construction_visual_details/patterns",
+      "subcategory": "patterns"
+    }
+  },
+  {
+    "id": "patterns_formal_12",
+    "name": "Patterns formal 12",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "patterns",
+      "pool_path": "clothing/construction_visual_details/patterns",
+      "subcategory": "patterns"
+    }
+  },
+  {
+    "id": "patterns_lightweight_13",
+    "name": "Patterns lightweight 13",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "patterns",
+      "pool_path": "clothing/construction_visual_details/patterns",
+      "subcategory": "patterns"
+    }
+  },
+  {
+    "id": "fits_classic_01",
+    "name": "Fits classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "fits",
+      "pool_path": "clothing/construction_visual_details/fits",
+      "subcategory": "fits"
+    }
+  },
+  {
+    "id": "fits_refined_02",
+    "name": "Fits refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "fits",
+      "pool_path": "clothing/construction_visual_details/fits",
+      "subcategory": "fits"
+    }
+  },
+  {
+    "id": "fits_weathered_03",
+    "name": "Fits weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "fits",
+      "pool_path": "clothing/construction_visual_details/fits",
+      "subcategory": "fits"
+    }
+  },
+  {
+    "id": "fits_practical_04",
+    "name": "Fits practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "fits",
+      "pool_path": "clothing/construction_visual_details/fits",
+      "subcategory": "fits"
+    }
+  },
+  {
+    "id": "fits_distinctive_05",
+    "name": "Fits distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "fits",
+      "pool_path": "clothing/construction_visual_details/fits",
+      "subcategory": "fits"
+    }
+  },
+  {
+    "id": "fits_subtle_06",
+    "name": "Fits subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "fits",
+      "pool_path": "clothing/construction_visual_details/fits",
+      "subcategory": "fits"
+    }
+  },
+  {
+    "id": "fits_layered_07",
+    "name": "Fits layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "fits",
+      "pool_path": "clothing/construction_visual_details/fits",
+      "subcategory": "fits"
+    }
+  },
+  {
+    "id": "fits_handcrafted_08",
+    "name": "Fits handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "fits",
+      "pool_path": "clothing/construction_visual_details/fits",
+      "subcategory": "fits"
+    }
+  },
+  {
+    "id": "fits_adaptive_09",
+    "name": "Fits adaptive 09",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "fits",
+      "pool_path": "clothing/construction_visual_details/fits",
+      "subcategory": "fits"
+    }
+  },
+  {
+    "id": "fits_ceremonial_10",
+    "name": "Fits ceremonial 10",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "fits",
+      "pool_path": "clothing/construction_visual_details/fits",
+      "subcategory": "fits"
+    }
+  },
+  {
+    "id": "silhouettes_classic_01",
+    "name": "Silhouettes classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "silhouettes",
+      "pool_path": "clothing/construction_visual_details/silhouettes",
+      "subcategory": "silhouettes"
+    }
+  },
+  {
+    "id": "silhouettes_refined_02",
+    "name": "Silhouettes refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "silhouettes",
+      "pool_path": "clothing/construction_visual_details/silhouettes",
+      "subcategory": "silhouettes"
+    }
+  },
+  {
+    "id": "silhouettes_weathered_03",
+    "name": "Silhouettes weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "silhouettes",
+      "pool_path": "clothing/construction_visual_details/silhouettes",
+      "subcategory": "silhouettes"
+    }
+  },
+  {
+    "id": "silhouettes_practical_04",
+    "name": "Silhouettes practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "silhouettes",
+      "pool_path": "clothing/construction_visual_details/silhouettes",
+      "subcategory": "silhouettes"
+    }
+  },
+  {
+    "id": "silhouettes_distinctive_05",
+    "name": "Silhouettes distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "silhouettes",
+      "pool_path": "clothing/construction_visual_details/silhouettes",
+      "subcategory": "silhouettes"
+    }
+  },
+  {
+    "id": "silhouettes_subtle_06",
+    "name": "Silhouettes subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "silhouettes",
+      "pool_path": "clothing/construction_visual_details/silhouettes",
+      "subcategory": "silhouettes"
+    }
+  },
+  {
+    "id": "silhouettes_layered_07",
+    "name": "Silhouettes layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "silhouettes",
+      "pool_path": "clothing/construction_visual_details/silhouettes",
+      "subcategory": "silhouettes"
+    }
+  },
+  {
+    "id": "silhouettes_handcrafted_08",
+    "name": "Silhouettes handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "silhouettes",
+      "pool_path": "clothing/construction_visual_details/silhouettes",
+      "subcategory": "silhouettes"
+    }
+  },
+  {
+    "id": "silhouettes_adaptive_09",
+    "name": "Silhouettes adaptive 09",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "silhouettes",
+      "pool_path": "clothing/construction_visual_details/silhouettes",
+      "subcategory": "silhouettes"
+    }
+  },
+  {
+    "id": "silhouettes_ceremonial_10",
+    "name": "Silhouettes ceremonial 10",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "silhouettes",
+      "pool_path": "clothing/construction_visual_details/silhouettes",
+      "subcategory": "silhouettes"
+    }
+  },
+  {
+    "id": "silhouettes_everyday_11",
+    "name": "Silhouettes everyday 11",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "silhouettes",
+      "pool_path": "clothing/construction_visual_details/silhouettes",
+      "subcategory": "silhouettes"
+    }
+  },
+  {
+    "id": "silhouettes_formal_12",
+    "name": "Silhouettes formal 12",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "silhouettes",
+      "pool_path": "clothing/construction_visual_details/silhouettes",
+      "subcategory": "silhouettes"
+    }
+  },
+  {
+    "id": "silhouettes_lightweight_13",
+    "name": "Silhouettes lightweight 13",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "silhouettes",
+      "pool_path": "clothing/construction_visual_details/silhouettes",
+      "subcategory": "silhouettes"
+    }
+  },
+  {
+    "id": "necklines_classic_01",
+    "name": "Necklines classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "necklines",
+      "pool_path": "clothing/construction_visual_details/necklines",
+      "subcategory": "necklines"
+    }
+  },
+  {
+    "id": "necklines_refined_02",
+    "name": "Necklines refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "necklines",
+      "pool_path": "clothing/construction_visual_details/necklines",
+      "subcategory": "necklines"
+    }
+  },
+  {
+    "id": "necklines_weathered_03",
+    "name": "Necklines weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "necklines",
+      "pool_path": "clothing/construction_visual_details/necklines",
+      "subcategory": "necklines"
+    }
+  },
+  {
+    "id": "necklines_practical_04",
+    "name": "Necklines practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "necklines",
+      "pool_path": "clothing/construction_visual_details/necklines",
+      "subcategory": "necklines"
+    }
+  },
+  {
+    "id": "necklines_distinctive_05",
+    "name": "Necklines distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "necklines",
+      "pool_path": "clothing/construction_visual_details/necklines",
+      "subcategory": "necklines"
+    }
+  },
+  {
+    "id": "necklines_subtle_06",
+    "name": "Necklines subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "necklines",
+      "pool_path": "clothing/construction_visual_details/necklines",
+      "subcategory": "necklines"
+    }
+  },
+  {
+    "id": "necklines_layered_07",
+    "name": "Necklines layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "necklines",
+      "pool_path": "clothing/construction_visual_details/necklines",
+      "subcategory": "necklines"
+    }
+  },
+  {
+    "id": "necklines_handcrafted_08",
+    "name": "Necklines handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "necklines",
+      "pool_path": "clothing/construction_visual_details/necklines",
+      "subcategory": "necklines"
+    }
+  },
+  {
+    "id": "necklines_adaptive_09",
+    "name": "Necklines adaptive 09",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "necklines",
+      "pool_path": "clothing/construction_visual_details/necklines",
+      "subcategory": "necklines"
+    }
+  },
+  {
+    "id": "necklines_ceremonial_10",
+    "name": "Necklines ceremonial 10",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "necklines",
+      "pool_path": "clothing/construction_visual_details/necklines",
+      "subcategory": "necklines"
+    }
+  },
+  {
+    "id": "necklines_everyday_11",
+    "name": "Necklines everyday 11",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "necklines",
+      "pool_path": "clothing/construction_visual_details/necklines",
+      "subcategory": "necklines"
+    }
+  },
+  {
+    "id": "necklines_formal_12",
+    "name": "Necklines formal 12",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "necklines",
+      "pool_path": "clothing/construction_visual_details/necklines",
+      "subcategory": "necklines"
+    }
+  },
+  {
+    "id": "necklines_lightweight_13",
+    "name": "Necklines lightweight 13",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "necklines",
+      "pool_path": "clothing/construction_visual_details/necklines",
+      "subcategory": "necklines"
+    }
+  },
+  {
+    "id": "sleeve_styles_classic_01",
+    "name": "Sleeve Styles classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "sleeve_styles",
+      "pool_path": "clothing/construction_visual_details/sleeve_styles",
+      "subcategory": "sleeve_styles"
+    }
+  },
+  {
+    "id": "sleeve_styles_refined_02",
+    "name": "Sleeve Styles refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "sleeve_styles",
+      "pool_path": "clothing/construction_visual_details/sleeve_styles",
+      "subcategory": "sleeve_styles"
+    }
+  },
+  {
+    "id": "sleeve_styles_weathered_03",
+    "name": "Sleeve Styles weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "sleeve_styles",
+      "pool_path": "clothing/construction_visual_details/sleeve_styles",
+      "subcategory": "sleeve_styles"
+    }
+  },
+  {
+    "id": "sleeve_styles_practical_04",
+    "name": "Sleeve Styles practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "sleeve_styles",
+      "pool_path": "clothing/construction_visual_details/sleeve_styles",
+      "subcategory": "sleeve_styles"
+    }
+  },
+  {
+    "id": "sleeve_styles_distinctive_05",
+    "name": "Sleeve Styles distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "sleeve_styles",
+      "pool_path": "clothing/construction_visual_details/sleeve_styles",
+      "subcategory": "sleeve_styles"
+    }
+  },
+  {
+    "id": "sleeve_styles_subtle_06",
+    "name": "Sleeve Styles subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "sleeve_styles",
+      "pool_path": "clothing/construction_visual_details/sleeve_styles",
+      "subcategory": "sleeve_styles"
+    }
+  },
+  {
+    "id": "sleeve_styles_layered_07",
+    "name": "Sleeve Styles layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "sleeve_styles",
+      "pool_path": "clothing/construction_visual_details/sleeve_styles",
+      "subcategory": "sleeve_styles"
+    }
+  },
+  {
+    "id": "sleeve_styles_handcrafted_08",
+    "name": "Sleeve Styles handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "sleeve_styles",
+      "pool_path": "clothing/construction_visual_details/sleeve_styles",
+      "subcategory": "sleeve_styles"
+    }
+  },
+  {
+    "id": "sleeve_styles_adaptive_09",
+    "name": "Sleeve Styles adaptive 09",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "sleeve_styles",
+      "pool_path": "clothing/construction_visual_details/sleeve_styles",
+      "subcategory": "sleeve_styles"
+    }
+  },
+  {
+    "id": "sleeve_styles_ceremonial_10",
+    "name": "Sleeve Styles ceremonial 10",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "sleeve_styles",
+      "pool_path": "clothing/construction_visual_details/sleeve_styles",
+      "subcategory": "sleeve_styles"
+    }
+  },
+  {
+    "id": "sleeve_styles_everyday_11",
+    "name": "Sleeve Styles everyday 11",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "sleeve_styles",
+      "pool_path": "clothing/construction_visual_details/sleeve_styles",
+      "subcategory": "sleeve_styles"
+    }
+  },
+  {
+    "id": "sleeve_styles_formal_12",
+    "name": "Sleeve Styles formal 12",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "sleeve_styles",
+      "pool_path": "clothing/construction_visual_details/sleeve_styles",
+      "subcategory": "sleeve_styles"
+    }
+  },
+  {
+    "id": "sleeve_styles_lightweight_13",
+    "name": "Sleeve Styles lightweight 13",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "sleeve_styles",
+      "pool_path": "clothing/construction_visual_details/sleeve_styles",
+      "subcategory": "sleeve_styles"
+    }
+  },
+  {
+    "id": "lengths_classic_01",
+    "name": "Lengths classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "lengths",
+      "pool_path": "clothing/construction_visual_details/lengths",
+      "subcategory": "lengths"
+    }
+  },
+  {
+    "id": "lengths_refined_02",
+    "name": "Lengths refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "lengths",
+      "pool_path": "clothing/construction_visual_details/lengths",
+      "subcategory": "lengths"
+    }
+  },
+  {
+    "id": "lengths_weathered_03",
+    "name": "Lengths weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "lengths",
+      "pool_path": "clothing/construction_visual_details/lengths",
+      "subcategory": "lengths"
+    }
+  },
+  {
+    "id": "lengths_practical_04",
+    "name": "Lengths practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "lengths",
+      "pool_path": "clothing/construction_visual_details/lengths",
+      "subcategory": "lengths"
+    }
+  },
+  {
+    "id": "lengths_distinctive_05",
+    "name": "Lengths distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "lengths",
+      "pool_path": "clothing/construction_visual_details/lengths",
+      "subcategory": "lengths"
+    }
+  },
+  {
+    "id": "lengths_subtle_06",
+    "name": "Lengths subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "lengths",
+      "pool_path": "clothing/construction_visual_details/lengths",
+      "subcategory": "lengths"
+    }
+  },
+  {
+    "id": "lengths_layered_07",
+    "name": "Lengths layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "lengths",
+      "pool_path": "clothing/construction_visual_details/lengths",
+      "subcategory": "lengths"
+    }
+  },
+  {
+    "id": "lengths_handcrafted_08",
+    "name": "Lengths handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "lengths",
+      "pool_path": "clothing/construction_visual_details/lengths",
+      "subcategory": "lengths"
+    }
+  },
+  {
+    "id": "layering_classic_01",
+    "name": "Layering classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "layering",
+      "pool_path": "clothing/construction_visual_details/layering",
+      "subcategory": "layering"
+    }
+  },
+  {
+    "id": "layering_refined_02",
+    "name": "Layering refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "layering",
+      "pool_path": "clothing/construction_visual_details/layering",
+      "subcategory": "layering"
+    }
+  },
+  {
+    "id": "layering_weathered_03",
+    "name": "Layering weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "layering",
+      "pool_path": "clothing/construction_visual_details/layering",
+      "subcategory": "layering"
+    }
+  },
+  {
+    "id": "layering_practical_04",
+    "name": "Layering practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "layering",
+      "pool_path": "clothing/construction_visual_details/layering",
+      "subcategory": "layering"
+    }
+  },
+  {
+    "id": "layering_distinctive_05",
+    "name": "Layering distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "layering",
+      "pool_path": "clothing/construction_visual_details/layering",
+      "subcategory": "layering"
+    }
+  },
+  {
+    "id": "layering_subtle_06",
+    "name": "Layering subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "layering",
+      "pool_path": "clothing/construction_visual_details/layering",
+      "subcategory": "layering"
+    }
+  },
+  {
+    "id": "layering_layered_07",
+    "name": "Layering layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "layering",
+      "pool_path": "clothing/construction_visual_details/layering",
+      "subcategory": "layering"
+    }
+  },
+  {
+    "id": "layering_handcrafted_08",
+    "name": "Layering handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "layering",
+      "pool_path": "clothing/construction_visual_details/layering",
+      "subcategory": "layering"
+    }
+  },
+  {
+    "id": "layering_adaptive_09",
+    "name": "Layering adaptive 09",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "layering",
+      "pool_path": "clothing/construction_visual_details/layering",
+      "subcategory": "layering"
+    }
+  },
+  {
+    "id": "layering_ceremonial_10",
+    "name": "Layering ceremonial 10",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "layering",
+      "pool_path": "clothing/construction_visual_details/layering",
+      "subcategory": "layering"
+    }
+  },
+  {
+    "id": "clothing_details_lengths_supplemental_01",
+    "name": "clothing details lengths supplemental 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "lengths",
+      "pool_path": "clothing/construction_visual_details/lengths",
+      "subcategory": "lengths"
+    }
+  },
+  {
+    "id": "aster_lengths_1",
+    "name": "Aster lengths 1",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "lengths",
+      "pool_path": "clothing/construction_visual_details/lengths",
+      "subcategory": "lengths"
+    }
+  }
+]

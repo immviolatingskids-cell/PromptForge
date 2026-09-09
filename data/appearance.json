@@ -1,0 +1,2472 @@
+[
+  {
+    "id": "skin_tone_classic_01",
+    "name": "Skin Tone classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "skin_tone",
+      "pool_path": "appearance/skin/skin_tone",
+      "subcategory": "skin_tone"
+    }
+  },
+  {
+    "id": "skin_tone_refined_02",
+    "name": "Skin Tone refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "skin_tone",
+      "pool_path": "appearance/skin/skin_tone",
+      "subcategory": "skin_tone"
+    }
+  },
+  {
+    "id": "skin_tone_weathered_03",
+    "name": "Skin Tone weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "skin_tone",
+      "pool_path": "appearance/skin/skin_tone",
+      "subcategory": "skin_tone"
+    }
+  },
+  {
+    "id": "skin_tone_practical_04",
+    "name": "Skin Tone practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "skin_tone",
+      "pool_path": "appearance/skin/skin_tone",
+      "subcategory": "skin_tone"
+    }
+  },
+  {
+    "id": "skin_tone_distinctive_05",
+    "name": "Skin Tone distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "skin_tone",
+      "pool_path": "appearance/skin/skin_tone",
+      "subcategory": "skin_tone"
+    }
+  },
+  {
+    "id": "skin_tone_subtle_06",
+    "name": "Skin Tone subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "skin_tone",
+      "pool_path": "appearance/skin/skin_tone",
+      "subcategory": "skin_tone"
+    }
+  },
+  {
+    "id": "skin_tone_layered_07",
+    "name": "Skin Tone layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "skin_tone",
+      "pool_path": "appearance/skin/skin_tone",
+      "subcategory": "skin_tone"
+    }
+  },
+  {
+    "id": "skin_tone_handcrafted_08",
+    "name": "Skin Tone handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "skin_tone",
+      "pool_path": "appearance/skin/skin_tone",
+      "subcategory": "skin_tone"
+    }
+  },
+  {
+    "id": "skin_tone_adaptive_09",
+    "name": "Skin Tone adaptive 09",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "skin_tone",
+      "pool_path": "appearance/skin/skin_tone",
+      "subcategory": "skin_tone"
+    }
+  },
+  {
+    "id": "skin_tone_ceremonial_10",
+    "name": "Skin Tone ceremonial 10",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "skin_tone",
+      "pool_path": "appearance/skin/skin_tone",
+      "subcategory": "skin_tone"
+    }
+  },
+  {
+    "id": "undertone_classic_01",
+    "name": "Undertone classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "undertone",
+      "pool_path": "appearance/skin/undertone",
+      "subcategory": "undertone"
+    }
+  },
+  {
+    "id": "undertone_refined_02",
+    "name": "Undertone refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "undertone",
+      "pool_path": "appearance/skin/undertone",
+      "subcategory": "undertone"
+    }
+  },
+  {
+    "id": "undertone_weathered_03",
+    "name": "Undertone weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "undertone",
+      "pool_path": "appearance/skin/undertone",
+      "subcategory": "undertone"
+    }
+  },
+  {
+    "id": "undertone_practical_04",
+    "name": "Undertone practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "undertone",
+      "pool_path": "appearance/skin/undertone",
+      "subcategory": "undertone"
+    }
+  },
+  {
+    "id": "complexion_classic_01",
+    "name": "Complexion classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "complexion",
+      "pool_path": "appearance/skin/complexion",
+      "subcategory": "complexion"
+    }
+  },
+  {
+    "id": "complexion_refined_02",
+    "name": "Complexion refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "complexion",
+      "pool_path": "appearance/skin/complexion",
+      "subcategory": "complexion"
+    }
+  },
+  {
+    "id": "complexion_weathered_03",
+    "name": "Complexion weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "complexion",
+      "pool_path": "appearance/skin/complexion",
+      "subcategory": "complexion"
+    }
+  },
+  {
+    "id": "complexion_practical_04",
+    "name": "Complexion practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "complexion",
+      "pool_path": "appearance/skin/complexion",
+      "subcategory": "complexion"
+    }
+  },
+  {
+    "id": "complexion_distinctive_05",
+    "name": "Complexion distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "complexion",
+      "pool_path": "appearance/skin/complexion",
+      "subcategory": "complexion"
+    }
+  },
+  {
+    "id": "complexion_subtle_06",
+    "name": "Complexion subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "complexion",
+      "pool_path": "appearance/skin/complexion",
+      "subcategory": "complexion"
+    }
+  },
+  {
+    "id": "skin_details_classic_01",
+    "name": "Skin Details classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "skin_details",
+      "pool_path": "appearance/skin/skin_details",
+      "subcategory": "skin_details"
+    }
+  },
+  {
+    "id": "skin_details_refined_02",
+    "name": "Skin Details refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "skin_details",
+      "pool_path": "appearance/skin/skin_details",
+      "subcategory": "skin_details"
+    }
+  },
+  {
+    "id": "skin_details_weathered_03",
+    "name": "Skin Details weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "skin_details",
+      "pool_path": "appearance/skin/skin_details",
+      "subcategory": "skin_details"
+    }
+  },
+  {
+    "id": "skin_details_practical_04",
+    "name": "Skin Details practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "skin_details",
+      "pool_path": "appearance/skin/skin_details",
+      "subcategory": "skin_details"
+    }
+  },
+  {
+    "id": "skin_details_distinctive_05",
+    "name": "Skin Details distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "skin_details",
+      "pool_path": "appearance/skin/skin_details",
+      "subcategory": "skin_details"
+    }
+  },
+  {
+    "id": "skin_details_subtle_06",
+    "name": "Skin Details subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "skin_details",
+      "pool_path": "appearance/skin/skin_details",
+      "subcategory": "skin_details"
+    }
+  },
+  {
+    "id": "skin_details_layered_07",
+    "name": "Skin Details layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "skin_details",
+      "pool_path": "appearance/skin/skin_details",
+      "subcategory": "skin_details"
+    }
+  },
+  {
+    "id": "skin_details_handcrafted_08",
+    "name": "Skin Details handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "skin_details",
+      "pool_path": "appearance/skin/skin_details",
+      "subcategory": "skin_details"
+    }
+  },
+  {
+    "id": "skin_details_adaptive_09",
+    "name": "Skin Details adaptive 09",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "skin_details",
+      "pool_path": "appearance/skin/skin_details",
+      "subcategory": "skin_details"
+    }
+  },
+  {
+    "id": "skin_details_ceremonial_10",
+    "name": "Skin Details ceremonial 10",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "skin_details",
+      "pool_path": "appearance/skin/skin_details",
+      "subcategory": "skin_details"
+    }
+  },
+  {
+    "id": "face_shape_classic_01",
+    "name": "Face Shape classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "face_shape",
+      "pool_path": "appearance/face/face_shape",
+      "subcategory": "face_shape"
+    }
+  },
+  {
+    "id": "face_shape_refined_02",
+    "name": "Face Shape refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "face_shape",
+      "pool_path": "appearance/face/face_shape",
+      "subcategory": "face_shape"
+    }
+  },
+  {
+    "id": "face_shape_weathered_03",
+    "name": "Face Shape weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "face_shape",
+      "pool_path": "appearance/face/face_shape",
+      "subcategory": "face_shape"
+    }
+  },
+  {
+    "id": "face_shape_practical_04",
+    "name": "Face Shape practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "face_shape",
+      "pool_path": "appearance/face/face_shape",
+      "subcategory": "face_shape"
+    }
+  },
+  {
+    "id": "face_shape_distinctive_05",
+    "name": "Face Shape distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "face_shape",
+      "pool_path": "appearance/face/face_shape",
+      "subcategory": "face_shape"
+    }
+  },
+  {
+    "id": "face_shape_subtle_06",
+    "name": "Face Shape subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "face_shape",
+      "pool_path": "appearance/face/face_shape",
+      "subcategory": "face_shape"
+    }
+  },
+  {
+    "id": "face_shape_layered_07",
+    "name": "Face Shape layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "face_shape",
+      "pool_path": "appearance/face/face_shape",
+      "subcategory": "face_shape"
+    }
+  },
+  {
+    "id": "face_shape_handcrafted_08",
+    "name": "Face Shape handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "face_shape",
+      "pool_path": "appearance/face/face_shape",
+      "subcategory": "face_shape"
+    }
+  },
+  {
+    "id": "jaw_classic_01",
+    "name": "Jaw classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jaw",
+      "pool_path": "appearance/face/jaw",
+      "subcategory": "jaw"
+    }
+  },
+  {
+    "id": "jaw_refined_02",
+    "name": "Jaw refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jaw",
+      "pool_path": "appearance/face/jaw",
+      "subcategory": "jaw"
+    }
+  },
+  {
+    "id": "jaw_weathered_03",
+    "name": "Jaw weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jaw",
+      "pool_path": "appearance/face/jaw",
+      "subcategory": "jaw"
+    }
+  },
+  {
+    "id": "jaw_practical_04",
+    "name": "Jaw practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jaw",
+      "pool_path": "appearance/face/jaw",
+      "subcategory": "jaw"
+    }
+  },
+  {
+    "id": "jaw_distinctive_05",
+    "name": "Jaw distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jaw",
+      "pool_path": "appearance/face/jaw",
+      "subcategory": "jaw"
+    }
+  },
+  {
+    "id": "jaw_subtle_06",
+    "name": "Jaw subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jaw",
+      "pool_path": "appearance/face/jaw",
+      "subcategory": "jaw"
+    }
+  },
+  {
+    "id": "jaw_layered_07",
+    "name": "Jaw layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jaw",
+      "pool_path": "appearance/face/jaw",
+      "subcategory": "jaw"
+    }
+  },
+  {
+    "id": "jaw_handcrafted_08",
+    "name": "Jaw handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jaw",
+      "pool_path": "appearance/face/jaw",
+      "subcategory": "jaw"
+    }
+  },
+  {
+    "id": "cheekbones_classic_01",
+    "name": "Cheekbones classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "cheekbones",
+      "pool_path": "appearance/face/cheekbones",
+      "subcategory": "cheekbones"
+    }
+  },
+  {
+    "id": "cheekbones_refined_02",
+    "name": "Cheekbones refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "cheekbones",
+      "pool_path": "appearance/face/cheekbones",
+      "subcategory": "cheekbones"
+    }
+  },
+  {
+    "id": "cheekbones_weathered_03",
+    "name": "Cheekbones weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "cheekbones",
+      "pool_path": "appearance/face/cheekbones",
+      "subcategory": "cheekbones"
+    }
+  },
+  {
+    "id": "cheekbones_practical_04",
+    "name": "Cheekbones practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "cheekbones",
+      "pool_path": "appearance/face/cheekbones",
+      "subcategory": "cheekbones"
+    }
+  },
+  {
+    "id": "cheekbones_distinctive_05",
+    "name": "Cheekbones distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "cheekbones",
+      "pool_path": "appearance/face/cheekbones",
+      "subcategory": "cheekbones"
+    }
+  },
+  {
+    "id": "cheekbones_subtle_06",
+    "name": "Cheekbones subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "cheekbones",
+      "pool_path": "appearance/face/cheekbones",
+      "subcategory": "cheekbones"
+    }
+  },
+  {
+    "id": "chin_classic_01",
+    "name": "Chin classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "chin",
+      "pool_path": "appearance/face/chin",
+      "subcategory": "chin"
+    }
+  },
+  {
+    "id": "chin_refined_02",
+    "name": "Chin refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "chin",
+      "pool_path": "appearance/face/chin",
+      "subcategory": "chin"
+    }
+  },
+  {
+    "id": "chin_weathered_03",
+    "name": "Chin weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "chin",
+      "pool_path": "appearance/face/chin",
+      "subcategory": "chin"
+    }
+  },
+  {
+    "id": "chin_practical_04",
+    "name": "Chin practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "chin",
+      "pool_path": "appearance/face/chin",
+      "subcategory": "chin"
+    }
+  },
+  {
+    "id": "chin_distinctive_05",
+    "name": "Chin distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "chin",
+      "pool_path": "appearance/face/chin",
+      "subcategory": "chin"
+    }
+  },
+  {
+    "id": "chin_subtle_06",
+    "name": "Chin subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "chin",
+      "pool_path": "appearance/face/chin",
+      "subcategory": "chin"
+    }
+  },
+  {
+    "id": "nose_shape_classic_01",
+    "name": "Nose Shape classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "nose_shape",
+      "pool_path": "appearance/face/nose_shape",
+      "subcategory": "nose_shape"
+    }
+  },
+  {
+    "id": "nose_shape_refined_02",
+    "name": "Nose Shape refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "nose_shape",
+      "pool_path": "appearance/face/nose_shape",
+      "subcategory": "nose_shape"
+    }
+  },
+  {
+    "id": "nose_shape_weathered_03",
+    "name": "Nose Shape weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "nose_shape",
+      "pool_path": "appearance/face/nose_shape",
+      "subcategory": "nose_shape"
+    }
+  },
+  {
+    "id": "nose_shape_practical_04",
+    "name": "Nose Shape practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "nose_shape",
+      "pool_path": "appearance/face/nose_shape",
+      "subcategory": "nose_shape"
+    }
+  },
+  {
+    "id": "nose_shape_distinctive_05",
+    "name": "Nose Shape distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "nose_shape",
+      "pool_path": "appearance/face/nose_shape",
+      "subcategory": "nose_shape"
+    }
+  },
+  {
+    "id": "nose_shape_subtle_06",
+    "name": "Nose Shape subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "nose_shape",
+      "pool_path": "appearance/face/nose_shape",
+      "subcategory": "nose_shape"
+    }
+  },
+  {
+    "id": "nose_shape_layered_07",
+    "name": "Nose Shape layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "nose_shape",
+      "pool_path": "appearance/face/nose_shape",
+      "subcategory": "nose_shape"
+    }
+  },
+  {
+    "id": "nose_shape_handcrafted_08",
+    "name": "Nose Shape handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "nose_shape",
+      "pool_path": "appearance/face/nose_shape",
+      "subcategory": "nose_shape"
+    }
+  },
+  {
+    "id": "nose_shape_adaptive_09",
+    "name": "Nose Shape adaptive 09",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "nose_shape",
+      "pool_path": "appearance/face/nose_shape",
+      "subcategory": "nose_shape"
+    }
+  },
+  {
+    "id": "nose_shape_ceremonial_10",
+    "name": "Nose Shape ceremonial 10",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "nose_shape",
+      "pool_path": "appearance/face/nose_shape",
+      "subcategory": "nose_shape"
+    }
+  },
+  {
+    "id": "nose_bridge_classic_01",
+    "name": "Nose Bridge classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "nose_bridge",
+      "pool_path": "appearance/face/nose_bridge",
+      "subcategory": "nose_bridge"
+    }
+  },
+  {
+    "id": "nose_bridge_refined_02",
+    "name": "Nose Bridge refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "nose_bridge",
+      "pool_path": "appearance/face/nose_bridge",
+      "subcategory": "nose_bridge"
+    }
+  },
+  {
+    "id": "nose_bridge_weathered_03",
+    "name": "Nose Bridge weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "nose_bridge",
+      "pool_path": "appearance/face/nose_bridge",
+      "subcategory": "nose_bridge"
+    }
+  },
+  {
+    "id": "nose_bridge_practical_04",
+    "name": "Nose Bridge practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "nose_bridge",
+      "pool_path": "appearance/face/nose_bridge",
+      "subcategory": "nose_bridge"
+    }
+  },
+  {
+    "id": "nose_bridge_distinctive_05",
+    "name": "Nose Bridge distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "nose_bridge",
+      "pool_path": "appearance/face/nose_bridge",
+      "subcategory": "nose_bridge"
+    }
+  },
+  {
+    "id": "nose_bridge_subtle_06",
+    "name": "Nose Bridge subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "nose_bridge",
+      "pool_path": "appearance/face/nose_bridge",
+      "subcategory": "nose_bridge"
+    }
+  },
+  {
+    "id": "nose_tip_classic_01",
+    "name": "Nose Tip classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "nose_tip",
+      "pool_path": "appearance/face/nose_tip",
+      "subcategory": "nose_tip"
+    }
+  },
+  {
+    "id": "nose_tip_refined_02",
+    "name": "Nose Tip refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "nose_tip",
+      "pool_path": "appearance/face/nose_tip",
+      "subcategory": "nose_tip"
+    }
+  },
+  {
+    "id": "nose_tip_weathered_03",
+    "name": "Nose Tip weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "nose_tip",
+      "pool_path": "appearance/face/nose_tip",
+      "subcategory": "nose_tip"
+    }
+  },
+  {
+    "id": "nose_tip_practical_04",
+    "name": "Nose Tip practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "nose_tip",
+      "pool_path": "appearance/face/nose_tip",
+      "subcategory": "nose_tip"
+    }
+  },
+  {
+    "id": "nose_tip_distinctive_05",
+    "name": "Nose Tip distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "nose_tip",
+      "pool_path": "appearance/face/nose_tip",
+      "subcategory": "nose_tip"
+    }
+  },
+  {
+    "id": "nose_tip_subtle_06",
+    "name": "Nose Tip subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "nose_tip",
+      "pool_path": "appearance/face/nose_tip",
+      "subcategory": "nose_tip"
+    }
+  },
+  {
+    "id": "lip_shape_classic_01",
+    "name": "Lip Shape classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "lip_shape",
+      "pool_path": "appearance/face/lip_shape",
+      "subcategory": "lip_shape"
+    }
+  },
+  {
+    "id": "lip_shape_refined_02",
+    "name": "Lip Shape refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "lip_shape",
+      "pool_path": "appearance/face/lip_shape",
+      "subcategory": "lip_shape"
+    }
+  },
+  {
+    "id": "lip_shape_weathered_03",
+    "name": "Lip Shape weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "lip_shape",
+      "pool_path": "appearance/face/lip_shape",
+      "subcategory": "lip_shape"
+    }
+  },
+  {
+    "id": "lip_shape_practical_04",
+    "name": "Lip Shape practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "lip_shape",
+      "pool_path": "appearance/face/lip_shape",
+      "subcategory": "lip_shape"
+    }
+  },
+  {
+    "id": "lip_shape_distinctive_05",
+    "name": "Lip Shape distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "lip_shape",
+      "pool_path": "appearance/face/lip_shape",
+      "subcategory": "lip_shape"
+    }
+  },
+  {
+    "id": "lip_shape_subtle_06",
+    "name": "Lip Shape subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "lip_shape",
+      "pool_path": "appearance/face/lip_shape",
+      "subcategory": "lip_shape"
+    }
+  },
+  {
+    "id": "lip_shape_layered_07",
+    "name": "Lip Shape layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "lip_shape",
+      "pool_path": "appearance/face/lip_shape",
+      "subcategory": "lip_shape"
+    }
+  },
+  {
+    "id": "lip_shape_handcrafted_08",
+    "name": "Lip Shape handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "lip_shape",
+      "pool_path": "appearance/face/lip_shape",
+      "subcategory": "lip_shape"
+    }
+  },
+  {
+    "id": "lip_shape_adaptive_09",
+    "name": "Lip Shape adaptive 09",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "lip_shape",
+      "pool_path": "appearance/face/lip_shape",
+      "subcategory": "lip_shape"
+    }
+  },
+  {
+    "id": "lip_fullness_classic_01",
+    "name": "Lip Fullness classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "lip_fullness",
+      "pool_path": "appearance/face/lip_fullness",
+      "subcategory": "lip_fullness"
+    }
+  },
+  {
+    "id": "lip_fullness_refined_02",
+    "name": "Lip Fullness refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "lip_fullness",
+      "pool_path": "appearance/face/lip_fullness",
+      "subcategory": "lip_fullness"
+    }
+  },
+  {
+    "id": "lip_fullness_weathered_03",
+    "name": "Lip Fullness weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "lip_fullness",
+      "pool_path": "appearance/face/lip_fullness",
+      "subcategory": "lip_fullness"
+    }
+  },
+  {
+    "id": "lip_fullness_practical_04",
+    "name": "Lip Fullness practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "lip_fullness",
+      "pool_path": "appearance/face/lip_fullness",
+      "subcategory": "lip_fullness"
+    }
+  },
+  {
+    "id": "lip_fullness_distinctive_05",
+    "name": "Lip Fullness distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "lip_fullness",
+      "pool_path": "appearance/face/lip_fullness",
+      "subcategory": "lip_fullness"
+    }
+  },
+  {
+    "id": "appearance_undertone_supplemental_01",
+    "name": "appearance undertone supplemental 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "undertone",
+      "pool_path": "appearance/skin/undertone",
+      "subcategory": "undertone"
+    }
+  },
+  {
+    "id": "appearance_complexion_supplemental_01",
+    "name": "appearance complexion supplemental 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "complexion",
+      "pool_path": "appearance/skin/complexion",
+      "subcategory": "complexion"
+    }
+  },
+  {
+    "id": "appearance_face_shape_supplemental_01",
+    "name": "appearance face_shape supplemental 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "face_shape",
+      "pool_path": "appearance/face/face_shape",
+      "subcategory": "face_shape"
+    }
+  },
+  {
+    "id": "appearance_jaw_supplemental_01",
+    "name": "appearance jaw supplemental 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jaw",
+      "pool_path": "appearance/face/jaw",
+      "subcategory": "jaw"
+    }
+  },
+  {
+    "id": "appearance_cheekbones_supplemental_01",
+    "name": "appearance cheekbones supplemental 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "cheekbones",
+      "pool_path": "appearance/face/cheekbones",
+      "subcategory": "cheekbones"
+    }
+  },
+  {
+    "id": "appearance_chin_supplemental_01",
+    "name": "appearance chin supplemental 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "chin",
+      "pool_path": "appearance/face/chin",
+      "subcategory": "chin"
+    }
+  },
+  {
+    "id": "appearance_nose_bridge_supplemental_01",
+    "name": "appearance nose_bridge supplemental 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "nose_bridge",
+      "pool_path": "appearance/face/nose_bridge",
+      "subcategory": "nose_bridge"
+    }
+  },
+  {
+    "id": "appearance_nose_tip_supplemental_02",
+    "name": "appearance nose_tip supplemental 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "nose_tip",
+      "pool_path": "appearance/face/nose_tip",
+      "subcategory": "nose_tip"
+    }
+  },
+  {
+    "id": "appearance_lip_fullness_supplemental_01",
+    "name": "appearance lip_fullness supplemental 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "lip_fullness",
+      "pool_path": "appearance/face/lip_fullness",
+      "subcategory": "lip_fullness"
+    }
+  },
+  {
+    "id": "aster_undertone_1",
+    "name": "Aster undertone 1",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "undertone",
+      "pool_path": "appearance/skin/undertone",
+      "subcategory": "undertone"
+    }
+  },
+  {
+    "id": "bracken_undertone_2",
+    "name": "Bracken undertone 2",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "undertone",
+      "pool_path": "appearance/skin/undertone",
+      "subcategory": "undertone"
+    }
+  },
+  {
+    "id": "cinder_undertone_3",
+    "name": "Cinder undertone 3",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "undertone",
+      "pool_path": "appearance/skin/undertone",
+      "subcategory": "undertone"
+    }
+  },
+  {
+    "id": "dapple_undertone_4",
+    "name": "Dapple undertone 4",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "undertone",
+      "pool_path": "appearance/skin/undertone",
+      "subcategory": "undertone"
+    }
+  },
+  {
+    "id": "ember_undertone_5",
+    "name": "Ember undertone 5",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "undertone",
+      "pool_path": "appearance/skin/undertone",
+      "subcategory": "undertone"
+    }
+  },
+  {
+    "id": "aster_complexion_1",
+    "name": "Aster complexion 1",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "complexion",
+      "pool_path": "appearance/skin/complexion",
+      "subcategory": "complexion"
+    }
+  },
+  {
+    "id": "bracken_complexion_2",
+    "name": "Bracken complexion 2",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "complexion",
+      "pool_path": "appearance/skin/complexion",
+      "subcategory": "complexion"
+    }
+  },
+  {
+    "id": "cinder_complexion_3",
+    "name": "Cinder complexion 3",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "complexion",
+      "pool_path": "appearance/skin/complexion",
+      "subcategory": "complexion"
+    }
+  },
+  {
+    "id": "aster_face_shape_1",
+    "name": "Aster face shape 1",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "face_shape",
+      "pool_path": "appearance/face/face_shape",
+      "subcategory": "face_shape"
+    }
+  },
+  {
+    "id": "aster_jaw_1",
+    "name": "Aster jaw 1",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jaw",
+      "pool_path": "appearance/face/jaw",
+      "subcategory": "jaw"
+    }
+  },
+  {
+    "id": "aster_cheekbones_1",
+    "name": "Aster cheekbones 1",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "cheekbones",
+      "pool_path": "appearance/face/cheekbones",
+      "subcategory": "cheekbones"
+    }
+  },
+  {
+    "id": "bracken_cheekbones_2",
+    "name": "Bracken cheekbones 2",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "cheekbones",
+      "pool_path": "appearance/face/cheekbones",
+      "subcategory": "cheekbones"
+    }
+  },
+  {
+    "id": "cinder_cheekbones_3",
+    "name": "Cinder cheekbones 3",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "cheekbones",
+      "pool_path": "appearance/face/cheekbones",
+      "subcategory": "cheekbones"
+    }
+  },
+  {
+    "id": "aster_chin_1",
+    "name": "Aster chin 1",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "chin",
+      "pool_path": "appearance/face/chin",
+      "subcategory": "chin"
+    }
+  },
+  {
+    "id": "bracken_chin_2",
+    "name": "Bracken chin 2",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "chin",
+      "pool_path": "appearance/face/chin",
+      "subcategory": "chin"
+    }
+  },
+  {
+    "id": "cinder_chin_3",
+    "name": "Cinder chin 3",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "chin",
+      "pool_path": "appearance/face/chin",
+      "subcategory": "chin"
+    }
+  },
+  {
+    "id": "aster_nose_bridge_1",
+    "name": "Aster nose bridge 1",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "nose_bridge",
+      "pool_path": "appearance/face/nose_bridge",
+      "subcategory": "nose_bridge"
+    }
+  },
+  {
+    "id": "bracken_nose_bridge_2",
+    "name": "Bracken nose bridge 2",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "nose_bridge",
+      "pool_path": "appearance/face/nose_bridge",
+      "subcategory": "nose_bridge"
+    }
+  },
+  {
+    "id": "cinder_nose_bridge_3",
+    "name": "Cinder nose bridge 3",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "nose_bridge",
+      "pool_path": "appearance/face/nose_bridge",
+      "subcategory": "nose_bridge"
+    }
+  },
+  {
+    "id": "aster_nose_tip_1",
+    "name": "Aster nose tip 1",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "nose_tip",
+      "pool_path": "appearance/face/nose_tip",
+      "subcategory": "nose_tip"
+    }
+  },
+  {
+    "id": "bracken_nose_tip_2",
+    "name": "Bracken nose tip 2",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "nose_tip",
+      "pool_path": "appearance/face/nose_tip",
+      "subcategory": "nose_tip"
+    }
+  },
+  {
+    "id": "cinder_nose_tip_3",
+    "name": "Cinder nose tip 3",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "nose_tip",
+      "pool_path": "appearance/face/nose_tip",
+      "subcategory": "nose_tip"
+    }
+  },
+  {
+    "id": "aster_lip_shape_1",
+    "name": "Aster lip shape 1",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "lip_shape",
+      "pool_path": "appearance/face/lip_shape",
+      "subcategory": "lip_shape"
+    }
+  },
+  {
+    "id": "aster_lip_fullness_1",
+    "name": "Aster lip fullness 1",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "lip_fullness",
+      "pool_path": "appearance/face/lip_fullness",
+      "subcategory": "lip_fullness"
+    }
+  },
+  {
+    "id": "bracken_lip_fullness_2",
+    "name": "Bracken lip fullness 2",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "lip_fullness",
+      "pool_path": "appearance/face/lip_fullness",
+      "subcategory": "lip_fullness"
+    }
+  },
+  {
+    "id": "cinder_lip_fullness_3",
+    "name": "Cinder lip fullness 3",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "lip_fullness",
+      "pool_path": "appearance/face/lip_fullness",
+      "subcategory": "lip_fullness"
+    }
+  },
+  {
+    "id": "dapple_lip_fullness_4",
+    "name": "Dapple lip fullness 4",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "lip_fullness",
+      "pool_path": "appearance/face/lip_fullness",
+      "subcategory": "lip_fullness"
+    }
+  }
+]

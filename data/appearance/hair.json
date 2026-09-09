@@ -1,14 +1,1867 @@
 [
-  {"id":"short_wavy_black","name":"Short wavy black hair","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]},"metadata":{"color":"black","length":"short","texture":"wavy"}},
-  {"id":"long_straight_brown","name":"Long straight brown hair","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]},"metadata":{"color":"brown","length":"long","texture":"straight"}},
-  {"id":"cropped_coily_black","name":"Cropped coily black hair","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]},"metadata":{"color":"black","length":"cropped","texture":"coily"}},
-  {"id":"silver_braids","name":"Long silver braids","compatibility":{"settings":["fantasy","science_fiction"],"eras":[],"species":["elf"],"life_stages":[],"countries":[]},"metadata":{"color":"silver","length":"long","texture":"braided"}},
-  {"id":"shoulder_length_auburn_curls","name":"Shoulder-length auburn curls","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]},"metadata":{"color":"auburn","length":"shoulder-length","texture":"curly"}},
-  {"id":"buzzed_dark_brown","name":"Buzzed dark brown hair","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]},"metadata":{"color":"dark brown","length":"buzzed","texture":"straight"}},
-  {"id":"chin_length_blonde_bob","name":"Chin-length blonde bob","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]},"metadata":{"color":"blonde","length":"chin-length","texture":"straight"}},
-  {"id":"thick_salt_pepper_waves","name":"Thick salt-and-pepper waves","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["mature","older"],"countries":[]},"metadata":{"color":"salt-and-pepper","length":"medium","texture":"wavy"}},
-  {"id":"shaved_sides_blue_top","name":"Shaved sides with a deep-blue textured top","compatibility":{"settings":["modern","science_fiction"],"eras":["modern","future"],"species":[],"life_stages":["teen","young_adult","adult","mature"],"countries":[]},"metadata":{"color":"deep blue","length":"short","texture":"textured"}},
-  {"id":"waist_length_black_braid","name":"Waist-length black braid","compatibility":{"settings":["fantasy","modern"],"eras":[],"species":[],"life_stages":["teen","young_adult","adult","mature","older"],"countries":[]},"metadata":{"color":"black","length":"waist-length","texture":"braided"}},
-  {"id":"soft_grey_crop","name":"Soft grey cropped hair","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":["mature","older"],"countries":[]},"metadata":{"color":"grey","length":"cropped","texture":"soft"}},
-  {"id":"copper_ringlets","name":"Dense copper ringlets","compatibility":{"settings":[],"eras":[],"species":[],"life_stages":[],"countries":[]},"metadata":{"color":"copper","length":"medium","texture":"coily"}}
+  {
+    "id": "short_wavy_black",
+    "name": "Short wavy black hair",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [
+        "teen",
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "color": "black",
+      "length": "short",
+      "texture": "wavy"
+    }
+  },
+  {
+    "id": "long_straight_brown",
+    "name": "Long straight brown hair",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "color": "brown",
+      "length": "long",
+      "texture": "straight"
+    }
+  },
+  {
+    "id": "cropped_coily_black",
+    "name": "Cropped coily black hair",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "color": "black",
+      "length": "cropped",
+      "texture": "coily"
+    }
+  },
+  {
+    "id": "silver_braids",
+    "name": "Long silver braids",
+    "compatibility": {
+      "settings": [
+        "fantasy",
+        "science_fiction"
+      ],
+      "eras": [],
+      "species": [
+        "elf"
+      ],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "color": "silver",
+      "length": "long",
+      "texture": "braided"
+    }
+  },
+  {
+    "id": "shoulder_length_auburn_curls",
+    "name": "Shoulder-length auburn curls",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "color": "auburn",
+      "length": "shoulder-length",
+      "texture": "curly",
+      "pool_id": "hair_length",
+      "pool_path": "appearance/hair/hair_length",
+      "subcategory": "hair_length"
+    }
+  },
+  {
+    "id": "buzzed_dark_brown",
+    "name": "Buzzed dark brown hair",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [
+        "teen",
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "color": "dark brown",
+      "length": "buzzed",
+      "texture": "straight"
+    }
+  },
+  {
+    "id": "chin_length_blonde_bob",
+    "name": "Chin-length blonde bob",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [
+        "teen",
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "color": "blonde",
+      "length": "chin-length",
+      "texture": "straight"
+    }
+  },
+  {
+    "id": "thick_salt_pepper_waves",
+    "name": "Thick salt-and-pepper waves",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "color": "salt-and-pepper",
+      "length": "medium",
+      "texture": "wavy"
+    }
+  },
+  {
+    "id": "shaved_sides_blue_top",
+    "name": "Shaved sides with a deep-blue textured top",
+    "compatibility": {
+      "settings": [
+        "modern",
+        "science_fiction"
+      ],
+      "eras": [
+        "modern",
+        "future"
+      ],
+      "species": [],
+      "life_stages": [
+        "teen",
+        "young_adult",
+        "adult",
+        "mature"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "color": "deep blue",
+      "length": "short",
+      "texture": "textured",
+      "pool_id": "hair_texture",
+      "pool_path": "appearance/hair/hair_texture",
+      "subcategory": "hair_texture"
+    }
+  },
+  {
+    "id": "waist_length_black_braid",
+    "name": "Waist-length black braid",
+    "compatibility": {
+      "settings": [
+        "fantasy",
+        "modern"
+      ],
+      "eras": [],
+      "species": [],
+      "life_stages": [
+        "teen",
+        "young_adult",
+        "adult",
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "color": "black",
+      "length": "waist-length",
+      "texture": "braided",
+      "pool_id": "hair_length",
+      "pool_path": "appearance/hair/hair_length",
+      "subcategory": "hair_length"
+    }
+  },
+  {
+    "id": "soft_grey_crop",
+    "name": "Soft grey cropped hair",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [
+        "mature",
+        "older"
+      ],
+      "countries": []
+    },
+    "metadata": {
+      "color": "grey",
+      "length": "cropped",
+      "texture": "soft"
+    }
+  },
+  {
+    "id": "copper_ringlets",
+    "name": "Dense copper ringlets",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "life_stages": [],
+      "countries": []
+    },
+    "metadata": {
+      "color": "copper",
+      "length": "medium",
+      "texture": "coily"
+    }
+  },
+  {
+    "id": "hair_colour_classic_01",
+    "name": "Hair Colour classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hair_colour",
+      "pool_path": "appearance/hair/hair_colour",
+      "subcategory": "hair_colour"
+    }
+  },
+  {
+    "id": "hair_colour_refined_02",
+    "name": "Hair Colour refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hair_colour",
+      "pool_path": "appearance/hair/hair_colour",
+      "subcategory": "hair_colour"
+    }
+  },
+  {
+    "id": "hair_colour_weathered_03",
+    "name": "Hair Colour weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hair_colour",
+      "pool_path": "appearance/hair/hair_colour",
+      "subcategory": "hair_colour"
+    }
+  },
+  {
+    "id": "hair_colour_practical_04",
+    "name": "Hair Colour practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hair_colour",
+      "pool_path": "appearance/hair/hair_colour",
+      "subcategory": "hair_colour"
+    }
+  },
+  {
+    "id": "hair_colour_distinctive_05",
+    "name": "Hair Colour distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hair_colour",
+      "pool_path": "appearance/hair/hair_colour",
+      "subcategory": "hair_colour"
+    }
+  },
+  {
+    "id": "hair_colour_subtle_06",
+    "name": "Hair Colour subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hair_colour",
+      "pool_path": "appearance/hair/hair_colour",
+      "subcategory": "hair_colour"
+    }
+  },
+  {
+    "id": "hair_colour_layered_07",
+    "name": "Hair Colour layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hair_colour",
+      "pool_path": "appearance/hair/hair_colour",
+      "subcategory": "hair_colour"
+    }
+  },
+  {
+    "id": "hair_colour_handcrafted_08",
+    "name": "Hair Colour handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hair_colour",
+      "pool_path": "appearance/hair/hair_colour",
+      "subcategory": "hair_colour"
+    }
+  },
+  {
+    "id": "hair_colour_adaptive_09",
+    "name": "Hair Colour adaptive 09",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hair_colour",
+      "pool_path": "appearance/hair/hair_colour",
+      "subcategory": "hair_colour"
+    }
+  },
+  {
+    "id": "hair_colour_ceremonial_10",
+    "name": "Hair Colour ceremonial 10",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hair_colour",
+      "pool_path": "appearance/hair/hair_colour",
+      "subcategory": "hair_colour"
+    }
+  },
+  {
+    "id": "hair_colour_everyday_11",
+    "name": "Hair Colour everyday 11",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hair_colour",
+      "pool_path": "appearance/hair/hair_colour",
+      "subcategory": "hair_colour"
+    }
+  },
+  {
+    "id": "hair_colour_formal_12",
+    "name": "Hair Colour formal 12",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hair_colour",
+      "pool_path": "appearance/hair/hair_colour",
+      "subcategory": "hair_colour"
+    }
+  },
+  {
+    "id": "hair_colour_lightweight_13",
+    "name": "Hair Colour lightweight 13",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hair_colour",
+      "pool_path": "appearance/hair/hair_colour",
+      "subcategory": "hair_colour"
+    }
+  },
+  {
+    "id": "hair_colour_structured_14",
+    "name": "Hair Colour structured 14",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hair_colour",
+      "pool_path": "appearance/hair/hair_colour",
+      "subcategory": "hair_colour"
+    }
+  },
+  {
+    "id": "hair_colour_textured_15",
+    "name": "Hair Colour textured 15",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hair_colour",
+      "pool_path": "appearance/hair/hair_colour",
+      "subcategory": "hair_colour"
+    }
+  },
+  {
+    "id": "hair_colour_minimal_16",
+    "name": "Hair Colour minimal 16",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hair_colour",
+      "pool_path": "appearance/hair/hair_colour",
+      "subcategory": "hair_colour"
+    }
+  },
+  {
+    "id": "hair_colour_ornate_17",
+    "name": "Hair Colour ornate 17",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hair_colour",
+      "pool_path": "appearance/hair/hair_colour",
+      "subcategory": "hair_colour"
+    }
+  },
+  {
+    "id": "hair_colour_durable_18",
+    "name": "Hair Colour durable 18",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hair_colour",
+      "pool_path": "appearance/hair/hair_colour",
+      "subcategory": "hair_colour"
+    }
+  },
+  {
+    "id": "hair_colour_soft_19",
+    "name": "Hair Colour soft 19",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hair_colour",
+      "pool_path": "appearance/hair/hair_colour",
+      "subcategory": "hair_colour"
+    }
+  },
+  {
+    "id": "hair_colour_bold_20",
+    "name": "Hair Colour bold 20",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hair_colour",
+      "pool_path": "appearance/hair/hair_colour",
+      "subcategory": "hair_colour"
+    }
+  },
+  {
+    "id": "hair_length_classic_01",
+    "name": "Hair Length classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hair_length",
+      "pool_path": "appearance/hair/hair_length",
+      "subcategory": "hair_length"
+    }
+  },
+  {
+    "id": "hair_length_refined_02",
+    "name": "Hair Length refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hair_length",
+      "pool_path": "appearance/hair/hair_length",
+      "subcategory": "hair_length"
+    }
+  },
+  {
+    "id": "hair_length_weathered_03",
+    "name": "Hair Length weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hair_length",
+      "pool_path": "appearance/hair/hair_length",
+      "subcategory": "hair_length"
+    }
+  },
+  {
+    "id": "hair_length_practical_04",
+    "name": "Hair Length practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hair_length",
+      "pool_path": "appearance/hair/hair_length",
+      "subcategory": "hair_length"
+    }
+  },
+  {
+    "id": "hair_length_distinctive_05",
+    "name": "Hair Length distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hair_length",
+      "pool_path": "appearance/hair/hair_length",
+      "subcategory": "hair_length"
+    }
+  },
+  {
+    "id": "hair_length_subtle_06",
+    "name": "Hair Length subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hair_length",
+      "pool_path": "appearance/hair/hair_length",
+      "subcategory": "hair_length"
+    }
+  },
+  {
+    "id": "hair_texture_classic_01",
+    "name": "Hair Texture classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hair_texture",
+      "pool_path": "appearance/hair/hair_texture",
+      "subcategory": "hair_texture"
+    }
+  },
+  {
+    "id": "hair_texture_refined_02",
+    "name": "Hair Texture refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hair_texture",
+      "pool_path": "appearance/hair/hair_texture",
+      "subcategory": "hair_texture"
+    }
+  },
+  {
+    "id": "hair_texture_weathered_03",
+    "name": "Hair Texture weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hair_texture",
+      "pool_path": "appearance/hair/hair_texture",
+      "subcategory": "hair_texture"
+    }
+  },
+  {
+    "id": "hair_texture_practical_04",
+    "name": "Hair Texture practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hair_texture",
+      "pool_path": "appearance/hair/hair_texture",
+      "subcategory": "hair_texture"
+    }
+  },
+  {
+    "id": "hair_texture_distinctive_05",
+    "name": "Hair Texture distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hair_texture",
+      "pool_path": "appearance/hair/hair_texture",
+      "subcategory": "hair_texture"
+    }
+  },
+  {
+    "id": "hair_texture_subtle_06",
+    "name": "Hair Texture subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hair_texture",
+      "pool_path": "appearance/hair/hair_texture",
+      "subcategory": "hair_texture"
+    }
+  },
+  {
+    "id": "hair_texture_layered_07",
+    "name": "Hair Texture layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hair_texture",
+      "pool_path": "appearance/hair/hair_texture",
+      "subcategory": "hair_texture"
+    }
+  },
+  {
+    "id": "hair_texture_handcrafted_08",
+    "name": "Hair Texture handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hair_texture",
+      "pool_path": "appearance/hair/hair_texture",
+      "subcategory": "hair_texture"
+    }
+  },
+  {
+    "id": "hairstyle_classic_01",
+    "name": "Hairstyle classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hairstyle",
+      "pool_path": "appearance/hair/hairstyle",
+      "subcategory": "hairstyle"
+    }
+  },
+  {
+    "id": "hairstyle_refined_02",
+    "name": "Hairstyle refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hairstyle",
+      "pool_path": "appearance/hair/hairstyle",
+      "subcategory": "hairstyle"
+    }
+  },
+  {
+    "id": "hairstyle_weathered_03",
+    "name": "Hairstyle weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hairstyle",
+      "pool_path": "appearance/hair/hairstyle",
+      "subcategory": "hairstyle"
+    }
+  },
+  {
+    "id": "hairstyle_practical_04",
+    "name": "Hairstyle practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hairstyle",
+      "pool_path": "appearance/hair/hairstyle",
+      "subcategory": "hairstyle"
+    }
+  },
+  {
+    "id": "hairstyle_distinctive_05",
+    "name": "Hairstyle distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hairstyle",
+      "pool_path": "appearance/hair/hairstyle",
+      "subcategory": "hairstyle"
+    }
+  },
+  {
+    "id": "hairstyle_subtle_06",
+    "name": "Hairstyle subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hairstyle",
+      "pool_path": "appearance/hair/hairstyle",
+      "subcategory": "hairstyle"
+    }
+  },
+  {
+    "id": "hairstyle_layered_07",
+    "name": "Hairstyle layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hairstyle",
+      "pool_path": "appearance/hair/hairstyle",
+      "subcategory": "hairstyle"
+    }
+  },
+  {
+    "id": "hairstyle_handcrafted_08",
+    "name": "Hairstyle handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hairstyle",
+      "pool_path": "appearance/hair/hairstyle",
+      "subcategory": "hairstyle"
+    }
+  },
+  {
+    "id": "hairstyle_adaptive_09",
+    "name": "Hairstyle adaptive 09",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hairstyle",
+      "pool_path": "appearance/hair/hairstyle",
+      "subcategory": "hairstyle"
+    }
+  },
+  {
+    "id": "hairstyle_ceremonial_10",
+    "name": "Hairstyle ceremonial 10",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hairstyle",
+      "pool_path": "appearance/hair/hairstyle",
+      "subcategory": "hairstyle"
+    }
+  },
+  {
+    "id": "hairstyle_everyday_11",
+    "name": "Hairstyle everyday 11",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hairstyle",
+      "pool_path": "appearance/hair/hairstyle",
+      "subcategory": "hairstyle"
+    }
+  },
+  {
+    "id": "hairstyle_formal_12",
+    "name": "Hairstyle formal 12",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hairstyle",
+      "pool_path": "appearance/hair/hairstyle",
+      "subcategory": "hairstyle"
+    }
+  },
+  {
+    "id": "hairstyle_lightweight_13",
+    "name": "Hairstyle lightweight 13",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hairstyle",
+      "pool_path": "appearance/hair/hairstyle",
+      "subcategory": "hairstyle"
+    }
+  },
+  {
+    "id": "hairstyle_structured_14",
+    "name": "Hairstyle structured 14",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hairstyle",
+      "pool_path": "appearance/hair/hairstyle",
+      "subcategory": "hairstyle"
+    }
+  },
+  {
+    "id": "hairstyle_textured_15",
+    "name": "Hairstyle textured 15",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hairstyle",
+      "pool_path": "appearance/hair/hairstyle",
+      "subcategory": "hairstyle"
+    }
+  },
+  {
+    "id": "hairstyle_minimal_16",
+    "name": "Hairstyle minimal 16",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hairstyle",
+      "pool_path": "appearance/hair/hairstyle",
+      "subcategory": "hairstyle"
+    }
+  },
+  {
+    "id": "hairstyle_ornate_17",
+    "name": "Hairstyle ornate 17",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hairstyle",
+      "pool_path": "appearance/hair/hairstyle",
+      "subcategory": "hairstyle"
+    }
+  },
+  {
+    "id": "hairstyle_durable_18",
+    "name": "Hairstyle durable 18",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hairstyle",
+      "pool_path": "appearance/hair/hairstyle",
+      "subcategory": "hairstyle"
+    }
+  },
+  {
+    "id": "hairstyle_soft_19",
+    "name": "Hairstyle soft 19",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hairstyle",
+      "pool_path": "appearance/hair/hairstyle",
+      "subcategory": "hairstyle"
+    }
+  },
+  {
+    "id": "hairstyle_bold_20",
+    "name": "Hairstyle bold 20",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hairstyle",
+      "pool_path": "appearance/hair/hairstyle",
+      "subcategory": "hairstyle"
+    }
+  },
+  {
+    "id": "hairstyle_quiet_21",
+    "name": "Hairstyle quiet 21",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hairstyle",
+      "pool_path": "appearance/hair/hairstyle",
+      "subcategory": "hairstyle"
+    }
+  },
+  {
+    "id": "hairstyle_functional_22",
+    "name": "Hairstyle functional 22",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hairstyle",
+      "pool_path": "appearance/hair/hairstyle",
+      "subcategory": "hairstyle"
+    }
+  },
+  {
+    "id": "hairstyle_tailored_23",
+    "name": "Hairstyle tailored 23",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hairstyle",
+      "pool_path": "appearance/hair/hairstyle",
+      "subcategory": "hairstyle"
+    }
+  },
+  {
+    "id": "hairstyle_natural_24",
+    "name": "Hairstyle natural 24",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hairstyle",
+      "pool_path": "appearance/hair/hairstyle",
+      "subcategory": "hairstyle"
+    }
+  },
+  {
+    "id": "hairstyle_urban_25",
+    "name": "Hairstyle urban 25",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hairstyle",
+      "pool_path": "appearance/hair/hairstyle",
+      "subcategory": "hairstyle"
+    }
+  },
+  {
+    "id": "fringe_bangs_classic_01",
+    "name": "Fringe   Bangs classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "fringe_bangs",
+      "pool_path": "appearance/hair/fringe_bangs",
+      "subcategory": "fringe_bangs"
+    }
+  },
+  {
+    "id": "fringe_bangs_refined_02",
+    "name": "Fringe   Bangs refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "fringe_bangs",
+      "pool_path": "appearance/hair/fringe_bangs",
+      "subcategory": "fringe_bangs"
+    }
+  },
+  {
+    "id": "fringe_bangs_weathered_03",
+    "name": "Fringe   Bangs weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "fringe_bangs",
+      "pool_path": "appearance/hair/fringe_bangs",
+      "subcategory": "fringe_bangs"
+    }
+  },
+  {
+    "id": "fringe_bangs_practical_04",
+    "name": "Fringe   Bangs practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "fringe_bangs",
+      "pool_path": "appearance/hair/fringe_bangs",
+      "subcategory": "fringe_bangs"
+    }
+  },
+  {
+    "id": "fringe_bangs_distinctive_05",
+    "name": "Fringe   Bangs distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "fringe_bangs",
+      "pool_path": "appearance/hair/fringe_bangs",
+      "subcategory": "fringe_bangs"
+    }
+  },
+  {
+    "id": "fringe_bangs_subtle_06",
+    "name": "Fringe   Bangs subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "fringe_bangs",
+      "pool_path": "appearance/hair/fringe_bangs",
+      "subcategory": "fringe_bangs"
+    }
+  },
+  {
+    "id": "fringe_bangs_layered_07",
+    "name": "Fringe   Bangs layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "fringe_bangs",
+      "pool_path": "appearance/hair/fringe_bangs",
+      "subcategory": "fringe_bangs"
+    }
+  },
+  {
+    "id": "fringe_bangs_handcrafted_08",
+    "name": "Fringe   Bangs handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "fringe_bangs",
+      "pool_path": "appearance/hair/fringe_bangs",
+      "subcategory": "fringe_bangs"
+    }
+  },
+  {
+    "id": "fringe_bangs_adaptive_09",
+    "name": "Fringe   Bangs adaptive 09",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "fringe_bangs",
+      "pool_path": "appearance/hair/fringe_bangs",
+      "subcategory": "fringe_bangs"
+    }
+  },
+  {
+    "id": "fringe_bangs_ceremonial_10",
+    "name": "Fringe   Bangs ceremonial 10",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "fringe_bangs",
+      "pool_path": "appearance/hair/fringe_bangs",
+      "subcategory": "fringe_bangs"
+    }
+  },
+  {
+    "id": "hair_details_classic_01",
+    "name": "Hair Details classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hair_details",
+      "pool_path": "appearance/hair/hair_details",
+      "subcategory": "hair_details"
+    }
+  },
+  {
+    "id": "hair_details_refined_02",
+    "name": "Hair Details refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hair_details",
+      "pool_path": "appearance/hair/hair_details",
+      "subcategory": "hair_details"
+    }
+  },
+  {
+    "id": "hair_details_weathered_03",
+    "name": "Hair Details weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hair_details",
+      "pool_path": "appearance/hair/hair_details",
+      "subcategory": "hair_details"
+    }
+  },
+  {
+    "id": "hair_details_practical_04",
+    "name": "Hair Details practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hair_details",
+      "pool_path": "appearance/hair/hair_details",
+      "subcategory": "hair_details"
+    }
+  },
+  {
+    "id": "hair_details_distinctive_05",
+    "name": "Hair Details distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hair_details",
+      "pool_path": "appearance/hair/hair_details",
+      "subcategory": "hair_details"
+    }
+  },
+  {
+    "id": "hair_details_subtle_06",
+    "name": "Hair Details subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hair_details",
+      "pool_path": "appearance/hair/hair_details",
+      "subcategory": "hair_details"
+    }
+  },
+  {
+    "id": "hair_details_layered_07",
+    "name": "Hair Details layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hair_details",
+      "pool_path": "appearance/hair/hair_details",
+      "subcategory": "hair_details"
+    }
+  },
+  {
+    "id": "hair_details_handcrafted_08",
+    "name": "Hair Details handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hair_details",
+      "pool_path": "appearance/hair/hair_details",
+      "subcategory": "hair_details"
+    }
+  },
+  {
+    "id": "hair_details_adaptive_09",
+    "name": "Hair Details adaptive 09",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hair_details",
+      "pool_path": "appearance/hair/hair_details",
+      "subcategory": "hair_details"
+    }
+  },
+  {
+    "id": "hair_details_ceremonial_10",
+    "name": "Hair Details ceremonial 10",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hair_details",
+      "pool_path": "appearance/hair/hair_details",
+      "subcategory": "hair_details"
+    }
+  },
+  {
+    "id": "appearance_hair_hair_length_supplemental_01",
+    "name": "appearance hair hair_length supplemental 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hair_length",
+      "pool_path": "appearance/hair/hair_length",
+      "subcategory": "hair_length"
+    }
+  },
+  {
+    "id": "appearance_hair_hair_texture_supplemental_01",
+    "name": "appearance hair hair_texture supplemental 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hair_texture",
+      "pool_path": "appearance/hair/hair_texture",
+      "subcategory": "hair_texture"
+    }
+  },
+  {
+    "id": "aster_hair_length_1",
+    "name": "Aster hair length 1",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hair_length",
+      "pool_path": "appearance/hair/hair_length",
+      "subcategory": "hair_length"
+    }
+  },
+  {
+    "id": "bracken_hair_length_2",
+    "name": "Bracken hair length 2",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hair_length",
+      "pool_path": "appearance/hair/hair_length",
+      "subcategory": "hair_length"
+    }
+  },
+  {
+    "id": "cinder_hair_length_3",
+    "name": "Cinder hair length 3",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hair_length",
+      "pool_path": "appearance/hair/hair_length",
+      "subcategory": "hair_length"
+    }
+  },
+  {
+    "id": "aster_hair_texture_1",
+    "name": "Aster hair texture 1",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "hair_texture",
+      "pool_path": "appearance/hair/hair_texture",
+      "subcategory": "hair_texture"
+    }
+  }
 ]

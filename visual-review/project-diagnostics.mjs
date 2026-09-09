@@ -1,0 +1,3 @@
+import { chromium } from "playwright";
+const browser = await chromium.launch();
+try { const page = await browser.newPage({ viewport: { width: 1440, height: 1000 } }); await page.goto("http://127.0.0.1:8765/#studio"); await page.locator('[data-tab="projects"]').click(); await page.locator("#project-diagnostics").waitFor({ state: "visible" }); const text = await page.locator("#project-diagnostics").innerText(); const normalized=text.toLowerCase(); if (!normalized.includes("reference diagnostics") || !normalized.includes("projects") || !normalized.includes("references")) throw new Error(`Unexpected diagnostics: ${text}`); console.log(text.replaceAll("\n", " | ")); } finally { await browser.close(); }

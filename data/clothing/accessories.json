@@ -1,0 +1,1902 @@
+[
+  {
+    "id": "jewellery_classic_01",
+    "name": "Jewellery classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jewellery",
+      "pool_path": "clothing/accessories/jewellery",
+      "subcategory": "jewellery"
+    }
+  },
+  {
+    "id": "jewellery_refined_02",
+    "name": "Jewellery refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jewellery",
+      "pool_path": "clothing/accessories/jewellery",
+      "subcategory": "jewellery"
+    }
+  },
+  {
+    "id": "jewellery_weathered_03",
+    "name": "Jewellery weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jewellery",
+      "pool_path": "clothing/accessories/jewellery",
+      "subcategory": "jewellery"
+    }
+  },
+  {
+    "id": "jewellery_practical_04",
+    "name": "Jewellery practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jewellery",
+      "pool_path": "clothing/accessories/jewellery",
+      "subcategory": "jewellery"
+    }
+  },
+  {
+    "id": "jewellery_distinctive_05",
+    "name": "Jewellery distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jewellery",
+      "pool_path": "clothing/accessories/jewellery",
+      "subcategory": "jewellery"
+    }
+  },
+  {
+    "id": "jewellery_subtle_06",
+    "name": "Jewellery subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jewellery",
+      "pool_path": "clothing/accessories/jewellery",
+      "subcategory": "jewellery"
+    }
+  },
+  {
+    "id": "jewellery_layered_07",
+    "name": "Jewellery layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jewellery",
+      "pool_path": "clothing/accessories/jewellery",
+      "subcategory": "jewellery"
+    }
+  },
+  {
+    "id": "jewellery_handcrafted_08",
+    "name": "Jewellery handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jewellery",
+      "pool_path": "clothing/accessories/jewellery",
+      "subcategory": "jewellery"
+    }
+  },
+  {
+    "id": "jewellery_adaptive_09",
+    "name": "Jewellery adaptive 09",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jewellery",
+      "pool_path": "clothing/accessories/jewellery",
+      "subcategory": "jewellery"
+    }
+  },
+  {
+    "id": "jewellery_ceremonial_10",
+    "name": "Jewellery ceremonial 10",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jewellery",
+      "pool_path": "clothing/accessories/jewellery",
+      "subcategory": "jewellery"
+    }
+  },
+  {
+    "id": "jewellery_everyday_11",
+    "name": "Jewellery everyday 11",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jewellery",
+      "pool_path": "clothing/accessories/jewellery",
+      "subcategory": "jewellery"
+    }
+  },
+  {
+    "id": "jewellery_formal_12",
+    "name": "Jewellery formal 12",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jewellery",
+      "pool_path": "clothing/accessories/jewellery",
+      "subcategory": "jewellery"
+    }
+  },
+  {
+    "id": "jewellery_lightweight_13",
+    "name": "Jewellery lightweight 13",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jewellery",
+      "pool_path": "clothing/accessories/jewellery",
+      "subcategory": "jewellery"
+    }
+  },
+  {
+    "id": "jewellery_structured_14",
+    "name": "Jewellery structured 14",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jewellery",
+      "pool_path": "clothing/accessories/jewellery",
+      "subcategory": "jewellery"
+    }
+  },
+  {
+    "id": "jewellery_textured_15",
+    "name": "Jewellery textured 15",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jewellery",
+      "pool_path": "clothing/accessories/jewellery",
+      "subcategory": "jewellery"
+    }
+  },
+  {
+    "id": "jewellery_minimal_16",
+    "name": "Jewellery minimal 16",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jewellery",
+      "pool_path": "clothing/accessories/jewellery",
+      "subcategory": "jewellery"
+    }
+  },
+  {
+    "id": "jewellery_ornate_17",
+    "name": "Jewellery ornate 17",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jewellery",
+      "pool_path": "clothing/accessories/jewellery",
+      "subcategory": "jewellery"
+    }
+  },
+  {
+    "id": "jewellery_durable_18",
+    "name": "Jewellery durable 18",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jewellery",
+      "pool_path": "clothing/accessories/jewellery",
+      "subcategory": "jewellery"
+    }
+  },
+  {
+    "id": "jewellery_soft_19",
+    "name": "Jewellery soft 19",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jewellery",
+      "pool_path": "clothing/accessories/jewellery",
+      "subcategory": "jewellery"
+    }
+  },
+  {
+    "id": "jewellery_bold_20",
+    "name": "Jewellery bold 20",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "jewellery",
+      "pool_path": "clothing/accessories/jewellery",
+      "subcategory": "jewellery"
+    }
+  },
+  {
+    "id": "bags_classic_01",
+    "name": "Bags classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "bags",
+      "pool_path": "clothing/accessories/bags",
+      "subcategory": "bags"
+    }
+  },
+  {
+    "id": "bags_refined_02",
+    "name": "Bags refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "bags",
+      "pool_path": "clothing/accessories/bags",
+      "subcategory": "bags"
+    }
+  },
+  {
+    "id": "bags_weathered_03",
+    "name": "Bags weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "bags",
+      "pool_path": "clothing/accessories/bags",
+      "subcategory": "bags"
+    }
+  },
+  {
+    "id": "bags_practical_04",
+    "name": "Bags practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "bags",
+      "pool_path": "clothing/accessories/bags",
+      "subcategory": "bags"
+    }
+  },
+  {
+    "id": "bags_distinctive_05",
+    "name": "Bags distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "bags",
+      "pool_path": "clothing/accessories/bags",
+      "subcategory": "bags"
+    }
+  },
+  {
+    "id": "bags_subtle_06",
+    "name": "Bags subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "bags",
+      "pool_path": "clothing/accessories/bags",
+      "subcategory": "bags"
+    }
+  },
+  {
+    "id": "bags_layered_07",
+    "name": "Bags layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "bags",
+      "pool_path": "clothing/accessories/bags",
+      "subcategory": "bags"
+    }
+  },
+  {
+    "id": "bags_handcrafted_08",
+    "name": "Bags handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "bags",
+      "pool_path": "clothing/accessories/bags",
+      "subcategory": "bags"
+    }
+  },
+  {
+    "id": "bags_adaptive_09",
+    "name": "Bags adaptive 09",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "bags",
+      "pool_path": "clothing/accessories/bags",
+      "subcategory": "bags"
+    }
+  },
+  {
+    "id": "bags_ceremonial_10",
+    "name": "Bags ceremonial 10",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "bags",
+      "pool_path": "clothing/accessories/bags",
+      "subcategory": "bags"
+    }
+  },
+  {
+    "id": "bags_everyday_11",
+    "name": "Bags everyday 11",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "bags",
+      "pool_path": "clothing/accessories/bags",
+      "subcategory": "bags"
+    }
+  },
+  {
+    "id": "bags_formal_12",
+    "name": "Bags formal 12",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "bags",
+      "pool_path": "clothing/accessories/bags",
+      "subcategory": "bags"
+    }
+  },
+  {
+    "id": "bags_lightweight_13",
+    "name": "Bags lightweight 13",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "bags",
+      "pool_path": "clothing/accessories/bags",
+      "subcategory": "bags"
+    }
+  },
+  {
+    "id": "bags_structured_14",
+    "name": "Bags structured 14",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "bags",
+      "pool_path": "clothing/accessories/bags",
+      "subcategory": "bags"
+    }
+  },
+  {
+    "id": "bags_textured_15",
+    "name": "Bags textured 15",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "bags",
+      "pool_path": "clothing/accessories/bags",
+      "subcategory": "bags"
+    }
+  },
+  {
+    "id": "headwear_classic_01",
+    "name": "Headwear classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "headwear",
+      "pool_path": "clothing/accessories/headwear",
+      "subcategory": "headwear"
+    }
+  },
+  {
+    "id": "headwear_refined_02",
+    "name": "Headwear refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "headwear",
+      "pool_path": "clothing/accessories/headwear",
+      "subcategory": "headwear"
+    }
+  },
+  {
+    "id": "headwear_weathered_03",
+    "name": "Headwear weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "headwear",
+      "pool_path": "clothing/accessories/headwear",
+      "subcategory": "headwear"
+    }
+  },
+  {
+    "id": "headwear_practical_04",
+    "name": "Headwear practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "headwear",
+      "pool_path": "clothing/accessories/headwear",
+      "subcategory": "headwear"
+    }
+  },
+  {
+    "id": "headwear_distinctive_05",
+    "name": "Headwear distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "headwear",
+      "pool_path": "clothing/accessories/headwear",
+      "subcategory": "headwear"
+    }
+  },
+  {
+    "id": "headwear_subtle_06",
+    "name": "Headwear subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "headwear",
+      "pool_path": "clothing/accessories/headwear",
+      "subcategory": "headwear"
+    }
+  },
+  {
+    "id": "headwear_layered_07",
+    "name": "Headwear layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "headwear",
+      "pool_path": "clothing/accessories/headwear",
+      "subcategory": "headwear"
+    }
+  },
+  {
+    "id": "headwear_handcrafted_08",
+    "name": "Headwear handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "headwear",
+      "pool_path": "clothing/accessories/headwear",
+      "subcategory": "headwear"
+    }
+  },
+  {
+    "id": "headwear_adaptive_09",
+    "name": "Headwear adaptive 09",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "headwear",
+      "pool_path": "clothing/accessories/headwear",
+      "subcategory": "headwear"
+    }
+  },
+  {
+    "id": "headwear_ceremonial_10",
+    "name": "Headwear ceremonial 10",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "headwear",
+      "pool_path": "clothing/accessories/headwear",
+      "subcategory": "headwear"
+    }
+  },
+  {
+    "id": "headwear_everyday_11",
+    "name": "Headwear everyday 11",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "headwear",
+      "pool_path": "clothing/accessories/headwear",
+      "subcategory": "headwear"
+    }
+  },
+  {
+    "id": "headwear_formal_12",
+    "name": "Headwear formal 12",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "headwear",
+      "pool_path": "clothing/accessories/headwear",
+      "subcategory": "headwear"
+    }
+  },
+  {
+    "id": "headwear_lightweight_13",
+    "name": "Headwear lightweight 13",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "headwear",
+      "pool_path": "clothing/accessories/headwear",
+      "subcategory": "headwear"
+    }
+  },
+  {
+    "id": "headwear_structured_14",
+    "name": "Headwear structured 14",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "headwear",
+      "pool_path": "clothing/accessories/headwear",
+      "subcategory": "headwear"
+    }
+  },
+  {
+    "id": "headwear_textured_15",
+    "name": "Headwear textured 15",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "headwear",
+      "pool_path": "clothing/accessories/headwear",
+      "subcategory": "headwear"
+    }
+  },
+  {
+    "id": "eyewear_classic_01",
+    "name": "Eyewear classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "eyewear",
+      "pool_path": "clothing/accessories/eyewear",
+      "subcategory": "eyewear"
+    }
+  },
+  {
+    "id": "eyewear_refined_02",
+    "name": "Eyewear refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "eyewear",
+      "pool_path": "clothing/accessories/eyewear",
+      "subcategory": "eyewear"
+    }
+  },
+  {
+    "id": "eyewear_weathered_03",
+    "name": "Eyewear weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "eyewear",
+      "pool_path": "clothing/accessories/eyewear",
+      "subcategory": "eyewear"
+    }
+  },
+  {
+    "id": "eyewear_practical_04",
+    "name": "Eyewear practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "eyewear",
+      "pool_path": "clothing/accessories/eyewear",
+      "subcategory": "eyewear"
+    }
+  },
+  {
+    "id": "eyewear_distinctive_05",
+    "name": "Eyewear distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "eyewear",
+      "pool_path": "clothing/accessories/eyewear",
+      "subcategory": "eyewear"
+    }
+  },
+  {
+    "id": "eyewear_subtle_06",
+    "name": "Eyewear subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "eyewear",
+      "pool_path": "clothing/accessories/eyewear",
+      "subcategory": "eyewear"
+    }
+  },
+  {
+    "id": "eyewear_layered_07",
+    "name": "Eyewear layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "eyewear",
+      "pool_path": "clothing/accessories/eyewear",
+      "subcategory": "eyewear"
+    }
+  },
+  {
+    "id": "eyewear_handcrafted_08",
+    "name": "Eyewear handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "eyewear",
+      "pool_path": "clothing/accessories/eyewear",
+      "subcategory": "eyewear"
+    }
+  },
+  {
+    "id": "eyewear_adaptive_09",
+    "name": "Eyewear adaptive 09",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "eyewear",
+      "pool_path": "clothing/accessories/eyewear",
+      "subcategory": "eyewear"
+    }
+  },
+  {
+    "id": "eyewear_ceremonial_10",
+    "name": "Eyewear ceremonial 10",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "eyewear",
+      "pool_path": "clothing/accessories/eyewear",
+      "subcategory": "eyewear"
+    }
+  },
+  {
+    "id": "belts_classic_01",
+    "name": "Belts classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "belts",
+      "pool_path": "clothing/accessories/belts",
+      "subcategory": "belts"
+    }
+  },
+  {
+    "id": "belts_refined_02",
+    "name": "Belts refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "belts",
+      "pool_path": "clothing/accessories/belts",
+      "subcategory": "belts"
+    }
+  },
+  {
+    "id": "belts_weathered_03",
+    "name": "Belts weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "belts",
+      "pool_path": "clothing/accessories/belts",
+      "subcategory": "belts"
+    }
+  },
+  {
+    "id": "belts_practical_04",
+    "name": "Belts practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "belts",
+      "pool_path": "clothing/accessories/belts",
+      "subcategory": "belts"
+    }
+  },
+  {
+    "id": "belts_distinctive_05",
+    "name": "Belts distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "belts",
+      "pool_path": "clothing/accessories/belts",
+      "subcategory": "belts"
+    }
+  },
+  {
+    "id": "belts_subtle_06",
+    "name": "Belts subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "belts",
+      "pool_path": "clothing/accessories/belts",
+      "subcategory": "belts"
+    }
+  },
+  {
+    "id": "belts_layered_07",
+    "name": "Belts layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "belts",
+      "pool_path": "clothing/accessories/belts",
+      "subcategory": "belts"
+    }
+  },
+  {
+    "id": "belts_handcrafted_08",
+    "name": "Belts handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "belts",
+      "pool_path": "clothing/accessories/belts",
+      "subcategory": "belts"
+    }
+  },
+  {
+    "id": "gloves_classic_01",
+    "name": "Gloves classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "gloves",
+      "pool_path": "clothing/accessories/gloves",
+      "subcategory": "gloves"
+    }
+  },
+  {
+    "id": "gloves_refined_02",
+    "name": "Gloves refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "gloves",
+      "pool_path": "clothing/accessories/gloves",
+      "subcategory": "gloves"
+    }
+  },
+  {
+    "id": "gloves_weathered_03",
+    "name": "Gloves weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "gloves",
+      "pool_path": "clothing/accessories/gloves",
+      "subcategory": "gloves"
+    }
+  },
+  {
+    "id": "gloves_practical_04",
+    "name": "Gloves practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "gloves",
+      "pool_path": "clothing/accessories/gloves",
+      "subcategory": "gloves"
+    }
+  },
+  {
+    "id": "gloves_distinctive_05",
+    "name": "Gloves distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "gloves",
+      "pool_path": "clothing/accessories/gloves",
+      "subcategory": "gloves"
+    }
+  },
+  {
+    "id": "gloves_subtle_06",
+    "name": "Gloves subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "gloves",
+      "pool_path": "clothing/accessories/gloves",
+      "subcategory": "gloves"
+    }
+  },
+  {
+    "id": "gloves_layered_07",
+    "name": "Gloves layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "gloves",
+      "pool_path": "clothing/accessories/gloves",
+      "subcategory": "gloves"
+    }
+  },
+  {
+    "id": "gloves_handcrafted_08",
+    "name": "Gloves handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "gloves",
+      "pool_path": "clothing/accessories/gloves",
+      "subcategory": "gloves"
+    }
+  },
+  {
+    "id": "scarves_classic_01",
+    "name": "Scarves classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "scarves",
+      "pool_path": "clothing/accessories/scarves",
+      "subcategory": "scarves"
+    }
+  },
+  {
+    "id": "scarves_refined_02",
+    "name": "Scarves refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "scarves",
+      "pool_path": "clothing/accessories/scarves",
+      "subcategory": "scarves"
+    }
+  },
+  {
+    "id": "scarves_weathered_03",
+    "name": "Scarves weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "scarves",
+      "pool_path": "clothing/accessories/scarves",
+      "subcategory": "scarves"
+    }
+  },
+  {
+    "id": "scarves_practical_04",
+    "name": "Scarves practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "scarves",
+      "pool_path": "clothing/accessories/scarves",
+      "subcategory": "scarves"
+    }
+  },
+  {
+    "id": "scarves_distinctive_05",
+    "name": "Scarves distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "scarves",
+      "pool_path": "clothing/accessories/scarves",
+      "subcategory": "scarves"
+    }
+  },
+  {
+    "id": "scarves_subtle_06",
+    "name": "Scarves subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "scarves",
+      "pool_path": "clothing/accessories/scarves",
+      "subcategory": "scarves"
+    }
+  },
+  {
+    "id": "scarves_layered_07",
+    "name": "Scarves layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "scarves",
+      "pool_path": "clothing/accessories/scarves",
+      "subcategory": "scarves"
+    }
+  },
+  {
+    "id": "scarves_handcrafted_08",
+    "name": "Scarves handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "scarves",
+      "pool_path": "clothing/accessories/scarves",
+      "subcategory": "scarves"
+    }
+  },
+  {
+    "id": "other_accessories_classic_01",
+    "name": "Other Accessories classic 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "other_accessories",
+      "pool_path": "clothing/accessories/other_accessories",
+      "subcategory": "other_accessories"
+    }
+  },
+  {
+    "id": "other_accessories_refined_02",
+    "name": "Other Accessories refined 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "other_accessories",
+      "pool_path": "clothing/accessories/other_accessories",
+      "subcategory": "other_accessories"
+    }
+  },
+  {
+    "id": "other_accessories_weathered_03",
+    "name": "Other Accessories weathered 03",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "other_accessories",
+      "pool_path": "clothing/accessories/other_accessories",
+      "subcategory": "other_accessories"
+    }
+  },
+  {
+    "id": "other_accessories_practical_04",
+    "name": "Other Accessories practical 04",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "other_accessories",
+      "pool_path": "clothing/accessories/other_accessories",
+      "subcategory": "other_accessories"
+    }
+  },
+  {
+    "id": "other_accessories_distinctive_05",
+    "name": "Other Accessories distinctive 05",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "other_accessories",
+      "pool_path": "clothing/accessories/other_accessories",
+      "subcategory": "other_accessories"
+    }
+  },
+  {
+    "id": "other_accessories_subtle_06",
+    "name": "Other Accessories subtle 06",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "other_accessories",
+      "pool_path": "clothing/accessories/other_accessories",
+      "subcategory": "other_accessories"
+    }
+  },
+  {
+    "id": "other_accessories_layered_07",
+    "name": "Other Accessories layered 07",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "other_accessories",
+      "pool_path": "clothing/accessories/other_accessories",
+      "subcategory": "other_accessories"
+    }
+  },
+  {
+    "id": "other_accessories_handcrafted_08",
+    "name": "Other Accessories handcrafted 08",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "other_accessories",
+      "pool_path": "clothing/accessories/other_accessories",
+      "subcategory": "other_accessories"
+    }
+  },
+  {
+    "id": "other_accessories_adaptive_09",
+    "name": "Other Accessories adaptive 09",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "other_accessories",
+      "pool_path": "clothing/accessories/other_accessories",
+      "subcategory": "other_accessories"
+    }
+  },
+  {
+    "id": "other_accessories_ceremonial_10",
+    "name": "Other Accessories ceremonial 10",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "other_accessories",
+      "pool_path": "clothing/accessories/other_accessories",
+      "subcategory": "other_accessories"
+    }
+  },
+  {
+    "id": "clothing_accessories_belts_supplemental_01",
+    "name": "clothing accessories belts supplemental 01",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "belts",
+      "pool_path": "clothing/accessories/belts",
+      "subcategory": "belts"
+    }
+  },
+  {
+    "id": "clothing_accessories_gloves_supplemental_02",
+    "name": "clothing accessories gloves supplemental 02",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "gloves",
+      "pool_path": "clothing/accessories/gloves",
+      "subcategory": "gloves"
+    }
+  },
+  {
+    "id": "aster_belts_1",
+    "name": "Aster belts 1",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "belts",
+      "pool_path": "clothing/accessories/belts",
+      "subcategory": "belts"
+    }
+  },
+  {
+    "id": "aster_gloves_1",
+    "name": "Aster gloves 1",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "gloves",
+      "pool_path": "clothing/accessories/gloves",
+      "subcategory": "gloves"
+    }
+  },
+  {
+    "id": "aster_scarves_1",
+    "name": "Aster scarves 1",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "scarves",
+      "pool_path": "clothing/accessories/scarves",
+      "subcategory": "scarves"
+    }
+  },
+  {
+    "id": "bracken_scarves_2",
+    "name": "Bracken scarves 2",
+    "compatibility": {
+      "settings": [],
+      "eras": [],
+      "species": [],
+      "species_types": [],
+      "life_stages": [],
+      "countries": [],
+      "regions": [],
+      "locales": []
+    },
+    "metadata": {
+      "pool_id": "scarves",
+      "pool_path": "clothing/accessories/scarves",
+      "subcategory": "scarves"
+    }
+  }
+]
