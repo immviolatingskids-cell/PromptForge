@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PromptForge · Character Studio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="control-centre.css">
+  <link rel="stylesheet" href="product-shell.css">
+</head>
+<body>
+  <nav class="app-rail" aria-label="Primary navigation">
+    <a class="forge-mark" href="#home" aria-label="PromptForge home">PF</a>
+    <a href="#home" data-product-route="home"><span aria-hidden="true">⌂</span>Home</a>
+    <a href="#characters" data-product-route="characters"><span aria-hidden="true">♙</span>Characters</a>
+    <a href="#scenes" data-product-route="scenes"><span aria-hidden="true">◫</span>Scenes</a>
+    <a href="#projects" data-product-route="projects"><span aria-hidden="true">◇</span>Projects</a>
+    <a href="#genres" data-product-route="genres"><span aria-hidden="true">✣</span>Genres</a>
+    <a href="#library" data-product-route="library"><span aria-hidden="true">▤</span>Library</a>
+    <span class="rail-spacer"></span>
+    <a id="primary-hub" href="#hub/overview"><span aria-hidden="true">⚙</span>Control</a>
+    <a id="primary-studio" href="#studio"><span aria-hidden="true">✦</span>Advanced</a>
+  </nav>
+  <div id="product-shell" hidden>
+    <header class="product-topbar">
+      <div><p id="product-breadcrumb" class="pf-kicker">PromptForge / Home</p><h1 id="product-title">Home</h1><p id="product-subtitle"></p></div>
+      <div class="product-brand" aria-label="PromptForge"><strong>Prompt<span>Forge</span></strong><small>Character Studio</small></div>
+    </header>
+    <main id="product-view" class="product-view" tabindex="-1"></main>
+    <dialog id="product-dialog" class="product-dialog" aria-label="PromptForge dialog"></dialog>
+  </div>
+  <div id="control-centre">
+    <aside class="hub-sidebar"><p class="hub-brand">Prompt Forge</p><p class="muted">Your creative home base</p><nav id="hub-nav" aria-label="Control Centre"><a href="#hub/overview">Overview</a><a href="#hub/forge">My Forge</a><a href="#hub/editor">Pool editor</a><a href="#hub/profile">Profile</a><a href="#hub/preferences">Preferences</a><a href="#hub/appearance">Appearance</a><a href="#hub/presets">Presets</a><a href="#hub/activity">Activity</a><a href="#hub/backup">Data & Backup</a><a href="#hub/diagnostics">Diagnostics</a><a href="#hub/about">About</a></nav><div class="hub-local"><span id="hub-connection">Connecting to Forge…</span><br>Personal. Local. Yours.</div></aside>
+    <main class="hub-main"><header class="hub-header"><div><p class="eyebrow">YOUR WORKSPACE / CONTROL CENTRE</p><h1 id="hub-title" tabindex="-1">Overview</h1></div><button data-hub-action="refresh">Refresh data ↻</button></header><p id="hub-notice" role="status" aria-live="polite"></p><div id="hub-content"></div></main>
+  </div>
+  <div id="studio-shell" hidden>
+  <header class="topbar">
+    <div><p class="eyebrow">Local persona studio</p><h1>PersonaForge</h1></div>
+    <div class="top-actions">
+      <label>Variance <select id="variance"><option value="grounded">Grounded</option><option value="varied" selected>Varied</option><option value="chaotic">Chaotic</option></select></label>
+      <label>Seed <input id="seed" value="personaforge-001"></label>
+      <button id="generate" class="primary">Generate Persona</button>
+      <button id="reroll-unlocked">Reroll Unlocked</button>
+      <button id="save-persona">Save Persona</button>
+    </div>
+  </header>
+  <main class="workspace">
+    <aside class="panel foundation-panel">
+      <div class="panel-heading"><p class="eyebrow">Pass 1</p><h2>Foundation</h2></div>
+      <p class="muted">Choose an anchor to lock it. Leave Random to let the engine decide.</p>
+      <form id="foundation-form">
+        <label>Setting <select name="setting"></select></label>
+        <label>Era <select name="era"></select></label>
+        <label>Gender <select name="gender"><option value="">Random</option><option value="female">Female</option><option value="male">Male</option><option value="nonbinary">Nonbinary</option></select></label>
+        <label>Species <select name="species"></select></label>
+        <label>Life stage <select name="life_stage"></select></label>
+        <label>Age <input name="age" type="number" min="0" placeholder="Random"></label>
+        <label>Country <select name="country"></select></label>
+      </form>
+      <div class="legend"><span>● Selected = locked</span><span>○ Random = generated</span></div>
+    </aside>
+    <section class="panel studio-panel">
+      <div class="panel-heading horizontal"><div><p class="eyebrow">Canonical character</p><h2 id="persona-name">New Persona</h2></div><span id="status" class="status">Loading data…</span></div>
+      <nav class="workbench-phases" aria-label="Workbench phases"><button class="active" data-phase="foundation">Foundation</button><button data-phase="character">Character</button><button data-phase="compare">Compare</button><button data-phase="output">Output</button></nav>
+      <div id="character-status" class="character-status" aria-live="polite"><span>Set a few anchors, then generate a character.</span></div>
+      <nav class="tabs"><button class="active" data-tab="studio">Studio</button><button data-tab="persona">Persona</button><button data-tab="reference">Reference Package</button><button data-tab="library">Persona Library</button><button data-tab="projects">Projects</button></nav>
+      <div id="studio-view" class="tab-view"><div id="narrative-panel"></div><div id="cards" class="card-grid"><div class="empty-state">Generate a persona to begin shaping the character.</div></div></div>
+      <div id="persona-view" class="tab-view" hidden><div class="output-actions"><button id="copy-persona">Copy Persona</button><button id="export-persona-md">Export Markdown</button><button id="export-persona-txt">Export TXT</button></div><article id="persona-output" class="prose-output"></article></div>
+      <div id="projects-view" class="tab-view" hidden><div class="panel-heading horizontal"><div><p class="eyebrow">Shared creative contexts</p><h2>Projects</h2><p class="muted">Projects reference saved characters without changing them.</p></div><button class="primary" id="create-project">New Project</button></div><div class="library-toolbar"><label>Search projects <input id="project-search" type="search" placeholder="Name, setting, premise"></label></div><div id="project-list"></div><section id="project-detail" class="output-group" hidden></section></div>
+      <div id="reference-view" class="tab-view" hidden><section class="output-group"><p class="eyebrow">Visual intent</p><div class="output-actions"><label>Mode <select id="prompt-mode"><option value="structured">Structured</option><option value="polished">Polished</option></select></label><label>Visual context <select id="visual-mode"><option value="reference">Reference</option><option value="portrait">Portrait</option><option value="full_body">Full body</option><option value="lifestyle">Lifestyle</option><option value="workplace">Workplace</option><option value="hobby">Hobby</option><option value="environmental">Environmental</option><option value="narrative_scene">Narrative scene</option></select></label><button id="reroll-visual">Reroll Visuals</button></div></section><section class="output-group"><p class="eyebrow">Output format</p><div class="output-actions"><label>Target <select id="visual-target"></select></label><label>Density <select id="visual-density"><option value="compact">Compact</option><option value="standard" selected>Standard</option><option value="detailed">Detailed</option></select></label><button id="copy-prompt">Copy Prompt</button><button id="export-reference-md">Export Markdown</button></div></section><label>Prompt type <select id="prompt-type"></select></label><pre id="reference-output" class="prose-output"></pre><details class="projection-inspector"><summary>Why these fields were selected</summary><div id="projection-sources" class="muted"></div></details></div><div id="library-view" class="tab-view" hidden><div class="panel-heading"><p class="eyebrow">Saved characters</p><h2>Persona Library</h2><p class="muted">Saved personas are characters; presets are reusable generation setups in Control Centre.</p></div><div class="library-toolbar"><label>Search characters <input id="library-search" type="search" placeholder="Name, setting, occupation, tag"></label><label>View <select id="library-view-filter"><option value="all">All active</option><option value="favorites">Favorites</option><option value="recent">Recent</option><option value="archived">Archived</option></select></label><label>Sort <select id="library-sort"><option value="updated">Recently edited</option><option value="created">Recently created</option><option value="name">Name A–Z</option><option value="name-desc">Name Z–A</option></select></label></div><div id="library-list"></div></div>
+    </section>
+    <aside class="panel context-panel">
+      <div class="panel-heading"><p class="eyebrow">Inspector</p><h2>Context</h2></div>
+      <div id="context"><p class="muted">Generation context, locks, and coherence results appear here.</p></div>
+    </aside>
+  </main>
+  </div>
+  <script type="module" src="src/app.js?v=0.6.9"></script>
+</body>
+</html>
