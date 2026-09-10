@@ -1,5 +1,5 @@
 import { createReference, resolveReference, validateReference } from "./reference-model.js";
-import { APPLICATION_VERSION, versionMetadata } from "./versioning.js";
+import { APPLICATION_VERSION, migrateRecord, versionMetadata } from "./versioning.js";
 
 export const PROJECT_KEY = "personaforge.projects.v1";
 export const PROJECT_SCHEMA_VERSION = 3;
@@ -35,6 +35,8 @@ function normalizeMemberState(value = {}) {
 export function validateProject(raw, { allowLegacy = true } = {}) {
   const issues = [];
   if (!raw || typeof raw !== "object" || Array.isArray(raw)) return { valid: false, issues: ["Project must be an object."], value: null };
+  const migrated = migrateRecord(raw, { kind: "project", currentVersion: PROJECT_SCHEMA_VERSION });
+  if (!migrated.valid) return { valid: false, issues: migrated.issues, value: null };
   const version = Number(raw.schemaVersion ?? raw.schema_version ?? 1);
   if (!Number.isInteger(version) || version < 1) issues.push("Project schemaVersion must be a positive integer.");
   else if (!SUPPORTED_SCHEMA_VERSIONS.has(version)) issues.push(version > PROJECT_SCHEMA_VERSION ? `Project schema ${version} is newer than supported schema ${PROJECT_SCHEMA_VERSION}.` : `Project schema ${version} is unsupported.`);

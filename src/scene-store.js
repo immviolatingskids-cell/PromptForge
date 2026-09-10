@@ -1,5 +1,5 @@
 import { createReference, validateReference } from "./reference-model.js";
-import { versionMetadata } from "./versioning.js";
+import { migrateRecord, versionMetadata } from "./versioning.js";
 
 export const SCENE_KEY = "personaforge.scenes.v1";
 export const SCENE_SCHEMA_VERSION = 2;
@@ -36,6 +36,8 @@ export function normalizeScene(raw = {}) {
 
 export function validateScene(raw) {
   if (!raw || typeof raw !== "object" || Array.isArray(raw)) return { valid: false, issues: ["Scene must be an object."], value: null };
+  const migrated = migrateRecord(raw, { kind: "scene", currentVersion: SCENE_SCHEMA_VERSION });
+  if (!migrated.valid) return { valid: false, issues: migrated.issues, value: null };
   const issues = [];
   if (raw.id !== undefined && (typeof raw.id !== "string" || !raw.id.trim())) issues.push("id must be a non-empty string");
   for (const [key, type] of [["projectRef", "project"], ["locationRef", "location"], ["castRef", "cast"], ["groupRef", "group"], ["focusPersonaRef", "persona"], ["characterRef", "persona"]]) if (raw[key] && !ref(raw[key], type)) issues.push(`${key} must be a ${type} reference`);
