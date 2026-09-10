@@ -15,6 +15,7 @@ export function normalizeScene(raw = {}) {
   const participantRefs = refs(source.participantRefs?.length ? source.participantRefs : legacyCharacter ? [legacyCharacter] : [], "persona");
   const focusPersonaRef = ref(source.focusPersonaRef, "persona") || legacyCharacter || participantRefs[0] || null;
   return {
+    ...source,
     schemaVersion: SCENE_SCHEMA_VERSION, id: text(source.id, 160) || makeId(), title: text(source.title, 120) || "Untitled Scene",
     versionMetadata: versionMetadata({ scene: 1 }),
     premise: text(source.premise, 2000), purpose: text(source.purpose, 500), seed: text(source.seed || source.controls?.seed || "scene-001", 160) || "scene-001",

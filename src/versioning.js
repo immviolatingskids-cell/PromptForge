@@ -1,6 +1,6 @@
 // Independent format versions for the v1 foundation. These are deliberately
 // separate: changing one record family must not silently change the others.
-export const APPLICATION_VERSION = "1.0.0";
+export const APPLICATION_VERSION = "1.1.0";
 export const PROJECT_VERSION = 1;
 export const SCENE_VERSION = 1;
 export const PROJECTION_VERSION = 1;

@@ -55,6 +55,7 @@ export function normalizeProject(raw = {}) {
   const personaRefs = uniqueReferences(project.personaRefs, "persona"), memberStateSource = object(project.memberState);
   const memberState = Object.fromEntries(personaRefs.map(ref => [ref.id, normalizeMemberState(memberStateSource[ref.id])]));
   return {
+    ...project,
     schemaVersion: PROJECT_SCHEMA_VERSION, id: clean(project.id || makeId(), 160), name: clean(project.name || "Untitled Project", 120) || "Untitled Project", description: clean(project.description, 1000), createdAt,
     updatedAt: typeof project.updatedAt === "string" ? project.updatedAt : (typeof project.modifiedAt === "string" ? project.modifiedAt : createdAt),
     versions: { projectSchema: PROJECT_SCHEMA_VERSION, application: clean(project.versions?.application || project.applicationVersion || PROJECT_APPLICATION_VERSION, 40), data: clean(project.versions?.data || project.dataVersion || "unknown", 40), personaSchema: clean(project.versions?.personaSchema || "unknown", 40) },

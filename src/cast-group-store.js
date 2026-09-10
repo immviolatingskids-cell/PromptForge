@@ -1,4 +1,5 @@
 import { createReference, resolveReference, validateReference } from "./reference-model.js";
+import { migrateRecord, versionMetadata } from "./versioning.js";
 
 const now = () => new Date().toISOString();
 const clean = (value, limit = 200) => String(value ?? "").trim().slice(0, limit);
@@ -16,6 +17,7 @@ export const GROUP_SCHEMA_VERSION = 1;
 export function normalizeCollection(raw = {}, type = "cast") {
   const source = object(raw), isGroup = type === "group", createdAt = typeof source.createdAt === "string" ? source.createdAt : now();
   return {
+    ...source,
     schemaVersion: isGroup ? GROUP_SCHEMA_VERSION : CAST_SCHEMA_VERSION,
     id: clean(source.id || makeId(type), 160) || makeId(type), name: clean(source.name || `Untitled ${isGroup ? "Group" : "Cast"}`, 120) || `Untitled ${isGroup ? "Group" : "Cast"}`,
     description: clean(source.description, 1000), type: isGroup ? (clean(source.type, 40) || null) : undefined,
@@ -27,6 +29,8 @@ export function normalizeCollection(raw = {}, type = "cast") {
 }
 
 export function validateCollection(raw, type = "cast") {
+  const migration = migrateRecord(raw, { kind: type, currentVersion: type === "group" ? GROUP_SCHEMA_VERSION : CAST_SCHEMA_VERSION });
+  if (!migration.valid) return { valid: false, issues: migration.issues, value: null };
   const issues = [], value = normalizeCollection(raw, type);
   if (!raw || typeof raw !== "object" || Array.isArray(raw)) return { valid: false, issues: ["Collection must be an object."], value: null };
   if (typeof raw.id !== "string" || !raw.id.trim()) issues.push("id is required");
@@ -46,7 +50,7 @@ class CollectionStore {
   addPersona(id, personaId) { const item = this.open(id), ref = createReference("persona", personaId); if (!item || !ref || item.personaRefs.some(value => value.id === ref.id)) return item; return this.update(id, { personaRefs: [...item.personaRefs, ref] }); }
   removePersona(id, personaId) { const item = this.open(id); return item ? this.update(id, { personaRefs: item.personaRefs.filter(ref => ref.id !== personaId) }) : null; }
   delete(id) { const before = this.all(), next = before.filter(item => item.id !== id); if (next.length === before.length) return false; this.write(next); return true; }
-  browserData() { return this.type === "group" ? { groups: this.all(), groupSchemaVersion: GROUP_SCHEMA_VERSION, versionMetadata: { application: "1.0.0", project: 1, scene: 1, projection: 1, contextPackage: 1 } } : { casts: this.all(), castSchemaVersion: CAST_SCHEMA_VERSION, versionMetadata: { application: "1.0.0", project: 1, scene: 1, projection: 1, contextPackage: 1 } }; }
+  browserData() { return this.type === "group" ? { groups: this.all(), groupSchemaVersion: GROUP_SCHEMA_VERSION, versionMetadata: versionMetadata() } : { casts: this.all(), castSchemaVersion: CAST_SCHEMA_VERSION, versionMetadata: versionMetadata() }; }
   importBrowserData(snapshot, { collision = "rename", personaMap = {}, projectMap = {} } = {}) { const key = this.type === "group" ? "groups" : "casts", incoming = Array.isArray(snapshot?.[key]) ? snapshot[key] : [], used = new Set(this.all().map(item => item.id)), idMap = {}, accepted = []; for (const raw of incoming) { const checked = validateCollection(raw, this.type); if (!checked.valid) continue; const item = checked.value, original = item.id; item.personaRefs = item.personaRefs.map(ref => ({ ...ref, id: personaMap[ref.id] || ref.id })); if (item.projectRef?.id && projectMap[item.projectRef.id]) item.projectRef = { ...item.projectRef, id: projectMap[item.projectRef.id] }; if (used.has(item.id)) { if (collision !== "rename") continue; let suffix = 1; while (used.has(`${item.id}_import_${suffix}`)) suffix++; item.id = `${item.id}_import_${suffix}`; } used.add(item.id); idMap[original] = item.id; this.write([item, ...this.all()]); accepted.push(item); } return { imported: accepted.length, skipped: incoming.length - accepted.length, idMap, renamed: Object.entries(idMap).filter(([from, to]) => from !== to).map(([from, to]) => ({ from, to })) }; }
   diagnostics(personas = [], projects = []) { const personaIds = new Set(personas.map(persona => persona.meta?.persona_id).filter(Boolean)), projectIds = new Set(projects.map(project => project.id)), raw = this.rawAll(), refs = raw.flatMap(item => (Array.isArray(item?.personaRefs) ? item.personaRefs : []).map(ref => ({ item, ref }))), states = refs.map(({ ref }) => resolveReference(ref, { persona: personaIds })), invalidReferences = states.filter(value => value.state === "invalid").length, duplicateMembershipReferences = raw.flatMap(item => { const seen = new Set(); return (Array.isArray(item?.personaRefs) ? item.personaRefs : []).filter(ref => { const key = ref?.id; if (!key || seen.has(key)) return !!key; seen.add(key); return false; }).map(ref => ({ collectionId: item.id, personaId: ref.id })); }); return { total: raw.length, totalMembershipReferences: refs.length, resolvedPersonaReferences: states.filter(value => value.state === "resolved").length, missingPersonaReferences: states.filter(value => value.state === "missing").length, invalidReferences, duplicateMembershipReferences, missingProjectReferences: raw.filter(item => item?.projectRef && !projectIds.has(item.projectRef.id)).map(item => item.id) }; }
 }

@@ -4,7 +4,7 @@ PromptForge is a local-first character and scene studio. Its creative shell is o
 
 Live app: [PromptForge on GitHub Pages](https://immviolatingskids-cell.github.io/PromptForge/#home)
 
-The product follows one rule: simple on the surface, deep underneath. PromptForge v1.0 builds on the v0.5 foundation with independent application/project/scene/projection/context-package version metadata, a persistent project command centre, derived graph diagnostics, bounded workspace activity, deterministic context assembly, and browser-level portability. Canonical personas remain reference-only and standalone personas remain first-class.
+The product follows one rule: simple on the surface, deep underneath. PromptForge v1.1 hardens the v1 foundation with consistent migration boundaries across every record family, additive unknown-field preservation, collision-safe portability, human-readable context exports, and unchanged reference-only canonical persona ownership. Canonical personas remain reference-only and standalone personas remain first-class.
 
 See [PROJECT_FOUNDATIONS_v0.5.0.md](PROJECT_FOUNDATIONS_v0.5.0.md) for the architecture and compatibility report.
 
